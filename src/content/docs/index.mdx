@@ -1,36 +1,41 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Welcome to EasyQuery.NET
+description: Data management framework for your .NET application!
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Data management framework for your .NET application!
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/eq.png
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Read Docs
+      link: introduction
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+    - text: GitHub
+      link: https://github.com/KorzhCom/EasyQuery.NET
+      icon: github
+      variant: secondary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
-
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Organizing the data flow" icon="seti:puppet">
+        Any data processing in a database application usually begins and ends at the presentation level.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Complex queries" icon="seti:odata">
+        In many projects, the number of parameters by which you can search for data is in the tens or even hundreds.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Data visualization" icon="seti:svg">
+        EasyQuery includes many visual components both to build complex queries and to display the results of those queries in all possible variations.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Customization" icon="pen">
+        EasyQuery is a highly customizable tool. You can change almost everything in it - from the appearance of the user interface to the behavior of the query builder.
 	</Card>
+	<Card title="Integration" icon="seti:crystal_embedded">
+        EasyQuery can be easily integrated into any .NET application. It can work with any database and any ORM.
+    </Card>
+	<Card title="Charts" icon="seti:plan">
+        EasyQuery includes a set of charting components that can be used to visualize the data in the form of various types of charts.
+    </Card>
 </CardGrid>
+
