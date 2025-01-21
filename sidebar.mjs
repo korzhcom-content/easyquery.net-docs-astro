@@ -5,6 +5,7 @@ export default [
         items: [
             {
                 label: 'From a sample to your own project',
+                collapsed: true,
                 items: [
                     'getting-started/from-sample-to-your-own-project/connect-to-your-database',
                     'getting-started/from-sample-to-your-own-project/copying-the-easyquerys-code-from-sample-to-your-project'

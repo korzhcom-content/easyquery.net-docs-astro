@@ -8,3 +8,20 @@
     border-top: 1px solid var(--sl-color-gray-5);
     padding-top: 20px;
 }
+
+.hero {
+    h1 {
+        background: -webkit-linear-gradient(120deg, #0095ff 30%, #42d392);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: 700;
+        font-size: 2.25rem;
+
+        @media (min-width: 640px) {
+            font-size: 3.75rem;
+        }
+        @media (min-width: 768px) {
+            font-size: 4rem;
+        }
+    }
+}
