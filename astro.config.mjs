@@ -18,7 +18,8 @@ export default defineConfig({
 				'./src/styles/index.css',
 			],
 			components: {
-				Footer: './src/components/ConditionalFooter.astro',
+				Footer: './src/components/Footer.astro',
+				SocialIcons: './src/components/SocialIcons.astro',
 			},
 			lastUpdated: true,
 		}),
