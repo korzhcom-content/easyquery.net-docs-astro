@@ -2,9 +2,9 @@ name: deploy docs
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
   workflow_dispatch:
 
@@ -17,10 +17,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: "18"
-      - name: Build Docusaurus
+          node-version: "20"
+      - name: Build Docs
         run: |
-          cd docs
           npm install
           npm run build
       - name: Deploy
