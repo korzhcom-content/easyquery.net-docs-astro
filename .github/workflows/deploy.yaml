@@ -26,7 +26,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: korzhcom-content/korzhcom-website
+          external_repository: korzhcom-content/korzhcom-website-astro
           publish_branch: dev  # default: gh-pages
           publish_dir: ./dist
           destination_dir: source/easyquery/docs
