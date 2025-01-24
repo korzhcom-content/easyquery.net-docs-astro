@@ -29,4 +29,4 @@ jobs:
           external_repository: korzhcom-content/korzhcom-website-astro
           publish_branch: main
           publish_dir: ./dist
-          destination_dir: src/pages/easyquery/docs
+          destination_dir: public/easyquery/docs
