@@ -1,10 +1,14 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { rehypeLinks } from './plugins/rehype-links';
 import sidebar from "./sidebar.mjs"
+
+const base = '/easyquery/docs';
 
 // https://astro.build/config
 export default defineConfig({
+	base, 
 	integrations: [
 		starlight({
 			title: 'EasyQuery.NET',
@@ -24,4 +28,7 @@ export default defineConfig({
 			lastUpdated: true,
 		}),
 	],
+	markdown: {
+		rehypePlugins: [[rehypeLinks, {base}]],
+	}
 });
