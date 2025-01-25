@@ -25,7 +25,7 @@ options.UseDbConnection<YourConnectionType>();
 
 For example, in case of Postgre SQL this piece of code will look like:
 
-```scharp
+```csharp
 options.ConnectionString = Configuration.GetConnectionString("MyDatabase");
 options.UseDbConnection<NpgsqlConnection>();
 ```

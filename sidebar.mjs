@@ -53,18 +53,4 @@ export default [
 
         ]
     },
-    {
-        label: 'API Reference',
-        collapsed: true,
-        items: [
-
-        ]
-    },
-    {
-        label: 'API Reference (previous versions)',
-        collapsed: true,
-        items: [
-
-        ]
-    },
 ]
