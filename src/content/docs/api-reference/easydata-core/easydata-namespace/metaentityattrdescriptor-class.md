@@ -14,9 +14,9 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| MetaEntityAttrDescriptor([MetaEntity](api-reference/easydata-core/easydata-namespace/metaentity-class) parent) | `void` |  | 
-| MetaEntityAttrDescriptor([MetaEntity](api-reference/easydata-core/easydata-namespace/metaentity-class) parent, `string` expr) | `void` |  | 
-| MetaEntityAttrDescriptor([MetaEntity](api-reference/easydata-core/easydata-namespace/metaentity-class) parent, [EntityAttrKind](api-reference/easydata-core/easydata-namespace/entityattrkind-enum) kind, `string` expr = ) | `void` |  | 
+| MetaEntityAttrDescriptor([MetaEntity](/api-reference/easydata-core/easydata-namespace/metaentity-class) parent) | `void` |  | 
+| MetaEntityAttrDescriptor([MetaEntity](/api-reference/easydata-core/easydata-namespace/metaentity-class) parent, `string` expr) | `void` |  | 
+| MetaEntityAttrDescriptor([MetaEntity](/api-reference/easydata-core/easydata-namespace/metaentity-class) parent, [EntityAttrKind](/api-reference/easydata-core/easydata-namespace/entityattrkind-enum) kind, `string` expr = ) | `void` |  | 
 
 
 ### Properties
@@ -24,9 +24,9 @@ Assembly: `EasyData.Core.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Caption | `string` |  | 
-| DataType | [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) |  | 
+| DataType | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) |  | 
 | Expression | `string` |  | 
 | IsVirtual | `bool` |  | 
-| Kind | [EntityAttrKind](api-reference/easydata-core/easydata-namespace/entityattrkind-enum) |  | 
-| Parent | [MetaEntity](api-reference/easydata-core/easydata-namespace/metaentity-class) |  | 
+| Kind | [EntityAttrKind](/api-reference/easydata-core/easydata-namespace/entityattrkind-enum) |  | 
+| Parent | [MetaEntity](/api-reference/easydata-core/easydata-namespace/metaentity-class) |  | 
 | Size | `int` |  |

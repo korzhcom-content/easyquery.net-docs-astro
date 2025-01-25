@@ -16,16 +16,16 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SimpleConditionRow(`int` level, [Condition](api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition, [QueryPanel](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) panel) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SimpleConditionRow](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simpleconditionrow-class) class. | 
+| SimpleConditionRow(`int` level, [Condition](/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition, [QueryPanel](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) panel) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SimpleConditionRow](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simpleconditionrow-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Condition | [Condition](api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) | Gets or sets the condition. | 
+| Condition | [Condition](/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) | Gets or sets the condition. | 
 | ConditionBackground | `Brush` | Gets or sets the condition. | 
-| EditMode | [EditModeKind](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editmodekind-enum) | Gets or sets the edit mode. | 
+| EditMode | [EditModeKind](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editmodekind-enum) | Gets or sets the edit mode. | 
 
 
 ### Events
@@ -39,9 +39,9 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CreateElementByXmlNode(`XmlNode` node) | [XElement](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) | Creates the element by XML node. | 
-| CreateElementByXmlText(`string` xml) | [XElement](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) | Creates the element by XML text. | 
-| GetAttributeCaption([EntityAttr](api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr) | `string` |  | 
+| CreateElementByXmlNode(`XmlNode` node) | [XElement](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) | Creates the element by XML node. | 
+| CreateElementByXmlText(`string` xml) | [XElement](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) | Creates the element by XML text. | 
+| GetAttributeCaption([EntityAttr](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr) | `string` |  | 
 
 
 ### Static Fields
@@ -49,5 +49,5 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | ConditionBackgroundProperty | `DependencyProperty` |  | 
-| ConditionProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.SimpleConditionRow.Condition](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simpleconditionrow-class) dependency property | 
-| ValueRequestEvent | `RoutedEvent` | Identifies the [Korzh.EasyQuery.Wpf.SimpleConditionRow.ValueRequest](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simpleconditionrow-class) routed event |
+| ConditionProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.SimpleConditionRow.Condition](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simpleconditionrow-class) dependency property | 
+| ValueRequestEvent | `RoutedEvent` | Identifies the [Korzh.EasyQuery.Wpf.SimpleConditionRow.ValueRequest](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simpleconditionrow-class) routed event |

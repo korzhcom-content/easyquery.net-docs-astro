@@ -21,6 +21,6 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Contains([BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) op) | `bool` |  | 
-| With([BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) op) | [BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) |  | 
-| Without([BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) op) | [BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) |  |
+| Contains([BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) op) | `bool` |  | 
+| With([BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) op) | [BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) |  | 
+| Without([BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) op) | [BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) |  |

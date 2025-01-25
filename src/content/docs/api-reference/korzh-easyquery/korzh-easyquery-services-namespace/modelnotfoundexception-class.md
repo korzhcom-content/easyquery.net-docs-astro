@@ -16,4 +16,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ModelNotFoundException(`string` modelId) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ModelNotFoundException](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/modelnotfoundexception-class) class. |
+| ModelNotFoundException(`string` modelId) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ModelNotFoundException](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/modelnotfoundexception-class) class. |

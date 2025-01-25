@@ -16,4 +16,4 @@ Assembly: `Korzh.EasyQuery.AspNet4.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | EqHighLightFor(<span style='color: blue'>this</span> `HtmlHelper` html, `string` value, `string` text, `object` htmlAttributes = <span style='color: blue'>null</span>) | `IHtmlString` | Higlights value with text | 
-| PageNavigator(<span style='color: blue'>this</span> `HtmlHelper` html, [IPaging](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ipaging-interface) paging) | `IHtmlString` | Renders the placeholder for the configurable paging control. |
+| PageNavigator(<span style='color: blue'>this</span> `HtmlHelper` html, [IPaging](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ipaging-interface) paging) | `IHtmlString` | Renders the placeholder for the configurable paging control. |

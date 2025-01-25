@@ -15,4 +15,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Tune([EasyQueryManager](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager) | `bool` | Allows to tune the manager and any object (like Model and Query) inside it |
+| Tune([EasyQueryManager](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager) | `bool` | Allows to tune the manager and any object (like Model and Query) inside it |

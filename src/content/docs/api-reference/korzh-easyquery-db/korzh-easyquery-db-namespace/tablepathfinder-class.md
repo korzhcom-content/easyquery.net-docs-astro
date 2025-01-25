@@ -22,4 +22,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| FindPath([Table](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) table1, [Table](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) table2) | [Path](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/path-class) | CalcPath method finds a path between tables and return it to caller or  returns null if there is no any path between specified tables. |
+| FindPath([Table](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) table1, [Table](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) table2) | [Path](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/path-class) | CalcPath method finds a path between tables and return it to caller or  returns null if there is no any path between specified tables. |

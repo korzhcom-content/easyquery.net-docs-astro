@@ -15,7 +15,7 @@ Assembly: `Korzh.EasyQuery.EntityFramework6.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DbContextModelExtractor([DbModel](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) model, [DbContextModelExtractorOptions](api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/dbcontextmodelextractoroptions-class) options = <span style='color: blue'>null</span>) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EntityFramework.DbContextModelExtractor](api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/dbcontextmodelextractor-class) class. | 
+| DbContextModelExtractor([DbModel](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) model, [DbContextModelExtractorOptions](/api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/dbcontextmodelextractoroptions-class) options = <span style='color: blue'>null</span>) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EntityFramework.DbContextModelExtractor](/api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/dbcontextmodelextractor-class) class. | 
 
 
 ### Methods

@@ -22,4 +22,4 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadAttrFromProperty([EntityAttr](api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `PropertyInfo` property, [Entity](api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent) | `void` | Fills the content of entity attribute by some property (specified by PropertyInfo object). |
+| LoadAttrFromProperty([EntityAttr](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `PropertyInfo` property, [Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent) | `void` | Fills the content of entity attribute by some property (specified by PropertyInfo object). |

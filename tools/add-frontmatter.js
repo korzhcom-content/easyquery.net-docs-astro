@@ -21,5 +21,5 @@ title: ${content.split('\n')[0].replace('#', '').trim()}
 slug: ${file.replaceAll('..\\src\\content\\docs\\', '').replace('.md', '').replaceAll('\\', '/')}
 ---\n\n`.trim()
     
-    fs.writeFileSync(file, frontmatter + content.split('\n').slice(1).join('\n'))
+    fs.writeFileSync(file, frontmatter + content.replaceAll('](', '](/').split('\n').slice(1).join('\n'))
 }

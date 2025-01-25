@@ -15,12 +15,12 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CustomListValueEditorXmlSerializer([XmlSerializerFactory](api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| CustomListValueEditorXmlSerializer([XmlSerializerFactory](/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadAttribute([CustomListValueEditor](api-reference/easydata-core/easydata-namespace/customlistvalueeditor-class) editor, `string` propName, `string` propValue) | `void` |  | 
-| SaveAttributes([CustomListValueEditor](api-reference/easydata-core/easydata-namespace/customlistvalueeditor-class) editor, `XmlWriter` writer) | `void` |  |
+| LoadAttribute([CustomListValueEditor](/api-reference/easydata-core/easydata-namespace/customlistvalueeditor-class) editor, `string` propName, `string` propValue) | `void` |  | 
+| SaveAttributes([CustomListValueEditor](/api-reference/easydata-core/easydata-namespace/customlistvalueeditor-class) editor, `XmlWriter` writer) | `void` |  |

@@ -16,4 +16,4 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LinqQueryBuilderError(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Linq.LinqQueryBuilderError](api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/linqquerybuildererror-class) class. |
+| LinqQueryBuilderError(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Linq.LinqQueryBuilderError](/api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/linqquerybuildererror-class) class. |

@@ -15,10 +15,10 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ValueItem(`string` fvalue, `string` text, `string` action, `string` hint) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ValueItem](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) class. | 
-| ValueItem(`string` value, `string` text, `string` action) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ValueItem](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) class. | 
-| ValueItem(`string` value, `string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ValueItem](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) class. | 
-| ValueItem(`string` value) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ValueItem](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) class. | 
+| ValueItem(`string` fvalue, `string` text, `string` action, `string` hint) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ValueItem](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) class. | 
+| ValueItem(`string` value, `string` text, `string` action) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ValueItem](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) class. | 
+| ValueItem(`string` value, `string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ValueItem](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) class. | 
+| ValueItem(`string` value) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ValueItem](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) class. | 
 
 
 ### Properties
@@ -26,10 +26,10 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Action | `string` | Gets or sets the name of action associated with item. | 
-| Enabled | `bool` | Gets or sets a value indicating whether this [Korzh.EasyQuery.WinForms.ValueItem](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) is enabled. | 
+| Enabled | `bool` | Gets or sets a value indicating whether this [Korzh.EasyQuery.WinForms.ValueItem](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) is enabled. | 
 | Hint | `string` | Gets or sets the hint. | 
-| Selected | `bool` | Gets or sets a value indicating whether this [Korzh.EasyQuery.WinForms.ValueItem](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) is selected. | 
-| SubItems | [ValueItemList](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) | Gets the list of sub items. | 
+| Selected | `bool` | Gets or sets a value indicating whether this [Korzh.EasyQuery.WinForms.ValueItem](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) is selected. | 
+| SubItems | [ValueItemList](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) | Gets the list of sub items. | 
 | Text | `string` | Gets or sets the item text. | 
 | Value | `string` | Gets or sets the item value. | 
 

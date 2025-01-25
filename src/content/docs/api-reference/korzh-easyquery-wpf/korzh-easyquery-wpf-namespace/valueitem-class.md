@@ -16,15 +16,15 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ValueItem(`string` value, `string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ValueItem](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) class. | 
-| ValueItem(`string` value) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ValueItem](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) class. | 
+| ValueItem(`string` value, `string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ValueItem](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) class. | 
+| ValueItem(`string` value) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ValueItem](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Children | [ValueItemList](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitemlist-class) | Gets or sets the children. | 
+| Children | [ValueItemList](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitemlist-class) | Gets or sets the children. | 
 | Text | `string` | Gets or sets the text. | 
 | Value | `string` | Gets or sets the value. | 
 
@@ -40,6 +40,6 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ChildrenProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ValueItem.Children](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) dependency property | 
-| TextProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ValueItem.Text](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) dependency property | 
-| ValueProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ValueItem.Value](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) dependency property |
+| ChildrenProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ValueItem.Children](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) dependency property | 
+| TextProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ValueItem.Text](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) dependency property | 
+| ValueProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ValueItem.Value](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) dependency property |

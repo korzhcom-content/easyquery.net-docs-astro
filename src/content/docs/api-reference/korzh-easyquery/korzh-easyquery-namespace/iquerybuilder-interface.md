@@ -15,9 +15,9 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Options | [QueryBuilderOptions](api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuilderoptions-class) | Gets or sets the builder's options. | 
-| Query | [Query](api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets the query this builder is defined for | 
-| Result | [IQueryStatement](api-reference/korzh-easyquery/korzh-easyquery-namespace/iquerystatement-interface) | The query builder result. | 
+| Options | [QueryBuilderOptions](/api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuilderoptions-class) | Gets or sets the builder's options. | 
+| Query | [Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets the query this builder is defined for | 
+| Result | [IQueryStatement](/api-reference/korzh-easyquery/korzh-easyquery-namespace/iquerystatement-interface) | The query builder result. | 
 | StatementType | `Type` | Gets the the result type. | 
 
 

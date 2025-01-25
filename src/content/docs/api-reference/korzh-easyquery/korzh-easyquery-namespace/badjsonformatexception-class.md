@@ -16,6 +16,6 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| BadJsonFormatException(`string` path) | `void` | Initializes a new instance of the [Korzh.EasyQuery.BadJsonFormatException](api-reference/korzh-easyquery/korzh-easyquery-namespace/badjsonformatexception-class) class. | 
-| BadJsonFormatException(`string` message, `Exception` innerException) | `void` | Initializes a new instance of the [Korzh.EasyQuery.BadJsonFormatException](api-reference/korzh-easyquery/korzh-easyquery-namespace/badjsonformatexception-class) class. | 
-| BadJsonFormatException(`SerializationInfo` info, `StreamingContext` context) | `void` | Initializes a new instance of the [Korzh.EasyQuery.BadJsonFormatException](api-reference/korzh-easyquery/korzh-easyquery-namespace/badjsonformatexception-class) class. |
+| BadJsonFormatException(`string` path) | `void` | Initializes a new instance of the [Korzh.EasyQuery.BadJsonFormatException](/api-reference/korzh-easyquery/korzh-easyquery-namespace/badjsonformatexception-class) class. | 
+| BadJsonFormatException(`string` message, `Exception` innerException) | `void` | Initializes a new instance of the [Korzh.EasyQuery.BadJsonFormatException](/api-reference/korzh-easyquery/korzh-easyquery-namespace/badjsonformatexception-class) class. | 
+| BadJsonFormatException(`SerializationInfo` info, `StreamingContext` context) | `void` | Initializes a new instance of the [Korzh.EasyQuery.BadJsonFormatException](/api-reference/korzh-easyquery/korzh-easyquery-namespace/badjsonformatexception-class) class. |

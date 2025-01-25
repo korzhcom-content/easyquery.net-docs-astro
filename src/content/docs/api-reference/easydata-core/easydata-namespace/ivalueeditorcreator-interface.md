@@ -15,4 +15,4 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create(`string` tag) | [ValueEditor](api-reference/easydata-core/easydata-namespace/valueeditor-class) | Creates an instance of ValueEditor. |
+| Create(`string` tag) | [ValueEditor](/api-reference/easydata-core/easydata-namespace/valueeditor-class) | Creates an instance of ValueEditor. |

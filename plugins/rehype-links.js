@@ -11,7 +11,15 @@ export const rehypeLinks = (options) => {
 
         visit(ast, "element", function (node, index, parent) {
             if (node.tagName === "a") {
-                const href = node.properties.href;
+                let href = node.properties.href;
+                
+                if (!href.startsWith("http")) {
+                    if (!href.startsWith("/")) {
+                        href = "/" + href;
+                        // node.properties.href = href;
+                    }
+                }
+                
                 if (
                     typeof href === "string" &&
                     href.startsWith("/") &&

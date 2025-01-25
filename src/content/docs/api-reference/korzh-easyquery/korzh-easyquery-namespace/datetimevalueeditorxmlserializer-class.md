@@ -15,12 +15,12 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DateTimeValueEditorXmlSerializer([XmlSerializerFactory](api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| DateTimeValueEditorXmlSerializer([XmlSerializerFactory](/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadAttribute([DateTimeValueEditor](api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) editor, `string` propName, `string` propValue) | `void` |  | 
-| SaveAttributes([DateTimeValueEditor](api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) editor, `XmlWriter` writer) | `void` |  |
+| LoadAttribute([DateTimeValueEditor](/api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) editor, `string` propName, `string` propValue) | `void` |  | 
+| SaveAttributes([DateTimeValueEditor](/api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) editor, `XmlWriter` writer) | `void` |  |

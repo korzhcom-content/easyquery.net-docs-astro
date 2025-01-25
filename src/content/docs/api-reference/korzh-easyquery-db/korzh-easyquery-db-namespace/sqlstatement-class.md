@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SqlStatement([SqlQueryBuilder](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlquerybuilder-class) builder) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.SqlStatement](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlstatement-class) class. | 
+| SqlStatement([SqlQueryBuilder](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlquerybuilder-class) builder) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.SqlStatement](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlstatement-class) class. | 
 
 
 ### Properties
@@ -29,8 +29,8 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | HasChunkLimit | `bool` | Gets a value indicating whether the result query statement includes paging (offset/fetch/limit) clauses. | 
 | HavingClause | `string` | Gets the text of HAVING clause. | 
 | OrderClause | `string` | Gets the text of ORDER BY clause. | 
-| Query | [DbQuery](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbquery-class) | Gets the query. | 
-| RootNode | [ResultTableNode](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/resulttablenode-class) | Gets or sets the root table node in the generated SQL statement. | 
+| Query | [DbQuery](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbquery-class) | Gets the query. | 
+| RootNode | [ResultTableNode](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/resulttablenode-class) | Gets or sets the root table node in the generated SQL statement. | 
 | RowNumberAlias | `string` | Gets the alias for Total Records column.  This option works only if <see cref="P:Korzh.EasyQuery.Db.SqlFormats.LegacyPaging"></see> is true. | 
 | SelectClause | `string` | Gets the text of SELECT clause. | 
 | SQL | `string` | Gets the text of result SQL statement. | 

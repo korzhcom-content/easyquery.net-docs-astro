@@ -2,7 +2,7 @@
 title: XRowList class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrowlist-class
 ---
-List of [Korzh.EasyQuery.Wpf.XRow](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrow-class)'s
+List of [Korzh.EasyQuery.Wpf.XRow](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrow-class)'s
 ```csharp
 public class Korzh.EasyQuery.Wpf.XRowList
     : ObservableCollection<XRow>

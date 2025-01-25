@@ -25,7 +25,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | --- | --- | --- | 
 | AttrId | `string` | The attribute id. | 
 | Caption | `string` | The caption. | 
-| Expr | [EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | The expression | 
+| Expr | [EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | The expression | 
 | FuncId | `string` | The aggregate function Id | 
-| Sorting | [SortDirection](api-reference/korzh-easyquery/korzh-easyquery-namespace/sortdirection-enum) | The sort direction. | 
+| Sorting | [SortDirection](/api-reference/korzh-easyquery/korzh-easyquery-namespace/sortdirection-enum) | The sort direction. | 
 | Sql | `string` | The SQL |

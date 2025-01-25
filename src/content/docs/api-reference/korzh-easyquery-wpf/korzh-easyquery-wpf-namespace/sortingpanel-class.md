@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SortingPanel() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SortingPanel](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/sortingpanel-class) class. | 
+| SortingPanel() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SortingPanel](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/sortingpanel-class) class. | 
 
 
 ### Properties
@@ -25,8 +25,8 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 | --- | --- | --- | 
 | AttributeElementFormat | `string` | Gets or sets the attribute element format. | 
 | IsAddRowVisible | `bool` | Gets or sets a value indicating whether "Click here to add ..." row is visible. | 
-| Query | [Query](api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the query. | 
-| SortEntities | [XSortOrder](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xsortorder-enum) | Gets or sets the order of entities in context menu. | 
+| Query | [Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the query. | 
+| SortEntities | [XSortOrder](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xsortorder-enum) | Gets or sets the order of entities in context menu. | 
 
 
 ### Methods
@@ -41,4 +41,4 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| QueryProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.QueryPanel.Query](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) dependency property |
+| QueryProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.QueryPanel.Query](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) dependency property |

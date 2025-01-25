@@ -14,14 +14,14 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AutoLinker([DbModel](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) model, [DbGate](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) dbGate) | `void` |  | 
+| AutoLinker([DbModel](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) model, [DbGate](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) dbGate) | `void` |  | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ProgressIndicator | [IProgressIndicator](api-reference/korzh-easyquery/korzh-easyquery-namespace/iprogressindicator-interface) | Gets or sets the progress indicator object.  This property is used to show progress for some time consuming operations performed inside the model | 
+| ProgressIndicator | [IProgressIndicator](/api-reference/korzh-easyquery/korzh-easyquery-namespace/iprogressindicator-interface) | Gets or sets the progress indicator object.  This property is used to show progress for some time consuming operations performed inside the model | 
 
 
 ### Methods

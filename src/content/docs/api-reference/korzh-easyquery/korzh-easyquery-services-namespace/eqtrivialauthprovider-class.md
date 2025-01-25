@@ -2,7 +2,7 @@
 title: EqTrivialAuthProvider class
 slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/eqtrivialauthprovider-class
 ---
-Represents a trivial implementation of [Korzh.EasyQuery.Services.IEqAuthProvider](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieqauthprovider-interface)  which authorize any user for any action
+Represents a trivial implementation of [Korzh.EasyQuery.Services.IEqAuthProvider](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieqauthprovider-interface)  which authorize any user for any action
 ```csharp
 public class Korzh.EasyQuery.Services.EqTrivialAuthProvider
     : IEqAuthProvider
@@ -23,4 +23,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| IsAuthorizedAsync([EasyQueryManager](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) eqManager, `string` action) | `Task`&lt;`bool`&gt; | Determines whether the current user can get access to the the specified action. |
+| IsAuthorizedAsync([EasyQueryManager](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) eqManager, `string` action) | `Task`&lt;`bool`&gt; | Determines whether the current user can get access to the the specified action. |

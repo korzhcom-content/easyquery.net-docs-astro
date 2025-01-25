@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| OperatorStore([DataModel](api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` | Initializes a new instance of the [Korzh.EasyQuery.OperatorStore](api-reference/korzh-easyquery/korzh-easyquery-namespace/operatorstore-class) class. | 
+| OperatorStore([DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` | Initializes a new instance of the [Korzh.EasyQuery.OperatorStore](/api-reference/korzh-easyquery/korzh-easyquery-namespace/operatorstore-class) class. | 
 
 
 ### Methods

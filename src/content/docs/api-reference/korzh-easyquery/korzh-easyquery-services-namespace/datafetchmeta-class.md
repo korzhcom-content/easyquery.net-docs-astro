@@ -15,7 +15,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DataFetchMeta([EasyQueryManager](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.DataFetchMeta](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/datafetchmeta-class) class. | 
+| DataFetchMeta([EasyQueryManager](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.DataFetchMeta](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/datafetchmeta-class) class. | 
 
 
 ### Properties

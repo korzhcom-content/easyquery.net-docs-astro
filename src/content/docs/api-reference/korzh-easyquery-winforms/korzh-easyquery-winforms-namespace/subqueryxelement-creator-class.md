@@ -2,7 +2,7 @@
 title: SubQueryXElement.Creator class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/subqueryxelement-creator-class
 ---
-Implements ICreator interface for [Korzh.EasyQuery.WinForms.SubQueryXElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/subqueryxelement-class) class
+Implements ICreator interface for [Korzh.EasyQuery.WinForms.SubQueryXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/subqueryxelement-class) class
 ```csharp
 public class Korzh.EasyQuery.WinForms.SubQueryXElement.Creator
     : XElement.ICreator
@@ -30,4 +30,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create() | [XElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new SqlListXElement object |
+| Create() | [XElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new SqlListXElement object |

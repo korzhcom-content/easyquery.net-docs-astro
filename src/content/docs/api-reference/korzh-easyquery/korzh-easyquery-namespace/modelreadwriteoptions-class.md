@@ -20,7 +20,7 @@ Assembly: `Korzh.EasyQuery.dll`
 | CustomInfo | `UInt64` | Whether we need to save or load the model's custom info | 
 | DbInfo | `UInt64` | Tables, links and other DB specific info will be saved/loaded | 
 | DbParams | `UInt64` | DB connection settings will be saved | 
-| Defaults | [BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) | The default options. | 
+| Defaults | [BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) | The default options. | 
 | DefQueryPath | `UInt64` | The path to the default query path will be saved/loaded | 
 | Description | `UInt64` | The model's description will be saved/loaded | 
 | DMEOptions | `UInt64` | Data Model Editor options will be saved together with the data model | 
@@ -34,4 +34,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| All | [BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) |  |
+| All | [BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) |  |

@@ -16,19 +16,19 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SimpleColumnRow([QueryColumn](api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column, [ColumnsPanel](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-class) panel) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SimpleColumnRow](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simplecolumnrow-class) class. | 
+| SimpleColumnRow([QueryColumn](/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column, [ColumnsPanel](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-class) panel) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SimpleColumnRow](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simplecolumnrow-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Column | [QueryColumn](api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Gets or sets the column. | 
-| EditMode | [ColumnsPanel.EditModeKind](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-editmodekind-enum) | Gets or sets the edit mode. | 
+| Column | [QueryColumn](/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Gets or sets the column. | 
+| EditMode | [ColumnsPanel.EditModeKind](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-editmodekind-enum) | Gets or sets the edit mode. | 
 
 
 ### Static Fields
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ColumnProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.SimpleColumnRow.Column](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simplecolumnrow-class) dependency property |
+| ColumnProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.SimpleColumnRow.Column](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simplecolumnrow-class) dependency property |

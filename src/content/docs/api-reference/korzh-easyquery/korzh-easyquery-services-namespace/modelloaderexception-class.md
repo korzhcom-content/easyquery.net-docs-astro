@@ -16,4 +16,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ModelLoaderException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ModelLoaderException](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/modelloaderexception-class) class. |
+| ModelLoaderException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ModelLoaderException](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/modelloaderexception-class) class. |

@@ -16,4 +16,4 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ObjectModelLoaderError(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Linq.ObjectModelLoaderError](api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/objectmodelloadererror-class) class. |
+| ObjectModelLoaderError(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Linq.ObjectModelLoaderError](/api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/objectmodelloadererror-class) class. |

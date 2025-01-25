@@ -30,11 +30,11 @@ Assembly: `EasyData.Core.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | ComposeKey(`string` parent, `string` child) | `string` |  | 
-| DateTimeToInternalFormat(`DateTime` dt, [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) dataType) | `string` | Converts DateTime value to its string representation in internal format (yyyy-MM-dd). | 
-| DateTimeToUserFormat(`DateTime` dt, [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) dataType) | `string` | Converts DateTime value to its string representation in current system format. | 
-| GetDataTypeBySystemType(`Type` systemType) | [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets the type of the data type by system type. | 
-| GetDateTimeInternalFormat([DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) dataType, `bool` shortTime = False) | `string` | Gets the format used for internal textual representation of date/time values.  EasyQuery uses "yyyy-MM-dd" format. | 
+| DateTimeToInternalFormat(`DateTime` dt, [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) dataType) | `string` | Converts DateTime value to its string representation in internal format (yyyy-MM-dd). | 
+| DateTimeToUserFormat(`DateTime` dt, [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) dataType) | `string` | Converts DateTime value to its string representation in current system format. | 
+| GetDataTypeBySystemType(`Type` systemType) | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets the type of the data type by system type. | 
+| GetDateTimeInternalFormat([DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) dataType, `bool` shortTime = False) | `string` | Gets the format used for internal textual representation of date/time values.  EasyQuery uses "yyyy-MM-dd" format. | 
 | GetInternalFormatProvider() | `IFormatProvider` | Gets the internal format provider.  This provider defines the format used to store date/time and numeric values internally and it saved queries | 
-| InternalFormatToDateTime(`string` val, [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) dataType) | `DateTime` | Convert string representation in internal format to DateTime value. | 
+| InternalFormatToDateTime(`string` val, [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) dataType) | `DateTime` | Convert string representation in internal format to DateTime value. | 
 | MakePlural(`string` name) | `string` | Change single to plural | 
 | PrettifyName(`string` name) | `string` |  |

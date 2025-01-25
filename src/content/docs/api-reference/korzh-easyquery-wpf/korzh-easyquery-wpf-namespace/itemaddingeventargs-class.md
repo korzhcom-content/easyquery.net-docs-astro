@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ItemAddingEventArgs([EntityTreeNode](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) item) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.EntityTreeNode](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) class. | 
+| ItemAddingEventArgs([EntityTreeNode](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) item) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.EntityTreeNode](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) class. | 
 
 
 ### Properties
@@ -24,4 +24,4 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Accept | `bool` | Indicates whether the entity or entity attribute can added to the tree | 
-| Item | [EntityTreeNode](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) | Gets or sets the Entity or EntityAttr object considering for adding to the tree |
+| Item | [EntityTreeNode](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) | Gets or sets the Entity or EntityAttr object considering for adding to the tree |

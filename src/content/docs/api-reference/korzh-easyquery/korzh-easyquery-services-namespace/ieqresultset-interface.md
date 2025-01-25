@@ -16,5 +16,5 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AddColumn([EasyDataCol](api-reference/easydata-core/easydata-namespace/easydatacol-class) column) | `void` | Adds a column | 
-| CreateColumn([EasyDataColDesc](api-reference/easydata-core/easydata-namespace/easydatacoldesc-class) desc) | [EasyDataCol](api-reference/easydata-core/easydata-namespace/easydatacol-class) | Creates a column. |
+| AddColumn([EasyDataCol](/api-reference/easydata-core/easydata-namespace/easydatacol-class) column) | `void` | Adds a column | 
+| CreateColumn([EasyDataColDesc](/api-reference/easydata-core/easydata-namespace/easydatacoldesc-class) desc) | [EasyDataCol](/api-reference/easydata-core/easydata-namespace/easydatacol-class) | Creates a column. |

@@ -16,15 +16,15 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ButtonListXElement(`string` type) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ButtonListXElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class) class. | 
-| ButtonListXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ButtonListXElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class) class. | 
+| ButtonListXElement(`string` type) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ButtonListXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class) class. | 
+| ButtonListXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ButtonListXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class) class. | 
 
 
 ### Fields
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| buttonControl | `ButtonListXElement.RowButton` | The [Korzh.EasyQuery.WinForms.ButtonListXElement.RowButton](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class) control that is used as [Korzh.EasyQuery.WinForms.ButtonListXElement.ElementControl](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class). | 
+| buttonControl | `ButtonListXElement.RowButton` | The [Korzh.EasyQuery.WinForms.ButtonListXElement.RowButton](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class) control that is used as [Korzh.EasyQuery.WinForms.ButtonListXElement.ElementControl](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class). | 
 
 
 ### Properties
@@ -39,10 +39,10 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Activate() | `void` | Activates this element. | 
-| ApplyFormats() | `void` | Applies the formats. This method is called from [Korzh.EasyQuery.WinForms.XPanel](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xpanel-class)  object when all element parents are set | 
-| Arrange(`int` bottomLine, `int` rowHeight) | `void` | Arranges the [Korzh.EasyQuery.WinForms.ButtonListXElement.ElementControl](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class) on base panel.  Overrides [Korzh.EasyQuery.WinForms.LabelXElement.Arrange(System.Int32,System.Int32)](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class). | 
-| ButtonClickHandler(`object` sender, `EventArgs` e) | `void` | Handler of [Korzh.EasyQuery.WinForms.ButtonListXElement.buttonControl](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class)`System.Windows.Forms.Control.Click` event. | 
-| CreateElementControl() | `Control` | Creates the [Korzh.EasyQuery.WinForms.ButtonListXElement.ElementControl](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class). | 
+| ApplyFormats() | `void` | Applies the formats. This method is called from [Korzh.EasyQuery.WinForms.XPanel](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xpanel-class)  object when all element parents are set | 
+| Arrange(`int` bottomLine, `int` rowHeight) | `void` | Arranges the [Korzh.EasyQuery.WinForms.ButtonListXElement.ElementControl](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class) on base panel.  Overrides [Korzh.EasyQuery.WinForms.LabelXElement.Arrange(System.Int32,System.Int32)](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class). | 
+| ButtonClickHandler(`object` sender, `EventArgs` e) | `void` | Handler of [Korzh.EasyQuery.WinForms.ButtonListXElement.buttonControl](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class)`System.Windows.Forms.Control.Click` event. | 
+| CreateElementControl() | `Control` | Creates the [Korzh.EasyQuery.WinForms.ButtonListXElement.ElementControl](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class). | 
 
 
 ### Static Properties

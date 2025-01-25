@@ -15,5 +15,5 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create([DataModel](api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `int` tag) | [EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | Creates an instance of Expression. | 
-| CreateByClassName([DataModel](api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `string` className) | [EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | Creates an instance of Expression by its old class name |
+| Create([DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `int` tag) | [EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | Creates an instance of Expression. | 
+| CreateByClassName([DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `string` className) | [EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | Creates an instance of Expression by its old class name |

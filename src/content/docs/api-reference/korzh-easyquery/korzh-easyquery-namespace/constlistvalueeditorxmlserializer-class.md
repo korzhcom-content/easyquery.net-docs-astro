@@ -15,12 +15,12 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ConstListValueEditorXmlSerializer([XmlSerializerFactory](api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| ConstListValueEditorXmlSerializer([XmlSerializerFactory](/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadContent([ConstListValueEditor](api-reference/easydata-core/easydata-namespace/constlistvalueeditor-class) editor, `XmlReader` reader) | `void` |  | 
-| SaveContent([ConstListValueEditor](api-reference/easydata-core/easydata-namespace/constlistvalueeditor-class) editor, `XmlWriter` writer) | `void` |  |
+| LoadContent([ConstListValueEditor](/api-reference/easydata-core/easydata-namespace/constlistvalueeditor-class) editor, `XmlReader` reader) | `void` |  | 
+| SaveContent([ConstListValueEditor](/api-reference/easydata-core/easydata-namespace/constlistvalueeditor-class) editor, `XmlWriter` writer) | `void` |  |

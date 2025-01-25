@@ -16,14 +16,14 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ListRequestEventArgs(`string` listName, `string` data, [ValueItemList](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitemlist-class) listItems, [Condition](api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition, `RoutedEvent` routedEvent) | `void` | Initializes a new instance of the `ListRequestEventArgs` class. | 
+| ListRequestEventArgs(`string` listName, `string` data, [ValueItemList](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitemlist-class) listItems, [Condition](/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition, `RoutedEvent` routedEvent) | `void` | Initializes a new instance of the `ListRequestEventArgs` class. | 
 
 
 ### Fields
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Condition | [Condition](api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) |  | 
+| Condition | [Condition](/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) |  | 
 
 
 ### Properties
@@ -31,6 +31,6 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Data | `string` | Gets the data associated with this object. | 
-| ListItems | [ValueItemList](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitemlist-class) | Gets or sets the requested list of items. | 
+| ListItems | [ValueItemList](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitemlist-class) | Gets or sets the requested list of items. | 
 | ListName | `string` | Gets the name of the list. | 
 | SQL | `string` | Gets the text of SQL SELECT statement. |

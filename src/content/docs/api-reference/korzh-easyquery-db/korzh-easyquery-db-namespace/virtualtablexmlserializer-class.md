@@ -15,12 +15,12 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| VirtualTableXmlSerializer([XmlSerializerFactory](api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| VirtualTableXmlSerializer([XmlSerializerFactory](/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadOneAttribute([VirtualTable](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/virtualtable-class) table, `string` propName, `string` propValue) | `void` |  | 
-| SaveAttributes([VirtualTable](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/virtualtable-class) table, `XmlWriter` writer) | `void` |  |
+| LoadOneAttribute([VirtualTable](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/virtualtable-class) table, `string` propName, `string` propValue) | `void` |  | 
+| SaveAttributes([VirtualTable](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/virtualtable-class) table, `XmlWriter` writer) | `void` |  |

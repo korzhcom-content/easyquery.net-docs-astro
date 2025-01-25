@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Count | `int` | Gets the count of values returned by this macro | 
-| DataType | [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) | Macro data type | 
+| DataType | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) | Macro data type | 
 | Id | `string` | Gets the macro ID. | 
 | Value | `string` | Returns the first value in list.  It is useful for macros which hold only single value | 
 

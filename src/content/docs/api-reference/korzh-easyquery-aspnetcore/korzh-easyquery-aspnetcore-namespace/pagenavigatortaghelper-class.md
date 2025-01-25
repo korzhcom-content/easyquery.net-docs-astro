@@ -23,7 +23,7 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Paging | [IPaging](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ipaging-interface) | Gets or sets the paging options. | 
+| Paging | [IPaging](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ipaging-interface) | Gets or sets the paging options. | 
 
 
 ### Methods

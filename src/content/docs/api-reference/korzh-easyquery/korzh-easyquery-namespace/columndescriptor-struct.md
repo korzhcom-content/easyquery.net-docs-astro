@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ColumnDescriptor([EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) expr) | `void` | Creates an instance of <see cref="T:Korzh.EasyQuery.ColumnDescriptor"></see> | 
+| ColumnDescriptor([EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) expr) | `void` | Creates an instance of <see cref="T:Korzh.EasyQuery.ColumnDescriptor"></see> | 
 | ColumnDescriptor(`string` attrId, `string` funcId = <span style='color: blue'>null</span>) | `void` | Creates an instance of <see cref="T:Korzh.EasyQuery.ColumnDescriptor"></see> | 
 
 
@@ -26,13 +26,13 @@ Assembly: `Korzh.EasyQuery.dll`
 | --- | --- | --- | 
 | AttrId | `string` | The attribute id. | 
 | Caption | `string` | The caption. | 
-| Expr | [EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | The expression | 
+| Expr | [EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | The expression | 
 | FuncId | `string` | The aggregate function Id | 
-| Sorting | [SortDirection](api-reference/korzh-easyquery/korzh-easyquery-namespace/sortdirection-enum) | The sort direction. | 
+| Sorting | [SortDirection](/api-reference/korzh-easyquery/korzh-easyquery-namespace/sortdirection-enum) | The sort direction. | 
 
 
 ### Static Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Empty | [ColumnDescriptor](api-reference/korzh-easyquery/korzh-easyquery-namespace/columndescriptor-struct) | Gets the default empty column descriptor |
+| Empty | [ColumnDescriptor](/api-reference/korzh-easyquery/korzh-easyquery-namespace/columndescriptor-struct) | Gets the default empty column descriptor |

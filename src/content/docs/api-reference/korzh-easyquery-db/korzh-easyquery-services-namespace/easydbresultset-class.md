@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EasyDbResultSet([DbQuery](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbquery-class) query, `IDataReader` dataReader = <span style='color: blue'>null</span>, [ResultSetOptions](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/resultsetoptions-class) options = <span style='color: blue'>null</span>) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.EasyDbResultSet](api-reference/korzh-easyquery-db/korzh-easyquery-services-namespace/easydbresultset-class) class. | 
+| EasyDbResultSet([DbQuery](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbquery-class) query, `IDataReader` dataReader = <span style='color: blue'>null</span>, [ResultSetOptions](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/resultsetoptions-class) options = <span style='color: blue'>null</span>) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.EasyDbResultSet](/api-reference/korzh-easyquery-db/korzh-easyquery-services-namespace/easydbresultset-class) class. | 
 
 
 ### Fields
@@ -30,5 +30,5 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CreateRow(`IDataReader` dataReader) | [EasyDataRow](api-reference/easydata-core/easydata-namespace/easydatarow-class) | Creates a new row and fills its content from the data reader. | 
+| CreateRow(`IDataReader` dataReader) | [EasyDataRow](/api-reference/easydata-core/easydata-namespace/easydatarow-class) | Creates a new row and fills its content from the data reader. | 
 | Dispose(`bool` disposing) | `void` | Releases unmanaged and - optionally - managed resources. |

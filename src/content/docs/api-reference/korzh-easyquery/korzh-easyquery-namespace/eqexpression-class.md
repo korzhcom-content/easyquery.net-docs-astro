@@ -15,7 +15,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqExpression([DataModel](api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) class. | 
+| EqExpression([DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) class. | 
 
 
 ### Fields
@@ -29,13 +29,13 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Attribute | [EntityAttr](api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) | Gets or sets the attribute. | 
+| Attribute | [EntityAttr](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) | Gets or sets the attribute. | 
 | CustomFunc | `string` | Gets the custom func for expression if defined | 
-| DataType | [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the data type. | 
+| DataType | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the data type. | 
 | Hint | `string` | Gets or sets the expression hint. | 
 | IsAggregate | `bool` | Gets a value indicating whether this expression is aggregate. | 
-| Kind | [DataKind](api-reference/korzh-easyquery/korzh-easyquery-namespace/datakind-enum) | Gets the expression kind. | 
-| Model | [DataModel](api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) | Gets the model. | 
+| Kind | [DataKind](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datakind-enum) | Gets the expression kind. | 
+| Model | [DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) | Gets the model. | 
 | SystemType | `Type` | Gets the system type for this expreesion (it's used in LINQ query builder) | 
 | Tag | `int` | Get the expression's tag - a special identifier that is used to distinguish the type of the expression . | 
 | Text | `string` | Gets or sets the expression text used for visual representation. | 
@@ -53,9 +53,9 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AssignExpr([EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) expr) | `void` | Assigns some expression to this one.  This method just does nothing in the base class but can perform some actions in Expression descendants. | 
-| Clone() | [EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) |  | 
-| CloneAsync() | `Task`&lt;[EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class)&gt; |  | 
+| AssignExpr([EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) expr) | `void` | Assigns some expression to this one.  This method just does nothing in the base class but can perform some actions in Expression descendants. | 
+| Clone() | [EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) |  | 
+| CloneAsync() | `Task`&lt;[EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class)&gt; |  | 
 | ContentChanged() | `void` | Invoke ContentChange event | 
 | LoadFromXmlReader(`XmlReader` reader) | `void` | Loads expression from XML. | 
 | OnContentChange(`EventArgs` e) | `void` | Raises the ContentChange event. | 
@@ -83,7 +83,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create([DataModel](api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `int` tag) | [EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | Creates the expression instance of specified type. | 
-| CreateByClassName([DataModel](api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `string` className) | [EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | Creates the expression instance of specified class (type) name. | 
-| ReadFromJsonAsync([DataModel](api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `JsonReader` reader) | `Task`&lt;[EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class)&gt; | Reads one expression from JSON.(asynchronous way).  This static function recognizes the expression type and creates an instance of appropriate class. | 
-| RegisterCreator([IExpressionCreator](api-reference/korzh-easyquery/korzh-easyquery-namespace/iexpressioncreator-interface) creator) | `bool` | Registers new type of expression. |
+| Create([DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `int` tag) | [EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | Creates the expression instance of specified type. | 
+| CreateByClassName([DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `string` className) | [EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | Creates the expression instance of specified class (type) name. | 
+| ReadFromJsonAsync([DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `JsonReader` reader) | `Task`&lt;[EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class)&gt; | Reads one expression from JSON.(asynchronous way).  This static function recognizes the expression type and creates an instance of appropriate class. | 
+| RegisterCreator([IExpressionCreator](/api-reference/korzh-easyquery/korzh-easyquery-namespace/iexpressioncreator-interface) creator) | `bool` | Registers new type of expression. |

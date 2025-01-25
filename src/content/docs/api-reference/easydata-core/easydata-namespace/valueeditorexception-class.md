@@ -16,5 +16,5 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ValueEditorException() | `void` | Initializes a new instance of the [EasyData.ValueEditorException](api-reference/easydata-core/easydata-namespace/valueeditorexception-class) class. | 
-| ValueEditorException(`string` message) | `void` | Initializes a new instance of the [EasyData.ValueEditorException](api-reference/easydata-core/easydata-namespace/valueeditorexception-class) class. |
+| ValueEditorException() | `void` | Initializes a new instance of the [EasyData.ValueEditorException](/api-reference/easydata-core/easydata-namespace/valueeditorexception-class) class. | 
+| ValueEditorException(`string` message) | `void` | Initializes a new instance of the [EasyData.ValueEditorException](/api-reference/easydata-core/easydata-namespace/valueeditorexception-class) class. |

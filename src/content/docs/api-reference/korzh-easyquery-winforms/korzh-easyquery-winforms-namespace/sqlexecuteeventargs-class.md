@@ -16,13 +16,13 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SqlExecuteEventArgs(`string` sql, [ValueItemList](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) listItems) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.SqlExecuteEventArgs](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/sqlexecuteeventargs-class) class. | 
+| SqlExecuteEventArgs(`string` sql, [ValueItemList](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) listItems) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.SqlExecuteEventArgs](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/sqlexecuteeventargs-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ListItems | [ValueItemList](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) | Gets or sets the requested list of items. | 
+| ListItems | [ValueItemList](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) | Gets or sets the requested list of items. | 
 | ResultXml | `string` | Sets the result of SQL execution in XML format. | 
 | SQL | `string` | Gets the text of SQL SELECT statement. |

@@ -15,7 +15,7 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LinqOperator([DataModel](api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` |  | 
+| LinqOperator([DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` |  | 
 
 
 ### Properties

@@ -27,5 +27,5 @@ Assembly: `EasyData.Core.dll`
 | Index | `int` |  | 
 | IsAggr | `bool` |  | 
 | Label | `string` |  | 
-| Style | [EasyDataColStyle](api-reference/easydata-core/easydata-namespace/easydatacolstyle-class) |  | 
-| Type | [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) |  |
+| Style | [EasyDataColStyle](/api-reference/easydata-core/easydata-namespace/easydatacolstyle-class) |  | 
+| Type | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) |  |

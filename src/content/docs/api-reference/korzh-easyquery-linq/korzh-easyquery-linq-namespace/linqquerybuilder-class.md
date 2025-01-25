@@ -16,8 +16,8 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LinqQueryBuilder([Query](api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) query) | `void` | This constructor overload allows only Build generic method to be used in building queries because no context is specified and required for it | 
-| LinqQueryBuilder(`object` context, [Query](api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) query) | `void` | This constructor overload allows only Build generic method to be used in building queries because no context is specified and required for it | 
+| LinqQueryBuilder([Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) query) | `void` | This constructor overload allows only Build generic method to be used in building queries because no context is specified and required for it | 
+| LinqQueryBuilder(`object` context, [Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) query) | `void` | This constructor overload allows only Build generic method to be used in building queries because no context is specified and required for it | 
 
 
 ### Properties
@@ -25,9 +25,9 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | CanBuild | `bool` | Determines whether there is enough information to build the query | 
-| Options | [QueryBuilderOptions](api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuilderoptions-class) | Gets or sets the builder's options. | 
-| Query | [Query](api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets the query this builder is defined for | 
-| Result | [LinqStatement](api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/linqstatement-class) | Gets the result object | 
+| Options | [QueryBuilderOptions](/api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuilderoptions-class) | Gets or sets the builder's options. | 
+| Query | [Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets the query this builder is defined for | 
+| Result | [LinqStatement](/api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/linqstatement-class) | Gets the result object | 
 | SelectDistinct | `bool` | Gets or sets a value indicating whether the result set must not contain duplicates. | 
 | Skip | `int` | Gets or sets the number of items that will be skipped from result set. | 
 | StatementType | `Type` | Type of result set | 

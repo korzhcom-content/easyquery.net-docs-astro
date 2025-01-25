@@ -15,5 +15,5 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create([ColumnsPanel](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnspanel-class) panel, [QueryColumn](api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column, `bool` useCheckBox) | [ColumnRow](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnrow-class) | Creates an instance of [Korzh.EasyQuery.WinForms.ColumnRow](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnrow-class). | 
-| GetCaption([ColumnsPanel](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnspanel-class) panel) | `string` | Returns the caption for button menu. |
+| Create([ColumnsPanel](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnspanel-class) panel, [QueryColumn](/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column, `bool` useCheckBox) | [ColumnRow](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnrow-class) | Creates an instance of [Korzh.EasyQuery.WinForms.ColumnRow](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnrow-class). | 
+| GetCaption([ColumnsPanel](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnspanel-class) panel) | `string` | Returns the caption for button menu. |

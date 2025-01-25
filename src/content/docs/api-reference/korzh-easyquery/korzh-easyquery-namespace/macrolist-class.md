@@ -2,7 +2,7 @@
 title: MacroList class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/macrolist-class
 ---
-Represents a list of [Korzh.EasyQuery.IMacroValue](api-reference/korzh-easyquery/korzh-easyquery-namespace/imacrovalue-interface) objects
+Represents a list of [Korzh.EasyQuery.IMacroValue](/api-reference/korzh-easyquery/korzh-easyquery-namespace/imacrovalue-interface) objects
 ```csharp
 public class Korzh.EasyQuery.MacroList
     : Collection<IMacroValue>
@@ -16,4 +16,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| MacroList() | `void` | Initializes a new instance of the [Korzh.EasyQuery.ExprList](api-reference/korzh-easyquery/korzh-easyquery-namespace/exprlist-class) class. |
+| MacroList() | `void` | Initializes a new instance of the [Korzh.EasyQuery.ExprList](/api-reference/korzh-easyquery/korzh-easyquery-namespace/exprlist-class) class. |

@@ -26,4 +26,4 @@ Assembly: `Korzh.EasyQuery.WinForms.ModelEditor.dll`
 | Dispose(`bool` disposing) | `void` | Clean up any resources being used. | 
 | RenderValueEditorProps() | `void` | Renders the value editor properties. | 
 | SaveValueEditorProps() | `void` | Saves the value editor properties. | 
-| ShowModal([ValueEditor](api-reference/easydata-core/easydata-namespace/valueeditor-class) valueEditor) | `bool` | Shows the dialog in the modal mode. |
+| ShowModal([ValueEditor](/api-reference/easydata-core/easydata-namespace/valueeditor-class) valueEditor) | `bool` | Shows the dialog in the modal mode. |

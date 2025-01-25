@@ -2,7 +2,7 @@
 title: XRowList class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xrowlist-class
 ---
-Represents list of [Korzh.EasyQuery.WinForms.XRow](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xrow-class).
+Represents list of [Korzh.EasyQuery.WinForms.XRow](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xrow-class).
 ```csharp
 public class Korzh.EasyQuery.WinForms.XRowList
     : Collection<XRow>
@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| XRowList([XPanel](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xpanel-class) parentPanel) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.XRowList](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xrowlist-class) class. | 
+| XRowList([XPanel](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xpanel-class) parentPanel) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.XRowList](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xrowlist-class) class. | 
 
 
 ### Methods
@@ -26,8 +26,8 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 | Arrange() | `void` | Arranges all rows in the list. | 
 | Arrange(`int` startIndex) | `void` | Arranges all rows in the list. | 
 | ClearItems() | `void` | Removes all elements from the `System.Collections.ObjectModel.Collection'1`. | 
-| InsertItem(`int` index, [XRow](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xrow-class) item) | `void` | Inserts an element into the `System.Collections.ObjectModel.Collection'1` at the specified index. | 
+| InsertItem(`int` index, [XRow](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xrow-class) item) | `void` | Inserts an element into the `System.Collections.ObjectModel.Collection'1` at the specified index. | 
 | Move(`int` index1, `int` index2) | `void` | Moves the row from one position to another. | 
-| OnRowInserted([XRow](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xrow-class) row, `int` index) | `void` | Called when new row is inserted into panel. | 
+| OnRowInserted([XRow](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xrow-class) row, `int` index) | `void` | Called when new row is inserted into panel. | 
 | RemoveAt(`int` index, `bool` untilSameLevel) | `void` | Removes the element at the specified index of the `System.Collections.ObjectModel.Collection'1`. | 
 | RemoveItem(`int` index) | `void` | Removes the element at the specified index of the `System.Collections.ObjectModel.Collection'1`. |

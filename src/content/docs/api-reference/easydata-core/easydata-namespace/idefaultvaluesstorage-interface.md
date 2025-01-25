@@ -15,4 +15,4 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DefaultValues | [ConstValueList](api-reference/easydata-core/easydata-namespace/constvaluelist-class) | Gets the list of default values |
+| DefaultValues | [ConstValueList](/api-reference/easydata-core/easydata-namespace/constvaluelist-class) | Gets the list of default values |

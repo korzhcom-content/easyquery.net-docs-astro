@@ -16,14 +16,14 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ConditionButton([QueryPanel](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) panel, [Condition](api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ConditionButton](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/conditionbutton-class) class. | 
+| ConditionButton([QueryPanel](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) panel, [Condition](/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ConditionButton](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/conditionbutton-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EditMode | [EditModeKind](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editmodekind-enum) | Gets or sets the edit mode. | 
+| EditMode | [EditModeKind](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editmodekind-enum) | Gets or sets the edit mode. | 
 
 
 ### Methods

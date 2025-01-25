@@ -15,8 +15,8 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| IntToDataKind(<span style='color: blue'>this</span> `int` value) | [DataKind](api-reference/korzh-easyquery/korzh-easyquery-namespace/datakind-enum) | Returns DataKind by its numeric representation. | 
-| IntToDataType(<span style='color: blue'>this</span> `int` value) | [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) | Returns DataType by its numeric representation. | 
-| StrToDataType(<span style='color: blue'>this</span> `string` typeName) | [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) | Returns DataType value by its string representation | 
-| ToInt(<span style='color: blue'>this</span> [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) dt) | `int` | Returns a numeric representation of a DataType value. | 
-| ToInt(<span style='color: blue'>this</span> [DataKind](api-reference/korzh-easyquery/korzh-easyquery-namespace/datakind-enum) dk) | `int` | Returns a numeric representation of a DataType value. |
+| IntToDataKind(<span style='color: blue'>this</span> `int` value) | [DataKind](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datakind-enum) | Returns DataKind by its numeric representation. | 
+| IntToDataType(<span style='color: blue'>this</span> `int` value) | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) | Returns DataType by its numeric representation. | 
+| StrToDataType(<span style='color: blue'>this</span> `string` typeName) | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) | Returns DataType value by its string representation | 
+| ToInt(<span style='color: blue'>this</span> [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) dt) | `int` | Returns a numeric representation of a DataType value. | 
+| ToInt(<span style='color: blue'>this</span> [DataKind](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datakind-enum) dk) | `int` | Returns a numeric representation of a DataType value. |

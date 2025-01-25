@@ -2,7 +2,7 @@
 title: ButtonListXElement.Creator class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-creator-class
 ---
-Implements XElement.ICreator interface for [Korzh.EasyQuery.WinForms.ButtonListXElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class) class
+Implements XElement.ICreator interface for [Korzh.EasyQuery.WinForms.ButtonListXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/buttonlistxelement-class) class
 ```csharp
 public class Korzh.EasyQuery.WinForms.ButtonListXElement.Creator
     : XElement.ICreator
@@ -30,4 +30,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create() | [XElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new DateTimeXElement object |
+| Create() | [XElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new DateTimeXElement object |

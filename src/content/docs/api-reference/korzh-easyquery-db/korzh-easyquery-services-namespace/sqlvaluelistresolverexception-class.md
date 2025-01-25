@@ -16,4 +16,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SqlValueListResolverException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.SqlValueListResolverException](api-reference/korzh-easyquery-db/korzh-easyquery-services-namespace/sqlvaluelistresolverexception-class) class. |
+| SqlValueListResolverException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.SqlValueListResolverException](/api-reference/korzh-easyquery-db/korzh-easyquery-services-namespace/sqlvaluelistresolverexception-class) class. |

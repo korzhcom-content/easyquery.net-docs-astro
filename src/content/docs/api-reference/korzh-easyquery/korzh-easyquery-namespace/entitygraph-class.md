@@ -2,7 +2,7 @@
 title: EntityGraph class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/entitygraph-class
 ---
-Represents the entity graph created during the loading of the model from some context type  Implements the [Korzh.EasyQuery.ObjectGraph`1](api-reference/korzh-easyquery/korzh-easyquery-namespace/objectgraph-t--class)
+Represents the entity graph created during the loading of the model from some context type  Implements the [Korzh.EasyQuery.ObjectGraph`1](/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectgraph-t--class)
 ```csharp
 public class Korzh.EasyQuery.EntityGraph
     : ObjectGraph<Type>
@@ -32,7 +32,7 @@ Assembly: `Korzh.EasyQuery.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | GetCollectionName(`Type` type) | `string` | Used to get the name of the collection in context | 
-| GetEdgeInfo([ObjectModelType](api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) t1, [ObjectModelType](api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) t2) | [EdgeInfo](api-reference/korzh-easyquery/korzh-easyquery-namespace/edgeinfo-class) | Gets the information about some edge in entity graph (see [Korzh.EasyQuery.EntityGraph](api-reference/korzh-easyquery/korzh-easyquery-namespace/entitygraph-class) for details). | 
+| GetEdgeInfo([ObjectModelType](/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) t1, [ObjectModelType](/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) t2) | [EdgeInfo](/api-reference/korzh-easyquery/korzh-easyquery-namespace/edgeinfo-class) | Gets the information about some edge in entity graph (see [Korzh.EasyQuery.EntityGraph](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entitygraph-class) for details). | 
 | GetNavigationPropertyName(`Type` from, `Type` to) | `string` | Gets the name of the navigation property. | 
 | SetCollectionName(`Type` type, `string` name) | `void` | Sets the name of the collection. | 
 | SetNavigationPropertyName(`Type` from, `Type` to, `string` name) | `void` | Sets the name of the navigation property. | 

@@ -16,4 +16,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqResultSetError(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.EqResultSetError](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/eqresultseterror-class) class. |
+| EqResultSetError(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.EqResultSetError](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/eqresultseterror-class) class. |

@@ -16,15 +16,15 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SubQueryXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SubQueryXElement](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/subqueryxelement-class) class. | 
+| SubQueryXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SubQueryXElement](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/subqueryxelement-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ExprType | [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) |  | 
-| ParentQuery | [Query](api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the parent query. | 
+| ExprType | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) |  | 
+| ParentQuery | [Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the parent query. | 
 
 
 ### Methods

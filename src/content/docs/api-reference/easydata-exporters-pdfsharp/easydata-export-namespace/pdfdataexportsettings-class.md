@@ -16,12 +16,12 @@ Assembly: `EasyData.Exporters.PdfSharp.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| PdfDataExportSettings() | `void` | Initializes a new instance of the[EasyData.Export.PdfDataExportSettings](api-reference/easydata-exporters-pdfsharp/easydata-export-namespace/pdfdataexportsettings-class) class. | 
-| PdfDataExportSettings(`CultureInfo` culture) | `void` | Initializes a new instance of the[EasyData.Export.PdfDataExportSettings](api-reference/easydata-exporters-pdfsharp/easydata-export-namespace/pdfdataexportsettings-class) class. | 
+| PdfDataExportSettings() | `void` | Initializes a new instance of the[EasyData.Export.PdfDataExportSettings](/api-reference/easydata-exporters-pdfsharp/easydata-export-namespace/pdfdataexportsettings-class) class. | 
+| PdfDataExportSettings(`CultureInfo` culture) | `void` | Initializes a new instance of the[EasyData.Export.PdfDataExportSettings](/api-reference/easydata-exporters-pdfsharp/easydata-export-namespace/pdfdataexportsettings-class) class. | 
 
 
 ### Static Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Default | [PdfDataExportSettings](api-reference/easydata-exporters-pdfsharp/easydata-export-namespace/pdfdataexportsettings-class) | Returns the default instance of [EasyData.Export.PdfDataExportSettings](api-reference/easydata-exporters-pdfsharp/easydata-export-namespace/pdfdataexportsettings-class). |
+| Default | [PdfDataExportSettings](/api-reference/easydata-exporters-pdfsharp/easydata-export-namespace/pdfdataexportsettings-class) | Returns the default instance of [EasyData.Export.PdfDataExportSettings](/api-reference/easydata-exporters-pdfsharp/easydata-export-namespace/pdfdataexportsettings-class). |

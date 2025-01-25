@@ -15,5 +15,5 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Params | [QueryParamList](api-reference/korzh-easyquery/korzh-easyquery-namespace/queryparamlist-class) | Gets the list of parameters used in generated SQL statement. | 
+| Params | [QueryParamList](/api-reference/korzh-easyquery/korzh-easyquery-namespace/queryparamlist-class) | Gets the list of parameters used in generated SQL statement. | 
 | Statement | `string` | Gets the statement (SQL, filter expression, etc - depending on the concrete QueryStatement type). |

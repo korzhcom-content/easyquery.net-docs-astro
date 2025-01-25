@@ -16,13 +16,13 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ValidateValueEventArgs([XElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) sourceElement, `string` value, `bool` accept) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ValidateValueEventArgs](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/validatevalueeventargs-class) class. | 
+| ValidateValueEventArgs([XElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) sourceElement, `string` value, `bool` accept) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ValidateValueEventArgs](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/validatevalueeventargs-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Accept | `bool` | Gets or sets a value indicating whether the [Korzh.EasyQuery.WinForms.ValidateValueEventArgs.Value](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/validatevalueeventargs-class) is accepted. | 
-| SourceElement | [XElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Gets the source element which initiates the validation. | 
+| Accept | `bool` | Gets or sets a value indicating whether the [Korzh.EasyQuery.WinForms.ValidateValueEventArgs.Value](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/validatevalueeventargs-class) is accepted. | 
+| SourceElement | [XElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Gets the source element which initiates the validation. | 
 | Value | `string` | Gets or sets the value. |

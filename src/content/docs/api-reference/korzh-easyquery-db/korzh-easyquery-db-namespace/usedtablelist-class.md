@@ -23,4 +23,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| InsertItem(`int` index, [Table](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) item) | `void` | Inserts the item. |
+| InsertItem(`int` index, [Table](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) item) | `void` | Inserts the item. |

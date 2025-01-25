@@ -16,7 +16,7 @@ Assembly: `EasyData.Core.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | CustomInfo | `UInt64` |  | 
-| Defaults | [BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) | Default options | 
+| Defaults | [BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) | Default options | 
 | Description | `UInt64` |  | 
 | Editors | `UInt64` |  | 
 | Entities | `UInt64` |  | 
@@ -27,4 +27,4 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ClientSideContent | [BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) |  |
+| ClientSideContent | [BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) |  |

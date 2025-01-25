@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TextAdjustingEventArgs(`string` newValue, `string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.TextAdjustingEventArgs](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textadjustingeventargs-class) class. | 
+| TextAdjustingEventArgs(`string` newValue, `string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.TextAdjustingEventArgs](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textadjustingeventargs-class) class. | 
 
 
 ### Properties

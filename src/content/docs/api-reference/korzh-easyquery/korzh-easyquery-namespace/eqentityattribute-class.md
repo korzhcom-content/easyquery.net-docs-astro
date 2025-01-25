@@ -16,8 +16,8 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqEntityAttribute(`bool` include) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqEntityAttribute](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqentityattribute-class) class. | 
-| EqEntityAttribute() | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqEntityAttribute](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqentityattribute-class) class. | 
+| EqEntityAttribute(`bool` include) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqEntityAttribute](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqentityattribute-class) class. | 
+| EqEntityAttribute() | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqEntityAttribute](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqentityattribute-class) class. | 
 
 
 ### Properties

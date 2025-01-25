@@ -15,5 +15,5 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadFromProperty(<span style='color: blue'>this</span> [EntityAttr](api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `PropertyInfo` propInfo, [Entity](api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent) | `void` | Fills type information in some EntityAttr object from a specified type. | 
-| LoadFromType(<span style='color: blue'>this</span> [Entity](api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) entity, `Type` entityType, `string` entityName, [Entity](api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `List`&lt;`Type`&gt; ignoredTypes) | `void` | Fills the type information in some Entity object from a specified type. |
+| LoadFromProperty(<span style='color: blue'>this</span> [EntityAttr](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `PropertyInfo` propInfo, [Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent) | `void` | Fills type information in some EntityAttr object from a specified type. | 
+| LoadFromType(<span style='color: blue'>this</span> [Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) entity, `Type` entityType, `string` entityName, [Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `List`&lt;`Type`&gt; ignoredTypes) | `void` | Fills the type information in some Entity object from a specified type. |

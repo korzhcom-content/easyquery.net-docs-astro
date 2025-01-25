@@ -23,5 +23,5 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AddEditor([ValueEditor](api-reference/easydata-core/easydata-namespace/valueeditor-class) editor) | `void` | Adds the editor with empty list of operators | 
-| FindEditor([Operator](api-reference/korzh-easyquery/korzh-easyquery-namespace/operator-class) op, [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) type) | [ValueEditor](api-reference/easydata-core/easydata-namespace/valueeditor-class) | Finds the editor by operator and data type. |
+| AddEditor([ValueEditor](/api-reference/easydata-core/easydata-namespace/valueeditor-class) editor) | `void` | Adds the editor with empty list of operators | 
+| FindEditor([Operator](/api-reference/korzh-easyquery/korzh-easyquery-namespace/operator-class) op, [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) type) | [ValueEditor](/api-reference/easydata-core/easydata-namespace/valueeditor-class) | Finds the editor by operator and data type. |

@@ -15,7 +15,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EasyQueryServicesBuilder(`IServiceCollection` services) | `void` | Initializes a new instance of the [Microsoft.Extensions.DependencyInjection.EasyQueryServicesBuilder](api-reference/korzh-easyquery/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilder-class) class. | 
+| EasyQueryServicesBuilder(`IServiceCollection` services) | `void` | Initializes a new instance of the [Microsoft.Extensions.DependencyInjection.EasyQueryServicesBuilder](/api-reference/korzh-easyquery/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilder-class) class. | 
 
 
 ### Properties

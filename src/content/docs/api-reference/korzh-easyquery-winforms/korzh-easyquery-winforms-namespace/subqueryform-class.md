@@ -31,6 +31,6 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Dispose(`bool` disposing) | `void` | Clean up any resources being used. | 
-| Init([QueryPanel](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/querypanel-class) parentQueryPanel) | `void` | Initializes the form by some parent [Korzh.EasyQuery.WinForms.QueryPanel](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/querypanel-class) object. | 
-| InitQuery([Query](api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) parentQuery, `string` queryJson) | `void` | Initializes the [Korzh.EasyQuery.Query](api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) object by its JSON representation. | 
-| InitSQL([Query](api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) parentQuery, [EqExpression](api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) expr) | `void` |  |
+| Init([QueryPanel](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/querypanel-class) parentQueryPanel) | `void` | Initializes the form by some parent [Korzh.EasyQuery.WinForms.QueryPanel](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/querypanel-class) object. | 
+| InitQuery([Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) parentQuery, `string` queryJson) | `void` | Initializes the [Korzh.EasyQuery.Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) object by its JSON representation. | 
+| InitSQL([Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) parentQuery, [EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) expr) | `void` |  |

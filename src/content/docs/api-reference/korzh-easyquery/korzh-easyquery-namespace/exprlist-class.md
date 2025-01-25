@@ -16,4 +16,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ExprList() | `void` | Initializes a new instance of the [Korzh.EasyQuery.ExprList](api-reference/korzh-easyquery/korzh-easyquery-namespace/exprlist-class) class. |
+| ExprList() | `void` | Initializes a new instance of the [Korzh.EasyQuery.ExprList](/api-reference/korzh-easyquery/korzh-easyquery-namespace/exprlist-class) class. |

@@ -24,8 +24,8 @@ Assembly: `Korzh.EasyQuery.dll`
 | --- | --- | --- | 
 | ComposeKey(`string` parent, `string` child) | `string` | Composes the key (for attributes, entities, etc).  Returns "parent.key" if both parent and key are not empty/null | 
 | ContainsNonAscii(`string` s) | `bool` | Checks string for inclusion of non-ASCII symbols. | 
-| DataKindByName(`string` kindName) | [DataKind](api-reference/korzh-easyquery/korzh-easyquery-namespace/datakind-enum) | Gets the DataKind value by its text representation. | 
-| FormatDateTimeValue(`string` val, `string` format, [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) dataType, `int` timezoneOffset = 0) | `string` | Converts the date/time passed in internal format  used in EasyQuery library (yyyy-MM-dd HH:mm:ss by default)  to some other date/time format | 
+| DataKindByName(`string` kindName) | [DataKind](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datakind-enum) | Gets the DataKind value by its text representation. | 
+| FormatDateTimeValue(`string` val, `string` format, [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) dataType, `int` timezoneOffset = 0) | `string` | Converts the date/time passed in internal format  used in EasyQuery library (yyyy-MM-dd HH:mm:ss by default)  to some other date/time format | 
 | GenerateId(`string` prefix) | `string` | Generates Id with prefix. | 
 | GetCurrentCulture() | `CultureInfo` | Returns current culture | 
 | GetCurrentUICulture() | `CultureInfo` | Returns current UI culture | 
@@ -33,12 +33,12 @@ Assembly: `Korzh.EasyQuery.dll`
 | GetEnumValues(`Type` oEnumType) | `IList`&lt;`int`&gt; | Gets all values of the enum. | 
 | GetSpecialDateByName(`string` name, `bool` utc) | `DateTime` | Gets the actual date value by its macro name (like "Today", "FirstDayOfMonth", etc). | 
 | GetSpecialDateByNameEx(`string` name, `bool` utc, `DataType&` dt, `String&` text) | `DateTime` | Gets the actual date value by its macro name (like "Today", "FirstDayOfMonth", etc). | 
-| GetSpecialDateValue([SpecialDateTime](api-reference/korzh-easyquery/korzh-easyquery-namespace/specialdatetime-enum) sdt, `bool` utc) | `DateTime` | Gets the value of some special date (like Today or FirstDayOfYear) by its enum definition. | 
-| GetSpecialDateValueEx([SpecialDateTime](api-reference/korzh-easyquery/korzh-easyquery-namespace/specialdatetime-enum) sdt, `bool` utc, `DataType&` dt, `String&` text) | `DateTime` | Gets the value of some special date (like Today or FirstDayOfYear) by its enum definition. | 
-| GetSystemTypeByDataType([DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) type) | `Type` | Gets the system type by data type. | 
-| GetSystemTypeByDataType([DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) dtype, `Type` defaultType) | `Type` | Gets the system type by data type. | 
-| HasTheSameTypeGroup(<span style='color: blue'>this</span> [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) type1, [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) type2) | `bool` | Returns true if type1 has the same type group (e.g. integer types) as type2. | 
-| IsConvertedTo(<span style='color: blue'>this</span> [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) type1, [DataType](api-reference/easydata-core/easydata-namespace/datatype-enum) type2) | `bool` | Returns true if type1 can be converted to type2. | 
+| GetSpecialDateValue([SpecialDateTime](/api-reference/korzh-easyquery/korzh-easyquery-namespace/specialdatetime-enum) sdt, `bool` utc) | `DateTime` | Gets the value of some special date (like Today or FirstDayOfYear) by its enum definition. | 
+| GetSpecialDateValueEx([SpecialDateTime](/api-reference/korzh-easyquery/korzh-easyquery-namespace/specialdatetime-enum) sdt, `bool` utc, `DataType&` dt, `String&` text) | `DateTime` | Gets the value of some special date (like Today or FirstDayOfYear) by its enum definition. | 
+| GetSystemTypeByDataType([DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) type) | `Type` | Gets the system type by data type. | 
+| GetSystemTypeByDataType([DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) dtype, `Type` defaultType) | `Type` | Gets the system type by data type. | 
+| HasTheSameTypeGroup(<span style='color: blue'>this</span> [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) type1, [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) type2) | `bool` | Returns true if type1 has the same type group (e.g. integer types) as type2. | 
+| IsConvertedTo(<span style='color: blue'>this</span> [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) type1, [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) type2) | `bool` | Returns true if type1 can be converted to type2. | 
 | IsSpecialDateTimeMacro(`string` macroId) | `bool` | Determines whether the string passed in parameter represents a special date/time identifier (like "Today", "FirstDayOfMonth", etc) | 
 | IsStrNullOrEmpty(`string` s) | `bool` | Determines whether specified string is null or empty. | 
 | MatchMacro(`string` s, `String&` macroId) | `bool` | Matches the macro in the input string.  Returns the name of the macro in "out" parameter if the match was successful | 

@@ -16,11 +16,11 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ListMenuItem([ValueItem](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) item) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.MenuListControl.ListMenuItem](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/menulistcontrol-class) class. | 
+| ListMenuItem([ValueItem](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) item) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.MenuListControl.ListMenuItem](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/menulistcontrol-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Item | [ValueItem](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) | Gets the ValueItem object associated with this menu item. |
+| Item | [ValueItem](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) | Gets the ValueItem object associated with this menu item. |

@@ -16,12 +16,12 @@ Assembly: `EasyData.Exporters.Default.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ExcelHtmlDataExportSettings() | `void` | Initializes a new instance of the[EasyData.Export.ExcelHtmlDataExportSettings](api-reference/easydata-exporters-default/easydata-export-namespace/excelhtmldataexportsettings-class) class. | 
-| ExcelHtmlDataExportSettings(`CultureInfo` culture) | `void` | Initializes a new instance of the[EasyData.Export.ExcelHtmlDataExportSettings](api-reference/easydata-exporters-default/easydata-export-namespace/excelhtmldataexportsettings-class) class. | 
+| ExcelHtmlDataExportSettings() | `void` | Initializes a new instance of the[EasyData.Export.ExcelHtmlDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/excelhtmldataexportsettings-class) class. | 
+| ExcelHtmlDataExportSettings(`CultureInfo` culture) | `void` | Initializes a new instance of the[EasyData.Export.ExcelHtmlDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/excelhtmldataexportsettings-class) class. | 
 
 
 ### Static Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Default | [HtmlDataExportSettings](api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) | Returns the default instance of [EasyData.Export.ExcelHtmlDataExportSettings](api-reference/easydata-exporters-default/easydata-export-namespace/excelhtmldataexportsettings-class). |
+| Default | [HtmlDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) | Returns the default instance of [EasyData.Export.ExcelHtmlDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/excelhtmldataexportsettings-class). |

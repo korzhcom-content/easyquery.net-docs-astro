@@ -14,5 +14,5 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| FillEntityContextMenuItems([Entity](api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parentEntity, `ItemCollection` menuItems, [EntityMenuFillerSettings](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitymenufillersettings-class) settings) | `void` |  | 
-| FillEntityTree([Entity](api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parentEntity, [ValueItemList](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitemlist-class) items, [EntityMenuFillerSettings](api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitymenufillersettings-class) settings) | `void` |  |
+| FillEntityContextMenuItems([Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parentEntity, `ItemCollection` menuItems, [EntityMenuFillerSettings](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitymenufillersettings-class) settings) | `void` |  | 
+| FillEntityTree([Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parentEntity, [ValueItemList](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitemlist-class) items, [EntityMenuFillerSettings](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitymenufillersettings-class) settings) | `void` |  |

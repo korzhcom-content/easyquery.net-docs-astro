@@ -16,4 +16,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Error(`string` msg) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.XElement.Error](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) class. |
+| Error(`string` msg) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.XElement.Error](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) class. |

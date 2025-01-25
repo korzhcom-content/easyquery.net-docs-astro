@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| NodeAddingEventArgs(`TreeNode` node) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.BeforeRollUpEventArgs](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/beforerollupeventargs-class) class. | 
+| NodeAddingEventArgs(`TreeNode` node) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.BeforeRollUpEventArgs](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/beforerollupeventargs-class) class. | 
 
 
 ### Properties

@@ -21,4 +21,4 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Alignment | [ColumnAlignment](api-reference/easydata-core/easydata-namespace/columnalignment-enum) |  |
+| Alignment | [ColumnAlignment](/api-reference/easydata-core/easydata-namespace/columnalignment-enum) |  |

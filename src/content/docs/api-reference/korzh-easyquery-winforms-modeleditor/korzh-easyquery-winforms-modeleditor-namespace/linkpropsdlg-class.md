@@ -26,4 +26,4 @@ Assembly: `Korzh.EasyQuery.WinForms.ModelEditor.dll`
 | Dispose(`bool` disposing) | `void` | Clean up any resources being used. | 
 | RenderLink() | `void` | Renders all dialog controls by the information from the link object | 
 | SaveLink() | `void` | Save the current state of dialog controls into the link object | 
-| ShowModal([DbGate](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) dbGate, [DbModel](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) model, [TableLink](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-class) link, `string` dlgTitle) | `bool` | Shows the dialog in modal mode. |
+| ShowModal([DbGate](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) dbGate, [DbModel](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) model, [TableLink](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-class) link, `string` dlgTitle) | `bool` | Shows the dialog in modal mode. |

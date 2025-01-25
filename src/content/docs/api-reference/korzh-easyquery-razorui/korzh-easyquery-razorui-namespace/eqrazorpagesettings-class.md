@@ -34,5 +34,5 @@ Assembly: `Korzh.EasyQuery.RazorUi.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Chart | [ChartLibrary](api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/chartlibrary-enum) | The chart library to be used (if available). | 
+| Chart | [ChartLibrary](/api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/chartlibrary-enum) | The chart library to be used (if available). | 
 | EqEndpoint | `string` | The EasyQuery API endpoint |

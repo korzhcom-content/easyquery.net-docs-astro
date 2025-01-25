@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.AspNet4.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqErrorHttpActionResult(`string` message, `HttpRequestMessage` request) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqErrorHttpActionResult](api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqerrorhttpactionresult-class) class. | 
+| EqErrorHttpActionResult(`string` message, `HttpRequestMessage` request) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqErrorHttpActionResult](/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqerrorhttpactionresult-class) class. | 
 
 
 ### Fields

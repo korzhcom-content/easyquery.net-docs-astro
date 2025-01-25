@@ -16,11 +16,11 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | ConnectionString | `string` | Gets the connection string. | 
-| DBGateName | `string` | Gets the name of [Korzh.EasyQuery.Db.DbGate](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) object. | 
+| DBGateName | `string` | Gets the name of [Korzh.EasyQuery.Db.DbGate](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) object. | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| RunDialog([DbGate](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) dbGate, `bool` changeSourceControls) | `bool` | Shows the dialog. |
+| RunDialog([DbGate](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) dbGate, `bool` changeSourceControls) | `bool` | Shows the dialog. |

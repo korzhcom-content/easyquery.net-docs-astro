@@ -22,5 +22,5 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Cols | `List`&lt;[EasyDataCol](api-reference/easydata-core/easydata-namespace/easydatacol-class)&gt; |  | 
-| Rows | `List`&lt;[EasyDataRow](api-reference/easydata-core/easydata-namespace/easydatarow-class)&gt; |  |
+| Cols | `List`&lt;[EasyDataCol](/api-reference/easydata-core/easydata-namespace/easydatacol-class)&gt; |  | 
+| Rows | `List`&lt;[EasyDataRow](/api-reference/easydata-core/easydata-namespace/easydatarow-class)&gt; |  |

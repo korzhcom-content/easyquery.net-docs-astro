@@ -2,7 +2,7 @@
 title: DateTimeXElement.Creator class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/datetimexelement-creator-class
 ---
-Implements XElement.ICreator interface for [Korzh.EasyQuery.WinForms.DateTimeXElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/datetimexelement-class) class
+Implements XElement.ICreator interface for [Korzh.EasyQuery.WinForms.DateTimeXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/datetimexelement-class) class
 ```csharp
 public class Korzh.EasyQuery.WinForms.DateTimeXElement.Creator
     : XElement.ICreator
@@ -30,4 +30,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create() | [XElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new [Korzh.EasyQuery.WinForms.DateTimeXElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/datetimexelement-class) object |
+| Create() | [XElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new [Korzh.EasyQuery.WinForms.DateTimeXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/datetimexelement-class) object |

@@ -16,4 +16,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| QueryStorageException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.QueryStorageException](api-reference/korzh-easyquery/korzh-easyquery-services-namespace/querystorageexception-class) class. |
+| QueryStorageException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.QueryStorageException](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/querystorageexception-class) class. |

@@ -15,15 +15,15 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DrillDownStore([Query](api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) query) | `void` |  | 
+| DrillDownStore([Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) query) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Add([Query](api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) query) | `void` |  | 
-| LoadFromXmlReader(`XmlReader` reader, [BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `void` |  | 
-| ReadFromJsonAsync(`JsonReader` reader, [BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` |  | 
-| SaveToXmlWriter(`XmlWriter` writer, [BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `void` |  | 
-| WriteToJsonAsync(`JsonWriter` writer, [BitOptions](api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` |  |
+| Add([Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) query) | `void` |  | 
+| LoadFromXmlReader(`XmlReader` reader, [BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `void` |  | 
+| ReadFromJsonAsync(`JsonReader` reader, [BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` |  | 
+| SaveToXmlWriter(`XmlWriter` writer, [BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `void` |  | 
+| WriteToJsonAsync(`JsonWriter` writer, [BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` |  |

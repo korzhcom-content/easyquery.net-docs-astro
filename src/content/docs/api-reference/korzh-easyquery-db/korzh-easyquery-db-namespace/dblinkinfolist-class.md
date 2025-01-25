@@ -2,7 +2,7 @@
 title: DbLinkInfoList class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dblinkinfolist-class
 ---
-Represents the list of [Korzh.EasyQuery.Db.DbLinkInfo](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dblinkinfo-class) objects
+Represents the list of [Korzh.EasyQuery.Db.DbLinkInfo](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dblinkinfo-class) objects
 ```csharp
 public class Korzh.EasyQuery.Db.DbLinkInfoList
     : Collection<DbLinkInfo>
@@ -23,4 +23,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| FindByTableNames(`string` table1, `string` table2) | [DbLinkInfo](api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dblinkinfo-class) | Finds the link by table names. |
+| FindByTableNames(`string` table1, `string` table2) | [DbLinkInfo](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dblinkinfo-class) | Finds the link by table names. |

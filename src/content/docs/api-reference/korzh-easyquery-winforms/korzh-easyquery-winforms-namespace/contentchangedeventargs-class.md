@@ -16,7 +16,7 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ContentChangedEventArgs(`bool` valueChanged, `bool` textChanged) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ContentChangedEventArgs](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/contentchangedeventargs-class) class. | 
+| ContentChangedEventArgs(`bool` valueChanged, `bool` textChanged) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ContentChangedEventArgs](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/contentchangedeventargs-class) class. | 
 
 
 ### Properties

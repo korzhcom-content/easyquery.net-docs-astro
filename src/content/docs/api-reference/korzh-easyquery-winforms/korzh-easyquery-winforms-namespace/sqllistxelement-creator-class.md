@@ -2,7 +2,7 @@
 title: SqlListXElement.Creator class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/sqllistxelement-creator-class
 ---
-Implements ICreator interface for [Korzh.EasyQuery.WinForms.SqlListXElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/sqllistxelement-class) class
+Implements ICreator interface for [Korzh.EasyQuery.WinForms.SqlListXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/sqllistxelement-class) class
 ```csharp
 public class Korzh.EasyQuery.WinForms.SqlListXElement.Creator
     : XElement.ICreator
@@ -30,4 +30,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create() | [XElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new [Korzh.EasyQuery.WinForms.SqlListXElement](api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/sqllistxelement-class) object |
+| Create() | [XElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new [Korzh.EasyQuery.WinForms.SqlListXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/sqllistxelement-class) object |
