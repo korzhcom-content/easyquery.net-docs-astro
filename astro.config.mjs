@@ -23,7 +23,7 @@ export default defineConfig({
 				...sidebar,
 				{
 					label: 'API Reference',
-					collapsed: false,
+					collapsed: true,
 					autogenerate: { directory: 'api-reference' },
 				},
 			],
