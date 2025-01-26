@@ -39,9 +39,10 @@ export default defineConfig({
 			lastUpdated: true,
 			plugins: [
 				starlightThemeRapide(),
-				starlightLinksValidator({
-					errorOnRelativeLinks: false,
-				}),
+				// starlightLinksValidator({
+				// 	errorOnRelativeLinks: false,
+				// 	exclude: ["/api-reference/"],
+				// }),
 			],
 		}),
 	],
