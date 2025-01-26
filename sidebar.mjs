@@ -1,8 +1,8 @@
 export default [
-    {label: 'Introduction', slug: 'introduction'},
     {
         label: 'Getting Started', 
         items: [
+            {label: 'Introduction', slug: 'introduction'},
             {
                 label: 'From a sample to your own project',
                 collapsed: true,
@@ -15,6 +15,7 @@ export default [
             'getting-started/wpf',
             'getting-started/winforms',
             'getting-started/product-key',
+            {label: 'End-user\'s guide', slug: 'end-user-guide'},
         ]
     },
     {
@@ -45,7 +46,6 @@ export default [
             
         ]
     },
-    {label: 'End-user\'s guide', slug: 'end-user-guide'},
     {
         label: 'Release Notes',
         collapsed: true,

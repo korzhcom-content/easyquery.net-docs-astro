@@ -1,3 +1,8 @@
+:root {
+    --sl-color-accent-high: #5ca9e4 !important;
+    --sl-color-text-accent: #3983bc !important;
+}
+
 .card {
     border-radius: 10px;
 }
