@@ -9,7 +9,7 @@ import links from '../../links';
     <ul>
         {links.map( ({link,  label, target = "_blank"}) => (
                 <li>
-                    <a href={link} target={target || "_blank"}>{label}</a>
+                    <a class="top-link" href={link} target={target || "_blank"}>{label}</a>
                 </li>
         ))}
     </ul>
@@ -17,6 +17,9 @@ import links from '../../links';
 </div>
 
 <style>
+    .top-link {
+        white-space: nowrap;
+    }
     div {
         display: flex;
         align-items: center;

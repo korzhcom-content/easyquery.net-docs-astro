@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightThemeRapide from 'starlight-theme-rapide'
 import { rehypeLinks } from './plugins/rehype-links';
 import { updateFrontmatter } from './plugins/update-frontmatter';
 import sidebar from "./sidebar.mjs"
@@ -35,6 +36,9 @@ export default defineConfig({
 				SocialIcons: './src/components/SocialIcons.astro',
 			},
 			lastUpdated: true,
+			plugins: [
+				starlightThemeRapide(),
+			],
 		}),
 	],
 	markdown: {
