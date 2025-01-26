@@ -3,6 +3,18 @@
     --sl-color-text-accent: #3983bc !important;
 }
 
+:is(.hero, .sl-markdown-content) .sl-link-button.primary {
+    background-color: rgba(92, 169, 228, 0.15) !important;
+    border: 1px solid #5ca9e4!important;
+    color: var(--sl-color-blue-high)!important;
+}
+
+:is(.hero, .sl-markdown-content) .sl-link-button.secondary {
+    background-color: #1b7fff !important;
+    border: 1px solid #1b7fff !important;
+    color: #ffffff!important;
+}
+
 .card {
     border-radius: 10px;
 }
@@ -28,6 +40,10 @@
         @media (min-width: 768px) {
             font-size: 4rem;
         }
+    }
+    
+    .actions {
+        gap: 1rem;
     }
 }
 
