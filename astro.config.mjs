@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightThemeRapide from 'starlight-theme-rapide'
+import starlightLinksValidator from 'starlight-links-validator'
 import { rehypeLinks } from './plugins/rehype-links';
 import { updateFrontmatter } from './plugins/update-frontmatter';
 import sidebar from "./sidebar.mjs"
@@ -38,6 +39,9 @@ export default defineConfig({
 			lastUpdated: true,
 			plugins: [
 				starlightThemeRapide(),
+				starlightLinksValidator({
+					errorOnRelativeLinks: false,
+				}),
 			],
 		}),
 	],
