@@ -3,23 +3,30 @@
 * */
 
 import { globSync } from 'glob';
-import fs from 'fs';
+import {readFileSync, writeFileSync, renameSync} from 'fs';
+import {basename, dirname, sep} from 'path';
 
-const files = globSync('../src/content/docs/api-reference/**/*.{md,mdx}')
+console.log(`Add FrontMatter`)
 
-console.log(`Found ${files.length} files`)
+let files = globSync('../src/content/docs/api-reference/**/*.{md,mdx}')
 
 for (const file of files) {
-    console.log(`Processing ${file}...`)
-    const content = fs.readFileSync(file, 'utf-8').trim()
-    if (content.startsWith('---')) {
+    const name = basename(file)
+    if (name.startsWith('__')) {
+        // skip a file
         continue
     }
-    const frontmatter = `
----
-title: ${content.split('\n')[0].replace('#', '').trim()}
-slug: ${file.replaceAll('..\\src\\content\\docs\\', '').replace('.md', '').replaceAll('\\', '/')}
----\n\n`.trim()
     
-    fs.writeFileSync(file, frontmatter + content.replaceAll('](', '](/').split('\n').slice(1).join('\n'))
+    const content = readFileSync(file, 'utf-8').trim().split('\n')
+    if (content[0].startsWith('---')) {
+        continue
+    }
+    const slug = file.replaceAll('..\\src\\content\\docs\\', '').replace('.md', '').replaceAll('\\', '/')
+    const title = content[0].replace('#', '').trim()
+    const frontmatter = `---
+title: ${title}
+slug: ${slug}
+---\n\n`
+    
+    writeFileSync(file, frontmatter + content.slice(1).join('\n').replaceAll('](', '](/'))
 }
