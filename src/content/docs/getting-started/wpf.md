@@ -3,7 +3,7 @@ title: Getting started for WPF
 slug: getting-started/wpf
 ---
 
-:::tip
+:::note
 The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on GitHub. You can clone that repository with samples, download it as a ZIP archive or even Open it in Visual Studio right away!
 :::
 
