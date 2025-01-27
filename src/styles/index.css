@@ -4,15 +4,15 @@
 }
 
 :is(.hero, .sl-markdown-content) .sl-link-button.primary {
-    background-color: rgba(92, 169, 228, 0.15) !important;
-    border: 1px solid #5ca9e4!important;
-    color: var(--sl-color-blue-high)!important;
-}
-
-:is(.hero, .sl-markdown-content) .sl-link-button.secondary {
     background-color: #1b7fff !important;
     border: 1px solid #1b7fff !important;
     color: #ffffff!important;
+}
+
+:is(.hero, .sl-markdown-content) .sl-link-button.secondary {
+    background-color: #d6d2b7 !important;
+    border: 1px solid #d6d2b7!important;
+    color: #000!important;
 }
 
 .card {
