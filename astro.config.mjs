@@ -25,7 +25,7 @@ export default defineConfig({
 				{label: "Introduction", slug: "introduction"},
 				{
 					label: 'Getting Started',
-					collapsed: true,
+					collapsed: false,
 					autogenerate: { directory: 'getting-started' },
 				},
 				{
