@@ -27,8 +27,13 @@ title: ${title}
 slug: ${slug}
 ---\n\n`
 
-        writeFileSync(
-            file, frontmatter + content.slice(1).join('\n').replaceAll('](', '](/').replaceAll('/http', 'http'))
+        // New content and fix links        
+        let new_content = content.slice(1).join('\n')
+            .replaceAll('](', '](/')
+            .replaceAll('/http', 'http')
+            .replaceAll('https://korzh.com/easyquery/docs', '')
+        
+        writeFileSync( file, frontmatter + new_content)
     }
 }
 

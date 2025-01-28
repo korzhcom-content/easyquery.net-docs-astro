@@ -214,4 +214,4 @@ and add a link to the new page to a navigation menu (`items` array  in `src/App.
 
 That's all. If everything was done right you will get something like the following in result:
 
-![eq-aspcore-vue](https://files.aistant.com/korzh/easyquery-dotnet/images/eq-aspcore-vue.png "eq-aspcore-vue")
+![eq-aspcore-vue](/easyquery/docs/images/eq-aspcore-vue.png "eq-aspcore-vue")
