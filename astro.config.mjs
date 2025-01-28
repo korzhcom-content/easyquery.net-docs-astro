@@ -5,7 +5,6 @@ import starlightThemeRapide from 'starlight-theme-rapide'
 import starlightLinksValidator from 'starlight-links-validator'
 import { rehypeLinks } from './plugins/rehype-links';
 import { updateFrontmatter } from './plugins/update-frontmatter';
-import sidebar from "./sidebar.mjs"
 
 const base = 'easyquery/docs';
 
