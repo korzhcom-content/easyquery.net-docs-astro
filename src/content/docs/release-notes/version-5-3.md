@@ -18,11 +18,11 @@ Version 5.3 of EasyQuery contains rather small improvements in the core librarie
 
 EasyQuery.JS is available now as a separate product. Moreover, there are two possible options available: Community edition and Enterprise edition. 
 
-As the name implies Community edition is free and may be used free of charge in any web application on any platform and with as many end users as necessary. Community edition packages include [@easyquery/core](/https://www.npmjs.com/package/@easyquery/core), [@easyquery/ui](/https://www.npmjs.com/package/@easyquery/ui).
+As the name implies Community edition is free and may be used free of charge in any web application on any platform and with as many end users as necessary. Community edition packages include [@easyquery/core](https://www.npmjs.com/package/@easyquery/core), [@easyquery/ui](https://www.npmjs.com/package/@easyquery/ui).
 
 There are some limitations in Community edition (no condition grouping, no sub-queries, no "Custom SQL" columns, etc) but you still can use it for some basic scenarios of advanced search or data filtering. 
 
-Enterprise edition supports all the functionality of EasyQuery. It is represented by one extra package [@easyquery/enterprise](/https://www.npmjs.com/package/@easyquery/enterprise). 
+Enterprise edition supports all the functionality of EasyQuery. It is represented by one extra package [@easyquery/enterprise](https://www.npmjs.com/package/@easyquery/enterprise). 
 
 Both Community and Enterprise editions are available on CDN as well:
 
@@ -48,7 +48,7 @@ We've improved the way EasyQuery.JS widgets communicate with the server-side. Mo
 
 ### 1.4 Enterprise edition licensing
 
-All license owners of EasyQuery for ASP.NET or EasyQuery for ASP.NET Core automatically got a license for EasyQuery.JS as well. All you need to do is to get the license key on Korzh.com [Client's Area](/https://korzh.com/account) and apply it properly. For more information - please read the [Upgrade instructions](//$aid/eqdn-id43xyj36zph)  
+All license owners of EasyQuery for ASP.NET or EasyQuery for ASP.NET Core automatically got a license for EasyQuery.JS as well. All you need to do is to get the license key on Korzh.com [Client's Area](https://korzh.com/account) and apply it properly. For more information - please read the [Upgrade instructions](//$aid/eqdn-id43xyj36zph)  
 
 
 ## 2. Core library
@@ -94,14 +94,14 @@ If the data model is loaded from a DbContext or directly from a DB connection Ea
 
 We've changed the default way EasyQuery assembles tables to the generated SQL. Now it starts with the "most detailed" table (in terms of "master-detail" relationships between 2 tables) and then goes from it to all "masters". 
 
-In most cases the new approach should not change the way your application works. Please, [let us know](/https://korzh.com/support) if it caused any problems in your case.
+In most cases the new approach should not change the way your application works. Please, [let us know](https://korzh.com/support) if it caused any problems in your case.
 
 
 ### 2.5 DynamicQuery and FullTextSearch can be used together now
 
 Now you can combine `DynamicQuery` and `FullTextSearch` extension method to implement the scenario when a user makes a general search for some text in your DB and then narrow down the filter by particular fields. 
 
-You can see how it works in the [data filtering live demo](/https://korzh.com/demo/easyquery-asp-net-core-razor/data-filtering). The source code for that page is [available on GitHub](/https://github.com/easyquery/AspNetCoreSamples/blob/master/EqAspNetCoreDemo/Controllers/OrderController.cs) as usual.
+You can see how it works in the [data filtering live demo](https://korzh.com/demo/easyquery-asp-net-core-razor/data-filtering). The source code for that page is [available on GitHub](https://github.com/easyquery/AspNetCoreSamples/blob/master/EqAspNetCoreDemo/Controllers/OrderController.cs) as usual.
 
 ### 2.6 Fixes
 

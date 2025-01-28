@@ -7,12 +7,12 @@ slug: release-notes/version-3.7.0
 ## 1. New functions in EQ.client namespace (for ASP.NET MVC projects)
 
 We have added two new functions to the EQ.client namespace of EasyQuery.JS library: newQuery and removeQuery. Now (together with saveQuery/loadQuery functions available earlier) we have a full set of operations which allow you to manage the list of queries available for your end-users.
-To see how all these functions work - take a look at [EasyReportDemo](/http://demo.easyquerybuilder.com/adhoc-reporting) sample project which is also available online.
+To see how all these functions work - take a look at [EasyReportDemo](http://demo.easyquerybuilder.com/adhoc-reporting) sample project which is also available online.
 
 ## 2. Support for complex types LoadFromType and LinqQueryBuilder
 
 Version 3.6.0 introduced new **FilterBar** widget which allows you quickly and easily build data filtering UI on your web-pages. Usually, FilterBar works together with the LoadFromType method of DbModel classes which helps to create data-model dynamically based on the structure of some model class.
-You can test how this widget and new function work together in our **EqMvcDemoLinq** sample project (it's included into trial version and published as [live demo](/http://demo.easyquerybuilder.com/data-filtering/)).
+You can test how this widget and new function work together in our **EqMvcDemoLinq** sample project (it's included into trial version and published as [live demo](http://demo.easyquerybuilder.com/data-filtering/)).
 Before version 3.7.0 users could create filters only by properties from the main class excluding all complex types and "navigation" properties. Now, there is no this restriction anymore. For example, in sample project mentioned above, you can filter the list of Orders by Product Name or Ship Address.
 
 ## 3. New properties and events in EqServiceProviderDb class

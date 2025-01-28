@@ -104,6 +104,6 @@ view.init(viewOptions);
 
 > NB: If you are using JS ES6, just remove types from our example. For older versions of JS you should use prototypes to write your own renderer
 
-You can find the full example in our [GitHub repository](/https://github.com/easyquery/AspNetCoreSamples/commit/6b6bbcbe613dedb78a57064f6fff60c4078f0038) with sample projects for EasyQuery.
+You can find the full example in our [GitHub repository](https://github.com/easyquery/AspNetCoreSamples/commit/6b6bbcbe613dedb78a57064f6fff60c4078f0038) with sample projects for EasyQuery.
 
 Now try to run your application, add a new condition with the selected attribute and click on the last element in this condition. If everything was done right, you should see a prompt message.

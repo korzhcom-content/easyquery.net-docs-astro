@@ -19,7 +19,7 @@ A few words about the main changes in this release.
 
 ## EasyData library
 
-EasyQuery is now based on [EasyData](/https://github.com/KorzhCom/EasyData) - an open-source library that provides basic classes and structures for managing database metadata.
+EasyQuery is now based on [EasyData](https://github.com/KorzhCom/EasyData) - an open-source library that provides basic classes and structures for managing database metadata.
 
 
 ## Why version 7.0?
@@ -37,7 +37,7 @@ Of course, you will not notice these changes if you use EasyQuery both on the cl
 One of the most expected features implemented in 7.0 was an ability to set the formatting for the result set data. Now you can set up the formats for each entity attribute in you data model. 
 If that attribute is used in a query column, its format will be applied to the result column as well.
 
-To specify the format you can use the same format strings that is available for [String.Format function](/https://docs.microsoft.com/en-us/dotnet/api/system.string.format). For example, if you set it to `{0:D}` your data will be represented by a "short date" format if it's a date/time column or as a decimal number if this column contains numeric values.
+To specify the format you can use the same format strings that is available for [String.Format function](https://docs.microsoft.com/en-us/dotnet/api/system.string.format). For example, if you set it to `{0:D}` your data will be represented by a "short date" format if it's a date/time column or as a decimal number if this column contains numeric values.
 
 
 ## New exporters

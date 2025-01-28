@@ -159,7 +159,7 @@ i18n.updateLocaleInfo('en', englishLocaleInfo);
 
 ```
 
-if you use easyquery bundle scripts (e.g. from our [CDN](/https://cdn.korzh.com/eq/7.1.0/eq.enterprise.min.js)) then you can access all those functions via `easyquery.core` namespace:
+if you use easyquery bundle scripts (e.g. from our [CDN](https://cdn.korzh.com/eq/7.1.0/eq.enterprise.min.js)) then you can access all those functions via `easyquery.core` namespace:
 
 ```
 easyquery.core.i18n.updateLocaleInfo('en', englishLocaleInfo);

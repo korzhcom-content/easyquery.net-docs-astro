@@ -8,7 +8,7 @@ Here we describe how to add EasyQuery widgets to your ASP.NET Core + Vue.js proj
 
 ## EasyQuery samples
 
-> The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](/https://github.com/easyquery/AspNetCoreSamples). You can clone that repository with samples, [download it](/https://github.com/easyquery/AspNetCoreSamples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](/git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FAspNetCoreSamples)</button> right away!
+> The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](https://github.com/easyquery/AspNetCoreSamples). You can clone that repository with samples, [download it](https://github.com/easyquery/AspNetCoreSamples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](/git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FAspNetCoreSamples)</button> right away!
 
 
 ## Prerequisites
@@ -19,7 +19,7 @@ Here we describe how to add EasyQuery widgets to your ASP.NET Core + Vue.js proj
 
 ## Trial version registration (for new users)
 
-To start using EasyQuery trial you need to [register and get your trial version keys](/https://korzh.com/easyquery#get-started) first. It takes 1-2 minutes of your time. On registration you will get access to a special "Client's Area" of our web-site where you can see available licenses, get the keys, and submit a support request if necessary.  
+To start using EasyQuery trial you need to [register and get your trial version keys](https://korzh.com/easyquery#get-started) first. It takes 1-2 minutes of your time. On registration you will get access to a special "Client's Area" of our web-site where you can see available licenses, get the keys, and submit a support request if necessary.  
 
 ## Server-side changes
 
@@ -50,7 +50,7 @@ public Startup(IConfiguration configuration, IWebHostEnvironment env)
 }
 ```
 
-> NB: You will replace these keys on the real (non-trial ones) after [purchasing the license](/https://korzh.com/easyquery/licensing).
+> NB: You will replace these keys on the real (non-trial ones) after [purchasing the license](https://korzh.com/easyquery/licensing).
 
 After that, add the inialization code for EasyQuery services in `ConfigServices` method:
 
@@ -139,7 +139,7 @@ Here are those IDs:
   - `ColumnsPanel` - for columns widget
   - `ResultPanel` - for result panel widget which will combine a grid to show the result set and the chart (if `showChart` option is turned on).
 
-To simplify the task you can use the [EasyQuery.vue file from our sample project](/https://github.com/easyquery/AspNetCoreSamples/blob/master/EqVueDemo/ClientApp/src/views/EasyQuery.vue){target = _blank}
+To simplify the task you can use the [EasyQuery.vue file from our sample project](https://github.com/easyquery/AspNetCoreSamples/blob/master/EqVueDemo/ClientApp/src/views/EasyQuery.vue){target = _blank}
 
 
 ### 4. Setting the component's code
@@ -171,7 +171,7 @@ Here is an example how it may look like:
 </script>
 ```
 
-If you used the [EasyQuery.vue file from our sample project](/https://github.com/easyquery/AspNetCoreSamples/blob/master/EqVueDemo/ClientApp/src/views/EasyQuery.vue){target = _blank} on the previous step - then it already contains this initialization part.
+If you used the [EasyQuery.vue file from our sample project](https://github.com/easyquery/AspNetCoreSamples/blob/master/EqVueDemo/ClientApp/src/views/EasyQuery.vue){target = _blank} on the previous step - then it already contains this initialization part.
 
 > **NB: Do not forget to add the import for enterprise functionality**
 > 
@@ -214,4 +214,4 @@ and add a link to the new page to a navigation menu (`items` array  in `src/App.
 
 That's all. If everything was done right you will get something like the following in result:
 
-![eq-aspcore-vue](/https://files.aistant.com/korzh/easyquery-dotnet/images/eq-aspcore-vue.png "eq-aspcore-vue")
+![eq-aspcore-vue](https://files.aistant.com/korzh/easyquery-dotnet/images/eq-aspcore-vue.png "eq-aspcore-vue")

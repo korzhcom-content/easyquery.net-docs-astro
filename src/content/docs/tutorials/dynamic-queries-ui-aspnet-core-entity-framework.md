@@ -30,7 +30,7 @@ Here is the point where EasyQuery framework comes to help. It takes a few minute
 
 This step is necessary to get the trial keys for EasyQuery framework. You can skip it if you already have your keys (with a trial version registered earlier or as a license owner). 
 
-So, to get your trial version keys, please [visit EasyQuery page](/https://korzh.com/easyquery) and click on "Get Free Trial" button there.  The whole process takes about 2-3 minutes. The keys can be aquired on the [main page of your Korzh.com account](/https://korzh.com/account) after the registration. You will have two keys, in the result. One for ASP.NET Core packages and another one - for EasyQuery.JS scripts.  Just add them to your configuration file (`appsettings.json`) as the following:
+So, to get your trial version keys, please [visit EasyQuery page](https://korzh.com/easyquery) and click on "Get Free Trial" button there.  The whole process takes about 2-3 minutes. The keys can be aquired on the [main page of your Korzh.com account](https://korzh.com/account) after the registration. You will have two keys, in the result. One for ASP.NET Core packages and another one - for EasyQuery.JS scripts.  Just add them to your configuration file (`appsettings.json`) as the following:
 
 ```
 {
@@ -104,10 +104,10 @@ So, the server-side setup is finished. Now we need to setup the client-side part
 
 To simplify this task EasyQuery includes a Razor UI library package (`Korzh.EasyQuery.RazorUI`) that contains several predefined pages which you can use in your projects. All those pages are accessible under `/EasyQuery` path. For example, there is an "advaced search" page which is available via `/EasyQuery/AdvancedSearch`.
 
-Of course, it is possible to make your own page with another layout, style, and, possibly, some modifications in behavior. We will describe how to do it in other tutorials or you can [contact our support team](/https://korzh.com/support) if you have any questions. 
+Of course, it is possible to make your own page with another layout, style, and, possibly, some modifications in behavior. We will describe how to do it in other tutorials or you can [contact our support team](https://korzh.com/support) if you have any questions. 
 
 ## Done!
 
 If everything was done right you can build and run your project. Then just open `/EasyQuery/AdvancedSearch` and enjoy the new functionality.
 
-![eq-aspcore-razor](/https://files.aistant.com/korzh/easyquery-dotnet/images/eq-aspcore-razor.png "eq-aspcore-razor")
+![eq-aspcore-razor](https://files.aistant.com/korzh/easyquery-dotnet/images/eq-aspcore-razor.png "eq-aspcore-razor")

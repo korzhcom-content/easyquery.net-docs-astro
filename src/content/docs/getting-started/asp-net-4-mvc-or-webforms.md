@@ -4,7 +4,7 @@ slug: getting-started/asp-net-4-mvc-or-webforms
 ---
 
 
-> NB: The fastest way to apply EasyQuery to your ASP.NET 4 project is to clone the whole [EasyQuery samples Git repository](/https://github.com/easyquery/Net4Samples), play with the demo project for MVC or WebForms from that repository and then copy necessary parts from that project to your own one.
+> NB: The fastest way to apply EasyQuery to your ASP.NET 4 project is to clone the whole [EasyQuery samples Git repository](https://github.com/easyquery/Net4Samples), play with the demo project for MVC or WebForms from that repository and then copy necessary parts from that project to your own one.
 
 Below you will find the steps you need to do if you are going to add EasyQuery to your ASP.NET application from the scratch. The instructions are applied both for MVC and WebForms projects (with few little differences). It might look odd (since these two frameworks are tootally different) but it stems from how our demo projects are built.
 
@@ -16,7 +16,7 @@ So, let's start.
 
 ### 0.1 Register your trial version
 
-To start using EasyQuery trial you need to [register and get your trial version keys](/https://korzh.com/easyquery#get-started) first.   
+To start using EasyQuery trial you need to [register and get your trial version keys](https://korzh.com/easyquery#get-started) first.   
 It will take 1-2 minutes of your time. On registration you will get access to a special "Client's Area" of our web-site where you can see available licenses, get the keys, and submit a support request if necessary.
 
 ### 0.2 Choose the way you will work with your data model
@@ -33,13 +33,13 @@ Obviously, first thing you will need to do - is to add EasyQuery NuGet packages 
 
 The only package which is absolutely required to apply EasyQuery to ASP.NET is:
 
- - [Korzh.EasyQuery.AspNet4](/https://www.nuget.org/packages/Korzh.EasyQuery.AspNet4/)
+ - [Korzh.EasyQuery.AspNet4](https://www.nuget.org/packages/Korzh.EasyQuery.AspNet4/)
 
 In some cases you might also need to add the following packages: 
 
- - [Korzh.EasyQuery.EntityFramework6](/https://www.nuget.org/packages/Korzh.EasyQuery.EntityFramework6/) - if your project uses Entity Framework 6.x.
- - [Korzh.EasyQuery.DataExport](/https://www.nuget.org/packages/Korzh.EasyQuery.DataExport/)   - if you want to add some data exporting functionality. 
- - [Korzh.EasyQuery.Linq](/https://www.nuget.org/packages/Korzh.EasyQuery.Linq/)  - if you want to implement a [data filtering scenario](/https://korzh.com/demo/easyquery-asp-net-core-razor/data-filtering) in your project.
+ - [Korzh.EasyQuery.EntityFramework6](https://www.nuget.org/packages/Korzh.EasyQuery.EntityFramework6/) - if your project uses Entity Framework 6.x.
+ - [Korzh.EasyQuery.DataExport](https://www.nuget.org/packages/Korzh.EasyQuery.DataExport/)   - if you want to add some data exporting functionality. 
+ - [Korzh.EasyQuery.Linq](https://www.nuget.org/packages/Korzh.EasyQuery.Linq/)  - if you want to implement a [data filtering scenario](https://korzh.com/demo/easyquery-asp-net-core-razor/data-filtering) in your project.
 
 ## Step 2: Setup WebAPI controller
 
@@ -57,7 +57,7 @@ EasyQuery's server-side part is implemented as a WebAPI controller. So, if you d
 
 After installing WebAPI package you will also need to add a special configuration file (`App_Start/WebApiConfig.cs`) and modify your `Global.asax.cs`.  
 
-The simplest way will be to get that [file from our sample project on GitHub](/https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/App_Start/WebApiConfig.cs) and copy it to `App_Start` folder in your project (or to merge with the one you are using now).
+The simplest way will be to get that [file from our sample project on GitHub](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/App_Start/WebApiConfig.cs) and copy it to `App_Start` folder in your project (or to merge with the one you are using now).
 
 Please note, we have re-configured the default WebAPI routing mechanism to make it use the attributes from the base controller classes (because they are not taken into the account by default). It is necessary for a proper work of the new WebAPI controller you will add on the next step. The routes for all controller's actions are defined in the base class - that's why we need that routing inheritance to be turned on.
 
@@ -71,8 +71,8 @@ Please note, we have re-configured the default WebAPI routing mechanism to make 
 
 After that we need to update `Global.asax.cs` file in your project to register WebAPI services and routes. Here is an example of this file from our samples:
 
-* [for MVC project](/https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Global.asax.cs)
-* [for WebForms project](/https://github.com/easyquery/Net4Samples/blob/master/EqWebFormsDemo/Global.asax.cs)
+* [for MVC project](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Global.asax.cs)
+* [for WebForms project](https://github.com/easyquery/Net4Samples/blob/master/EqWebFormsDemo/Global.asax.cs)
 
 Merge the content of one of these files (depending on what type of project you have) with `Global.asax.cs` in your project. 
 
@@ -96,13 +96,13 @@ All necessary endpoints (actions) are already defined and properly handled in th
 
 Here are the controllers you can use:
 
- - [For MVC project](/https://github.com/easyquery/Net4Samples/tree/master/EqAspNet4Demo/Controllers/EasyQuery): AdvancedSearchController or EasyReportController
- - [For WebForms project](/https://github.com/easyquery/Net4Samples/tree/master/EqWebFormsDemo/Controllers): AdvancedSearchController
+ - [For MVC project](https://github.com/easyquery/Net4Samples/tree/master/EqAspNet4Demo/Controllers/EasyQuery): AdvancedSearchController or EasyReportController
+ - [For WebForms project](https://github.com/easyquery/Net4Samples/tree/master/EqWebFormsDemo/Controllers): AdvancedSearchController
 
 
 Just download the controller of your choice and place it to the `Controllers/EasyQuery` folder in your MVC project (or to `Controllers` folder for WebForms one). Obviously, you will also need to change the namespace ID from `EqAspNet4Demo.Controllers` to `YourProjectDefaultNamespace.Controllers`.  
 
-For "EasyReportController" you will also need to copy to your project [the service classes](/https://github.com/easyquery/Net4Samples/tree/master/EqAspNet4Demo/Services) which is used for caching and query(reports) saving.
+For "EasyReportController" you will also need to copy to your project [the service classes](https://github.com/easyquery/Net4Samples/tree/master/EqAspNet4Demo/Services) which is used for caching and query(reports) saving.
 
 As it was mentioned above, to adjust the new contoller for your application you just need to modify a few lines in `ConfigureEasyQueryOptions` procedure:
 
@@ -129,10 +129,10 @@ We are going to cover both those cases below.
 
 The simplest way to do it - is to copy the page you need from our sample project. Here are the direct links:
 
- - [Advanced search view](/https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Views/Home/AdvancedSearch.cshtml)
- - [Ad-hoc reporting](/https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Views/Home/AdHocReporting.cshtml)
+ - [Advanced search view](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Views/Home/AdvancedSearch.cshtml)
+ - [Ad-hoc reporting](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Views/Home/AdHocReporting.cshtml)
 
-Of course, you will need to add a corresponding controller action for the new view so it will be accessible by some URL. In our sample we add those actions to the [Home controller](/https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Controllers/HomeController.cs) but it can be any other controller in your own project of course.
+Of course, you will need to add a corresponding controller action for the new view so it will be accessible by some URL. In our sample we add those actions to the [Home controller](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Controllers/HomeController.cs) but it can be any other controller in your own project of course.
 
 Here is how such new action can look like:
 
@@ -153,11 +153,11 @@ Please note that some styles in our advanced-search view are placed into `Styles
 
 ### 3.2 For WebForms
 
-As for MVC you can just take the [page from our sample](/https://github.com/easyquery/Net4Samples/blob/master/EqWebFormsDemo/EasyQuery.aspx). Here is the [code behind class](/https://github.com/easyquery/Net4Samples/blob/master/EqWebFormsDemo/EasyQuery.aspx.cs) for that page as well. 
+As for MVC you can just take the [page from our sample](https://github.com/easyquery/Net4Samples/blob/master/EqWebFormsDemo/EasyQuery.aspx). Here is the [code behind class](https://github.com/easyquery/Net4Samples/blob/master/EqWebFormsDemo/EasyQuery.aspx.cs) for that page as well. 
 
 
 ## Build. Run. Enjoy!
 
 That's it. If everything was done right on the previous steps - your application will be built and run sucessfully and you can open and you will be able to open new page by the path you specified on the step 3.1 (e.g. `/Home/AdvancedSearch` if you leave it as it's listed there).
 
-If something goes wrong - feel free to contact us: you can [create an issue on GitHub](/https://github.com/easyquery/Net4Samples/issues) or [submit a support request](/https://korzh.com/support) on our website.
+If something goes wrong - feel free to contact us: you can [create an issue on GitHub](https://github.com/easyquery/Net4Samples/issues) or [submit a support request](https://korzh.com/support) on our website.

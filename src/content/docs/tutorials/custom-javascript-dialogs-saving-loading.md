@@ -171,7 +171,7 @@ var advsearch = (function () {
 }());
 ```
 
-> NB: [Contact us](/https://korzh.com/support) if you need a TypeScript version of this file.
+> NB: [Contact us](https://korzh.com/support) if you need a TypeScript version of this file.
 
 
 Add this script to your page. Don't forget to include JQuery UI (version 1.12 or higher) before.

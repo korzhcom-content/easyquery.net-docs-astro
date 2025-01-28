@@ -1,6 +1,6 @@
 ---
 title: HttpResponseExtensions class
-slug: api-reference/Korzh.EasyQuery.AspNetCore/Microsoft.AspNetCore.Http namespace/httpresponseextensions-class
+slug: api-reference/Korzh.EasyQuery.AspNetCore/Microsoft.AspNetCore.Http namespacehttpresponseextensions-class
 ---
 
 

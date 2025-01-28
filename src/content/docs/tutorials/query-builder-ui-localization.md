@@ -10,7 +10,7 @@ It is quite easy to translate the user interface of EasyQuery components into an
 
 First of all, you can do it using satellite assemblies which are the standard way of localization for .NET components.
 
-After installation you can find EasyQuery [satellite assemblies](/https://blogs.msdn.microsoft.com/global_developer/2011/07/22/introduction-to-satellite-assemblies/) in the the following folder: {install dir}\assemblies\NET##\XX Here * {install dir} - is the folder where you have installed EasyQuery (C:\Program Files\Korzh.NET by default) * ## - indicates to the number of .NET version you need (e.g. 40 or 35) * XX - is the language code (e.g. \fr - for French or \de - for German)
+After installation you can find EasyQuery [satellite assemblies](https://blogs.msdn.microsoft.com/global_developer/2011/07/22/introduction-to-satellite-assemblies/) in the the following folder: {install dir}\assemblies\NET##\XX Here * {install dir} - is the folder where you have installed EasyQuery (C:\Program Files\Korzh.NET by default) * ## - indicates to the number of .NET version you need (e.g. 40 or 35) * XX - is the language code (e.g. \fr - for French or \de - for German)
 
 ## 2. "On-the-fly localization through .properties files
 

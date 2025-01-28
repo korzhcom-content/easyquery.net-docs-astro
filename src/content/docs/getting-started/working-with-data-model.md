@@ -10,11 +10,11 @@ Before starting to add EasyQuery visual controls/widgets to your application - y
 
 There are several different options available:
 
-1. If you your project uses Entity Framework (Core) then the best option for you will be to load the model directly from your DbContext object. For the legacy projects with the [database first](/https://docs.microsoft.com/en-us/ef/ef6/modeling/designer/workflows/database-first) approach you can also load your model from a  `.edmx` file.
+1. If you your project uses Entity Framework (Core) then the best option for you will be to load the model directly from your DbContext object. For the legacy projects with the [database first](https://docs.microsoft.com/en-us/ef/ef6/modeling/designer/workflows/database-first) approach you can also load your model from a  `.edmx` file.
 
 2. There is a possibility to load the model directly from your database's meta-data (with `LoadFromConnection` method)
 
-3. An option for LINQ query builders only: you can load data model either from some context class or from a separate model class (especially for [data filtering scenarios](/https://korzh.com/demo/easyquery-asp-net-core-razor/data-filtering))
+3. An option for LINQ query builders only: you can load data model either from some context class or from a separate model class (especially for [data filtering scenarios](https://korzh.com/demo/easyquery-asp-net-core-razor/data-filtering))
 
 5. Finally, you can create your data model "manually" using [Data Model Editor](//$aid/a6e6f1b7-2bbd-41f2-856e-2106351fb8b8) utility and save it to XML or JSON file. That file can be loaded on application's start.
 
@@ -26,9 +26,9 @@ This is the most preferable and the most easy way to deal with data model if you
 
 ### 1.1 Install EasyQuery package for EF (Core)
 
-For .NET Core project it will be [Korzh.EasyQuery.EntityFrameworkCore.Relational](/https://www.nuget.org/packages/Korzh.EasyQuery.EntityFrameworkCore.Relational/) package.
+For .NET Core project it will be [Korzh.EasyQuery.EntityFrameworkCore.Relational](https://www.nuget.org/packages/Korzh.EasyQuery.EntityFrameworkCore.Relational/) package.
 
-For .NET Framework 4 use [Korzh.EasyQuery.EntityFramework6](/https://www.nuget.org/packages/Korzh.EasyQuery.EntityFramework6/) pacage
+For .NET Framework 4 use [Korzh.EasyQuery.EntityFramework6](https://www.nuget.org/packages/Korzh.EasyQuery.EntityFramework6/) pacage
 
 ### 1.2/1 LoadFromDbContext (for desktop applications)
 
@@ -114,9 +114,9 @@ To make it possible you will need to do the following 3 simple steps:
 
 To use this approach you will need to install the following packages:
 
- * [Korzh.EasyQuery.Db package](/https://www.nuget.org/packages/Korzh.EasyQuery.Db)
+ * [Korzh.EasyQuery.Db package](https://www.nuget.org/packages/Korzh.EasyQuery.Db)
  
- * One of DbGate packages depending on the database you use. EasyQuery library contains several DbGate components. Each DbGate "knows" how to read meta-data for a particular database type (SQL Server, MySQL, PostreSQL, etc). So, before loading meta-data you will need to reference some DbGate package in your project and register the corresponding DbGate class (the next step). For example, for SQL Server you will need [Korzh.EasyQuery.MsSqlGate package](/https://www.nuget.org/packages/Korzh.EasyQuery.MySqlGate)
+ * One of DbGate packages depending on the database you use. EasyQuery library contains several DbGate components. Each DbGate "knows" how to read meta-data for a particular database type (SQL Server, MySQL, PostreSQL, etc). So, before loading meta-data you will need to reference some DbGate package in your project and register the corresponding DbGate class (the next step). For example, for SQL Server you will need [Korzh.EasyQuery.MsSqlGate package](https://www.nuget.org/packages/Korzh.EasyQuery.MySqlGate)
 
 ### 2.2 Register DbGate class 
 
@@ -199,11 +199,11 @@ In the example above our loader will ignore the views (only DB tables will be pr
 
 ## 3. Loading data model from entity types
 
-This method is useful for data-fitlering scenarios first of all (like the one in our [demo project](/https://korzh.com/demo/easyquery-asp-net-core-razor/data-filtering)) when you need to give your users a possibility to filter the records taken from one table via `DynamicQuery` extension method.
+This method is useful for data-fitlering scenarios first of all (like the one in our [demo project](https://korzh.com/demo/easyquery-asp-net-core-razor/data-filtering)) when you need to give your users a possibility to filter the records taken from one table via `DynamicQuery` extension method.
 
-So, this way of model loading is used together with `LinqQueryBuilder` (for desktop applications) or `EasyQueryManagerLinq` (for ASP.NET or ASP.NET Core). All this functionality is provided with [Korzh.EasyQuery.Linq](/https://www.nuget.org/packages/Korzh.EasyQuery.Linq) NuGet package so you need to install it first.
+So, this way of model loading is used together with `LinqQueryBuilder` (for desktop applications) or `EasyQueryManagerLinq` (for ASP.NET or ASP.NET Core). All this functionality is provided with [Korzh.EasyQuery.Linq](https://www.nuget.org/packages/Korzh.EasyQuery.Linq) NuGet package so you need to install it first.
 
-You can find an example of such approach [on GitHub](/https://github.com/easyquery/AspNetCoreSamples/blob/master/EqAspNetCoreDemo/Controllers/OrderController.cs) (this is ASP.NET Core demo but it looks very similar for ASP.NET MVC application as well).
+You can find an example of such approach [on GitHub](https://github.com/easyquery/AspNetCoreSamples/blob/master/EqAspNetCoreDemo/Controllers/OrderController.cs) (this is ASP.NET Core demo but it looks very similar for ASP.NET MVC application as well).
 
 For desktop project you just need to use `LoadFromEntityType` extension method for your model and then call `DynamicQuery` method for the `IQueryable` for specified entity:
 
@@ -229,7 +229,7 @@ Here is what you need to do to create your model with DME:
 
 ### 4.1 Install and run Data Model Editor
 
-Here is [the link for DME setup file](/https://korzh.com/download/dme_setup.exe). Just click on it to initiate the download process and then, when finished, open `dme_setup.exe` to start the installation process.
+Here is [the link for DME setup file](https://korzh.com/download/dme_setup.exe). Just click on it to initiate the download process and then, when finished, open `dme_setup.exe` to start the installation process.
 
 After the installation you can run DME through the Start menu. For Windows 7 you find it in All Programs | Korzh EasyQuery | Data Model Editor. 
 
@@ -244,13 +244,13 @@ For Windows 10 just press Windows button on your keyboard and start to type “D
   - Test your database connection using “Test connection” button.
   - Press OK to finish model creating
 
-![Data Model Editor - new model](/https://files.aistant.com/korzh/easyquery-dotnet/images/dme-newmodel.png)
+![Data Model Editor - new model](https://files.aistant.com/korzh/easyquery-dotnet/images/dme-newmodel.png)
 
 ### 4.3 Fill the list of tables
 
 After pressing OK and closing the previous dialog you will be asked to add database tables into your model. Click “Yes” to agree and the Select Tables dialog will appear. 
 
-![Data Model Editor - fill tables list](/https://files.aistant.com/korzh/easyquery-dotnet/images/dme-addtables01.png)
+![Data Model Editor - fill tables list](https://files.aistant.com/korzh/easyquery-dotnet/images/dme-addtables01.png)
 
 Select the tables you want to add into your model (select all of them if you don't have any limitations) and press OK to add them.
 
@@ -262,7 +262,7 @@ DME will offer you to add the links automatically using information about foreig
 
 That's all. The initial setup has been finished. Use “Model | Save..” menu item to save your model into an XML file or JSON file. 
 
-![Data Model Editor - save model](/https://files.aistant.com/korzh/easyquery-dotnet/images/dme-savemodel.png)
+![Data Model Editor - save model](https://files.aistant.com/korzh/easyquery-dotnet/images/dme-savemodel.png)
 
 
 ### 4.6 Add the code that loads the model file in your app

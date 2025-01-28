@@ -13,6 +13,10 @@ export const rehypeLinks = (options) => {
             if (node.tagName === "a") {
                 let href = node.properties.href;
                 
+                if (href.startsWith("http")) {
+                    return 
+                }
+                
                 if (!href.startsWith("http")) {
                     if (!href.startsWith("/")) {
                         href = "/" + href;

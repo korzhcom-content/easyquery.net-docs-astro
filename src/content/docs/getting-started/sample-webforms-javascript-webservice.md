@@ -335,4 +335,4 @@ It will work out-of-box if you define the widget placeholders and buttons as it'
 
 ## 6. Sample project
 
-You can download a sample project which implements all functionality described in this article directly from our [web-site](/http://korzh.com/download/EqWebFormsDemo.zip).
+You can download a sample project which implements all functionality described in this article directly from our [web-site](http://korzh.com/download/EqWebFormsDemo.zip).

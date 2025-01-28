@@ -4,7 +4,7 @@ slug: fundamentals/how-it-works
 ---
 
 
-![EasyQuery scheme](/https://files.aistant.com/korzh/easyquery-dotnet/images/eq-lib-schema.png)
+![EasyQuery scheme](https://files.aistant.com/korzh/easyquery-dotnet/images/eq-lib-schema.png)
 
  The above scheme shows the general internal structure of the library and the main principles of its work.
 

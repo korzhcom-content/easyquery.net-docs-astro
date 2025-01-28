@@ -22,7 +22,7 @@ Now you can get the latest versions of EasyQuery's JavaScript and CSS files from
 
 ## 2.Default "look and feel" for query builder view page
 
-The new version includes eqview.css and eq.view.js files which define the default style and behavior of query builder page. The same as you can on our [live demo](/http://demo.easyquerybuilder.com/asp-net-mvc/) page. Both files can be accessed through CDN (you can see the links above). To apply the default behavior, you need to do the following:
+The new version includes eqview.css and eq.view.js files which define the default style and behavior of query builder page. The same as you can on our [live demo](http://demo.easyquerybuilder.com/asp-net-mvc/) page. Both files can be accessed through CDN (you can see the links above). To apply the default behavior, you need to do the following:
 
 1. Set the default IDs (QueryPanel, ColumnsPanel, etc.) for EasyQuery widget placeholders and other elements of your “advanced search” view page. See an example below.
 
@@ -74,7 +74,7 @@ Of course, you don't need to define all placeholders listed above. Any element c
 
 ## 3. Google Visualization library support
 
-EasyQueryController class now returns result sets in JSON format compatible with [DataTable](/https://developers.google.com/chart/interactive/docs/reference#DataTable) class from [Google Visualization library](/https://developers.google.com/chart/interactive/docs/reference). It allows you easily connect the result sets returned by EasyQuery with [Google Charts](/https://developers.google.com/chart/interactive/docs/gallery). You can see an example of such integration in our [live demo](/http://demo.easyquerybuilder.com/asp-net-mvc/). To see a pie chart just add one string column (e.g. “Customer Company Name”) and one numeric column (Order Freight) and click on “Execute” button.
+EasyQueryController class now returns result sets in JSON format compatible with [DataTable](https://developers.google.com/chart/interactive/docs/reference#DataTable) class from [Google Visualization library](https://developers.google.com/chart/interactive/docs/reference). It allows you easily connect the result sets returned by EasyQuery with [Google Charts](https://developers.google.com/chart/interactive/docs/gallery). You can see an example of such integration in our [live demo](http://demo.easyquerybuilder.com/asp-net-mvc/). To see a pie chart just add one string column (e.g. “Customer Company Name”) and one numeric column (Order Freight) and click on “Execute” button.
 
 Please note: You don't need to include Google Visualization scripts just to render a result grid. The eq.view.js script contains code which implements such rendering. However, it will be more convenient and secure to use “native” DataTable components. And of course, such inclusion will allow you to draw charts for result data. 
 

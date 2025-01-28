@@ -185,4 +185,4 @@ The example above is defined for WinForms edition but it will look very similar 
 
 Please take a look at first `else if` section which populates items for “RegionList”. Here we show how you can filter the returned list according to the value specified for some other attribute. In this example we search our query for a condition like “Customer country is equal to {Some Country}”. If such condition is defined - we get the value (country code) from it and use that value as a filter for the list of regions. 
 
-For more information about this approach please read: [Dynamically populating lists by information from other conditions (WinForms)](/http://docs.korzh.com/easyquery/how-to/dynamically-populating-list-winforms)
+For more information about this approach please read: [Dynamically populating lists by information from other conditions (WinForms)](http://docs.korzh.com/easyquery/how-to/dynamically-populating-list-winforms)

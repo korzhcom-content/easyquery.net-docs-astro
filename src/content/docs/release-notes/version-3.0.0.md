@@ -8,7 +8,7 @@ slug: release-notes/version-3.0.0
 
 ### 1. New structure of EasyQuery assemblies and namespaces
 
-In version 3.0 we have removed all database-related functionality from the core classes in Korzh.EasyQuery namespace (like DataModel and Query). So now it's possible to use EasyQuery for querying not only databases but in general almost any type of data. As an example, you can see our new service [Advangle](/http://advangle.com) which allows you to build web-search queries for Google and Bing. Database-related implementation of the core classes was moved into another namespace: Korzh.EasyQuery.Db. Here you will find such classes as DbQuery (inherited from Query) and DbModel (inherited from DataModel). Use these classes to set up an old good SQL query builder in your application.
+In version 3.0 we have removed all database-related functionality from the core classes in Korzh.EasyQuery namespace (like DataModel and Query). So now it's possible to use EasyQuery for querying not only databases but in general almost any type of data. As an example, you can see our new service [Advangle](http://advangle.com) which allows you to build web-search queries for Google and Bing. Database-related implementation of the core classes was moved into another namespace: Korzh.EasyQuery.Db. Here you will find such classes as DbQuery (inherited from Query) and DbModel (inherited from DataModel). Use these classes to set up an old good SQL query builder in your application.
 
 ### 2. "Builder" classes
 

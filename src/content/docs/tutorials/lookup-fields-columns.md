@@ -21,7 +21,7 @@ If you created a model from your DB, you possibly already have `City(s)` entity 
 
 Additionally you need to turn off `Use in conditions` option (`attr.UseInCondition = false` if do it from code) - so it can be used in ColumnsPanel only.
 
-3) Now you need to make it possible to filter by city ID in query conditions. Simply rename `CityID` attribute to just `City`, turn off its `Use in result` option (so it will not be able to use it as result column) and setup `SQL LIST` value editor for this attribute to show the list of all cities when this attribute is used in a query condition (you can read more about [value editors here](/https://korzh.com/easyquery/docs/fundamentals/about-data-editors)). 
+3) Now you need to make it possible to filter by city ID in query conditions. Simply rename `CityID` attribute to just `City`, turn off its `Use in result` option (so it will not be able to use it as result column) and setup `SQL LIST` value editor for this attribute to show the list of all cities when this attribute is used in a query condition (you can read more about [value editors here](https://korzh.com/easyquery/docs/fundamentals/about-data-editors)). 
  
 So, now your users will be able to add conditions with `City` attribute and select a concrete city (by its name) from the drop-down list. In query panel such conditions will look like `Customer City is equal to London` but in result SQL it will be something like: `Customers.CityID = 234`
 

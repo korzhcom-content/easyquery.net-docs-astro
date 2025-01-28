@@ -45,13 +45,13 @@ public ActionResult ExecuteQuery(string queryJson, string optionsJson) {
 }
 ```
 
-Here is an example how the above code works in our [live demo](/http://demo.easyquerybuilder.com/adhoc-reporting).
+Here is an example how the above code works in our [live demo](http://demo.easyquerybuilder.com/adhoc-reporting).
 
 ## 3. Paging in MVC projects (Partial View)
 
 Sometimes in MVC applications, it is easier to build result table with standard partial view approach and then send this fully-formed HTML to the client-side in response to AJAX request.
 
-You can see how this method is used to render the list of Customers or Orders in our “data filtering” [live demo](/http://demo.easyquerybuilder.com/data-filtering/Order).
+You can see how this method is used to render the list of Customers or Orders in our “data filtering” [live demo](http://demo.easyquerybuilder.com/data-filtering/Order).
 
 Here is code, which is used in that example:
 
@@ -114,7 +114,7 @@ The central paging “magic” occurs in `ToPagedList` extension method on the s
 
 WebForms edition of EasyQuery does not support paging directly. 
 
-However since usually, we use a standard GradView control to show query results - it is quite easy to setup paging and sorting functionality available there. Here is an [article](/https://docs.microsoft.com/en-us/aspnet/web-forms/overview/presenting-and-managing-data/model-binding/sorting-paging-and-filtering-data
+However since usually, we use a standard GradView control to show query results - it is quite easy to setup paging and sorting functionality available there. Here is an [article](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/presenting-and-managing-data/model-binding/sorting-paging-and-filtering-data
 ) with detailed step-by-step description how to do it.
 
 ## 5. DB level paging

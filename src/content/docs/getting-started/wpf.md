@@ -4,7 +4,7 @@ slug: getting-started/wpf
 ---
 
 
-> __NB__: The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](/https://github.com/easyquery/Net4Samples). You can clone that repository with samples, [download it](/https://github.com/easyquery/Net4Samples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](/git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FNet4Samples)</button> right away!
+> __NB__: The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](https://github.com/easyquery/Net4Samples). You can clone that repository with samples, [download it](https://github.com/easyquery/Net4Samples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](/git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FNet4Samples)</button> right away!
 
 Below you will find the instructions of what to do if you are going to add EasyQuery to your WPF application from the scratch.
 
@@ -24,7 +24,7 @@ Use NuGet Package Manager to install the following package:
 
  ## 2. Add visual controls (QueryPanel, EntitiesPanel, ColumnsPanel)
 
-First of all you will need to add EasyQuery visual controls on your form. The best way to do it - is simply to copy XAML markup from our [sample project](/https://github.com/easyquery/Net4Samples/blob/master/EqWpfDemo/MainWindow.xaml) and then modify it according to your needs.
+First of all you will need to add EasyQuery visual controls on your form. The best way to do it - is simply to copy XAML markup from our [sample project](https://github.com/easyquery/Net4Samples/blob/master/EqWpfDemo/MainWindow.xaml) and then modify it according to your needs.
 
 ## 3. Initialize DbQuery and DbModel
 
@@ -115,4 +115,4 @@ protected void ExecuteBtn_Click(object sender, EventArgs e) {
 ```
 (Here `dataGrid` - is a reference to some DataGrid visual control placed on your form).
 
-For more detailed examples and a ready-to-use code - please take a look at [EasyQuery WPF demo project published on GitHub](/https://github.com/easyquery/Net4Samples/tree/master/EqWpfDemo).
+For more detailed examples and a ready-to-use code - please take a look at [EasyQuery WPF demo project published on GitHub](https://github.com/easyquery/Net4Samples/tree/master/EqWpfDemo).

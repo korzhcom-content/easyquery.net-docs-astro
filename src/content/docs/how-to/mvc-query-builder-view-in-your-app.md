@@ -67,7 +67,7 @@ So, in most cases, you will not need to modify any action method in EasyQueryCon
 
 So, here is what we are going to do:
 
- * First of all, you will need your data model. To create it - run Data Model Editor (installed with EasyQuery library), connect it to your DB and follow the instructions. After performing all these steps save your model into some file. Let's call this new model file `MyModel.xml`. For more information about creating a new model with Data Model Editor please read this [article](/https://korzh.com/easyquery/docs/getting-started/new-data-model).
+ * First of all, you will need your data model. To create it - run Data Model Editor (installed with EasyQuery library), connect it to your DB and follow the instructions. After performing all these steps save your model into some file. Let's call this new model file `MyModel.xml`. For more information about creating a new model with Data Model Editor please read this [article](https://korzh.com/easyquery/docs/getting-started/new-data-model).
 
  * Copy `MyModel.xml` into `App_Data` folder, add it to the project and set its “Build Action” and “Copy to Output Directory” properties to the same values as for NWindSQL.xml file from the previous step.
 

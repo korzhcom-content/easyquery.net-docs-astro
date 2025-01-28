@@ -33,7 +33,7 @@ Some of the most popular ColumnsPanel options:
 * 1.2 showHeader is responsible for turning on/off header row. Gets or sets a value indicating whether columns panel must show a header at the top.
 * 1.3 showAddRow is about turning on/off adding row. Gets or sets a value indicating whether columns panel must show a special [add column] link at the bottom. 
 
-Other ColumnsPanel options listed [here](/http://docs.korzh.com/easyquery/js/columnspanel-widget)
+Other ColumnsPanel options listed [here](http://docs.korzh.com/easyquery/js/columnspanel-widget)
 
 ### Display format for columns 
 
@@ -86,7 +86,7 @@ Some of the most popular QueryPanel options:
 * 2.4 *showAddRow* is about adding row on/ off. Gets or sets a value indicating whether query panel must show a special [add condition] link at the bottom.
 * 2.5 *showConjunctions* or and/or Conjunctions on/off. If true QueryPanel widget will show conjunction elements (“and” or “or”) at the beginning of each condition.
 
-Other QueryPanel options listed [here](/http://docs.korzh.com/easyquery/js/querypanel-widget)
+Other QueryPanel options listed [here](http://docs.korzh.com/easyquery/js/querypanel-widget)
 
 
 ## 3. EntitiesPanel options
@@ -120,6 +120,6 @@ Some of the most common options:
 
 “draggableAttributes” option should be set to “false” in order to get values 1 and 2 worked.
 
-Other EntitiesPanel options listed [here](/http://docs.korzh.com/easyquery/js/entitiespanel-widget)
+Other EntitiesPanel options listed [here](http://docs.korzh.com/easyquery/js/entitiespanel-widget)
 
 ## 4. ColumnsBar widget

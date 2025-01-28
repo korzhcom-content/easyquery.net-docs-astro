@@ -18,7 +18,7 @@ slug: release-notes/version-4.2.0
 
 * Now we have a sample project which demonstrates you how to use EasyQuery to set up an advanced search page in an Angular application.
 
-**NB:** All EasyQuery samples (including the new one) are available on [GitHub repository](/https://github.com/easyquery/AspNetCoreSamples)
+**NB:** All EasyQuery samples (including the new one) are available on [GitHub repository](https://github.com/easyquery/AspNetCoreSamples)
 
 ## 4. Custom value editor example
 

@@ -1,6 +1,6 @@
 ---
 title: HttpResponseExtensions class
-slug: api-reference-previous-versions/API reference 5.x (obsolete)/Microsoft.AspNetCore.Http namespace/httpresponseextensions-class
+slug: api-reference-previous-versions/API reference 5.x (obsolete)/Microsoft.AspNetCore.Http namespacehttpresponseextensions-class
 ---
 
 

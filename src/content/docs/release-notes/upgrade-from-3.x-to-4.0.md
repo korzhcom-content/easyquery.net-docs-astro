@@ -21,7 +21,7 @@ Here is an example of a .csproj section which references EasyQuery packages in a
 ## 2. Change your controller’s methods
 EasyQuery widgets from version 3.x used `application/x-www-form-urlencoded` content type to send data from client to the server.
 Version 4.0 widgets send data in plain JSON - so you need to change the signature of all action method in your EasyQueryController (or whatever name you gave it) class.
-The easiest way to do it - download the latest sample project from [GitHub](/https://github.com/easyquery/AspNetCoreSamples) and copy action methods from EasyQueryConroller.cs to your controller class. Most of the action methods have the same names as in version 3.x but slightly different set of parameters.
+The easiest way to do it - download the latest sample project from [GitHub](https://github.com/easyquery/AspNetCoreSamples) and copy action methods from EasyQueryConroller.cs to your controller class. Most of the action methods have the same names as in version 3.x but slightly different set of parameters.
 Here is an example of `SyncQuery` method:
  
 Version 3.x

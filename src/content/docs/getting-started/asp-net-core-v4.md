@@ -6,7 +6,7 @@ slug: getting-started/asp-net-core-v4
 
 ## 1. Getting started with our demos
 
-To understand the whole process of working with EasyQuery, we recommend installing demo projects from the [EasyQuery Samples repository on GitHub](/https://github.com/easyquery/AspNetCoreSamples). You will be able to try different scenarios and find out how the functionality works.
+To understand the whole process of working with EasyQuery, we recommend installing demo projects from the [EasyQuery Samples repository on GitHub](https://github.com/easyquery/AspNetCoreSamples). You will be able to try different scenarios and find out how the functionality works.
 [Data Model](/fundamentals/data-model)
 
 You can find detailed instructions on how to set up and start demo projects in the ReadMe document on this GitHub repository.

@@ -4,7 +4,7 @@ slug: release-notes/upgrade-from-2.x-to-3.0
 ---
 
 
-Version 3.0 of EasyQuery introduces an essential update of the library since its first release. You can find more information about the changes we made in [this document](/https://korzh.com/easyquery/release-notes/version-3.0.0). Here we introduce a step-by-step description what changes you need to do in your project to make it compatible with version 3.0 of EasyQuery.
+Version 3.0 of EasyQuery introduces an essential update of the library since its first release. You can find more information about the changes we made in [this document](https://korzh.com/easyquery/release-notes/version-3.0.0). Here we introduce a step-by-step description what changes you need to do in your project to make it compatible with version 3.0 of EasyQuery.
 
 ## 1. Remove all old assemblies from your project's references
 

@@ -153,7 +153,7 @@ Please note that there are 2 properties of Operators object for each operator. O
 
 ## Datepicker localization
 
-When you need to localize some widgets, you should use jQuery DatePicker widget, and its localization is described in jQuery [documentation](/https://jqueryui.com/datepicker/#localization).
+When you need to localize some widgets, you should use jQuery DatePicker widget, and its localization is described in jQuery [documentation](https://jqueryui.com/datepicker/#localization).
 
 Also, you need to add an option to your easyQuerySettings variable:
 

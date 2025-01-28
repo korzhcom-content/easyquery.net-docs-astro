@@ -26,18 +26,18 @@ This update finally brings the latest EasyQuery code base to all .NET Framework 
 
 The main difference for current users of EasyQuery 3.x branch will be the way EasyQuery assemblies are referenced in projects. Version 5.x packages are distributed only as NuGet packages. The old approach when you include a DLL file stored somewhere on your hard drive is not available now. So, the only way to reference some EasyQuery package now - is to search for using NuGet Package Manager in Visual Studio or execute `Install-Package` command Package Manager Console. 
 
-The only exception from this rule is Data Model Editor utility which is available for free download as a [separate setup file](/https://korzh.com/download/dme_setup.exe).
+The only exception from this rule is Data Model Editor utility which is available for free download as a [separate setup file](https://korzh.com/download/dme_setup.exe).
 
 ### Product key for license owners.
 
 Another big change (which actually is a consequence of the previous one) is the way you convert your trial version to the full one after the registering.
 
-Instead of downloading and installing the full version of EasyQuery - you will now need an unique [license key](/https://korzh.com/easyquery/docs/getting-started/product-key) and just one line of code which removes all trial version limitations:
+Instead of downloading and installing the full version of EasyQuery - you will now need an unique [license key](https://korzh.com/easyquery/docs/getting-started/product-key) and just one line of code which removes all trial version limitations:
 ```
 Korzh.EasyQuery.License.Key = "YourLicenseKeyCodeGoesHere";
 ```
 
-The product key will be available on your [Client’s Area page](/https://korzh.com/account) of our website. If it's not generated yet - just click on "Get key" button for the version you would like to use.
+The product key will be available on your [Client’s Area page](https://korzh.com/account) of our website. If it's not generated yet - just click on "Get key" button for the version you would like to use.
 
 
 ### Windows Forms and WPF

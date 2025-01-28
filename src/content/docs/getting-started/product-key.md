@@ -14,18 +14,18 @@ Therefore, on updating the version of EasyQuery packages used in your project, p
 
 > **NB: The keys are NOT used for version 3.x or lower**
 >
-> If you are still using version 3.x, you need to [download full version](/https://korzh.com/account/assets) of the library and replace the assemblies from the trial version used in your project with their "full" versions.
+> If you are still using version 3.x, you need to [download full version](https://korzh.com/account/assets) of the library and replace the assemblies from the trial version used in your project with their "full" versions.
 
 ## 2. How to get the key?
 
 ### 2.1 New to EasyQuery?
 
-If you haven't used EasyQuery before you will need to [sign up first](/https://korzh.com/easyquery#get-started)  to get the trial version key. The registration process takes just 2 minutes. 
+If you haven't used EasyQuery before you will need to [sign up first](https://korzh.com/easyquery#get-started)  to get the trial version key. The registration process takes just 2 minutes. 
 
 
 ### 2.2. EasyQuery license owner?
 
-* Log in to [your account](/https://korzh.com/account) on Korzh.com website using your email address as a username and the password you set up after the registration. If you don't remember the password - please use [Forgot Your Password?](/https://korzh.com/account/auth/forgotpassword) link on the login form
+* Log in to [your account](https://korzh.com/account) on Korzh.com website using your email address as a username and the password you set up after the registration. If you don't remember the password - please use [Forgot Your Password?](https://korzh.com/account/auth/forgotpassword) link on the login form
  
 * Go to the "License Details" page for your EasyQuery license.
 

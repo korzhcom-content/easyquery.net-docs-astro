@@ -47,7 +47,7 @@ It takes less time and memory for the new grid to render the same amount of data
  The code of our new grid was moved to a separate NPM package (`@easydata/ui`) and so, can be used even without EasyQuery at all.
  
  
-> __NB__: Here we have that little exception of that "no breaking changes" rule we mentioned at the beginning. If you use some handlers for the old grid widget (like `beforeTableRendering`, `formatColumnHeader`, or `formatGridCell`) - you will need to modify that logic to use the new handlers or column formatters. Please, [submit a support ticket](/https://korzh.com/support) with the description of your case and we will help you with that change.
+> __NB__: Here we have that little exception of that "no breaking changes" rule we mentioned at the beginning. If you use some handlers for the old grid widget (like `beforeTableRendering`, `formatColumnHeader`, or `formatGridCell`) - you will need to modify that logic to use the new handlers or column formatters. Please, [submit a support ticket](https://korzh.com/support) with the description of your case and we will help you with that change.
 
 
 ### 1.3 New widget: ResultFacetsPanel
@@ -94,4 +94,4 @@ Starting from EasyQuery.JS 6.1.0 you can attach some extra data to the query sen
 
 ### 2.5 Fixes and small improvements
 
-Refer to [changelog](/https://korzh.com/easyquery/docs/changelog) for more details
+Refer to [changelog](https://korzh.com/easyquery/docs/changelog) for more details

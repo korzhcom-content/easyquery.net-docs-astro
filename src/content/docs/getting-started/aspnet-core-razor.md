@@ -8,7 +8,7 @@ Here we describe how to add EasyQuery to your ASP.NET Core application with MVC 
 
 
 ## EasyQuery samples
-> The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](/https://github.com/easyquery/AspNetCoreSamples). You can clone that repository with samples, [download it](/https://github.com/easyquery/AspNetCoreSamples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](/git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FAspNetCoreSamples)</button> right away!
+> The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](https://github.com/easyquery/AspNetCoreSamples). You can clone that repository with samples, [download it](https://github.com/easyquery/AspNetCoreSamples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](/git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FAspNetCoreSamples)</button> right away!
 
 
 ## Prerequisites
@@ -16,7 +16,7 @@ Here we describe how to add EasyQuery to your ASP.NET Core application with MVC 
 2. Your application uses Entity Framework Core to work with the database. NB: Of course, it's possible to use EasyQuery without EF Core. We show this approach here just because it's the simplest way. For other options please read [$$-Possible ways of data model creation and loading-$$](//$aid/eqdn-qe2307z0qdv3) article. 
 
 ## Step 0: Register your trial version
-To start using EasyQuery trial you need to [register and get your trial version keys](/https://korzh.com/easyquery#get-started) first. It takes 1-2 minutes of your time. On registration you will get access to a special "Client's Area" of our web-site where you can see available licenses, get the keys, and submit a support request if necessary.  
+To start using EasyQuery trial you need to [register and get your trial version keys](https://korzh.com/easyquery#get-started) first. It takes 1-2 minutes of your time. On registration you will get access to a special "Client's Area" of our web-site where you can see available licenses, get the keys, and submit a support request if necessary.  
 
 
 ## Step 1: Add EasyQuery packages to your project
@@ -51,7 +51,7 @@ public Startup(IConfiguration configuration, IWebHostEnvironment env)
 }
 ```
 
-> You will replace these keys on the real (non-trial ones) after [purchasing the license](/https://korzh.com/easyquery/licensing).
+> You will replace these keys on the real (non-trial ones) after [purchasing the license](https://korzh.com/easyquery/licensing).
 
 
 After that, initialize EasyQuery services in `ConfigServices` method:
@@ -184,9 +184,9 @@ All you need to do for that:
 3. Add initialization script as it was described in Option 2 above.
 
 With this approach you can create almost any possible layout and styling of your "advanced search / ad hoc reporting" page.
-Please, [contact us](/https://korzh.com/support) if you have any questions.
+Please, [contact us](https://korzh.com/support) if you have any questions.
 
 
 ## Done!
 
-Now if you run your project and open `/CustomSearch` page (or `/EasyQuery/AdvancedSearch` if you used the first option) - you will see the default EasyQuery page for advanced database search (like [this one](/https://korzh.com/demo/easyquery-asp-net-core-razor/advanced-search))
+Now if you run your project and open `/CustomSearch` page (or `/EasyQuery/AdvancedSearch` if you used the first option) - you will see the default EasyQuery page for advanced database search (like [this one](https://korzh.com/demo/easyquery-asp-net-core-razor/advanced-search))

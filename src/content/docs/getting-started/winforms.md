@@ -4,7 +4,7 @@ slug: getting-started/winforms
 ---
 
 
-> __NB__: The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](/https://github.com/easyquery/Net4Samples). You can clone that repository with samples, [download it](/https://github.com/easyquery/Net4Samples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](/git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FNet4Samples)</button> right away!
+> __NB__: The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](https://github.com/easyquery/Net4Samples). You can clone that repository with samples, [download it](https://github.com/easyquery/Net4Samples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](/git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FNet4Samples)</button> right away!
 
 
 Below you will find the instructions of what to do if you are going to add EasyQuery to your WinForms application from the scratch.
@@ -26,7 +26,7 @@ Use NuGet Package Manager to install the following package:
 
  ## 2. Add visual controls (QueryPanel, EntitiesPanel, ColumnsPanel)
 
-First of all you will need to add those controls to your Toolbox (if they are not there yet). After that you can place QueryPanel, EntitiesPanel and ColumnsPanel on your form the same way as we do in our [sample project](/https://github.com/easyquery/Net4Samples/tree/master/EqWinFormsDemo)
+First of all you will need to add those controls to your Toolbox (if they are not there yet). After that you can place QueryPanel, EntitiesPanel and ColumnsPanel on your form the same way as we do in our [sample project](https://github.com/easyquery/Net4Samples/tree/master/EqWinFormsDemo)
 
 ## 3. Initialize DbQuery and DbModel
 
@@ -118,4 +118,4 @@ protected void ExecuteBtn_Click(object sender, EventArgs e) {
 
 (here ResultDS is a reference to a DataSet object which is connected with some DataGrid visual control via its DataSource property).
 
-For more detailed examples and a ready-to-use code - please take a look at [EasyQuery Windows Forms demo project published on GitHub](/https://github.com/easyquery/Net4Samples/tree/master/EqWinFormsDemo).
+For more detailed examples and a ready-to-use code - please take a look at [EasyQuery Windows Forms demo project published on GitHub](https://github.com/easyquery/Net4Samples/tree/master/EqWinFormsDemo).

@@ -21,7 +21,7 @@ Run Data Model Editor utility (DME) and open your model (.xml) file (Model | Ope
 
 Go to Operators tab and select “Operators | Add Operator” menu item. New operator with default ID “NewOp” will appear at the bottom of the list of operators. 
 
-![Data Model Editor - add new operator](/https://files.aistant.com/korzh/easyquery-dotnet/images/dm-new-operator-01.png)
+![Data Model Editor - add new operator](https://files.aistant.com/korzh/easyquery-dotnet/images/dm-new-operator-01.png)
 
 After that, we need to define all properties for a new operator.
 
@@ -57,7 +57,7 @@ Since this operator can be used only with Date and DateTime attributes - we unch
 
 Here is how Operators tab in DME looks like after all changes described above: 
 
-![Data Model Editor - operator properties](/https://files.aistant.com/korzh/easyquery-dotnet/images/dm-new-operator-02.png)
+![Data Model Editor - operator properties](https://files.aistant.com/korzh/easyquery-dotnet/images/dm-new-operator-02.png)
 
 ### 1.4 Setting operand's properties
 
@@ -65,7 +65,7 @@ Each operator has one or more operands. By default, all operands have the same k
 
 N.B.: By default “data type” property has “Auto” value. It means that this operand will have the same type as attribute selected for the left part of the condition. It's useful for operators which can be applied to attributes with different data types (e.g. “is equal to”). 
 
-![Data Model Editor - operand properties](/https://files.aistant.com/korzh/easyquery-dotnet/images/dm-new-operator-03.png)
+![Data Model Editor - operand properties](https://files.aistant.com/korzh/easyquery-dotnet/images/dm-new-operator-03.png)
 
 ### 1.5 Associate the new operator with attribute(s)
 
@@ -76,13 +76,13 @@ Finally, we need to associate new operator with one or more attributes for which
 * open its “Operators” tab
 * click on “Add” button, check new operator and click OK.
 
-![Data Model Editor - associate operator with attributes](/https://files.aistant.com/korzh/easyquery-dotnet/images/dm-new-operator-04.png)
+![Data Model Editor - associate operator with attributes](https://files.aistant.com/korzh/easyquery-dotnet/images/dm-new-operator-04.png)
 
 ### Done!
 
 Finally, save your model and run the project which uses this model to test new operator: 
 
-![Data Model Editor - new operator in the query panel](/https://files.aistant.com/korzh/easyquery-dotnet/images/dm-new-operator-05.png)
+![Data Model Editor - new operator in the query panel](https://files.aistant.com/korzh/easyquery-dotnet/images/dm-new-operator-05.png)
 
 
 

@@ -36,7 +36,7 @@ Here how it looks:
 ```
 Korzh.EasyQuery.License.Key = "YourProductKeyCodeGoesHere";  
 ```
-The product key will be available on your [Client’s Area](/https://korzh.com/account) page of our web-site. If it's not generated yet - just click on "Get key" button for the version you would like to use.
+The product key will be available on your [Client’s Area](https://korzh.com/account) page of our web-site. If it's not generated yet - just click on "Get key" button for the version you would like to use.
   
 ## 5. Version 4.0 samples 
 All sample projects for EasyQuery 4.0 are available on [GitHub] (https://github.com/easyquery/AspNetCoreSamples) now.
