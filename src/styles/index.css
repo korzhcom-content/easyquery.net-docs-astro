@@ -3,6 +3,19 @@
     --sl-color-text-accent: #3983bc !important;
 }
 
+.sidebar-content {
+    ul:not(.top-level) {
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        order: 2;
+    }
+    li:has(> details) {
+        order: 1
+    }
+}
+
 :is(.hero, .sl-markdown-content) .sl-link-button.primary {
     background-color: #1b7fff !important;
     border: 1px solid #1b7fff !important;
