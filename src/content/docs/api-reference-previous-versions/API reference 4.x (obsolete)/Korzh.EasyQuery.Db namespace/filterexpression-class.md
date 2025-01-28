@@ -1,0 +1,32 @@
+---
+title: FilterExpression class
+slug: api-reference-previous-versions/API reference 4.x (obsolete)/Korzh.EasyQuery.Db namespace/filterexpression-class
+---
+
+
+Represents the result of performing BuildSQL command.
+```csharp
+public class Korzh.EasyQuery.Db.FilterExpression
+    : QueryBuilderResult
+
+```
+
+### Properties
+
+| Type | Name | Description | 
+| --- | --- | --- | 
+| `SqlExtraClauses` | ExtraClauses | Gets the [Korzh.EasyQuery.Db.SqlExtraClauses](/api-reference-4x/korzh-easyquery-db-namespace/sqlextraclauses-class) object which defines some extra clauses of generated query. | 
+| `String` | FilterExpr | Gets the filter expression. | 
+| `DbQueryFormats` | Formats | Gets the [Korzh.EasyQuery.Db.DbQueryFormats](/api-reference-4x/korzh-easyquery-db-namespace/dbqueryformats-class) object in the parent query. | 
+
+
+### Methods
+
+| Type | Name | Description | 
+| --- | --- | --- | 
+| `void` | AddCondition(`String` s) | Adds text of some condition to WHERE clause. | 
+| `void` | AddToWhereClause(`String` s) | Adds some text to WHERE clause. | 
+| `void` | ClearAll() | Clears all clauses. | 
+| `void` | ClearWhereClause() | Clears the WHERE clause. | 
+| `String` | GetFilterExpr() | Gets the filter expression. | 
+| `String` | GetStatement() | Returns the statement (SQL, filter expression, etc - depending on the concrete QueryBuilderResult type). |

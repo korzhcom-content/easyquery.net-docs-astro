@@ -1,0 +1,18 @@
+---
+title: IDbResultSet interface
+slug: api-reference-previous-versions/API reference 5.x (obsolete)/Korzh.EasyQuery.Services namespace/idbresultset-interface
+---
+
+
+Represents an extension of IEqResultSet interface which also contains a function for adding a row.  Implements the [Korzh.EasyQuery.Services.IEqResultSet](/api-reference-5x/korzh-easyquery-services-namespace/ieqresultset-interface)
+```csharp
+public interface Korzh.EasyQuery.Services.IDbResultSet
+    : IEqResultSet
+
+```
+
+### Methods
+
+| Type | Name | Description | 
+| --- | --- | --- | 
+| `void` | AddRow(`IDataReader` dataReader) | Adds a new row and fills it from the data reader. |

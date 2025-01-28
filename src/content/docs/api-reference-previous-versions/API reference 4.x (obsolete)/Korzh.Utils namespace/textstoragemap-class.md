@@ -1,0 +1,19 @@
+---
+title: TextStorageMap class
+slug: api-reference-previous-versions/API reference 4.x (obsolete)/Korzh.Utils namespace/textstoragemap-class
+---
+
+
+Stores a map of [Korzh.Utils.TextStorage](/api-reference-4x/korzh-utils-namespace/textstorage-class) instanced.
+```csharp
+public class Korzh.Utils.TextStorageMap
+    : Dictionary<String, TextStorage>, IDictionary<String, TextStorage>, ICollection<KeyValuePair<String, TextStorage>>, IEnumerable<KeyValuePair<String, TextStorage>>, IEnumerable, IDictionary, ICollection, IReadOnlyDictionary<String, TextStorage>, IReadOnlyCollection<KeyValuePair<String, TextStorage>>, ISerializable, IDeserializationCallback
+
+```
+
+### Methods
+
+| Type | Name | Description | 
+| --- | --- | --- | 
+| `TextStorage` | GetStorage(`String` storageId = <span style='color: blue'>null</span>) | Gets the current storage. | 
+| `void` | ReloadNativeResources(`String` storageId = <span style='color: blue'>null</span>) | Reloads the specified storage by its ID. |

@@ -1,0 +1,17 @@
+---
+title: FileQueryStoreSettings class
+slug: api-reference-previous-versions/API reference 5.x (obsolete)/Korzh.EasyQuery.Services namespace/filequerystoresettings-class
+---
+
+
+Represents the settings for [Korzh.EasyQuery.Services.FileQueryStore](/api-reference-5x/korzh-easyquery-services-namespace/filequerystore-class)
+```csharp
+public class Korzh.EasyQuery.Services.FileQueryStoreSettings
+
+```
+
+### Properties
+
+| Type | Name | Description | 
+| --- | --- | --- | 
+| `String` | DataPath | Gets or sets the path to the folder where query files are stored. |

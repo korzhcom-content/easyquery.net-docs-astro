@@ -1,0 +1,18 @@
+---
+title: CsvDataExportSettings class
+slug: api-reference-previous-versions/API reference 5.x (obsolete)/Korzh.EasyQuery.Services namespace/csvdataexportsettings-class
+---
+
+
+Represents csv format used during exporting operations
+```csharp
+public class Korzh.EasyQuery.Services.CsvDataExportSettings
+    : BasicDataExportSettings, IDataExportSettings
+
+```
+
+### Static Properties
+
+| Type | Name | Description | 
+| --- | --- | --- | 
+| `CsvDataExportSettings` | Default | Returns the default instance of [Korzh.EasyQuery.Services.CsvDataExportSettings](/api-reference-5x/korzh-easyquery-services-namespace/csvdataexportsettings-class). |

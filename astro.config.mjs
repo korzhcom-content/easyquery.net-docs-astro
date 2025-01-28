@@ -22,12 +22,48 @@ export default defineConfig({
 				discord: 'https://discord.gg',
 			},
 			sidebar: [
-				...sidebar,
+				{label: "Introduction", slug: "introduction"},
+				{
+					label: 'Getting Started',
+					collapsed: true,
+					autogenerate: { directory: 'getting-started' },
+				},
+				{
+					label: 'Fundamentals',
+					collapsed: true,
+					autogenerate: { directory: 'fundamentals' },
+				},
+				{
+					label: 'Tutorials',
+					collapsed: true,
+					autogenerate: { directory: 'tutorials' },
+				},
+				{
+					label: 'How To',
+					collapsed: true,
+					autogenerate: { directory: 'how-to' },
+				},
+				{
+					label: 'Data Model Editor',
+					collapsed: true,
+					autogenerate: { directory: 'data-model-editor' },
+				},
+				{
+					label: 'Release Notes',
+					collapsed: true,
+					autogenerate: { directory: 'release-notes' },
+				},
 				{
 					label: 'API Reference',
 					collapsed: true,
 					autogenerate: { directory: 'api-reference' },
 				},
+				{
+					label: 'API Reference (previous versions)',
+					collapsed: true,
+					autogenerate: { directory: 'api-reference-previous-versions' },
+				},
+				{label: "End User's Guide", slug: "end-user-guide"},
 			],
 			customCss: [
 				'./src/styles/index.css',

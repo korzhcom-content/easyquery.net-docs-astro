@@ -1,0 +1,18 @@
+---
+title: ConstValueItem class
+slug: api-reference-previous-versions/API reference 4.x (obsolete)/Korzh.EasyQuery namespace/constvalueitem-class
+---
+
+
+Represents one item in the list of available values for LIST value editor.
+```csharp
+public class Korzh.EasyQuery.ConstValueItem
+
+```
+
+### Properties
+
+| Type | Name | Description | 
+| --- | --- | --- | 
+| `String` | ID | Gets or sets the value. | 
+| `String` | Text | Gets or sets the caption. |

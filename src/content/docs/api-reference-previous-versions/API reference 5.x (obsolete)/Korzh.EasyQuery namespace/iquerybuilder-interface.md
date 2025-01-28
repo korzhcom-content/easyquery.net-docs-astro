@@ -1,0 +1,26 @@
+---
+title: IQueryBuilder interface
+slug: api-reference-previous-versions/API reference 5.x (obsolete)/Korzh.EasyQuery namespace/iquerybuilder-interface
+---
+
+
+Interface IQueryBuilder - represents general-purpose query builder
+```csharp
+public interface Korzh.EasyQuery.IQueryBuilder
+
+```
+
+### Properties
+
+| Type | Name | Description | 
+| --- | --- | --- | 
+| `IQueryFormats` | Formats | Gets the builder formats. | 
+| `Query` | Query | Gets the query this builder is defined for | 
+| `Type` | ResultType | Gets the the result type. | 
+
+
+### Methods
+
+| Type | Name | Description | 
+| --- | --- | --- | 
+| `QueryBuilderResult` | GetResult() | Gets the result object.  It could be some SQL statement or and an IQueryable object created by LINQ query builder. |
