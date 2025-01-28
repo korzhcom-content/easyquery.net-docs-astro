@@ -7,7 +7,7 @@ import {readFileSync, rmSync, unlinkSync} from 'fs';
 import {copySync} from 'fs-extra/esm'
 import {dirname, sep} from 'path';
 
-export default function addSection(path, from = '__section.md') {
+export default function addSection(path, root = '', from = '__section.md') {
     const pattern = `${path}/**/${from}`
     let files = globSync(pattern)
     while (files.length) {
@@ -23,7 +23,7 @@ export default function addSection(path, from = '__section.md') {
         const _old = oldDirName.join(sep)
         const _new = newDirName.join(sep)
 
-        if (title === "API reference") {
+        if (title === root) {
             unlinkSync(file)
             continue
         }
