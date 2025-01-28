@@ -32,7 +32,7 @@ The only exception from this rule is Data Model Editor utility which is availabl
 
 Another big change (which actually is a consequence of the previous one) is the way you convert your trial version to the full one after the registering.
 
-Instead of downloading and installing the full version of EasyQuery - you will now need an unique [license key](https://korzh.com/easyquery/docs/getting-started/product-key) and just one line of code which removes all trial version limitations:
+Instead of downloading and installing the full version of EasyQuery - you will now need an unique [license key](/getting-started/product-key) and just one line of code which removes all trial version limitations:
 ```
 Korzh.EasyQuery.License.Key = "YourLicenseKeyCodeGoesHere";
 ```

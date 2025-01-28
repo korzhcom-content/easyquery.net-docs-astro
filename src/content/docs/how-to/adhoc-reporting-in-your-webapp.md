@@ -21,7 +21,7 @@ The whole process will takes just a few minutes.
 
 ### Getting started
 
-Please use one of the [Getting Started](https://korzh.com/easyquery/docs/getting-started/asp-net-core) tutorials that is the most relevant to your situation. 
+Please use one of the [Getting Started](/getting-started/asp-net-core) tutorials that is the most relevant to your situation. 
 
 
 

@@ -27,7 +27,8 @@ title: ${title}
 slug: ${slug}
 ---\n\n`
 
-        writeFileSync(file, frontmatter + content.slice(1).join('\n').replaceAll('](', '](/'))
+        writeFileSync(
+            file, frontmatter + content.slice(1).join('\n').replaceAll('](', '](/').replaceAll('/http', 'http'))
     }
 }
 

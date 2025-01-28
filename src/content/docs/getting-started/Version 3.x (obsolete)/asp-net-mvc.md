@@ -20,7 +20,7 @@ Open “EasyQuery ASP.NET” folder on your desktop and run Data Model Editor (D
 
    1. [About Data Model](/fundamentals/data-model)
 
-   2. [Creating new data model using Data Model Editor](https://korzh.com/easyquery/docs/getting-started/new-data-model)
+   2. [Creating new data model using Data Model Editor](/getting-started/new-data-model)
 
 ## 2. Add references to EasyQuery libraries.
 

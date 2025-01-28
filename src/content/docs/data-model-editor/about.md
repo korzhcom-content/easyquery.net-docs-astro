@@ -29,6 +29,6 @@ First of all, you will use DME to create your first data model. Here is a detail
 
 Once a model is created (or opened), you will see 3 main tabs:
 
-* [Tables and Links](https://korzh.com/easyquery/docs/data-model-editor/tables-links-page) - to describe tables taking part in the data model. You may define an alias for each table, as described in [”Working with table aliases”](https://korzh.com/easyquery/docs/data-model-editor/working-with-aliases) topic.
-* [Entities](https://korzh.com/easyquery/docs/data-model-editor/entities-page) - to describe the entities and their attributes which end-user can operate with to build queries.
-* [Operators](https://korzh.com/easyquery/docs/data-model-editor/operators-page) - to describe operations (like comparisons) upon the data model's fields. Each operator should have a default value editor set. All available editors are listed in [”Value editors”](https://korzh.com/easyquery/docs/data-model-editor/value-editors) topic.
+* [Tables and Links](/data-model-editor/tables-links-page) - to describe tables taking part in the data model. You may define an alias for each table, as described in [”Working with table aliases”](/data-model-editor/working-with-aliases) topic.
+* [Entities](/data-model-editor/entities-page) - to describe the entities and their attributes which end-user can operate with to build queries.
+* [Operators](/data-model-editor/operators-page) - to describe operations (like comparisons) upon the data model's fields. Each operator should have a default value editor set. All available editors are listed in [”Value editors”](/data-model-editor/value-editors) topic.
