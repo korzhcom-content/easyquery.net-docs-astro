@@ -1,0 +1,2 @@
+# Korzh.Utils namespace
+

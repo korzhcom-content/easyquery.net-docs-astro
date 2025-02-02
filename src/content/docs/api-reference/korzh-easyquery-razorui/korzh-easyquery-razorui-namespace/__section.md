@@ -1,0 +1,2 @@
+# Korzh.EasyQuery.RazorUI namespace
+

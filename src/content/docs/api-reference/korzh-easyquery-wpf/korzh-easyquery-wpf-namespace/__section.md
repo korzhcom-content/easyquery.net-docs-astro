@@ -1,0 +1,2 @@
+# Korzh.EasyQuery.Wpf namespace
+

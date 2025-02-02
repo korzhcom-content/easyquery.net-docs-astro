@@ -1,0 +1,2 @@
+# EasyData.Services namespace
+

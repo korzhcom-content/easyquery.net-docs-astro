@@ -244,13 +244,13 @@ For Windows 10 just press Windows button on your keyboard and start to type “D
   - Test your database connection using “Test connection” button.
   - Press OK to finish model creating
 
-![Data Model Editor - new model](/easyquery/docs/images/dme-newmodel.png)
+![Data Model Editor - new model](https://files.aistant.com/korzh/easyquery-dotnet/images/dme-newmodel.png)
 
 ### 4.3 Fill the list of tables
 
 After pressing OK and closing the previous dialog you will be asked to add database tables into your model. Click “Yes” to agree and the Select Tables dialog will appear. 
 
-![Data Model Editor - fill tables list](/easyquery/docs/images/dme-addtables01.png)
+![Data Model Editor - fill tables list](https://files.aistant.com/korzh/easyquery-dotnet/images/dme-addtables01.png)
 
 Select the tables you want to add into your model (select all of them if you don't have any limitations) and press OK to add them.
 
@@ -262,7 +262,7 @@ DME will offer you to add the links automatically using information about foreig
 
 That's all. The initial setup has been finished. Use “Model | Save..” menu item to save your model into an XML file or JSON file. 
 
-![Data Model Editor - save model](/easyquery/docs/images/dme-savemodel.png)
+![Data Model Editor - save model](https://files.aistant.com/korzh/easyquery-dotnet/images/dme-savemodel.png)
 
 
 ### 4.6 Add the code that loads the model file in your app

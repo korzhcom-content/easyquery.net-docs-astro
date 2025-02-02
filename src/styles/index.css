@@ -8,11 +8,32 @@
         display: flex;
         flex-direction: column;
     }
-    li {
-        order: 2;
+    
+    li:not(:has(> details)) {
+        a {
+            /*font-weight: 400!important;*/
+            /*font-size: 14px!important;*/
+        }
     }
-    li:has(> details) {
-        order: 1
+
+    .top-level > li + li {
+        margin-top: .25rem!important;
+    }
+    
+    .top-level > li > a {
+        padding-left: 2rem!important;
+        &::before {
+            content: "📋";
+            position: absolute;
+            left: 1.2rem;
+        }
+    }
+    
+    ul {
+        .large {
+            font-size: 14px!important;
+            font-weight: 500!important;
+        }
     }
 }
 

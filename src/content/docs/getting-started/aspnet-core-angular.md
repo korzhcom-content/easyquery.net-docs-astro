@@ -235,4 +235,4 @@ and add a link to a new page to nav-menu (`app/nav-menu/nav-menu.component.html`
 
 That's all. If everything was done right you will get something like the following in result:
 
-![eq-aspcore-angular](/easyquery/docs/images/eq-aspcore-angular.png "eq-aspcore-angular")
+![eq-aspcore-angular](https://files.aistant.com/korzh/easyquery-dotnet/images/eq-aspcore-angular.png "eq-aspcore-angular")

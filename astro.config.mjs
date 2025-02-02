@@ -2,9 +2,9 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightThemeRapide from 'starlight-theme-rapide'
-import starlightLinksValidator from 'starlight-links-validator'
 import { rehypeLinks } from './plugins/rehype-links';
 import { updateFrontmatter } from './plugins/update-frontmatter';
+import getSidebar from "./tools/generate-sidebar.js"
 
 const base = 'easyquery/docs';
 
@@ -22,47 +22,16 @@ export default defineConfig({
 			},
 			sidebar: [
 				{label: "Introduction", slug: "introduction"},
-				{
-					label: 'Getting Started',
-					collapsed: false,
-					autogenerate: { directory: 'getting-started' },
-				},
-				{
-					label: 'Fundamentals',
-					collapsed: true,
-					autogenerate: { directory: 'fundamentals' },
-				},
-				{
-					label: 'Tutorials',
-					collapsed: true,
-					autogenerate: { directory: 'tutorials' },
-				},
-				{
-					label: 'How To',
-					collapsed: true,
-					autogenerate: { directory: 'how-to' },
-				},
-				{
-					label: 'Data Model Editor',
-					collapsed: true,
-					autogenerate: { directory: 'data-model-editor' },
-				},
-				{
-					label: 'Release Notes',
-					collapsed: true,
-					autogenerate: { directory: 'release-notes' },
-				},
-				{
-					label: 'API Reference',
-					collapsed: true,
-					autogenerate: { directory: 'api-reference' },
-				},
-				{
-					label: 'API Reference (previous versions)',
-					collapsed: true,
-					autogenerate: { directory: 'api-reference-previous-versions' },
-				},
-				{label: "End User's Guide", slug: "end-user-guide"},
+				{label: "End-user's guide", slug: "end-user-guide"},
+				...getSidebar("./src/content/docs/getting-started", true),
+				...getSidebar("./src/content/docs/fundamentals", true),
+				...getSidebar("./src/content/docs/tutorials", true),
+				...getSidebar("./src/content/docs/how-to", true),
+				...getSidebar("./src/content/docs/data-model-editor", true),
+				...getSidebar("./src/content/docs/release-notes/", true),
+				...getSidebar("./src/content/docs/api-reference/", true),
+				...getSidebar("./src/content/docs/api-reference-4x/", true),
+				...getSidebar("./src/content/docs/api-reference-5x/", true),
 			],
 			customCss: [
 				'./src/styles/index.css',
@@ -74,10 +43,6 @@ export default defineConfig({
 			lastUpdated: true,
 			plugins: [
 				starlightThemeRapide(),
-				// starlightLinksValidator({
-				// 	errorOnRelativeLinks: false,
-				// 	exclude: ["/api-reference/"],
-				// }),
 			],
 		}),
 	],

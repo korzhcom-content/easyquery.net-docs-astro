@@ -24,7 +24,7 @@ Run Data Model Editor utility (DME) and open your model (.xml) file (Model | Ope
 
 Go to Operators tab and select “Operators | Add Operator” menu item. New operator with default ID “NewOp” will appear at the bottom of the list of operators.
 
-![Data Model Editor - add new operator](/easyquery/docs/images/dm-new-operator-01.png)
+![Data Model Editor - add new operator](https://files.aistant.com/korzh/easyquery-dotnet/images/dm-new-operator-01.png)
 
 After that, we need to define all properties for a new operator.
 
@@ -58,14 +58,14 @@ Since this operator can be used with any types of data - we can check all option
 
 Here is how Operators tab in DME looks like after all changes described above:
 
-![Data Model Editor - operator properties](/easyquery/docs/images/dm-field-to-field-operator-02.png)
+![Data Model Editor - operator properties](https://files.aistant.com/korzh/easyquery-dotnet/images/dm-field-to-field-operator-02.png)
 
 ### 4) Setting operand's properties
 
 Each operator has one or more operands. We have "default operand" item there. The options set for this item will be applied to all operands.  
 The parameter we need to change here is Kind. By default, it's set to "Scalar" but we need to change it to "Attribute".
 
-![Data Model Editor - operand properties](/easyquery/docs/images/dm-field-to-field-operator-03.png)
+![Data Model Editor - operand properties](https://files.aistant.com/korzh/easyquery-dotnet/images/dm-field-to-field-operator-03.png)
 
 ### 5) Associate new operator with attribute(s)
 
@@ -76,10 +76,10 @@ Finally, we need to associate new operator with one or more attributes for which
 * open its “Operators” tab
 * click on “Add” button, check new operator and click OK.
 
-![Data Model Editor - associate operator with attributes](/easyquery/docs/images/dm-field-to-field-operator-04.png)
+![Data Model Editor - associate operator with attributes](https://files.aistant.com/korzh/easyquery-dotnet/images/dm-field-to-field-operator-04.png)
 
 ### 6) Done!
 
 Finally, save your model and run the project which uses this model to test new operator:
 
-![Data Model Editor - new operator in the query panel](/easyquery/docs/images/dm-field-to-field-operator-05.png)
+![Data Model Editor - new operator in the query panel](https://files.aistant.com/korzh/easyquery-dotnet/images/dm-field-to-field-operator-05.png)
