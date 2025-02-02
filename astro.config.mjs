@@ -44,6 +44,11 @@ export default defineConfig({
 			plugins: [
 				starlightThemeRapide(),
 			],
+			tableOfContents: {
+				minHeadingLevel: 2, 
+				maxHeadingLevel: 4,
+			},
+			credits: false,
 		}),
 	],
 	markdown: {
