@@ -34,6 +34,12 @@
     }
     
     ul {
+        li {
+            padding-inline-start: 0!important;
+        }
+    }
+    
+    ul {
         .large {
             font-size: 14px!important;
             font-weight: 500!important;
