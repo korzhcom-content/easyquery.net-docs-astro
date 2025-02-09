@@ -244,4 +244,4 @@ export default class App extends Component {
 
 That's all. If everything was done right you will get something like the following in result:
 
-![eq-aspcore-react](https://files.aistant.com/korzh/easyquery-dotnet/images/eq-aspcore-react.png "eq-aspcore-react")
+![eq-aspcore-react](/easyquery/docs/images/eq-aspcore-react.png "eq-aspcore-react")

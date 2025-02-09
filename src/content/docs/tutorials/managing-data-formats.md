@@ -62,7 +62,7 @@ Here are some examples of data formats:
 
 If you define your data model using Data Model Editor utility, you can use "Display Format" field on the page with entity attribute's settings.
 
-![Display format for an entity attribute in DME](https://files.aistant.com/korzh/images/eq-dme-sshot-display-format.png "Display format for an entity attribute in DME")
+![Display format for an entity attribute in DME](/easyquery/docs/images/eq-dme-sshot-display-format.png "Display format for an entity attribute in DME")
 
 In all other cases (when we load the model from a DbContext or directly from DB metadata) we can set `DisplayFormat` property in `EntityAttr` class:
 
@@ -83,7 +83,7 @@ Query.Columns[0].DisplayFormat = "{0:dd/MMM/yyyy}";
 
 It's also possible to set the column format in UI with ColumnsBar widget:
 
-![Display format in ColumnsBar](https://files.aistant.com/korzh/images/eq-columnbar-sshot-display-format.png "Display format in ColumnsBar")
+![Display format in ColumnsBar](/easyquery/docs/images/eq-columnbar-sshot-display-format.png "Display format in ColumnsBar")
 
 The list of formats available for each data type can be set via `DisplayFormats` property of `DataModel` class.
 

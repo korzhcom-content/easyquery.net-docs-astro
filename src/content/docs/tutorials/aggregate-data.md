@@ -17,7 +17,7 @@ FROM Orders AS Ord
 
 First, add a column - click on “[Add column]” link, select “Order | OrderID” menu item. Then click the Function button on the right side of the column and select “Count” menu item.
 
-![Build query with aggregation](https://files.aistant.com/korzh/easyquery-dotnet/images/aggregate-data-1.gif)
+![Build query with aggregation](/easyquery/docs/images/aggregate-data-1.gif)
 
 ## Let’s complicate the task
 
@@ -46,4 +46,4 @@ Voila!
 
 Note, that you don’t need to think about columns to group by - all columns that are not aggregated are automatically used to group by them.
 
-![Build more complex query with aggregation](https://files.aistant.com/korzh/easyquery-dotnet/images/aggregate-data-2.gif)
+![Build more complex query with aggregation](/easyquery/docs/images/aggregate-data-2.gif)

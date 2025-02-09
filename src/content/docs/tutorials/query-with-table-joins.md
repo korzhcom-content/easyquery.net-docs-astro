@@ -23,4 +23,4 @@ So, just click on “[Add column]” link, select Order | Date from the menu. Th
 
 Here is a screenshot what you will get in the result - an example of a query with a tables' join:
 
-![Query with table joins](https://files.aistant.com/korzh/easyquery-dotnet/images/query-example-02.png)
+![Query with table joins](/easyquery/docs/images/query-example-02.png)

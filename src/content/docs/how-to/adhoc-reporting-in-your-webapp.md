@@ -10,7 +10,7 @@ Let's suppose your boss (or your clients or some business needs) require(s) to i
 
 Something similar to the [Ad-hoc reporting scenario](https://korzh.com/demo/easyquery-asp-net-core-razor/adhoc-reporting) available in EasyQuery's demo web-site or to our [Easy Report](https://easy.report) web service.   
 
-![EasyReport](https://easy.report/images/easy-report.png "Easy Report")
+![EasyReport](/easyquery/docs/images/easy-report.png "Easy Report")
 
  
 ## Solution
@@ -38,4 +38,4 @@ Of course, it is possible to make your own page with another layout, style, and,
 
 If everything was done right you can build and run your project. Then just open `/EasyQuery/AdHocReporting` and enjoy the new functionality.
 
-![Ad-hoc reporting](https://korzh.com/static/images/ersk/ss/ui.png "Ad-hoc reporting")
+![Ad-hoc reporting](/easyquery/docs/images/eq-ui-all.png "Ad-hoc reporting")
