@@ -1,6 +1,6 @@
 ---
 title: Aggregate data
-slug: tutorials/aggregate-data
+slug: tutorials/common-sql-queries/aggregate-data
 ---
 
 

@@ -8,7 +8,7 @@ import {basename, dirname, sep} from 'path';
 
 export default function addFrontmatter(path) {
     let files = globSync(`${path}/**/*.{md,mdx}`)
-    console.log(`${path}/**/*.{md,mdx}`, files.length)
+
     for (const file of files) {
         const name = basename(file)
         console.log(name)

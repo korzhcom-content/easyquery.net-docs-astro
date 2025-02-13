@@ -1,6 +1,6 @@
 ---
 title: Getting started for ASP.NET Core + MVC or Razor pages
-slug: getting-started/aspnet-core-razor
+slug: getting-started/asp-net-core/aspnet-core-razor
 ---
 
 

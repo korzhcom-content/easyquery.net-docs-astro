@@ -1,6 +1,6 @@
 ---
 title: Using EqMvcDemoEF sample with your own DB context
-slug: getting-started/sample-mvc-entity-framework-new-dbcontext
+slug: getting-started/version-3-x/sample-mvc-entity-framework-new-dbcontext
 ---
 
 

@@ -11,7 +11,7 @@ function traverseDirectory(dir, parent) {
             ? fs.readFileSync(dir + path.sep + "__section.md", 'utf8').split("\n")[0].replace('#', '').trim() :
             dir.replace(root_docs, '');
         
-        const entries = fs.readdirSync(dir, {withFileTypes: true});
+        const entries = fs.readdirSync(dir, {withFileTypes: true}).sort();
         
         entries.forEach(entry => {
             const fullPath = path.join(dir, entry.name);

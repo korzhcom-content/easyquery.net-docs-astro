@@ -1,6 +1,6 @@
 ---
 title: Building dynamic queries with EasyQuery and Entity Framework
-slug: tutorials/dynamic-queries-with-easyquery-and-entity-framework
+slug: tutorials/version-3-x/dynamic-queries-with-easyquery-and-entity-framework
 ---
 
 

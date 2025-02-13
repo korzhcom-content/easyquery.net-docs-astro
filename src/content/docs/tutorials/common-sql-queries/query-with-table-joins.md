@@ -1,6 +1,6 @@
 ---
 title: Query with table joins
-slug: tutorials/query-with-table-joins
+slug: tutorials/common-sql-queries/query-with-table-joins
 ---
 
 

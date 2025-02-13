@@ -1,6 +1,6 @@
 ---
 title: Getting started for EasyQuery ASP.NET Core (version 4.x)
-slug: getting-started/asp-net-core-v4
+slug: getting-started/version-4-x-obsolete/asp-net-core-v4
 ---
 
 

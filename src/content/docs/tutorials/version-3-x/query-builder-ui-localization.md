@@ -1,6 +1,6 @@
 ---
 title: Localization of query builder's UI
-slug: tutorials/query-builder-ui-localization
+slug: tutorials/version-3-x/query-builder-ui-localization
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: Getting started for Silverlight
-slug: getting-started/silverlight
+slug: getting-started/version-3-x/silverlight
 ---
 
 

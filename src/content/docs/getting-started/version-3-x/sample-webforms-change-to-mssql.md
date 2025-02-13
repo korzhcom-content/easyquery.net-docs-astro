@@ -1,6 +1,6 @@
 ---
 title: Using MS SQL instead of Access in WebDemo sample project
-slug: getting-started/sample-webforms-change-to-mssql
+slug: getting-started/version-3-x/sample-webforms-change-to-mssql
 ---
 
 

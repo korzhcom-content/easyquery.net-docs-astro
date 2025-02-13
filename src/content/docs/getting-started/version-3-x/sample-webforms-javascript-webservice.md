@@ -1,6 +1,6 @@
 ---
 title: EasyQuery ASP.NET - using jQuery widgets in a WebForms project
-slug: getting-started/sample-webforms-javascript-webservice
+slug: getting-started/version-3-x/sample-webforms-javascript-webservice
 ---
 
 

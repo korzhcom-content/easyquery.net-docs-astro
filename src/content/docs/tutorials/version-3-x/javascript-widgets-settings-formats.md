@@ -1,6 +1,6 @@
 ---
 title: JavaScript widgets formats and settings (MVC version)
-slug: tutorials/javascript-widgets-settings-formats
+slug: tutorials/version-3-x/javascript-widgets-settings-formats
 ---
 
 

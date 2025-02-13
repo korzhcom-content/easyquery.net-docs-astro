@@ -1,6 +1,6 @@
 ---
 title: Getting started with EasyQuery in ASP.NET Core + Angular project
-slug: getting-started/aspnet-core-angular
+slug: getting-started/asp-net-core/aspnet-core-angular
 ---
 
 

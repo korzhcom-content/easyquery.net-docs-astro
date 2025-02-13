@@ -1,19 +1,21 @@
 ---
-title: Getting started for ASP.NET Core + React project
-slug: getting-started/aspnet-core-react
+title: Getting started for ASP.NET Core + Vue project
+slug: getting-started/asp-net-core/aspnet-core-vue
 ---
 
 
-Here we describe how to add EasyQuery widgets to your ASP.NET Core + React.js project.  
+Here we describe how to add EasyQuery widgets to your ASP.NET Core + Vue.js project.  
 
 ## EasyQuery samples
 
 > The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](https://github.com/easyquery/AspNetCoreSamples). You can clone that repository with samples, [download it](https://github.com/easyquery/AspNetCoreSamples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](/git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FAspNetCoreSamples)</button> right away!
 
+
 ## Prerequisites
 
-1. You have an ASP.NET Core (version 2.1+) project with React.js on the client-side.  We suppose the project was created using a standard ASP.NET Core template (`dotnet new react` or `... reactredux`) but it's not the requirement.
+1. You have an ASP.NET Core (version 2.1+) project with Vue.js (version 2.5.0 or higher) on the client-side. 
 2. Your application uses Entity Framework Core to work with the database. NB: Of course, it's possible to use EasyQuery without EF Core. We show this approach here just because it's the simplest way. For other options please read [$$-Possible ways of data model creation and loading-$$](//$aid/eqdn-qe2307z0qdv3) article. 
+
 
 ## Trial version registration (for new users)
 
@@ -61,11 +63,9 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
-The code  above performs two tasks:
-* The first line registers EasyQuery services in the dependency injection container.
-* The second one specifies the default EasyQuery manager which is the main "engine" that covers the most of EasyQuery functions:  saving and loading of the models and queries, SQL generation, data retriving and exporting, etc. Currently there are two possible options: `EasyQueryManagerSql` and `EasyQueryManagerLinq`.
+In addition to registering EasyQuery services in DI we have set the default EasyQuery manager (the main "engine" which will process all client-side requests). Currently there are two possible options: `EasyQueryManagerSql` and `EasyQueryManagerLinq`.
 
-Finally, we need to set up the middleware which will handle HTTP requests from the client-side, pass them to the manager, takes the result and prepare it for sending back to the client.
+After that we need to set up the middleware which will handle HTTP requests from the client-side, pass them to manager, take the result and prepare it for sending back to the client.
 To avoid any conflicts with MVC or SPA handlers we put EasyQuery middleware before them:
 
 ```
@@ -95,15 +95,17 @@ The code above defines the following main settings:
 2. We will use the DbContext class specified in `UseDbContext` call to get the model or to execute the generated queries. It's the fastest way to specify the model load and the connection to your DB. Otherwise you will need to set them separately via `UseModelLoader` or `UseDbConnection` extension functions.
 3. The last `UsePaging` call turns on the paging and sets the page size.
 
+
 So, server-side setup is finished. Now we need to configure EasyQuery on the client-side part of our project. 
 
 
-## Add EasyQuery view to your React app
+## Add EasyQuery view to your Vue app
 
 Now it's time to configure the client-side scripts and styles. 
-Here we suppose that your React application is placed in `ClientApp` subfolder of your main project's folder.
+Here we suppose that your Vue application is placed in `ClientApp` subfolder of your main project's folder.
 
 ### 1. Adding EasyQuery styles
+
 
 If you want to use the default EasyQuery styles you will need to include EasyQuery CSS files right to the index HTML file of your client-side app: `ClientApp/public/index.html`. 
 
@@ -117,18 +119,6 @@ If you want to use the default EasyQuery styles you will need to include EasyQue
 </head>
 ```
 
-
-Additionally you can add Chat.js script file as well if you plan to show the charts for query results:
-
-```html
-    .    .    .    .    .    .
-
-
-    <!-- ChartJS scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-</head>
-```
-
 ### 2. Adding EasyQuery NPM packages
 
 To install EasyQuery packages just open the console in your `ClientApp` folder and run the following command :
@@ -138,70 +128,50 @@ npm install "@easyquery/core" "@easyquery/ui" "@easyquery/enterprise"
 ```
 
 
-### 3. Adding EasyQuery component
+### 3. Adding EasyQuery view
 
 Here we are goint to add a new view (page) that will contain the EasyQuery "advanced search" functionality.
 
-It terms of React.js it will be a new component which in our case will includes 2 files: `EasyQuery.js` (the component's code) and `EasyQueryHtml.js` (the JSX template).
-
+To do it - simply create an empty `.vue` file in `ClientApp/src/views` folder (let it be `EasyQuery.vue`). 
 The template part for this new view should contain several "slots" for EasyQuery widgets - some `div` elements with special IDs.
-Here are some of those IDs:
+Here are those IDs:
   - `QueryPanel` - for conditions widget
   - `ColumnsPanel` - for columns widget
-  - `ResultPanel` - for result panel widget that will combine a grid to show the result set and a chart (if `showChart` option is turned on).
+  - `ResultPanel` - for result panel widget which will combine a grid to show the result set and the chart (if `showChart` option is turned on).
 
-To simplify the task you can use the [files from our sample project](https://github.com/easyquery/AspNetCoreSamples/tree/master/EqReactDemo/ClientApp/src/components){target = _blank}
+To simplify the task you can use the [EasyQuery.vue file from our sample project](https://github.com/easyquery/AspNetCoreSamples/blob/master/EqVueDemo/ClientApp/src/views/EasyQuery.vue){target = _blank}
 
-Just copy `EasyQuery.js` and `EasyQueryHtml.js` files from there to the `ClientApp/src/components` folder of your project.
 
-#### Explaining the component's code
-
-EasyQuery introduces the concept of a "view". "View" - is a set of different EasyQuery widgets assembled to work together on some web page.
+### 4. Setting the component's code
+EasyQuery introduces its own "view" concept. In EasyQuery's terms, "view" - is a set of different EasyQuery widgets assembled to work together on some web page.
 There are several views available out-of-the-box. Here we are going to use the `AdvancedSearch` view. 
 
-So, basically, all you need to do, is to create an instance of some EasyQuery view class during the initialization of your React component  and then call its `init` method.
-The best place to do it - is in `componentDidMount` method.
+So, basically, all you need to do, is to create an instance of some EasyQuery view class during the initialization of your Vue component  and then call its `init` method.
+Here is an example how it may look like:
 
-So, in general, the content of your component will look like the following:
-
-```js
-import React, { Component } from 'react';
-
-//including easyquery view classes
-import { AdvancedSearchView } from '@easyquery/ui';
-
-//including the JSX template 
-import AdvancedSearchHtml  from './EasyQueryHtml';
-
-export class EasyQuery extends Component {
-    static displayName = EasyQuery.name;
-
-    //creating an instance of EasyQuery view
-    view = new AdvancedSearchView();
-
-    componentDidMount() {
-	    //setting differnt EasyQuery options
-        const options = {
-		  .    .    .    . 
-        }
-        
-		//initilizing the view
-        this.view.init(options);
-    }
-
-    render() {
-	    //rendering the template
-        return (
-            <AdvancedSearchHtml />
-        );
-    }
-
-    shouldComponentUpdate() {
-	    //EasyQuery view will render everything by itself - so we need to inform React that this component is not affected by the changes in state or props.
-        return false;
-    }
-}
 ```
+<script lang="ts">
+    import { Component, Vue } from 'vue-property-decorator';
+    import { EqViewOptions, AdvancedSearchView } from '@easyquery/ui';
+    import { Message } from '@easyquery/core';
+
+    @Component({})
+    export default class EasyQueryView extends Vue 
+	{
+        private view = new AdvancedSearchView();
+
+        private mounted() {
+            const options: EqViewOptions = {
+			   //setting some EasyQuery options here
+            };
+
+            this.view.init(options);
+        }
+    }
+</script>
+```
+
+If you used the [EasyQuery.vue file from our sample project](https://github.com/easyquery/AspNetCoreSamples/blob/master/EqVueDemo/ClientApp/src/views/EasyQuery.vue){target = _blank} on the previous step - then it already contains this initialization part.
 
 > **NB: Do not forget to add the import for enterprise functionality**
 > 
@@ -217,31 +187,31 @@ export class EasyQuery extends Component {
 >     
 > ```
 
-### 4. Wrap it up
+### 5. Wrap it up
 
-To make new component accessible you will also need to add a new item to the main `App` component (in `/ClientApp/src/App.js` module):
+To make new component accessible you will also need to add a new item to the `routes` array in `/ClientApp/src/router.ts` module:
 
 ```
-import React, { Component } from 'react';
-.   .   .   .   .   .   .
-import { EasyQuery } from './components/EasyQuery';
-
-export default class App extends Component {
-  static displayName = App.name;
-
-  render () {
-    return (
-      <Layout>
-        <Route exact path='/' component={Home} />
-		.   .   .   .   .   .   .
-        <Route path='/easy-query' component={EasyQuery} />
-      </Layout>
-    );
-  }
-}
+  routes: [
+	  .    .    .    .    .    .
+     {
+       path: '/easy-query',
+       name: 'easy-query',
+       component: () => import(/* webpackChunkName: "easy-query" */ './views/EasyQuery.vue'),
+     }
+  ],
+	.    .    .    .    .    .
 ```
 
+and add a link to the new page to a navigation menu (`items` array  in `src/App.vue` file):
+
+```
+  private items = [
+      .   .   .   .   .   .
+      { title: 'EasyQuery', icon: 'search', link: '/easy-query' },
+  ];
+  ```
 
 That's all. If everything was done right you will get something like the following in result:
 
-![eq-aspcore-react](/easyquery/docs/images/eq-aspcore-react.png "eq-aspcore-react")
+![eq-aspcore-vue](/easyquery/docs/images/eq-aspcore-vue.png "eq-aspcore-vue")

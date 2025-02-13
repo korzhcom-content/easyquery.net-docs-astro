@@ -1,6 +1,6 @@
 ---
 title: Simple query over one table
-slug: tutorials/query-over-one-table
+slug: tutorials/common-sql-queries/query-over-one-table
 ---
 
 

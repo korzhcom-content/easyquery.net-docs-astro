@@ -1,6 +1,6 @@
 ---
 title: Possible ways of data model creation and loading
-slug: tutorials/data-model-creation-loading
+slug: tutorials/version-3-x/data-model-creation-loading
 ---
 
 
