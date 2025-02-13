@@ -7,6 +7,13 @@
     ul:not(.top-level) {
         display: flex;
         flex-direction: column;
+
+        li:not(:has(> details)) {
+            order: 2;
+        }
+        li:has(> details) {
+            order: 1;
+        }
     }
     
     li:not(:has(> details)) {
