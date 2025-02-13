@@ -1,6 +1,6 @@
 ---
 title: Version 4.3.1 release notes
-slug: release-notes/version-4-3-1
+slug: release-notes/version-4-x/version-4-3-1
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: Version 4.0 release notes
-slug: release-notes/version-4.0
+slug: release-notes/version-4-x/version-4.0
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: Version 5.3 + EasyQuery.JS 6.0 release notes
-slug: release-notes/version-5-3
+slug: release-notes/version-5-x/version-5-3
 ---
 
 

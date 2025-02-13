@@ -1,6 +1,6 @@
 ---
 title: Version 3.10.0 release notes
-slug: release-notes/version-3.10.0
+slug: release-notes/version-3-x/version-3.10.0
 ---
 
 

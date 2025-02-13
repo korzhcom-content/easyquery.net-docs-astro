@@ -1,6 +1,6 @@
 ---
 title: Creating data model dynamically with code
-slug: how-to/create-data-model-dynamically-with-code
+slug: how-to/version-5-x/create-data-model-dynamically-with-code
 ---
 
 

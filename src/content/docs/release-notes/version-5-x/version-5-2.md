@@ -1,6 +1,6 @@
 ---
 title: Version 5.2 release notes
-slug: release-notes/version-5-2
+slug: release-notes/version-5-x/version-5-2
 ---
 
 

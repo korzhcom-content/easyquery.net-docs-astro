@@ -1,6 +1,6 @@
 ---
 title: Store queries in a database
-slug: how-to/store-queries-in-a-database
+slug: how-to/version-5-x/store-queries-in-a-database
 ---
 
 

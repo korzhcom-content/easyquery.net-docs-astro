@@ -1,6 +1,6 @@
 ---
 title: Building data model dynamically using code (version 3.x)
-slug: how-to/build-data-model-by-code
+slug: how-to/obsolete-tutorials/build-data-model-by-code
 ---
 
 

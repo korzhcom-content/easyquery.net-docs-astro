@@ -1,6 +1,6 @@
 ---
 title: Dynamically populate lists by information from other conditions — WebForms
-slug: how-to/dynamically-populating-list-webforms
+slug: how-to/obsolete-tutorials/dynamically-populating-list-webforms
 ---
 
 

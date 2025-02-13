@@ -1,6 +1,6 @@
 ---
 title: How to save/load queries to/from database
-slug: how-to/mvc-save-load-query-database
+slug: how-to/obsolete-tutorials/mvc-save-load-query-database
 ---
 
 

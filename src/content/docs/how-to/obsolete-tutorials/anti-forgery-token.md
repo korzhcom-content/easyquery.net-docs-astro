@@ -1,6 +1,6 @@
 ---
 title: Setting anti-forgery token for AJAX requests from EasyQuery widgets
-slug: how-to/anti-forgery-token
+slug: how-to/obsolete-tutorials/anti-forgery-token
 ---
 
 

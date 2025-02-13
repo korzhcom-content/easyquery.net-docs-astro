@@ -1,6 +1,6 @@
 ---
 title: Dynamic populating of value lists in WinForms or WPF editions
-slug: how-to/dynamic-populating-value-list-winforms-wpf
+slug: how-to/version-5-x/dynamic-populating-value-list-winforms-wpf
 ---
 
 

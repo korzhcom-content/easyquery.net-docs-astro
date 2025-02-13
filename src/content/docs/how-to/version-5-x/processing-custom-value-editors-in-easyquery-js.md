@@ -1,6 +1,6 @@
 ---
 title: Processing custom value editors in EasyQuery JS
-slug: how-to/processing-custom-value-editors-in-easyquery-js
+slug: how-to/version-5-x/processing-custom-value-editors-in-easyquery-js
 ---
 
 
