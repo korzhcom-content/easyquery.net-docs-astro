@@ -1,0 +1,13 @@
+---
+title: Custom DateTimePicker in QueryPanel
+slug: easyquery/docs/tutorials/custom-datetimepicker-in-querypanel
+---
+
+
+## Subtitle 1
+Some text about Custom DateTimePicker in QueryPanel
+
+## Subtitle 2
+Some list:
+ * Item 1
+ * Item 2

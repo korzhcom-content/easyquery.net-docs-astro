@@ -1,0 +1,17 @@
+---
+title: License class
+slug: easyquery/docs/api-reference-5x/korzh-easyquery-aspnetcore-namespace/license-class
+---
+
+
+Static class that allows you to set the license key for EasyQuery.
+```csharp
+public static class Korzh.EasyQuery.AspNetCore.License
+
+```
+
+### Static Properties
+
+| Type | Name | Description | 
+| --- | --- | --- | 
+| `String` | Key | Gets or sets the license key |

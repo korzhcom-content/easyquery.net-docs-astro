@@ -5,16 +5,18 @@ const root = args[0];
 
 const paths = [
     "./src/content/docs/getting-started/",
-    "./src/content/docs/api-reference/",
+    //"./src/content/docs/api-reference/",
 ]
 
 const sidebar = []
 
 for (let path of paths) {
     sidebar.push(...getSidebar(path));
-} 
-    
+}
+
 
 // const sidebar = getSidebar(root);
 //
-console.dir(sidebar, { depth: null });
+//console.dir(sidebar, { depth: null });
+
+console.log(JSON.stringify(sidebar, null, 2))
