@@ -58,7 +58,7 @@ export default defineConfig({
 		}),
 	],
 	markdown: {
-		//rehypePlugins: [[rehypeLinks, {base}]],
+		rehypePlugins: [[rehypeLinks, { base }]],
 		remarkPlugins: [updateFrontmatter]
 	}
 });
