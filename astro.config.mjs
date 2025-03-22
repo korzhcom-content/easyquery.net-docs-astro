@@ -21,6 +21,15 @@ export default defineConfig({
 		starlight({
 			title: 'EasyQuery.NET',
 			favicon: '/favicon.ico',
+			head: [
+				{
+					tag: 'script',
+					attrs: {
+						src: '/easyquery/docs/pagefind/pagefind.js',
+						async: true,
+					},
+				},
+			],
 			social: {
 				github: 'https://github.com/korzhcom-content/easyquery.net-docs-astro',
 				discord: 'https://discord.gg',
