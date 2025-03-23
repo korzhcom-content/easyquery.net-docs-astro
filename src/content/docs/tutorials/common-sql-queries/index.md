@@ -1,5 +1,0 @@
----
-title: Common SQL queries
----
-
-

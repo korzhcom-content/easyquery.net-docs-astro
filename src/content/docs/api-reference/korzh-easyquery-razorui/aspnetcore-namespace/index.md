@@ -1,5 +1,0 @@
----
-title: AspNetCore namespace
----
-
-

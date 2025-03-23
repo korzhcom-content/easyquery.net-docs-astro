@@ -1,5 +1,0 @@
----
-title: EasyData namespace
----
-
-

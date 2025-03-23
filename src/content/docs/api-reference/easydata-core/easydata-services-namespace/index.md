@@ -1,5 +1,0 @@
----
-title: EasyData.Services namespace
----
-
-
