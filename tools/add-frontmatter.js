@@ -27,7 +27,10 @@ export default function addFrontmatter(path) {
             if (slugIndex == -1) {
                 slugIndex = 2;
             }
-            content.splice(slugIndex, 1);
+            else {
+                content.splice(slugIndex, 1);
+            }
+
             if (name.startsWith('index.md')) {
                 // skip a file
                 continue
