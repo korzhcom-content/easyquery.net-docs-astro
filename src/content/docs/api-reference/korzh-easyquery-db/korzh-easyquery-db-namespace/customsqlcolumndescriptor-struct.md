@@ -3,7 +3,6 @@ title: CustomSqlColumnDescriptor struct
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/customsqlcolumndescriptor-struct
 ---
 
-
 Contains descriptor to create custom sql expression column
 ```csharp
 public struct Korzh.EasyQuery.Db.CustomSqlColumnDescriptor
@@ -27,7 +26,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | --- | --- | --- | 
 | AttrId | `string` | The attribute id. | 
 | Caption | `string` | The caption. | 
-| Expr | [EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | The expression | 
+| Expr | [EqExpression](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | The expression | 
 | FuncId | `string` | The aggregate function Id | 
-| Sorting | [SortDirection](/api-reference/korzh-easyquery/korzh-easyquery-namespace/sortdirection-enum) | The sort direction. | 
+| Sorting | [SortDirection](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/sortdirection-enum) | The sort direction. | 
 | Sql | `string` | The SQL |

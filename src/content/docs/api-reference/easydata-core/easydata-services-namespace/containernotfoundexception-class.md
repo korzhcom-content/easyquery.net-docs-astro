@@ -3,7 +3,6 @@ title: ContainerNotFoundException class
 slug: api-reference/easydata-core/easydata-services-namespace/containernotfoundexception-class
 ---
 
-
 ```csharp
 public class EasyData.Services.ContainerNotFoundException
     : EasyDataManagerException

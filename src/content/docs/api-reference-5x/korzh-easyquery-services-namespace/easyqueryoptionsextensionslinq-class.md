@@ -3,7 +3,6 @@ title: EasyQueryOptionsExtensionsLinq class
 slug: api-reference-5x/korzh-easyquery-services-namespace/easyqueryoptionsextensionslinq-class
 ---
 
-
 Contains several extension methods for EasyQueryOptions  which allow to tune up the EasyQuery manager and middleware  in case of using it for LINQ queries genereation
 ```csharp
 public static class Korzh.EasyQuery.Services.EasyQueryOptionsExtensionsLinq

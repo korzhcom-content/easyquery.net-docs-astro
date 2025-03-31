@@ -3,7 +3,6 @@ title: EntityAttrTypeLoader class
 slug: api-reference-4x/korzh-easyquery-linq-namespace/entityattrtypeloader-class
 ---
 
-
 Represents one entity attribute of data model.
 ```csharp
 public class Korzh.EasyQuery.Linq.EntityAttrTypeLoader

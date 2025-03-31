@@ -3,7 +3,6 @@ title: ODataStatement class
 slug: api-reference-4x/korzh-easyquery-namespace/odatastatement-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.ODataStatement
     : QueryBuilderResult

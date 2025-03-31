@@ -3,7 +3,6 @@ title: MetaDataException class
 slug: api-reference/easydata-core/easydata-namespace/metadataexception-class
 ---
 
-
 ```csharp
 public class EasyData.MetaDataException
     : Exception

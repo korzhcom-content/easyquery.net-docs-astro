@@ -3,7 +3,6 @@ title: SimpleCondExprList class
 slug: api-reference-4x/korzh-easyquery-namespace/simplecondexprlist-class
 ---
 
-
 Represents list of expression for SimpleCondition object
 ```csharp
 public class Korzh.EasyQuery.SimpleCondExprList

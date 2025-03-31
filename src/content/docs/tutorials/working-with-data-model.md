@@ -1,10 +1,9 @@
 ---
 title: Working with data models in EasyQuery
-slug: getting-started/working-with-data-model
+slug: tutorials/working-with-data-model
 ---
 
-
-[Data model](//$aid/03bc06b0-83ec-4040-97ef-a50ca004177f) - is a core part of any project that uses EasyQuery framework. It is a user-friendly representation of your database structure that is used by different EasyQuery components to show available entities, their attributes, conditional operators and the lists of available values during the query building process. 
+[Data model](//easyquery/docs/fundamentals/data-model) - is a core part of any project that uses EasyQuery framework. It is a user-friendly representation of your database structure that is used by different EasyQuery components to show available entities, their attributes, conditional operators and the lists of available values during the query building process. 
 
 Before starting to add EasyQuery visual controls/widgets to your application - you will need to choose the way you create and fill the data model in your application. 
 
@@ -16,7 +15,7 @@ There are several different options available:
 
 3. An option for LINQ query builders only: you can load data model either from some context class or from a separate model class (especially for [data filtering scenarios](https://korzh.com/demo/easyquery-asp-net-core-razor/data-filtering))
 
-5. Finally, you can create your data model "manually" using [Data Model Editor](//$aid/a6e6f1b7-2bbd-41f2-856e-2106351fb8b8) utility and save it to XML or JSON file. That file can be loaded on application's start.
+5. Finally, you can create your data model "manually" using [Data Model Editor](//easyquery/docs/data-model-editor/about) utility and save it to XML or JSON file. That file can be loaded on application's start.
 
 Below we will discuss all these options more in detail.
 
@@ -244,13 +243,13 @@ For Windows 10 just press Windows button on your keyboard and start to type “D
   - Test your database connection using “Test connection” button.
   - Press OK to finish model creating
 
-![Data Model Editor - new model](/easyquery/docs/images/dme-newmodel.png)
+![Data Model Editor - new model](https://files.aistant.com/korzh/easyquery-dotnet/images/dme-newmodel.png)
 
 ### 4.3 Fill the list of tables
 
 After pressing OK and closing the previous dialog you will be asked to add database tables into your model. Click “Yes” to agree and the Select Tables dialog will appear. 
 
-![Data Model Editor - fill tables list](/easyquery/docs/images/dme-addtables01.png)
+![Data Model Editor - fill tables list](https://files.aistant.com/korzh/easyquery-dotnet/images/dme-addtables01.png)
 
 Select the tables you want to add into your model (select all of them if you don't have any limitations) and press OK to add them.
 
@@ -262,7 +261,7 @@ DME will offer you to add the links automatically using information about foreig
 
 That's all. The initial setup has been finished. Use “Model | Save..” menu item to save your model into an XML file or JSON file. 
 
-![Data Model Editor - save model](/easyquery/docs/images/dme-savemodel.png)
+![Data Model Editor - save model](https://files.aistant.com/korzh/easyquery-dotnet/images/dme-savemodel.png)
 
 
 ### 4.6 Add the code that loads the model file in your app
@@ -310,4 +309,4 @@ options.UseModelLoader(services => new CustomModelLoader());
 ## 6. Using EasyQuery API to fill a data model object
 
 Finally, you can build your data model object dynamically using the structures, classes and functions provided by EasyQuery API. Here is an artcile that describes how to do it: 
-[$$-Creating data model dynamically with code-$$](//$aid/eqdn-9u2hi1s81942)
+[Creating data model dynamically with code](//easyquery/docs/how-to/create-data-model-dynamically-with-code)

@@ -3,7 +3,6 @@ title: EntityDlgType enum
 slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/entitydlgtype-enum
 ---
 
-
 Represents the type of the dialog
 ```csharp
 public enum Korzh.EasyQuery.WinForms.ModelEditor.EntityDlgType

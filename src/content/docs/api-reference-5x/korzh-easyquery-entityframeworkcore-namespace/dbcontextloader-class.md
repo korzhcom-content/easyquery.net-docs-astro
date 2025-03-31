@@ -3,7 +3,6 @@ title: DbContextLoader class
 slug: api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloader-class
 ---
 
-
 Represents a model loader that takes all necessary information from some DbContext object
 ```csharp
 public class Korzh.EasyQuery.EntityFrameworkCore.DbContextLoader

@@ -3,7 +3,6 @@ title: Hide some entities and/or attributes
 slug: how-to/hide-entities-and-attributes
 ---
 
-
 ## Problem
 Sometimes we need to hide certain entities and/or attributes from data model (for example for security reasons). There are several ways to limit the quantity of entities and attributes shown in Data Model, and here we explain how to implement it.
 

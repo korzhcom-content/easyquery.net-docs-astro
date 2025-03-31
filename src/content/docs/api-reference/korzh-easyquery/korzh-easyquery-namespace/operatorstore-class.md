@@ -3,7 +3,6 @@ title: OperatorStore class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/operatorstore-class
 ---
 
-
 This class represents the list of operators associated with a particular DataModel
 ```csharp
 public class Korzh.EasyQuery.OperatorStore
@@ -18,7 +17,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| OperatorStore([DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` | Initializes a new instance of the [Korzh.EasyQuery.OperatorStore](/api-reference/korzh-easyquery/korzh-easyquery-namespace/operatorstore-class) class. | 
+| OperatorStore([DataModel](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` | Initializes a new instance of the [Korzh.EasyQuery.OperatorStore](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/operatorstore-class) class. | 
 
 
 ### Methods

@@ -3,7 +3,6 @@ title: ModelFormatIndex enum
 slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/modelformatindex-enum
 ---
 
-
 ```csharp
 public enum Korzh.EasyQuery.WinForms.ModelEditor.ModelFormatIndex
     : Enum

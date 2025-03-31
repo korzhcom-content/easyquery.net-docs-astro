@@ -3,8 +3,7 @@ title: CustomValueListResolver class
 slug: api-reference-5x/korzh-easyquery-services-namespace/customvaluelistresolver-class
 ---
 
-
-Class CustomValueListResolver.  Implements the [Korzh.EasyQuery.Services.IValueListResolver](/api-reference-5x/korzh-easyquery-services-namespace/ivaluelistresolver-interface)
+Class CustomValueListResolver.  Implements the [Korzh.EasyQuery.Services.IValueListResolver](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ivaluelistresolver-interface)
 ```csharp
 public class Korzh.EasyQuery.Services.CustomValueListResolver
     : IValueListResolver

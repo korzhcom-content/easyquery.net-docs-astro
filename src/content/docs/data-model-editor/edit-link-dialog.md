@@ -3,7 +3,6 @@ title: Edit link dialog
 slug: data-model-editor/edit-link-dialog
 ---
 
-
 In this dialog, you can define the following properties for some link between tables:
 
 * **Table1** and **Table2** combo box - can be used to choose the linked tables.

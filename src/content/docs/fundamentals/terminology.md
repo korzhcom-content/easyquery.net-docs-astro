@@ -3,7 +3,6 @@ title: Terminology
 slug: fundamentals/terminology
 ---
 
-
 ## Common terms
 
 * **Database** - may refer to any data storage but in most cases we mean some relational database such as MS SQL Server, My SQL, Oracle, etc.

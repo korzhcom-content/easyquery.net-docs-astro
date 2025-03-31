@@ -3,7 +3,6 @@ title: ConditionsStore class
 slug: api-reference-4x/korzh-easyquery-namespace/conditionsstore-class
 ---
 
-
 Represents storage of conditions linked to some Query object
 ```csharp
 public class Korzh.EasyQuery.ConditionsStore

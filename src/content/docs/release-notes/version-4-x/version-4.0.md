@@ -3,7 +3,6 @@ title: Version 4.0 release notes
 slug: release-notes/version-4-x/version-4.0
 ---
 
-
 Version 4.0 of EasyQuery includes a lot of changes. Here is the list of the most significant ones.
  
 ## 1. Support for .NET Core 

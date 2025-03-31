@@ -3,7 +3,6 @@ title: IQueryBuilder interface
 slug: api-reference-5x/korzh-easyquery-namespace/iquerybuilder-interface
 ---
 
-
 Interface IQueryBuilder - represents general-purpose query builder
 ```csharp
 public interface Korzh.EasyQuery.IQueryBuilder

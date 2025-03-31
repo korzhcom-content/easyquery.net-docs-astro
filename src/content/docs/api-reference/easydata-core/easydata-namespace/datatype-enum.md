@@ -3,7 +3,6 @@ title: DataType enum
 slug: api-reference/easydata-core/easydata-namespace/datatype-enum
 ---
 
-
 Represents the common types of the data.
 ```csharp
 public enum EasyData.DataType

@@ -3,7 +3,6 @@ title: DbUtils class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dbutils-class
 ---
 
-
 Different utilties for database-oriented operations  For internal use only
 ```csharp
 public static class Korzh.EasyQuery.Db.DbUtils

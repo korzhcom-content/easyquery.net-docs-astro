@@ -3,7 +3,6 @@ title: MetaEntityAttrList class
 slug: api-reference/easydata-core/easydata-namespace/metaentityattrlist-class
 ---
 
-
 Represents list of entity attributes
 ```csharp
 public class EasyData.MetaEntityAttrList

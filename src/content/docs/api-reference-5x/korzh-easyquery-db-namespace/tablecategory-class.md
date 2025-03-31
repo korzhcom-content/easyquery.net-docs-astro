@@ -3,7 +3,6 @@ title: TableCategory class
 slug: api-reference-5x/korzh-easyquery-db-namespace/tablecategory-class
 ---
 
-
 Represents a category of tables
 ```csharp
 public class Korzh.EasyQuery.Db.TableCategory

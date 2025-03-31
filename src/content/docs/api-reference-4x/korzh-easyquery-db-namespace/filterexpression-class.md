@@ -3,7 +3,6 @@ title: FilterExpression class
 slug: api-reference-4x/korzh-easyquery-db-namespace/filterexpression-class
 ---
 
-
 Represents the result of performing BuildSQL command.
 ```csharp
 public class Korzh.EasyQuery.Db.FilterExpression
@@ -15,9 +14,9 @@ public class Korzh.EasyQuery.Db.FilterExpression
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `SqlExtraClauses` | ExtraClauses | Gets the [Korzh.EasyQuery.Db.SqlExtraClauses](/api-reference-4x/korzh-easyquery-db-namespace/sqlextraclauses-class) object which defines some extra clauses of generated query. | 
+| `SqlExtraClauses` | ExtraClauses | Gets the [Korzh.EasyQuery.Db.SqlExtraClauses](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/sqlextraclauses-class) object which defines some extra clauses of generated query. | 
 | `String` | FilterExpr | Gets the filter expression. | 
-| `DbQueryFormats` | Formats | Gets the [Korzh.EasyQuery.Db.DbQueryFormats](/api-reference-4x/korzh-easyquery-db-namespace/dbqueryformats-class) object in the parent query. | 
+| `DbQueryFormats` | Formats | Gets the [Korzh.EasyQuery.Db.DbQueryFormats](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbqueryformats-class) object in the parent query. | 
 
 
 ### Methods

@@ -3,7 +3,6 @@ title: Processing custom value editors in EasyQuery JS
 slug: how-to/version-5-x/processing-custom-value-editors-in-easyquery-js
 ---
 
-
 ## 1. Value editor setup
 
 First, of you will need to assign a custom (user-defined) value editor for some attribute or operator in your data model.

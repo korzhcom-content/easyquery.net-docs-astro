@@ -3,8 +3,7 @@ title: ISqlExpression interface
 slug: api-reference-4x/korzh-easyquery-db-namespace/isqlexpression-interface
 ---
 
-
-Used for expressions in [Korzh.EasyQuery.Db.DbQuery](/api-reference-4x/korzh-easyquery-db-namespace/dbquery-class)
+Used for expressions in [Korzh.EasyQuery.Db.DbQuery](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbquery-class)
 ```csharp
 public interface Korzh.EasyQuery.Db.ISqlExpression
     : IDbCondition

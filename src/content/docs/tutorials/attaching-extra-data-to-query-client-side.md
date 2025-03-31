@@ -1,8 +1,7 @@
 ---
-title: Attaching extra data to a query on the client-side
+title: Attaching extra data to a query on the client-side 
 slug: tutorials/attaching-extra-data-to-query-client-side
 ---
-
 
 ## Problem
 

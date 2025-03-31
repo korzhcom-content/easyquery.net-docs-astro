@@ -3,8 +3,7 @@ title: EntityTypeModelLoaderOptions class
 slug: api-reference/korzh-easyquery-linq/korzh-easyquery-services-namespace/entitytypemodelloaderoptions-class
 ---
 
-
-Represents different options for [Korzh.EasyQuery.Services.EntityTypeModelLoader`1](/api-reference/korzh-easyquery-linq/korzh-easyquery-services-namespace/entitytypemodelloader-t--class) class
+Represents different options for [Korzh.EasyQuery.Services.EntityTypeModelLoader`1](//easyquery/docs/api-reference/korzh-easyquery-linq/korzh-easyquery-services-namespace/entitytypemodelloader-t--class) class
 ```csharp
 public class Korzh.EasyQuery.Services.EntityTypeModelLoaderOptions
 

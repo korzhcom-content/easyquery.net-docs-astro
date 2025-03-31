@@ -3,7 +3,6 @@ title: Version 3.4.0 release notes
 slug: release-notes/version-3-x/version-3.4.0
 ---
 
-
 Version 3.4 of EasyQuery ASP.NET contains several changes in JavaScript widgets and EasyQuery controller.
 
 Here are the essential ones:

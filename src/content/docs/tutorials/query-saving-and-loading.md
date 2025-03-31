@@ -3,7 +3,6 @@ title: Query saving and loading
 slug: tutorials/query-saving-and-loading
 ---
 
-
 ## Overview
 
 EasyQuery includes several different way of saving and loading the queries. Since the begining you can save your query in XML format using such methods of the `Query` class like `SaveToXmlString()`, `SaveToXmlStream()` or `SaveToXmlFile()`. In version 5.0 we inroduced an possibility to use JSON as alternative format for query storage as more compact and convenient. Moreover, JSON storage functional are asynchronous from the beginning: `SaveToJsonStringAsync()`, `SaveToJsonFileAsync()`, etc. 

@@ -3,7 +3,6 @@ title: MacButton.MState enum
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-mstate-enum
 ---
 
-
 Represents the possible states of the button.
 ```csharp
 public enum Korzh.EasyQuery.WinForms.MacButton.MState

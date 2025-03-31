@@ -3,7 +3,6 @@ title: IEqResultSet interface
 slug: api-reference-4x/korzh-easyquery-services-namespace/ieqresultset-interface
 ---
 
-
 ```csharp
 public interface Korzh.EasyQuery.Services.IEqResultSet
     : IDictionary<String, Object>, ICollection<KeyValuePair<String, Object>>, IEnumerable<KeyValuePair<String, Object>>, IEnumerable

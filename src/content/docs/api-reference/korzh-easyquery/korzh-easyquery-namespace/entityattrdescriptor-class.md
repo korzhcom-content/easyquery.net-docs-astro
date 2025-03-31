@@ -3,7 +3,6 @@ title: EntityAttrDescriptor class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattrdescriptor-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.EntityAttrDescriptor
     : MetaEntityAttrDescriptor
@@ -17,9 +16,9 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EntityAttrDescriptor([Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent) | `void` |  | 
-| EntityAttrDescriptor([Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `string` expr) | `void` |  | 
-| EntityAttrDescriptor([Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, [EntityAttrKind](/api-reference/easydata-core/easydata-namespace/entityattrkind-enum) kind, `string` expr = ) | `void` |  | 
+| EntityAttrDescriptor([Entity](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent) | `void` |  | 
+| EntityAttrDescriptor([Entity](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `string` expr) | `void` |  | 
+| EntityAttrDescriptor([Entity](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, [EntityAttrKind](//easyquery/docs/api-reference/easydata-core/easydata-namespace/entityattrkind-enum) kind, `string` expr = ) | `void` |  | 
 
 
 ### Properties

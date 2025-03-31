@@ -3,7 +3,6 @@ title: Value Editors
 slug: data-model-editor/value-editors
 ---
 
-
 Here you can find the full list of editors and choose any you need in your work with Data Model: 
 
 * **Auto**: means that the most appropriate value editor will be used depending on entity attribute's data type and operator which applied in a condition. For example for date attribute - DataTime Picker control will be shown, for boolean one - the user will get an ability to select the value from the list of two items: False and True.

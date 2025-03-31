@@ -3,7 +3,6 @@ title: SpecialDateTime enum
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/specialdatetime-enum
 ---
 
-
 Represents some predefined "special" date/time values
 ```csharp
 public enum Korzh.EasyQuery.SpecialDateTime

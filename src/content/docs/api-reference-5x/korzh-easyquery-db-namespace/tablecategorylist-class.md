@@ -3,7 +3,6 @@ title: TableCategoryList class
 slug: api-reference-5x/korzh-easyquery-db-namespace/tablecategorylist-class
 ---
 
-
 Represents a list of table categories
 ```csharp
 public class Korzh.EasyQuery.Db.TableCategoryList

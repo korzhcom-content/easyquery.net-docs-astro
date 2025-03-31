@@ -3,7 +3,6 @@ title: RootEntity class
 slug: api-reference-5x/korzh-easyquery-namespace/rootentity-class
 ---
 
-
 Represents root entity in the model
 ```csharp
 public class Korzh.EasyQuery.RootEntity

@@ -3,7 +3,6 @@ title: TableXmlSerializer<T> class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablexmlserializer-t--class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.Db.TableXmlSerializer<T>
     : XmlSerializer<T>
@@ -17,7 +16,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TableXmlSerializer([XmlSerializerFactory](/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| TableXmlSerializer([XmlSerializerFactory](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods

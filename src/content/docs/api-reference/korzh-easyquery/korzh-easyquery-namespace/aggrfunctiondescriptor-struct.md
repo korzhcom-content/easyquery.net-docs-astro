@@ -3,7 +3,6 @@ title: AggrFunctionDescriptor struct
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/aggrfunctiondescriptor-struct
 ---
 
-
 Defines a structure that "describes" an aggregate function
 ```csharp
 public struct Korzh.EasyQuery.AggrFunctionDescriptor

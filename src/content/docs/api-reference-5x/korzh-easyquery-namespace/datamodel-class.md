@@ -3,7 +3,6 @@ title: DataModel class
 slug: api-reference-5x/korzh-easyquery-namespace/datamodel-class
 ---
 
-
 Represents a data model
 ```csharp
 public class Korzh.EasyQuery.DataModel
@@ -26,7 +25,7 @@ public class Korzh.EasyQuery.DataModel
 | `String` | filePath | Represents model file location, if model is loaded from file | 
 | `Int32` | formatVersionXml | Format version of data model definition XML files | 
 | `MacroList` | Macros | List of macro values | 
-| `Boolean` | useResourcesForOperators | Indicates whether resources will be used for getting caption and format of the [Korzh.EasyQuery.Operator](/api-reference-5x/korzh-easyquery-namespace/operator-class) | 
+| `Boolean` | useResourcesForOperators | Indicates whether resources will be used for getting caption and format of the [Korzh.EasyQuery.Operator](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/operator-class) | 
 
 
 ### Properties
@@ -114,7 +113,7 @@ public class Korzh.EasyQuery.DataModel
 | `void` | LoadFromXmlStream(`Stream` stream, `ModelReadWriteOptions` options = All) | Loads data model from XML stream. | 
 | `void` | LoadFromXmlString(`String` xml, `ModelReadWriteOptions` options = All) | Loads data model from XML string. | 
 | `void` | LoadModelAtrributesFromXmlReader(`XmlReader` reader) | Loads data model's attributes from the main XML node (DataModel) | 
-| `void` | LoadNode(`XmlReader` reader, `ModelReadWriteOptions` rwOptions) | Loads the root node of the model. Can be overriden for loading additional root nodes in [Korzh.EasyQuery.DataModel](/api-reference-5x/korzh-easyquery-namespace/datamodel-class)'s descendants | 
+| `void` | LoadNode(`XmlReader` reader, `ModelReadWriteOptions` rwOptions) | Loads the root node of the model. Can be overriden for loading additional root nodes in [Korzh.EasyQuery.DataModel](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/datamodel-class)'s descendants | 
 | `void` | LoadOneModelAtrributeFromXmlReader(`XmlReader` reader) | Processes one data model's attribute from the main XML node (DataModel) | 
 | `String` | LoadValueEditorNode(`ValueEditor` editor, `XmlReader` reader) | Loads the value editor definition from XML. | 
 | `void` | OnAggrFuncListChanged() | Raises the `AggrFuncListChanged` event. | 
@@ -127,7 +126,7 @@ public class Korzh.EasyQuery.DataModel
 | `void` | ReadOneModelPropFromJson(`JsonReader` reader, `String` propName) | Reads one model property from JSON. | 
 | `Task` | ReadOneModelPropFromJsonAsync(`JsonReader` reader, `String` propName) | Reads one model property from JSON (asynchronous way). | 
 | `void` | RefillAggrFunctionList() | Refills the list of aggregate functions. | 
-| `void` | RefreshResources() | Re-loads the string values from [Korzh.EasyQuery.DataModel.Texts](/api-reference-5x/korzh-easyquery-namespace/datamodel-class) list. | 
+| `void` | RefreshResources() | Re-loads the string values from [Korzh.EasyQuery.DataModel.Texts](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/datamodel-class) list. | 
 | `void` | SaveAttributes(`XmlWriter` writer, `ModelReadWriteOptions` options) | Saves the attributes of the model. Can be overriden for storing additional attributes | 
 | `void` | SaveCustomInfoNode(`XmlWriter` writer) | Saves the custom info node. | 
 | `void` | SaveNodes(`XmlWriter` writer, `ModelReadWriteOptions` options) | Saves the root nodes of the model. Can be overriden for storing additional nodes | 
@@ -146,7 +145,7 @@ public class Korzh.EasyQuery.DataModel
 | `void` | SetProgress(`Int32` pos) | Set the progress to the specified position. | 
 | `void` | SetProgressMinMax(`Int32` min, `Int32` max) | Sets the minimum and maximum of progress indicator. | 
 | `void` | SortEntities() | Sorts all entities and their attributes alphabetically. | 
-| `void` | SortEntityContent(`Entity` entity) | Sorts the content of one entity alphabetically.  This function is called by [Korzh.EasyQuery.DataModel.SortEntities](/api-reference-5x/korzh-easyquery-namespace/datamodel-class) method | 
+| `void` | SortEntityContent(`Entity` entity) | Sorts the content of one entity alphabetically.  This function is called by [Korzh.EasyQuery.DataModel.SortEntities](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/datamodel-class) method | 
 | `String` | ToNewMacrosFormat(`String` value) |  | 
 | `String` | ToOldMacrosFormat(`String` value) |  | 
 | `void` | UpdateOperatorsTexts() | Loads the text for all default operators from resources. | 

@@ -3,7 +3,6 @@ title: ChangeType enum
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/changetype-enum
 ---
 
-
 Represents type of change that occured
 ```csharp
 public enum Korzh.EasyQuery.ChangeType

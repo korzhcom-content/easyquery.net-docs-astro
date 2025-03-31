@@ -3,8 +3,7 @@ title: EqSessionCachingService class
 slug: api-reference-5x/korzh-easyquery-services-namespace/eqsessioncachingservice-class
 ---
 
-
-Represents an implemenation of [Korzh.EasyQuery.Services.IEqCachingService](/api-reference-5x/korzh-easyquery-services-namespace/ieqcachingservice-interface)  which uses Session for storing cached objects.
+Represents an implemenation of [Korzh.EasyQuery.Services.IEqCachingService](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ieqcachingservice-interface)  which uses Session for storing cached objects.
 ```csharp
 public class Korzh.EasyQuery.Services.EqSessionCachingService
     : IEqCachingService

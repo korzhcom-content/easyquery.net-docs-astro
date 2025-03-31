@@ -3,7 +3,6 @@ title: License class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/license-class
 ---
 
-
 ```csharp
 public static class Korzh.EasyQuery.License
 

@@ -3,7 +3,6 @@ title: Pages_EasyQuery_AdvancedSearch class
 slug: api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_advancedsearch-class
 ---
 
-
 ```csharp
 public class AspNetCore.Pages_EasyQuery_AdvancedSearch
     : Page
@@ -25,12 +24,12 @@ Assembly: `Korzh.EasyQuery.RazorUi.Views.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Component | `IViewComponentHelper` |  | 
-| Html | `IHtmlHelper`&lt;[Pages_EasyQuery_AdvancedSearch](/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_advancedsearch-class)&gt; |  | 
+| Html | `IHtmlHelper`&lt;[Pages_EasyQuery_AdvancedSearch](//easyquery/docs/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_advancedsearch-class)&gt; |  | 
 | Json | `IJsonHelper` |  | 
-| Model | [Pages_EasyQuery_AdvancedSearch](/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_advancedsearch-class) |  | 
+| Model | [Pages_EasyQuery_AdvancedSearch](//easyquery/docs/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_advancedsearch-class) |  | 
 | ModelExpressionProvider | `IModelExpressionProvider` |  | 
 | Url | `IUrlHelper` |  | 
-| ViewData | `ViewDataDictionary`&lt;[Pages_EasyQuery_AdvancedSearch](/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_advancedsearch-class)&gt; |  | 
+| ViewData | `ViewDataDictionary`&lt;[Pages_EasyQuery_AdvancedSearch](//easyquery/docs/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_advancedsearch-class)&gt; |  | 
 
 
 ### Methods

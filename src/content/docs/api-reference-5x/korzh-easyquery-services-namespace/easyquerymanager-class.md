@@ -3,7 +3,6 @@ title: EasyQueryManager class
 slug: api-reference-5x/korzh-easyquery-services-namespace/easyquerymanager-class
 ---
 
-
 Provides basic functionality for managing different EasyQuery operations and to process the AJAX requests from EasyQuery JavaScript widgets.  This class is abstract and it implements only the most common features.  The descendants of this class provides more concrete implementation of the model loading and query generation
 ```csharp
 public abstract class Korzh.EasyQuery.Services.EasyQueryManager
@@ -27,7 +26,7 @@ public abstract class Korzh.EasyQuery.Services.EasyQueryManager
 | `JObject` | ClientOptions | Gets a JSON object which contains all the options received from the client-side. | 
 | `String` | DefaultModelId | Gets or sets the default name of the model.  This model will loaded automatically if the name was not indicated explicitly | 
 | `DataModel` | Model | Gets the current model.  The value of this property is set on the first call of GetModel method. | 
-| `IModelLoader` | ModelLoader | Gets or sets the model loader - an implementation of [Korzh.EasyQuery.Services.IModelLoader](/api-reference-5x/korzh-easyquery-services-namespace/imodelloader-interface) inteface. | 
+| `IModelLoader` | ModelLoader | Gets or sets the model loader - an implementation of [Korzh.EasyQuery.Services.IModelLoader](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/imodelloader-interface) inteface. | 
 | `Action<DataModel>` | ModelTuner | Gets or sets the model tuner - a function which allows you to make some changes in the model after its loading. | 
 | `PagingSettings` | Paging | Holds different pagination settings. | 
 | `Query` | Query | Gets the current query.  The value of this property is set on the first call of GetQuery method. | 
@@ -68,7 +67,7 @@ public abstract class Korzh.EasyQuery.Services.EasyQueryManager
 | `IQueryBuilder` | GetQueryBuilderCore(`Query` query, `JObject` options) |  | 
 | `Task<Query>` | GetQueryCoreAsync(`String` modelId, `String` queryId) | The basic implementation of the GetQuery action which can be overidden in the derived classes. | 
 | `Task<IEnumerable<QueryListItem>>` | GetQueryListAsync(`String` modelId) | Gets the list of available queries. | 
-| `Task<IEnumerable<QueryListItem>>` | GetQueryListCoreAsync(`String` modelId) | Basic implementation of [Korzh.EasyQuery.Services.EasyQueryManager.GetQueryList(System.String)](/api-reference-5x/korzh-easyquery-services-namespace/easyquerymanager-class) method.  This method just calls corresponding function of the QueryStore. Can be overriden in derived classes. | 
+| `Task<IEnumerable<QueryListItem>>` | GetQueryListCoreAsync(`String` modelId) | Basic implementation of [Korzh.EasyQuery.Services.EasyQueryManager.GetQueryList(System.String)](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/easyquerymanager-class) method.  This method just calls corresponding function of the QueryStore. Can be overriden in derived classes. | 
 | `String` | GetValueFromCache(`String` key) | Gets some string value from session by its key. | 
 | `Task<IEnumerable<ListItem>>` | GetValueListAsync(`String` modelId, `String` editorId) | Returns custom list of values by editorId. This method is usually called by GetList action of EasyQueryController. | 
 | `Task` | InitQueryAsync() | Initializes the new query and saves it to the storage (if SaveNewQueryToStore is turned on). | 

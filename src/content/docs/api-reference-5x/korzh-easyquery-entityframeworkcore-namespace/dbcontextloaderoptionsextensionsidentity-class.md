@@ -3,8 +3,7 @@ title: DbContextLoaderOptionsExtensionsIdentity class
 slug: api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloaderoptionsextensionsidentity-class
 ---
 
-
-Contains extension methods for [Korzh.EasyQuery.EntityFrameworkCore.DbContextLoaderOptions](/api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloaderoptions-class)
+Contains extension methods for [Korzh.EasyQuery.EntityFrameworkCore.DbContextLoaderOptions](//easyquery/docs/api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloaderoptions-class)
 ```csharp
 public static class Korzh.EasyQuery.EntityFrameworkCore.DbContextLoaderOptionsExtensionsIdentity
 

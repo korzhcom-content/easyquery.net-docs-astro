@@ -3,7 +3,6 @@ title: OperatorGroupKind enum
 slug: api-reference-5x/korzh-easyquery-namespace/operatorgroupkind-enum
 ---
 
-
 Represents different groups of operators
 ```csharp
 public enum Korzh.EasyQuery.OperatorGroupKind

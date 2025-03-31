@@ -3,7 +3,6 @@ title: EasyQuery ASP.NET - using jQuery widgets in a WebForms project
 slug: getting-started/version-3-x/sample-webforms-javascript-webservice
 ---
 
-
 While we have native WebForms controls which can be used in your project, sometimes it's more convenient to use our jQuery widgets even in WebForms project and set up a kind of “controller” for them on server-side using web-service. 
 
 ## 1. Create data model

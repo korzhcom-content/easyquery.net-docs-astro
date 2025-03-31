@@ -3,7 +3,6 @@ title: SqlClientGate class
 slug: api-reference/korzh-easyquery-sqlservergate/korzh-easyquery-dbgates-namespace/sqlclientgate-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.DbGates.SqlClientGate
     : SqlServerGate

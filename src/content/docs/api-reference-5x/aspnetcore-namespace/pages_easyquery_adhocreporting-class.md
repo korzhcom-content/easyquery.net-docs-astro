@@ -3,7 +3,6 @@ title: Pages_EasyQuery_AdHocReporting class
 slug: api-reference-5x/aspnetcore-namespace/pages_easyquery_adhocreporting-class
 ---
 
-
 ```csharp
 public class AspNetCore.Pages_EasyQuery_AdHocReporting
     : Page, IRazorPage

@@ -3,7 +3,6 @@ title: EntityAttrList class
 slug: api-reference-4x/korzh-easyquery-namespace/entityattrlist-class
 ---
 
-
 Represents list of entity attributes
 ```csharp
 public class Korzh.EasyQuery.EntityAttrList

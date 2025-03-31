@@ -3,8 +3,7 @@ title: SortingButton class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/sortingbutton-class
 ---
 
-
-Represents a button used for [Korzh.EasyQuery.Wpf.SimpleSortingRow](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simplesortingrow-class)
+Represents a button used for [Korzh.EasyQuery.Wpf.SimpleSortingRow](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simplesortingrow-class)
 ```csharp
 public class Korzh.EasyQuery.Wpf.SortingButton
     : XElement
@@ -18,7 +17,7 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SortingButton([QueryColumn](/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SortingButton](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/sortingbutton-class) class. | 
+| SortingButton([QueryColumn](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SortingButton](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/sortingbutton-class) class. | 
 
 
 ### Methods

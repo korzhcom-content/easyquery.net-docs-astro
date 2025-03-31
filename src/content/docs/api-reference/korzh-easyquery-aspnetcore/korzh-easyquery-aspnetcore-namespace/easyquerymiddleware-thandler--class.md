@@ -3,7 +3,6 @@ title: EasyQueryMiddleware<THandler> class
 slug: api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/easyquerymiddleware-thandler--class
 ---
 
-
 Represents the middleware which processes all requests from EasyQuery client-side widgets
 ```csharp
 public class Korzh.EasyQuery.AspNetCore.EasyQueryMiddleware<THandler>
@@ -17,7 +16,7 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EasyQueryMiddleware(`RequestDelegate` next, [EasyQueryOptions](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class) options) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EasyQueryMiddleware](/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/easyquerymiddleware-class) class. | 
+| EasyQueryMiddleware(`RequestDelegate` next, [EasyQueryOptions](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class) options) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EasyQueryMiddleware](//easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/easyquerymiddleware-class) class. | 
 
 
 ### Methods

@@ -3,7 +3,6 @@ title: QueryFormats class
 slug: api-reference-4x/korzh-easyquery-namespace/queryformats-class
 ---
 
-
 Represents different formats of statements.
 ```csharp
 public class Korzh.EasyQuery.QueryFormats
@@ -56,7 +55,7 @@ public class Korzh.EasyQuery.QueryFormats
 | `Boolean` | IsQuotedType(`DataType` type) | Determines whether the specified type must be quoted. | 
 | `void` | LoadFromJsonDict(`JsonDict` dict) | Loads QueryFormats from the IDictionary&lt;string, object&gt; object.  Used for deserialization from JSON | 
 | `void` | LoadFromXmlReader(`XmlReader` reader) | Loads formats from XML reader. | 
-| `void` | LoadNode(`String` nodeName, `String` nodeValue) | Loads the root node of the [Korzh.EasyQuery.QueryFormats](/api-reference-4x/korzh-easyquery-namespace/queryformats-class) object. | 
+| `void` | LoadNode(`String` nodeName, `String` nodeValue) | Loads the root node of the [Korzh.EasyQuery.QueryFormats](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/queryformats-class) object. | 
 | `void` | SaveNodes(`XmlWriter` writer) | Saves the root nodes of the formats. | 
 | `void` | SaveToJsonDict(`JsonDict` dict) | Saves QueryFormats to IDictionary&lt;string, object&gt; object.  Used for serialization to JSON | 
 | `void` | SaveToXmlWriter(`XmlWriter` writer, `String` rootNodeName) | Saves formats to XML writer. |

@@ -3,7 +3,6 @@ title: ConditionTag enum
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/conditiontag-enum
 ---
 
-
 Represents a type of condition.  Current we have 2 possible types: a simple condition or a a group of conditions
 ```csharp
 public enum Korzh.EasyQuery.ConditionTag

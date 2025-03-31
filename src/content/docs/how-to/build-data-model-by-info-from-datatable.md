@@ -3,7 +3,6 @@ title: Building data model dynamically by information from a DataTable
 slug: how-to/build-data-model-by-info-from-datatable
 ---
 
-
 `DataModel` class has a special method `FillByDataTable()` which you can use to add a table, an entity and its attributes into your data model by some `DataTable` object. You can call it several times to add more tables and entities. After that, you will possibly need to add links between tables.
 
 Here is an example which adds into data model all default operators, two tables (Customers and Orders), corresponding entities and a link between those tables: 

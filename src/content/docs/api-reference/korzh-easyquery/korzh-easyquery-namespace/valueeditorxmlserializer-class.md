@@ -3,7 +3,6 @@ title: ValueEditorXmlSerializer class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/valueeditorxmlserializer-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.ValueEditorXmlSerializer
     : ValueEditorXmlSerializer<ValueEditor>
@@ -17,4 +16,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ValueEditorXmlSerializer([XmlSerializerFactory](/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  |
+| ValueEditorXmlSerializer([XmlSerializerFactory](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  |

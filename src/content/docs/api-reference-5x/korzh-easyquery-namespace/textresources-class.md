@@ -3,7 +3,6 @@ title: TextResources class
 slug: api-reference-5x/korzh-easyquery-namespace/textresources-class
 ---
 
-
 Manages texts for all EasyQuery Controls visual objects
 ```csharp
 public static class Korzh.EasyQuery.TextResources
@@ -15,7 +14,7 @@ public static class Korzh.EasyQuery.TextResources
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `String` | Get(`String` code) | Gets a resource string by its code. | 
-| `TextStorage` | GetTexts(`String` storageID = <span style='color: blue'>null</span>) | Gets current [Korzh.Utils.TextStorage](/api-reference-5x/korzh-utils-namespace/textstorage-class) object that contains textual resources for this assembly. | 
+| `TextStorage` | GetTexts(`String` storageID = <span style='color: blue'>null</span>) | Gets current [Korzh.Utils.TextStorage](//easyquery/docs/api-reference-5x/korzh-utils-namespace/textstorage-class) object that contains textual resources for this assembly. | 
 | `void` | LoadFromFile(`String` path, `TextStorage` storage = <span style='color: blue'>null</span>) | Loads the resources from .properties file into the default TextStorage object | 
 | `void` | LoadFromFileForCulture(`String` baseFileName, `CultureInfo` cultureInfo = <span style='color: blue'>null</span>, `String` fileExt = properties) | Loads the resources from .properties file into the default TextStorage object. The name of the .properties file is based on the culture for current thread. | 
 | `void` | LoadFromResources(`ResourceManager` resManager) | Loads texts from resources into the default TextStorage. | 

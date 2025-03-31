@@ -3,7 +3,6 @@ title: DbLinkInfo class
 slug: api-reference-5x/korzh-easyquery-db-namespace/dblinkinfo-class
 ---
 
-
 Represents a structure that contains information about some link between two database tables
 ```csharp
 public class Korzh.EasyQuery.Db.DbLinkInfo

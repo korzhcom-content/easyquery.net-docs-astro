@@ -3,7 +3,6 @@ title: DbEntityAttr class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dbentityattr-class
 ---
 
-
 Base attribute of SQL entity
 ```csharp
 public class Korzh.EasyQuery.Db.DbEntityAttr

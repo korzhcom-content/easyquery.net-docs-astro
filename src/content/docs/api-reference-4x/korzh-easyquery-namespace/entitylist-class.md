@@ -3,7 +3,6 @@ title: EntityList class
 slug: api-reference-4x/korzh-easyquery-namespace/entitylist-class
 ---
 
-
 Represents list of entities
 ```csharp
 public class Korzh.EasyQuery.EntityList

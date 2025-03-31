@@ -3,7 +3,6 @@ title: ConditionList class
 slug: api-reference-5x/korzh-easyquery-namespace/conditionlist-class
 ---
 
-
 Represents a list of conditions.
 ```csharp
 public class Korzh.EasyQuery.ConditionList

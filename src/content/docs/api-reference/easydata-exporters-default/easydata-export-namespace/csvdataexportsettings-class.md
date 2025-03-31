@@ -3,7 +3,6 @@ title: CsvDataExportSettings class
 slug: api-reference/easydata-exporters-default/easydata-export-namespace/csvdataexportsettings-class
 ---
 
-
 Represents csv format used during exporting operations
 ```csharp
 public class EasyData.Export.CsvDataExportSettings
@@ -18,9 +17,9 @@ Assembly: `EasyData.Exporters.Default.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CsvDataExportSettings() | `void` | Initializes a new instance of the [EasyData.Export.CsvDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/csvdataexportsettings-class) class. | 
-| CsvDataExportSettings(`string` locale) | `void` | Initializes a new instance of the [EasyData.Export.CsvDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/csvdataexportsettings-class) class. | 
-| CsvDataExportSettings(`CultureInfo` culture) | `void` | Initializes a new instance of the [EasyData.Export.CsvDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/csvdataexportsettings-class) class. | 
+| CsvDataExportSettings() | `void` | Initializes a new instance of the [EasyData.Export.CsvDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/csvdataexportsettings-class) class. | 
+| CsvDataExportSettings(`string` locale) | `void` | Initializes a new instance of the [EasyData.Export.CsvDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/csvdataexportsettings-class) class. | 
+| CsvDataExportSettings(`CultureInfo` culture) | `void` | Initializes a new instance of the [EasyData.Export.CsvDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/csvdataexportsettings-class) class. | 
 
 
 ### Properties
@@ -36,4 +35,4 @@ Assembly: `EasyData.Exporters.Default.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Default | [CsvDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/csvdataexportsettings-class) | Returns the default instance of [EasyData.Export.CsvDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/csvdataexportsettings-class). |
+| Default | [CsvDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/csvdataexportsettings-class) | Returns the default instance of [EasyData.Export.CsvDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/csvdataexportsettings-class). |

@@ -3,7 +3,6 @@ title: LinkCondType enum
 slug: api-reference-4x/korzh-easyquery-db-namespace/linkcondtype-enum
 ---
 
-
 Represents the type of linking condition (field-to-field, field-to-expression, etc.)
 ```csharp
 public enum Korzh.EasyQuery.Db.LinkCondType

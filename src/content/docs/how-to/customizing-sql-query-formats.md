@@ -3,7 +3,6 @@ title: Customizing SQL query formats
 slug: how-to/customizing-sql-query-formats
 ---
 
-
 ## Problem Overview
 
 Working with EasyQuery, you can use different DB systems, such as MS SQL Server, My SQL, Oracle, etc. All these systems support SQL,

@@ -3,7 +3,6 @@ title: ResultTableNode class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/resulttablenode-class
 ---
 
-
 Represents one table in result SQL statement
 ```csharp
 public class Korzh.EasyQuery.Db.ResultTableNode
@@ -17,4 +16,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Table | [Table](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | The reference to the original model table. |
+| Table | [Table](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | The reference to the original model table. |

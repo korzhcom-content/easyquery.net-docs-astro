@@ -3,7 +3,6 @@ title: EntityAttrXmlSerializer class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattrxmlserializer-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.EntityAttrXmlSerializer
     : EntityAttrXmlSerializer<EntityAttr>
@@ -17,4 +16,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EntityAttrXmlSerializer([XmlSerializerFactory](/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  |
+| EntityAttrXmlSerializer([XmlSerializerFactory](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  |

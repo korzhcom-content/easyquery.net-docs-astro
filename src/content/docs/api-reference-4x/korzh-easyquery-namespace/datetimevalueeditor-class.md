@@ -3,7 +3,6 @@ title: DateTimeValueEditor class
 slug: api-reference-4x/korzh-easyquery-namespace/datetimevalueeditor-class
 ---
 
-
 Represents the value editor for date and/or time.
 ```csharp
 public class Korzh.EasyQuery.DateTimeValueEditor

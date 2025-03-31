@@ -3,7 +3,6 @@ title: Dynamically populate value lists by information from other conditions
 slug: how-to/dynamically-populating-lists-mvc
 ---
 
-
 ## Problem
 Suppose we have a database with `Customer` entity which has `Country` and `City` attributes. For both these attributes we define the value editors which return the lists of available values (countries and cities correspondingly). 
 

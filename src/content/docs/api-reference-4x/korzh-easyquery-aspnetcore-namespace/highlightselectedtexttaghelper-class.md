@@ -3,7 +3,6 @@ title: HighlightSelectedTextTagHelper class
 slug: api-reference-4x/korzh-easyquery-aspnetcore-namespace/highlightselectedtexttaghelper-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.AspNetCore.HighlightSelectedTextTagHelper
     : TagHelper, ITagHelper

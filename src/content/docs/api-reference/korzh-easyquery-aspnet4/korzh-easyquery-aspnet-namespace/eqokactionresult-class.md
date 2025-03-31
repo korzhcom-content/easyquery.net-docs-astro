@@ -3,7 +3,6 @@ title: EqOkActionResult class
 slug: api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokactionresult-class
 ---
 
-
 Represents a special kind of `System.Web.Mvc.ActionResult` which allows to build an OK (status code 200) response with some extra data  Implements the <seealso cref="T:System.Web.Mvc.ActionResult" />
 ```csharp
 public class Korzh.EasyQuery.AspNet.EqOkActionResult
@@ -18,7 +17,7 @@ Assembly: `Korzh.EasyQuery.AspNet4.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqOkActionResult(`object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkActionResult](/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokactionresult-class) class. | 
+| EqOkActionResult(`object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkActionResult](//easyquery/docs/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokactionresult-class) class. | 
 
 
 ### Fields

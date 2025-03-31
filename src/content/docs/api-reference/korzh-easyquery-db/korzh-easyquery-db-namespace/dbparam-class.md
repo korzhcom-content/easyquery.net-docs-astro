@@ -3,8 +3,7 @@ title: DbParam class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparam-class
 ---
 
-
-Represents one entry in [Korzh.EasyQuery.Db.DbParameters](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class) list
+Represents one entry in [Korzh.EasyQuery.Db.DbParameters](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class) list
 ```csharp
 public class Korzh.EasyQuery.Db.DbParam
 

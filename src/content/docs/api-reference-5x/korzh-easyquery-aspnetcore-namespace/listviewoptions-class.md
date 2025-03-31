@@ -3,7 +3,6 @@ title: ListViewOptions class
 slug: api-reference-5x/korzh-easyquery-aspnetcore-namespace/listviewoptions-class
 ---
 
-
 Represents different options passed in list action requests
 ```csharp
 public class Korzh.EasyQuery.AspNetCore.ListViewOptions

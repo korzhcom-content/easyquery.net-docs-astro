@@ -3,8 +3,7 @@ title: DbContextModelLoader<T> class
 slug: api-reference-5x/korzh-easyquery-services-namespace/dbcontextmodelloader-t--class
 ---
 
-
-Represents a IModelLoader implementation which allows to load  the model from a DbContext object.  Implements the [Korzh.EasyQuery.Services.IModelLoader](/api-reference-5x/korzh-easyquery-services-namespace/imodelloader-interface)
+Represents a IModelLoader implementation which allows to load  the model from a DbContext object.  Implements the [Korzh.EasyQuery.Services.IModelLoader](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/imodelloader-interface)
 ```csharp
 public class Korzh.EasyQuery.Services.DbContextModelLoader<T>
     : IModelLoader

@@ -3,7 +3,6 @@ title: LabelXElement class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class
 ---
 
-
 The row element that lets click on its text.
 ```csharp
 public class Korzh.EasyQuery.WinForms.LabelXElement
@@ -18,15 +17,15 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LabelXElement(`string` subType) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.LabelXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) class. | 
-| LabelXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.LabelXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) class. | 
+| LabelXElement(`string` subType) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.LabelXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) class. | 
+| LabelXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.LabelXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) class. | 
 
 
 ### Fields
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| linkControl | `LabelXElement.RowLinkLabel` | The [Korzh.EasyQuery.WinForms.LabelXElement.RowLinkLabel](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) control that serves as [Korzh.EasyQuery.WinForms.LabelXElement.ElementControl](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class). | 
+| linkControl | `LabelXElement.RowLinkLabel` | The [Korzh.EasyQuery.WinForms.LabelXElement.RowLinkLabel](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) control that serves as [Korzh.EasyQuery.WinForms.LabelXElement.ElementControl](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class). | 
 
 
 ### Properties
@@ -43,12 +42,12 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Arrange(`int` bottomLine, `int` rowHeight) | `void` | Arranges the [Korzh.EasyQuery.WinForms.LabelXElement.ElementControl](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) on base panel.  Overrides [Korzh.EasyQuery.WinForms.XElement.Arrange(System.Int32,System.Int32)](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class). | 
-| CreateElementControl() | `Control` | Creates the [Korzh.EasyQuery.WinForms.LabelXElement.ElementControl](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class). | 
+| Arrange(`int` bottomLine, `int` rowHeight) | `void` | Arranges the [Korzh.EasyQuery.WinForms.LabelXElement.ElementControl](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) on base panel.  Overrides [Korzh.EasyQuery.WinForms.XElement.Arrange(System.Int32,System.Int32)](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class). | 
+| CreateElementControl() | `Control` | Creates the [Korzh.EasyQuery.WinForms.LabelXElement.ElementControl](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class). | 
 | Dispose(`bool` disposing) | `void` | Clean up any resources being used. | 
-| FillAltMenu([ValueItemList](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) items) | `void` | Fills the element's alternative items menu (shown by Ctrl+Click). | 
-| LinkClickedHandler(`object` sender, `LinkLabelLinkClickedEventArgs` e) | `void` | Handler of [Korzh.EasyQuery.WinForms.LabelXElement.linkControl](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class)`System.Windows.Forms.Control.Click` event. | 
-| OnAltClick(`EventArgs` e) | `void` | Shows the alternative menu if it is defined or raises the [Korzh.EasyQuery.WinForms.XElement.AltClick](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) event. | 
+| FillAltMenu([ValueItemList](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) items) | `void` | Fills the element's alternative items menu (shown by Ctrl+Click). | 
+| LinkClickedHandler(`object` sender, `LinkLabelLinkClickedEventArgs` e) | `void` | Handler of [Korzh.EasyQuery.WinForms.LabelXElement.linkControl](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class)`System.Windows.Forms.Control.Click` event. | 
+| OnAltClick(`EventArgs` e) | `void` | Shows the alternative menu if it is defined or raises the [Korzh.EasyQuery.WinForms.XElement.AltClick](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) event. | 
 | ParseXmlNode(`XmlNode` node) | `void` | Parses the XML-description of element. | 
 | ShowAltMenu() | `void` | Shows the element's alternative items menu. | 
 

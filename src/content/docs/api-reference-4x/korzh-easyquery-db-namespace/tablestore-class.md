@@ -3,7 +3,6 @@ title: TableStore class
 slug: api-reference-4x/korzh-easyquery-db-namespace/tablestore-class
 ---
 
-
 Represetns storage of tables.
 ```csharp
 public class Korzh.EasyQuery.Db.TableStore

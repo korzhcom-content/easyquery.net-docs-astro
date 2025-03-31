@@ -18,8 +18,8 @@ slug: end-user-guide
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ui-all.jpg" class="cbp-lightbox" data-fancybox-group="gallery" title="EasyQuery: Elements of Interface">
-<img src="/easyquery/docs/images/eq-ui-all.jpg" style="width:600px" alt="EasyQuery: Elements of Interface">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ui-all.jpg" class="cbp-lightbox" data-fancybox-group="gallery" title="EasyQuery: Elements of Interface">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ui-all.jpg" style="width:600px" alt="EasyQuery: Elements of Interface">
 </a>
 </div>
 </div>
@@ -40,12 +40,12 @@ slug: end-user-guide
 
 <h3>Entities Panel</h3> 
 <p>This panel can be used as a visual representation of all entities and their attributes, which we can use to build queries. It can be used to add entity attributes to a Columns Panel (and they will be displayed in the result) or to a Conditions Panel (in order to actually set the query conditions).<br>
-You can either move selected attributes to the corresponding panels with a mouse or use buttons Add column and Add condition &nbsp;( <img class="defimg" src="images/entitiespanel-buttons.png"> ).</p>
+You can either move selected attributes to the corresponding panels with a mouse or use buttons Add column and Add condition &nbsp;( <img class="defimg" src="https://files.aistant.com/korzh/easyquery-dotnet/images/entitiespanel-buttons.png"> ).</p>
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ui-entitiespanel.jpg" class="fancybox" data-fancybox-group="gallery" title="EasyQuery: Entities Panel">
-<img src="images/eq-ui-entitiespanel.jpg" alt="EasyQuery: Entities Panel">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ui-entitiespanel.jpg" class="fancybox" data-fancybox-group="gallery" title="EasyQuery: Entities Panel">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ui-entitiespanel.jpg" alt="EasyQuery: Entities Panel">
 </a>
 </div>
 </div>
@@ -60,8 +60,8 @@ You can either move selected attributes to the corresponding panels with a mouse
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ui-columnspanel.jpg" class="fancybox" data-fancybox-group="gallery" title="EasyQuery: Columns Panel">
-<img src="images/eq-ui-columnspanel.jpg" alt="EasyQuery: Columns Panel">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ui-columnspanel.jpg" class="fancybox" data-fancybox-group="gallery" title="EasyQuery: Columns Panel">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ui-columnspanel.jpg" alt="EasyQuery: Columns Panel">
 </a>
 </div>
 </div>
@@ -77,8 +77,8 @@ You can either move selected attributes to the corresponding panels with a mouse
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ui-querypanel.jpg" class="fancybox" data-fancybox-group="gallery" title="EasyQuery: Conditions Panel">
-<img src="images/eq-ui-querypanel.jpg" alt="EasyQuery: Conditions Panel">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ui-querypanel.jpg" class="fancybox" data-fancybox-group="gallery" title="EasyQuery: Conditions Panel">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ui-querypanel.jpg" alt="EasyQuery: Conditions Panel">
 </a>
 </div>
 </div>
@@ -107,9 +107,9 @@ You can either move selected attributes to the corresponding panels with a mouse
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ug-example01.png" class="fancybox" data-fancybox-group="gallery" title="Query example 1: Display table
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example01.png" class="fancybox" data-fancybox-group="gallery" title="Query example 1: Display table
 data">
-<img src="images/eq-ug-example01.png" alt="Query example 1: Display table data">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example01.png" alt="Query example 1: Display table data">
 </a>
 </div>
 </div>
@@ -134,8 +134,8 @@ For example, we may need a total quantity (amount) of the orders for every compa
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ug-example02.png" class="fancybox" data-fancybox-group="gallery" title="Query example 2: Aggregated Columns">
-<img src="images/eq-ug-example02.png" alt="Query example 2: Aggregated Columns">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example02.png" class="fancybox" data-fancybox-group="gallery" title="Query example 2: Aggregated Columns">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example02.png" alt="Query example 2: Aggregated Columns">
 </a>
 </div>
 </div>
@@ -144,8 +144,8 @@ For example, we may need a total quantity (amount) of the orders for every compa
 <p>We get the following result: </p>
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ug-example02-r.png" class="fancybox" data-fancybox-group="gallery" title="Query example 2: Aggregated Columns Results">
-<img src="images/eq-ug-example02-r.png" alt="Query example 2: Aggregated Columns Results">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example02-r.png" class="fancybox" data-fancybox-group="gallery" title="Query example 2: Aggregated Columns Results">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example02-r.png" alt="Query example 2: Aggregated Columns Results">
 </a>
 </div>
 </div>
@@ -180,8 +180,8 @@ This time, let us sort data by the number of orders, in the descending order. To
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ug-example03.png" class="fancybox" data-fancybox-group="gallery" title="Query example 3: Table data with sorting">
-<img src="images/eq-ug-example03.png" alt="Query example 3: Table data with sorting">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example03.png" class="fancybox" data-fancybox-group="gallery" title="Query example 3: Table data with sorting">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example03.png" alt="Query example 3: Table data with sorting">
 </a>
 </div>
 </div>
@@ -190,8 +190,8 @@ This time, let us sort data by the number of orders, in the descending order. To
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ug-example03-r.png" data-fancybox-group="gallery" title="Query example 3: Table data with sorting: Results">
-<img src="images/eq-ug-example03-r.png" style="width:600px" alt="Query example 3: Table data with sorting: Results">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example03-r.png" data-fancybox-group="gallery" title="Query example 3: Table data with sorting: Results">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example03-r.png" style="width:600px" alt="Query example 3: Table data with sorting: Results">
 </a>
 </div>
 </div>
@@ -223,8 +223,8 @@ Now we switch to the Conditions Panel and:
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ug-example04.png" class="fancybox" data-fancybox-group="gallery" title="Query example 4: Filtering data 1 condition">
-<img src="images/eq-ug-example04.png" alt="Query example 4: Filtering data 1 condition">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example04.png" class="fancybox" data-fancybox-group="gallery" title="Query example 4: Filtering data 1 condition">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example04.png" alt="Query example 4: Filtering data 1 condition">
 </a>
 </div>
 </div>
@@ -264,8 +264,8 @@ then we add the following to the Conditions Panel:
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ug-example05.png" class="fancybox" data-fancybox-group="gallery" title="Query example 5: Filtering data: Several conditions">
-<img src="images/eq-ug-example05.png" alt="Query example 5: Filtering data: Several conditions">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example05.png" class="fancybox" data-fancybox-group="gallery" title="Query example 5: Filtering data: Several conditions">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example05.png" alt="Query example 5: Filtering data: Several conditions">
 </a>
 </div>
 </div>
@@ -307,8 +307,8 @@ Consistently, after "and any of the following apply," we add two conditions, by 
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ug-example06.png" class="fancybox" data-fancybox-group="gallery" title="Query example 6: Filtering data: Several conditions using AND/OR">
-<img src="images/eq-ug-example06.png" alt="Query example 6: Filtering data: Several conditions using AND/OR">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example06.png" class="fancybox" data-fancybox-group="gallery" title="Query example 6: Filtering data: Several conditions using AND/OR">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example06.png" alt="Query example 6: Filtering data: Several conditions using AND/OR">
 </a>
 </div>
 </div>
@@ -341,8 +341,8 @@ In the Conditions Panel, we will take a set of steps:
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ug-example07-1.png" class="fancybox" data-fancybox-group="gallery" title="Query example 7: Enabling/Disabling conditions - ON">
-<img src="images/eq-ug-example07-1.png" alt="Query example 7: Enabling/Disabling conditions - ON">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example07-1.png" class="fancybox" data-fancybox-group="gallery" title="Query example 7: Enabling/Disabling conditions - ON">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example07-1.png" alt="Query example 7: Enabling/Disabling conditions - ON">
 </a>
 </div>
 </div>
@@ -351,8 +351,8 @@ In the Conditions Panel, we will take a set of steps:
 <p>And the result we get:</p>
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ug-example07-1-r.png" class="fancybox" data-fancybox-group="gallery" title="Query example 7: Enabling/Disabling conditions - ON, results">
-<img src="images/eq-ug-example07-1-r.png" alt="Query example 7: Enabling/Disabling conditions - ON, results">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example07-1-r.png" class="fancybox" data-fancybox-group="gallery" title="Query example 7: Enabling/Disabling conditions - ON, results">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example07-1-r.png" alt="Query example 7: Enabling/Disabling conditions - ON, results">
 </a>
 </div>
 </div>
@@ -366,8 +366,8 @@ In the Conditions Panel, we will take a set of steps:
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="images/eq-ug-example07-2.png" class="fancybox" data-fancybox-group="gallery" title="Query example 7: Enabling/Disabling conditions - OFF">
-<img src="images/eq-ug-example07-2.png" alt="Query example 7: Enabling/Disabling conditions - OFF">
+<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example07-2.png" class="fancybox" data-fancybox-group="gallery" title="Query example 7: Enabling/Disabling conditions - OFF">
+<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-ug-example07-2.png" alt="Query example 7: Enabling/Disabling conditions - OFF">
 </a>
 </div>
 </div>

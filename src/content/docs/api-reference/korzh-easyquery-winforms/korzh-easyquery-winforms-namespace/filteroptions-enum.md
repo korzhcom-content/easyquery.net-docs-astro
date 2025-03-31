@@ -3,7 +3,6 @@ title: FilterOptions enum
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/filteroptions-enum
 ---
 
-
 Represents options filter behaviour in Entities Panel
 ```csharp
 public enum Korzh.EasyQuery.WinForms.FilterOptions

@@ -3,7 +3,6 @@ title: Connect to your database
 slug: getting-started/from-sample-to-your-own-project/connect-to-your-database
 ---
 
-
 All our sample projects work with Northwind demo database either via SQL Server or SQLite connection.
 
 Obviously, to test EasyQuery you may want to connect that sample to your own database and try build queries and reports against the data stored there. 
@@ -31,9 +30,9 @@ options.UseDbConnection<NpgsqlConnection>();
 
 ## Step 2. Change the data model
 
-As you probably know, EasyQuery takes all meta-data from a special repository called “data model” (if not, please read [$$-How it works-$$](//$aid/34d09e05-f68b-4bbf-8adc-c30473cefe47) and [$$-Working with data models in EasyQuery-$$](//$aid/d3296080-f7cd-4e32-b6ea-1e5319948c82) articles first).
+As you probably know, EasyQuery takes all meta-data from a special repository called “data model” (if not, please read [How it works](//easyquery/docs/fundamentals/how-it-works) and [Working with data models in EasyQuery](//easyquery/docs/getting-started/working-with-data-model) articles first).
 
-In our sample projects we show different approaches of getting a data model. In some scenarios it's loaded from a pre-defined XML file created with Data Model Editor (DME) tool. In others, we get it directly from a DbContext or from database's meta-data. All these scenarios are described in great detail in [$$-Working with data models in EasyQuery-$$](//$aid/d3296080-f7cd-4e32-b6ea-1e5319948c82) article.
+In our sample projects we show different approaches of getting a data model. In some scenarios it's loaded from a pre-defined XML file created with Data Model Editor (DME) tool. In others, we get it directly from a DbContext or from database's meta-data. All these scenarios are described in great detail in [Working with data models in EasyQuery](//easyquery/docs/getting-started/working-with-data-model) article.
 
 Whatever way you use you will need to change the model from our sample to your own data model.
 
@@ -43,7 +42,7 @@ So, there are 3 posible options:
 
 In this case you will need:
 
-- To [create your own data model](//$aid/d3296080-f7cd-4e32-b6ea-1e5319948c82) using DME 
+- To [create your own data model](//easyquery/docs/getting-started/working-with-data-model) using DME 
 
 - Place the created file to App_Data folder of your project. Let’s name that file MyModel.xml for example.
 
@@ -100,4 +99,4 @@ So, after finishing this step you will got a working sample project that uses yo
 
 If you are satisifed of how the sample project works with your data you can copy the code and views that provide EasyQuery functionality to your own solution. 
 
-Here is [an article that describe how to do it](//$aid/eqdn-pj76w6phdwfg)
+Here is [an article that describe how to do it](//easyquery/docs/getting-started/from-sample-to-your-own-project/copying-the-easyquerys-code-from-sample-to-your-project)

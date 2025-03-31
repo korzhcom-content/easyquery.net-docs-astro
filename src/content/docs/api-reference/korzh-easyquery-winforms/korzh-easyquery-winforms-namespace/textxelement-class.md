@@ -3,7 +3,6 @@ title: TextXElement class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textxelement-class
 ---
 
-
 The row element that displays text.
 ```csharp
 public class Korzh.EasyQuery.WinForms.TextXElement
@@ -18,9 +17,9 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TextXElement(`string` text, `string` subType) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.TextXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textxelement-class) class. | 
-| TextXElement(`string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.TextXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textxelement-class) class. | 
-| TextXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.TextXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textxelement-class) class. | 
+| TextXElement(`string` text, `string` subType) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.TextXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textxelement-class) class. | 
+| TextXElement(`string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.TextXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textxelement-class) class. | 
+| TextXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.TextXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textxelement-class) class. | 
 
 
 ### Properties
@@ -34,7 +33,7 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CreateElementControl() | `Control` | Creates the [Korzh.EasyQuery.WinForms.TextXElement.ElementControl](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textxelement-class). | 
+| CreateElementControl() | `Control` | Creates the [Korzh.EasyQuery.WinForms.TextXElement.ElementControl](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textxelement-class). | 
 | ParseXmlNode(`XmlNode` node) | `void` | Parses the XML-description of element. | 
 
 

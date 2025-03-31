@@ -3,7 +3,6 @@ title: DisplayFormatParser.TokenType enum
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/displayformatparser-tokentype-enum
 ---
 
-
 Represents type of the token.
 ```csharp
 public enum Korzh.EasyQuery.DisplayFormatParser.TokenType

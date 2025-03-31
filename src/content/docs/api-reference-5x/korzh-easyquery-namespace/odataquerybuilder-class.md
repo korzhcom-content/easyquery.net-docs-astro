@@ -3,7 +3,6 @@ title: ODataQueryBuilder class
 slug: api-reference-5x/korzh-easyquery-namespace/odataquerybuilder-class
 ---
 
-
 Builds OData expressions
 ```csharp
 public class Korzh.EasyQuery.ODataQueryBuilder

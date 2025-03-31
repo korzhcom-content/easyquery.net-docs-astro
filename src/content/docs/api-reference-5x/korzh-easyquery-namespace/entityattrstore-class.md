@@ -3,7 +3,6 @@ title: EntityAttrStore class
 slug: api-reference-5x/korzh-easyquery-namespace/entityattrstore-class
 ---
 
-
 Represents entity attributes storage associated with a particular entity.
 ```csharp
 public class Korzh.EasyQuery.EntityAttrStore

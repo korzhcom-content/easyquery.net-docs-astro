@@ -3,7 +3,6 @@ title: TypeExtensions class
 slug: api-reference-4x/korzh-easyquery-namespace/typeextensions-class
 ---
 
-
 ```csharp
 public static class Korzh.EasyQuery.TypeExtensions
 

@@ -3,8 +3,7 @@ title: DbLinkInfoList class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dblinkinfolist-class
 ---
 
-
-Represents the list of [Korzh.EasyQuery.Db.DbLinkInfo](/api-reference-4x/korzh-easyquery-db-namespace/dblinkinfo-class) objects
+Represents the list of [Korzh.EasyQuery.Db.DbLinkInfo](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dblinkinfo-class) objects
 ```csharp
 public class Korzh.EasyQuery.Db.DbLinkInfoList
     : Collection<DbLinkInfo>, IList<DbLinkInfo>, ICollection<DbLinkInfo>, IEnumerable<DbLinkInfo>, IEnumerable, IList, ICollection, IReadOnlyList<DbLinkInfo>, IReadOnlyCollection<DbLinkInfo>

@@ -3,7 +3,6 @@ title: ConditionGroupRow class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/conditiongrouprow-class
 ---
 
-
 Used for linking conditions in groups
 ```csharp
 public class Korzh.EasyQuery.Wpf.ConditionGroupRow
@@ -18,15 +17,15 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ConditionGroupRow(`int` level, [Condition](/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) predicate, [QueryPanel](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) panel) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ConditionGroupRow](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/conditiongrouprow-class) class. | 
+| ConditionGroupRow(`int` level, [Condition](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) predicate, [QueryPanel](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) panel) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ConditionGroupRow](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/conditiongrouprow-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Condition | [Condition](/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) | Gets or sets the predicate. | 
-| EditMode | [EditModeKind](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editmodekind-enum) | Gets or sets the edit mode. | 
+| Condition | [Condition](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) | Gets or sets the predicate. | 
+| EditMode | [EditModeKind](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editmodekind-enum) | Gets or sets the edit mode. | 
 
 
 ### Methods
@@ -40,4 +39,4 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ConditionProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ConditionGroupRow.Condition](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/conditiongrouprow-class) dependency property |
+| ConditionProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ConditionGroupRow.Condition](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/conditiongrouprow-class) dependency property |

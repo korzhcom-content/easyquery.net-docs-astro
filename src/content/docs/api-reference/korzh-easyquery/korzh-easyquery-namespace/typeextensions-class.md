@@ -3,7 +3,6 @@ title: TypeExtensions class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/typeextensions-class
 ---
 
-
 Contains several useful extensions for reflection types and structures.
 ```csharp
 public static class Korzh.EasyQuery.TypeExtensions

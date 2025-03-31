@@ -3,7 +3,6 @@ title: SqlStatement class
 slug: api-reference-5x/korzh-easyquery-db-namespace/sqlstatement-class
 ---
 
-
 Represents the result of performing BuildSQL command.
 ```csharp
 public class Korzh.EasyQuery.Db.SqlStatement
@@ -23,8 +22,8 @@ public class Korzh.EasyQuery.Db.SqlStatement
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `String` | EntitySql | Gets the "entity SQL" (for Entity Framework). | 
-| `SqlExtras` | ExtraClauses | Gets the [Korzh.EasyQuery.Db.SqlExtras](/api-reference-5x/korzh-easyquery-db-namespace/sqlextras-class) object which defines some extra clauses of generated query. | 
-| `DbQueryFormats` | Formats | Gets the [Korzh.EasyQuery.Db.DbQueryFormats](/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object in the parent query. | 
+| `SqlExtras` | ExtraClauses | Gets the [Korzh.EasyQuery.Db.SqlExtras](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/sqlextras-class) object which defines some extra clauses of generated query. | 
+| `DbQueryFormats` | Formats | Gets the [Korzh.EasyQuery.Db.DbQueryFormats](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object in the parent query. | 
 | `String` | FromClause | Gets the text of FROM clause. | 
 | `String` | GroupClause | Gets the text of GROUP BY clause. | 
 | `Boolean` | HasPaging | Gets or sets a value indicating whether the result query statement includes paging clauses. | 

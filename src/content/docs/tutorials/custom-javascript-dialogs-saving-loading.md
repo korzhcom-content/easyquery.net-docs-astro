@@ -3,7 +3,6 @@ title: Custom client-side dialogs for saving/loading operations
 slug: tutorials/custom-javascript-dialogs-saving-loading
 ---
 
-
 ## Problem
 
 The Advanced Search page and other EasyQuery.JS views use our own home-brewed dialog service to ask user for a confirmation or get some input data (like query or file names, export format, etc.).

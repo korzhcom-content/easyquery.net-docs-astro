@@ -3,7 +3,6 @@ title: EntAttrKind enum
 slug: api-reference-4x/korzh-easyquery-namespace/entattrkind-enum
 ---
 
-
 Attribute kind enumeration (Data or Virtual).
 ```csharp
 public enum Korzh.EasyQuery.EntAttrKind

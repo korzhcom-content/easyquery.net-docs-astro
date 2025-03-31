@@ -3,7 +3,6 @@ title: Building data model dynamically using code (version 3.x)
 slug: how-to/obsolete-tutorials/build-data-model-by-code
 ---
 
-
 To accomplish the described task, we need to perform several steps in consecutive order. First, we should add the tables our model will be based on and links between those tables. Then we add entities and attributes and connect our attributes to the tables we added before.
 
 In result of the execution of the code below, we will get a data model which consists of two tables (Customers and Orders), two entities which correspond to these tables and few attributes for each entity.

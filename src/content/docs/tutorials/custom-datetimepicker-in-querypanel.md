@@ -3,7 +3,6 @@ title: Custom DateTimePicker in QueryPanel
 slug: tutorials/custom-datetimepicker-in-querypanel
 ---
 
-
 ## Subtitle 1
 Some text about Custom DateTimePicker in QueryPanel
 

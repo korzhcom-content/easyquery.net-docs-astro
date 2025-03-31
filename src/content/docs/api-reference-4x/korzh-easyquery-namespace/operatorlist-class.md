@@ -3,7 +3,6 @@ title: OperatorList class
 slug: api-reference-4x/korzh-easyquery-namespace/operatorlist-class
 ---
 
-
 Represents list of operators.
 ```csharp
 public class Korzh.EasyQuery.OperatorList

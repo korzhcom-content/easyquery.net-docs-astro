@@ -1,11 +1,10 @@
 ---
 title: Building dynamic queries with EasyQuery and Entity Framework
-slug: tutorials/version-3-x/dynamic-queries-with-easyquery-and-entity-framework
+slug: tutorials/version-3-x-tutorials/dynamic-queries-with-easyquery-and-entity-framework
 ---
 
-
 <div>
-    <strong>NB:</strong> This article contains the instructions for the old version of EasyQuery (3.x). For the latest version (5.0 or higher) please use <a data-info="aist-inner-link" href="/$aid/eqdn-0t2fd7xf2alb">this tutorial</a>
+    <strong>NB:</strong> This article contains the instructions for the old version of EasyQuery (3.x). For the latest version (5.0 or higher) please use <a data-info="aist-inner-link" href="/easyquery/docs/tutorials/dynamic-queries-ui-aspnet-core-entity-framework">this tutorial</a>
         
 </div>
 

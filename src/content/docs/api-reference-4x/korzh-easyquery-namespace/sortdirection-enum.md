@@ -3,7 +3,6 @@ title: SortDirection enum
 slug: api-reference-4x/korzh-easyquery-namespace/sortdirection-enum
 ---
 
-
 Represents sorting direction.
 ```csharp
 public enum Korzh.EasyQuery.SortDirection

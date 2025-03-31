@@ -3,7 +3,6 @@ title: Navigate through query conditions
 slug: how-to/run-through-query-conditions
 ---
 
-
 Sometimes you need to run through all conditions in your query to perform some operation for each condition or to find a particular one. 
 Starting from version 5.4 of EasyQuery.NET you can use `Scan` function for that: 
 

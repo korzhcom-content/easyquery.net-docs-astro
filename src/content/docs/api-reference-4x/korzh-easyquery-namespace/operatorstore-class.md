@@ -3,7 +3,6 @@ title: OperatorStore class
 slug: api-reference-4x/korzh-easyquery-namespace/operatorstore-class
 ---
 
-
 This class represents the list of operators associated with a particular DataModel
 ```csharp
 public class Korzh.EasyQuery.OperatorStore

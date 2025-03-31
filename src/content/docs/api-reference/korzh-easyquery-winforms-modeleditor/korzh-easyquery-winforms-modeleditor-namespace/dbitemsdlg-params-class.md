@@ -3,8 +3,7 @@ title: DbItemsDlg.Params class
 slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/dbitemsdlg-params-class
 ---
 
-
-Represents different parameters and returned values of [Korzh.EasyQuery.WinForms.ModelEditor.DbItemsDlg](/api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/dbitemsdlg-class) dialog
+Represents different parameters and returned values of [Korzh.EasyQuery.WinForms.ModelEditor.DbItemsDlg](//easyquery/docs/api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/dbitemsdlg-class) dialog
 ```csharp
 public class Korzh.EasyQuery.WinForms.ModelEditor.DbItemsDlg.Params
 

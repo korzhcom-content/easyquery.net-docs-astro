@@ -3,7 +3,6 @@ title: SubQueryXElement class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/subqueryxelement-class
 ---
 
-
 Represents special kind of element which shows a dialog sub-query modification.
 ```csharp
 public class Korzh.EasyQuery.WinForms.SubQueryXElement
@@ -18,14 +17,14 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SubQueryXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.SubQueryXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/subqueryxelement-class) class. | 
+| SubQueryXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.SubQueryXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/subqueryxelement-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ParentQuery | [Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the parent query. | 
+| ParentQuery | [Query](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the parent query. | 
 
 
 ### Methods
@@ -34,7 +33,7 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 | --- | --- | --- | 
 | CalcNewValue() | `string` | Gets the new value from modal form | 
 | CoreGetTextAdjustedByValue(`string` newValue) | `string` | Gets the element's text according to its value.  This method can be overridden in inherited classes. | 
-| CoreLaunch() | `void` | Is called when both [Korzh.EasyQuery.WinForms.XElement.ParentRow](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) and [Korzh.EasyQuery.WinForms.XElement.ParentPanel](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) for this element are established. | 
+| CoreLaunch() | `void` | Is called when both [Korzh.EasyQuery.WinForms.XElement.ParentRow](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) and [Korzh.EasyQuery.WinForms.XElement.ParentPanel](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) for this element are established. | 
 | HideControl() | `void` | Hides the control that allows to edit the value. | 
 | LinkClickedHandler(`object` sender, `LinkLabelLinkClickedEventArgs` e) | `void` | Called when the label is clicked. | 
 | ParseXmlNode(`XmlNode` node) | `void` | Parses the XML node. | 
@@ -46,4 +45,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TagName | `string` | Tag name that represents [Korzh.EasyQuery.WinForms.SubQueryXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/subqueryxelement-class) element. |
+| TagName | `string` | Tag name that represents [Korzh.EasyQuery.WinForms.SubQueryXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/subqueryxelement-class) element. |

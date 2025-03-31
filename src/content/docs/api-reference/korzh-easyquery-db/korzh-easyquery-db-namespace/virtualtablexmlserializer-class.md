@@ -3,7 +3,6 @@ title: VirtualTableXmlSerializer class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/virtualtablexmlserializer-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.Db.VirtualTableXmlSerializer
     : TableXmlSerializer<VirtualTable>
@@ -17,12 +16,12 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| VirtualTableXmlSerializer([XmlSerializerFactory](/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| VirtualTableXmlSerializer([XmlSerializerFactory](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadOneAttribute([VirtualTable](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/virtualtable-class) table, `string` propName, `string` propValue) | `void` |  | 
-| SaveAttributes([VirtualTable](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/virtualtable-class) table, `XmlWriter` writer) | `void` |  |
+| LoadOneAttribute([VirtualTable](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/virtualtable-class) table, `string` propName, `string` propValue) | `void` |  | 
+| SaveAttributes([VirtualTable](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/virtualtable-class) table, `XmlWriter` writer) | `void` |  |

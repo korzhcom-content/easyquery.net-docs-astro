@@ -3,7 +3,6 @@ title: Version 4.4.1 release notes
 slug: release-notes/version-4-x/version-4-4-1
 ---
 
-
 ## 1. Core library
 
 * `FullTextSearchQuery` extension method now allows you to use `||` in a query text. Using `one || two` means that it will search for all records which contains `one` or `two` in some text field. 

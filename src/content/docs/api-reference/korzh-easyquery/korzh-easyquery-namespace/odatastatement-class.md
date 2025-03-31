@@ -3,8 +3,7 @@ title: ODataStatement class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/odatastatement-class
 ---
 
-
-Represents the result of ODataQueryBuilder's work.  Implements the [Korzh.EasyQuery.QueryStatement](/api-reference/korzh-easyquery/korzh-easyquery-namespace/querystatement-class)
+Represents the result of ODataQueryBuilder's work.  Implements the [Korzh.EasyQuery.QueryStatement](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querystatement-class)
 ```csharp
 public class Korzh.EasyQuery.ODataStatement
     : QueryStatement

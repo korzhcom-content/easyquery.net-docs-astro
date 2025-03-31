@@ -3,7 +3,6 @@ title: EqEntityAttribute class
 slug: api-reference-5x/korzh-easyquery-namespace/eqentityattribute-class
 ---
 
-
 Provides a general-purpose attribute that lets you specify different options for entity classes.
 ```csharp
 public class Korzh.EasyQuery.EqEntityAttribute

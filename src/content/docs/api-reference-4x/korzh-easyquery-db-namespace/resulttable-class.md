@@ -3,7 +3,6 @@ title: ResultTable class
 slug: api-reference-4x/korzh-easyquery-db-namespace/resulttable-class
 ---
 
-
 Represents a table used in query.
 ```csharp
 public class Korzh.EasyQuery.Db.ResultTable

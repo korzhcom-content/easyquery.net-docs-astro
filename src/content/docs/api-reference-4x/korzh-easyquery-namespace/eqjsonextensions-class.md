@@ -3,7 +3,6 @@ title: EqJsonExtensions class
 slug: api-reference-4x/korzh-easyquery-namespace/eqjsonextensions-class
 ---
 
-
 ```csharp
 public static class Korzh.EasyQuery.EqJsonExtensions
 

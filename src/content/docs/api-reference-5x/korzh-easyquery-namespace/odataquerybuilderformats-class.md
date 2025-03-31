@@ -3,7 +3,6 @@ title: ODataQueryBuilderFormats class
 slug: api-reference-5x/korzh-easyquery-namespace/odataquerybuilderformats-class
 ---
 
-
 Represents different formats which control ODataQueryBuilder behaviour.  This class is empty for now.
 ```csharp
 public class Korzh.EasyQuery.ODataQueryBuilderFormats

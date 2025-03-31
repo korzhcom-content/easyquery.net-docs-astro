@@ -3,7 +3,6 @@ title: Paging in query results
 slug: tutorials/paging-in-query-results
 ---
 
-
 ## 1. Problem Overview
 It is rather problematic and inconvenient to deal with huge data sets on the web-pages. To make it better you can use paging and divide your data into several pages.
 

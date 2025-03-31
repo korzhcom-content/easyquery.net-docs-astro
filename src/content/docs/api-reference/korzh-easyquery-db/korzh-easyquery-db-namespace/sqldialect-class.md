@@ -3,7 +3,6 @@ title: SqlDialect class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqldialect-class
 ---
 
-
 Represents some dialect of SQL syntax (like Oracle, MySQL, ANSI 92, etc)
 ```csharp
 public class Korzh.EasyQuery.Db.SqlDialect

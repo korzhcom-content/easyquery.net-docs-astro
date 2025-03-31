@@ -3,7 +3,6 @@ title: EntityAttr class
 slug: api-reference-5x/korzh-easyquery-namespace/entityattr-class
 ---
 
-
 Represents one entity attribute of data model.
 ```csharp
 public class Korzh.EasyQuery.EntityAttr
@@ -75,7 +74,7 @@ public class Korzh.EasyQuery.EntityAttr
 | `Task` | ReadFromJsonAsync(`JsonReader` reader) | Reads the attribute content from JSON (asynchronous way). | 
 | `void` | ReadPropertyFromJson(`JsonReader` reader, `String` propName) | Reads one attribute's property from JSON. | 
 | `Task` | ReadPropertyFromJsonAsync(`JsonReader` reader, `String` propName) | Reads one attribute's property from JSON (asynchronous way). | 
-| `void` | SaveToXmlWriter(`XmlWriter` writer) | Saves [Korzh.EasyQuery.EntityAttr](/api-reference-5x/korzh-easyquery-namespace/entityattr-class) to XML writer. | 
+| `void` | SaveToXmlWriter(`XmlWriter` writer) | Saves [Korzh.EasyQuery.EntityAttr](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/entityattr-class) to XML writer. | 
 | `void` | SaveXmlAttributes(`XmlWriter` writer) | Saves the attributes to XML writer. | 
 | `void` | SaveXmlNodes(`XmlWriter` writer) | Saves the nodes to XML writer. | 
 | `void` | SetDefaultOperator(`Operator` op) | Sets the default operator. | 

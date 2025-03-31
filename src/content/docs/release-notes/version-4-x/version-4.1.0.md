@@ -3,7 +3,6 @@ title: Version 4.1.0 release notes
 slug: release-notes/version-4-x/version-4.1.0
 ---
 
-
 ## 1. Support for .NET Core 2.0 / .NET Standard 2.0
 
 *  All EasyQuery assemblies target .NET Standard 1.5 (or lower) version - so they are fully compatible with .NET Standard 2.0. The exception is Korzh.EasyQuery.EntityFrameworkCore.Relational package which in the previous version (4.0) raised an error when used with Entity Framework Core 2.0. Version 4.1.0 of this package targets .NET Standard 2.0 and fixes that problem.

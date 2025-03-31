@@ -3,7 +3,6 @@ title: ScalarExprOptions enum
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/scalarexproptions-enum
 ---
 
-
 Different options used during processing of scalar values
 ```csharp
 public enum Korzh.EasyQuery.ScalarExprOptions

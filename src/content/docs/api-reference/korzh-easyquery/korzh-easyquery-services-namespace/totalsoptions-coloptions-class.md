@@ -3,7 +3,6 @@ title: TotalsOptions.ColOptions class
 slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/totalsoptions-coloptions-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.Services.TotalsOptions.ColOptions
 

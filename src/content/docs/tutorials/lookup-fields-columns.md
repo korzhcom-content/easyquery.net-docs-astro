@@ -3,7 +3,6 @@ title: Lookup fields and columns
 slug: tutorials/lookup-fields-columns
 ---
 
-
 ## Problem
 Consider a situation when you have two linked tables in your DB. The first table has a column which actually holds only the code of value stored in the second table.
 For example, you have `Customers` with `CityID` column linked to `Cities` table which has two columns: `ID` and `Name`.

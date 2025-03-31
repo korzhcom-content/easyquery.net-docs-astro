@@ -3,7 +3,6 @@ title: IEasyQueryManagerTuner interface
 slug: api-reference-5x/korzh-easyquery-services-namespace/ieasyquerymanagertuner-interface
 ---
 
-
 Defines the interaces for "manager tuner" classes
 ```csharp
 public interface Korzh.EasyQuery.Services.IEasyQueryManagerTuner

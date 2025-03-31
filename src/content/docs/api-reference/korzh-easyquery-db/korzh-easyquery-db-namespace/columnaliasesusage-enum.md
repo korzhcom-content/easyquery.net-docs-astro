@@ -3,7 +3,6 @@ title: ColumnAliasesUsage enum
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/columnaliasesusage-enum
 ---
 
-
 Represents the conditions when the result SQL should include column aliases.
 ```csharp
 public enum Korzh.EasyQuery.Db.ColumnAliasesUsage

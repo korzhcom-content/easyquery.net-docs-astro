@@ -3,7 +3,6 @@ title: DbConnectionModelLoader class
 slug: api-reference-5x/korzh-easyquery-services-namespace/dbconnectionmodelloader-class
 ---
 
-
 Represents a IModelLoader implementation which allows to load the model directly from a connection (using DB meta data)
 ```csharp
 public class Korzh.EasyQuery.Services.DbConnectionModelLoader

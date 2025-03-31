@@ -3,7 +3,6 @@ title: Customizing common SQL clauses
 slug: how-to/customizing-common-sql-clauses
 ---
 
-
 ## 1. Problem Overview
 Working with EasyQuery, sometimes you need to add to generated SQL some additional clauses, which are common for the whole query (DISTINCT, TOP, etc)
 

@@ -3,7 +3,6 @@ title: License class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/license-class
 ---
 
-
 Static class that allows you to set the license key for EasyQuery.
 ```csharp
 public static class Korzh.EasyQuery.WinForms.License

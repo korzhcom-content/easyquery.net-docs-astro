@@ -3,7 +3,6 @@ title: ModelLinqExtensions class
 slug: api-reference-4x/korzh-easyquery-linq-namespace/modellinqextensions-class
 ---
 
-
 ```csharp
 public static class Korzh.EasyQuery.Linq.ModelLinqExtensions
 

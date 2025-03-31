@@ -3,7 +3,6 @@ title: ExportOptions class
 slug: api-reference-4x/korzh-easyquery-services-namespace/exportoptions-class
 ---
 
-
 Represents different options for exporting operations
 ```csharp
 public class Korzh.EasyQuery.Services.ExportOptions

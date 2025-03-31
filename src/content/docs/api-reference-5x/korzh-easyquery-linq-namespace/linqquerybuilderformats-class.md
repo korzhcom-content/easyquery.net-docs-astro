@@ -3,7 +3,6 @@ title: LinqQueryBuilderFormats class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/linqquerybuilderformats-class
 ---
 
-
 Represents different formats which control LinqQueryBuilder behaviour.  This class is empty for now.
 ```csharp
 public class Korzh.EasyQuery.Linq.LinqQueryBuilderFormats

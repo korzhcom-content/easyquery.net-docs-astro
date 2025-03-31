@@ -3,7 +3,6 @@ title: CommonExtensions class
 slug: api-reference-5x/korzh-easyquery-namespace/commonextensions-class
 ---
 
-
 Useful extension methods for EasyQuery's types
 ```csharp
 public static class Korzh.EasyQuery.CommonExtensions

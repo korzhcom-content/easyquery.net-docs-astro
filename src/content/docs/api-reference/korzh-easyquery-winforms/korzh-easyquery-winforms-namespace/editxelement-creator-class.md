@@ -3,8 +3,7 @@ title: EditXElement.Creator class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/editxelement-creator-class
 ---
 
-
-Implements ICreator interface for [Korzh.EasyQuery.WinForms.EditXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/editxelement-class) class
+Implements ICreator interface for [Korzh.EasyQuery.WinForms.EditXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/editxelement-class) class
 ```csharp
 public class Korzh.EasyQuery.WinForms.EditXElement.Creator
     : XElement.ICreator
@@ -32,4 +31,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create() | [XElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new [Korzh.EasyQuery.WinForms.EditXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/editxelement-class) object |
+| Create() | [XElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new [Korzh.EasyQuery.WinForms.EditXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/editxelement-class) object |

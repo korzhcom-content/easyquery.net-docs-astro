@@ -3,7 +3,6 @@ title: Path class
 slug: api-reference-4x/korzh-easyquery-db-namespace/path-class
 ---
 
-
 Represents list of tables which are linked to each other
 ```csharp
 public class Korzh.EasyQuery.Db.Path

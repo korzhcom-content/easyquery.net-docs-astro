@@ -3,7 +3,6 @@ title: IJsonConvertor interface
 slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/ijsonconvertor-interface
 ---
 
-
 Exposes a JSON serializer / deserializer
 ```csharp
 public interface Korzh.EasyQuery.WinForms.ModelEditor.IJsonConvertor

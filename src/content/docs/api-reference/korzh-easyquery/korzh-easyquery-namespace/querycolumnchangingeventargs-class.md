@@ -3,8 +3,7 @@ title: QueryColumnChangingEventArgs class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumnchangingeventargs-class
 ---
 
-
-Provides data for [Korzh.EasyQuery.Query.ColumnsChanging](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) event
+Provides data for [Korzh.EasyQuery.Query.ColumnsChanging](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) event
 ```csharp
 public class Korzh.EasyQuery.QueryColumnChangingEventArgs
     : QueryColumnsChangeEventArgs
@@ -18,7 +17,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| QueryColumnChangingEventArgs([ChangeType](/api-reference/korzh-easyquery/korzh-easyquery-namespace/changetype-enum) what, [QueryColumn](/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column, `int` info, `int` part = 0) | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryColumnChangingEventArgs](/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumnchangingeventargs-class) class. | 
+| QueryColumnChangingEventArgs([ChangeType](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/changetype-enum) what, [QueryColumn](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column, `int` info, `int` part = 0) | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryColumnChangingEventArgs](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumnchangingeventargs-class) class. | 
 
 
 ### Properties

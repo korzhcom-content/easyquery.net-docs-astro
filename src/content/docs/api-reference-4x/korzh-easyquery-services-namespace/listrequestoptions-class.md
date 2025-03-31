@@ -3,7 +3,6 @@ title: ListRequestOptions class
 slug: api-reference-4x/korzh-easyquery-services-namespace/listrequestoptions-class
 ---
 
-
 Represents different options specified in GetList AJAX request
 ```csharp
 public class Korzh.EasyQuery.Services.ListRequestOptions

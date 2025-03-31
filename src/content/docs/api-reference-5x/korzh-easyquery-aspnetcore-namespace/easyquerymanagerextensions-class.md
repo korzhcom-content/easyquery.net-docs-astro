@@ -3,7 +3,6 @@ title: EasyQueryManagerExtensions class
 slug: api-reference-5x/korzh-easyquery-aspnetcore-namespace/easyquerymanagerextensions-class
 ---
 
-
 Contains several useful extension methods for working with EasyQuery types in ASP.NET Core applications
 ```csharp
 public static class Korzh.EasyQuery.AspNetCore.EasyQueryManagerExtensions

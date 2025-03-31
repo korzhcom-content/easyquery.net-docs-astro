@@ -3,7 +3,6 @@ title: ExecuteQueryOptions class
 slug: api-reference-5x/korzh-easyquery-services-namespace/executequeryoptions-class
 ---
 
-
 Represents different options of ExecuteQuery operation.
 ```csharp
 public class Korzh.EasyQuery.Services.ExecuteQueryOptions

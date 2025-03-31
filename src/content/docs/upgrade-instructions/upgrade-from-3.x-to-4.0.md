@@ -1,8 +1,7 @@
 ---
 title: Upgrading from version 3.x to 4.0
-slug: release-notes/upgrade-from-3.x-to-4.0
+slug: upgrade-instructions/upgrade-from-3.x-to-4.0
 ---
-
 
 ## 1. Change your assemblies
 In version 3.x you referenced EasyQuery assemblies stored somewhere on your hard drive. This approach does not work anymore in ASP.NET Core application instead you need to reference Nuget packages.

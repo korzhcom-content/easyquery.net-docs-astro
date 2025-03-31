@@ -3,7 +3,6 @@ title: QueryExpr class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/queryexpr-class
 ---
 
-
 Represents a sub-query expression
 ```csharp
 public class Korzh.EasyQuery.QueryExpr
@@ -18,17 +17,17 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| QueryExpr([DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryExpr](/api-reference/korzh-easyquery/korzh-easyquery-namespace/queryexpr-class) class. | 
+| QueryExpr([DataModel](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryExpr](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/queryexpr-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DataType | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the data type. | 
+| DataType | [DataType](//easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the data type. | 
 | IsPlainSql | `bool` | Gets a value indicating whether this instance contains a plain SQL statement. | 
-| Kind | [DataKind](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datakind-enum) | Gets the expression kind. | 
-| Query | [Query](/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the query. | 
+| Kind | [DataKind](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datakind-enum) | Gets the expression kind. | 
+| Query | [Query](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the query. | 
 | Tag | `int` | Get the expression's tag - a special identifier that is used to distinguish the type of the expression . | 
 
 

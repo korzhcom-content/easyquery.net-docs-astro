@@ -3,7 +3,6 @@ title: Version 3.8.0 release notes
 slug: release-notes/version-3-x/version-3.8.0
 ---
 
-
 ## 1. New functions in EasyQuery (actual for all versions)
 
 We've added support for parameters in virtual attribute expressions and also support for parameterized conditions. Read more about two methods of using parameters in query conditions in this [article](/how-to/parameters-in-query-conditions).

@@ -3,7 +3,6 @@ title: Utils class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/utils-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.WinForms.Utils
 
@@ -23,4 +22,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| GetFormattedAttributeTitle([EntityAttr](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `string` format = <span style='color: blue'>null</span>) | `string` |  |
+| GetFormattedAttributeTitle([EntityAttr](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `string` format = <span style='color: blue'>null</span>) | `string` |  |

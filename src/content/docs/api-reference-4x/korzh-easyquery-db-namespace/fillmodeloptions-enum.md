@@ -3,7 +3,6 @@ title: FillModelOptions enum
 slug: api-reference-4x/korzh-easyquery-db-namespace/fillmodeloptions-enum
 ---
 
-
 Options for filling model by FillByDbGate method
 ```csharp
 public enum Korzh.EasyQuery.Db.FillModelOptions

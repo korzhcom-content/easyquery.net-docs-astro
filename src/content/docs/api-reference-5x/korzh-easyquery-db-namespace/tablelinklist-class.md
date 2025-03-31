@@ -3,8 +3,7 @@ title: TableLinkList class
 slug: api-reference-5x/korzh-easyquery-db-namespace/tablelinklist-class
 ---
 
-
-Represents list of the links ([Korzh.EasyQuery.Db.TableLink](/api-reference-5x/korzh-easyquery-db-namespace/tablelink-class) objects).
+Represents list of the links ([Korzh.EasyQuery.Db.TableLink](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/tablelink-class) objects).
 ```csharp
 public class Korzh.EasyQuery.Db.TableLinkList
     : Collection<TableLink>, IList<TableLink>, ICollection<TableLink>, IEnumerable<TableLink>, IEnumerable, IList, ICollection, IReadOnlyList<TableLink>, IReadOnlyCollection<TableLink>

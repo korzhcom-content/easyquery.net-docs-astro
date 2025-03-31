@@ -3,7 +3,6 @@ title: QueryBuilderResult class
 slug: api-reference-4x/korzh-easyquery-namespace/querybuilderresult-class
 ---
 
-
 Represents the result of query builder work.
 ```csharp
 public abstract class Korzh.EasyQuery.QueryBuilderResult

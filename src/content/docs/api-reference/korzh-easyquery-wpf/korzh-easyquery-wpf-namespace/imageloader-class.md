@@ -3,7 +3,6 @@ title: ImageLoader class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/imageloader-class
 ---
 
-
 A container of some bitmaps loaded from resources
 ```csharp
 public class Korzh.EasyQuery.Wpf.ImageLoader

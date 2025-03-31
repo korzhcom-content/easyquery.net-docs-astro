@@ -3,7 +3,6 @@ title: CondLinkType enum
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/condlinktype-enum
 ---
 
-
 Represents different possible types of linking between conditions
 ```csharp
 public enum Korzh.EasyQuery.WinForms.CondLinkType

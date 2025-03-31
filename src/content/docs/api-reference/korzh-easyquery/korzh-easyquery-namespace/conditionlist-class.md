@@ -3,7 +3,6 @@ title: ConditionList class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/conditionlist-class
 ---
 
-
 Represents a list of conditions.
 ```csharp
 public class Korzh.EasyQuery.ConditionList
@@ -25,4 +24,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| FindByAttr([EntityAttr](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr) | [Condition](/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) | Finds the condition the by entity attribute set in the left part of this condition. |
+| FindByAttr([EntityAttr](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr) | [Condition](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) | Finds the condition the by entity attribute set in the left part of this condition. |

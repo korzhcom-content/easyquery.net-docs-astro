@@ -3,7 +3,6 @@ title: IValueListResolver interface
 slug: api-reference-5x/korzh-easyquery-services-namespace/ivaluelistresolver-interface
 ---
 
-
 Represents a type used to get the list of values by some "list" value editor.
 ```csharp
 public interface Korzh.EasyQuery.Services.IValueListResolver

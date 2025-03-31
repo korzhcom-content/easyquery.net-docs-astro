@@ -3,7 +3,6 @@ title: DateEditXElement class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/dateeditxelement-class
 ---
 
-
 Used for user text input
 ```csharp
 public class Korzh.EasyQuery.Wpf.DateEditXElement

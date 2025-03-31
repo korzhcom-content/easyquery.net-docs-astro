@@ -3,7 +3,6 @@ title: TextResources class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/textresources-class
 ---
 
-
 Manages texts for all EasyQuery WinControls visual objects
 ```csharp
 public static class Korzh.EasyQuery.Wpf.TextResources
@@ -18,8 +17,8 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Get(`string` code) | `string` | Gets a resource string by its code. | 
-| GetTexts(`string` storageID = <span style='color: blue'>null</span>) | [TextStorage](/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) | Gets current [Korzh.Utils.TextStorage](/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) object that contains textual resources for this assembly. | 
-| LoadFromFile(`string` path, [TextStorage](/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) storage = <span style='color: blue'>null</span>) | `void` | Loads the resources from .properties file into the default TextStorage object | 
+| GetTexts(`string` storageID = <span style='color: blue'>null</span>) | [TextStorage](//easyquery/docs/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) | Gets current [Korzh.Utils.TextStorage](//easyquery/docs/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) object that contains textual resources for this assembly. | 
+| LoadFromFile(`string` path, [TextStorage](//easyquery/docs/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) storage = <span style='color: blue'>null</span>) | `void` | Loads the resources from .properties file into the default TextStorage object | 
 | LoadFromFileForCulture(`string` baseFileName, `CultureInfo` cultureInfo = <span style='color: blue'>null</span>, `string` fileExt = properties) | `void` | Loads the resources from .properties file into the default TextStorage object. The name of the .properties file is based on the culture for current thread. | 
 | LoadFromResources(`ResourceManager` resManager) | `void` | Loads texts from resources into the default TextStorage. | 
 | LoadFromStream(`Stream` stream) | `void` | Loads resources from a stream into the default TextStorage object | 

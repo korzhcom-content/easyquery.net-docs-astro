@@ -3,7 +3,6 @@ title: GdtResultSet class
 slug: api-reference-5x/korzh-easyquery-services-namespace/gdtresultset-class
 ---
 
-
 Represents a result set which can be easly convertend into Google's DataTable format
 ```csharp
 public class Korzh.EasyQuery.Services.GdtResultSet

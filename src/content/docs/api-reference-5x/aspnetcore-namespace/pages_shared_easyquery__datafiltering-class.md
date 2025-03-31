@@ -3,7 +3,6 @@ title: Pages_Shared_EasyQuery__DataFiltering class
 slug: api-reference-5x/aspnetcore-namespace/pages_shared_easyquery__datafiltering-class
 ---
 
-
 ```csharp
 public class AspNetCore.Pages_Shared_EasyQuery__DataFiltering
     : RazorPage<Object>, IRazorPage

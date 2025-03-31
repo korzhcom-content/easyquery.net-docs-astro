@@ -3,7 +3,6 @@ title: Version 5.1 release notes
 slug: release-notes/version-5-x/version-5-1
 ---
 
-
 Version 5.1 is a minor update to version 5.0 which fixes several small bugs and brings few new classes to support authentication/authorization procedures for EasyQuery middleware actions.
 
 ## Core library
@@ -65,7 +64,7 @@ Now you can call `eqi18n.addLocale` function to add new locale with all text res
 
 ### Custom dialogs in AdvancedSearchView
 
-It's possible now to define custom dialogs (for example using JQuery Dialogs) for New/Save/Remove Query operations. There is a [tutorial which describes how to do it](//$aid/eqdn-b92d75upbfl1).
+It's possible now to define custom dialogs (for example using JQuery Dialogs) for New/Save/Remove Query operations. There is a [tutorial which describes how to do it](//easyquery/docs/tutorials/custom-javascript-dialogs-saving-loading).
 
 ### New functions in the Query object
 
@@ -98,4 +97,4 @@ now it should be:
 let view = new easyquery.ui.AdvancedSearchViewJQuery();
 ```
 
-> NB: For those, who upgrades from the version  4.x of EasyQuery for ASP.NET Core - please follow these [detailed upgrade instructions](//$aid/eqdn-392015dbujj7) first.
+> NB: For those, who upgrades from the version  4.x of EasyQuery for ASP.NET Core - please follow these [detailed upgrade instructions](//easyquery/docs/release-notes/upgrade-from-4-x-to-5-0) first.

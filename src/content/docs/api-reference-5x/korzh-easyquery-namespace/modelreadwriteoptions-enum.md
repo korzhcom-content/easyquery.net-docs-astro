@@ -3,7 +3,6 @@ title: ModelReadWriteOptions enum
 slug: api-reference-5x/korzh-easyquery-namespace/modelreadwriteoptions-enum
 ---
 
-
 Represents different options used during data model loading or saving
 ```csharp
 public enum Korzh.EasyQuery.ModelReadWriteOptions

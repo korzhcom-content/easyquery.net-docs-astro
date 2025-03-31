@@ -3,7 +3,6 @@ title: IMacroValue interface
 slug: api-reference-5x/korzh-easyquery-namespace/imacrovalue-interface
 ---
 
-
 Represents one macro value.
 ```csharp
 public interface Korzh.EasyQuery.IMacroValue

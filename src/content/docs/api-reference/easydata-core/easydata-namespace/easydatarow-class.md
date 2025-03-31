@@ -3,7 +3,6 @@ title: EasyDataRow class
 slug: api-reference/easydata-core/easydata-namespace/easydatarow-class
 ---
 
-
 ```csharp
 public class EasyData.EasyDataRow
     : List<object>

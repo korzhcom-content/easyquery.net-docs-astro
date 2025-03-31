@@ -3,7 +3,6 @@ title: Signals enum
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/signals-enum
 ---
 
-
 Enumerates all possible internal signals
 ```csharp
 public enum Korzh.EasyQuery.WinForms.Signals

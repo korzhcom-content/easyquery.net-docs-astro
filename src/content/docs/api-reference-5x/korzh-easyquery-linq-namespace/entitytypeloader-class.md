@@ -3,7 +3,6 @@ title: EntityTypeLoader class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/entitytypeloader-class
 ---
 
-
 Represents the class which loads type information from some type.
 ```csharp
 public class Korzh.EasyQuery.Linq.EntityTypeLoader

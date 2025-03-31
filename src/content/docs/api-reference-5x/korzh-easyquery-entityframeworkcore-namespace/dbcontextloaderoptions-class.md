@@ -3,8 +3,7 @@ title: DbContextLoaderOptions class
 slug: api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloaderoptions-class
 ---
 
-
-Contains different options for [Korzh.EasyQuery.EntityFrameworkCore.DbContextLoader](/api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloader-class)
+Contains different options for [Korzh.EasyQuery.EntityFrameworkCore.DbContextLoader](//easyquery/docs/api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloader-class)
 ```csharp
 public class Korzh.EasyQuery.EntityFrameworkCore.DbContextLoaderOptions
 

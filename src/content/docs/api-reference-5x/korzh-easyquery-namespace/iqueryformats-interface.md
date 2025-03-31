@@ -3,7 +3,6 @@ title: IQueryFormats interface
 slug: api-reference-5x/korzh-easyquery-namespace/iqueryformats-interface
 ---
 
-
 Defines basic query formats functionality
 ```csharp
 public interface Korzh.EasyQuery.IQueryFormats

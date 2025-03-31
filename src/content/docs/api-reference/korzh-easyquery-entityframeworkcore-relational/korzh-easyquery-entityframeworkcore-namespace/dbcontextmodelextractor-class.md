@@ -3,7 +3,6 @@ title: DbContextModelExtractor class
 slug: api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractor-class
 ---
 
-
 Represents a model loader that takes all necessary information from some DbContext object
 ```csharp
 public class Korzh.EasyQuery.EntityFrameworkCore.DbContextModelExtractor
@@ -17,7 +16,7 @@ Assembly: `Korzh.EasyQuery.EntityFrameworkCore.Relational.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DbContextModelExtractor([DbModel](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) model, [DbContextModelExtractorOptions](/api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractoroptions-class) extractorOptions) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EntityFrameworkCore.DbContextModelExtractor](/api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractor-class) class. | 
+| DbContextModelExtractor([DbModel](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) model, [DbContextModelExtractorOptions](//easyquery/docs/api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractoroptions-class) extractorOptions) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EntityFrameworkCore.DbContextModelExtractor](//easyquery/docs/api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractor-class) class. | 
 
 
 ### Methods

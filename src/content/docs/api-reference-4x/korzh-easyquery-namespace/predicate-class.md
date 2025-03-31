@@ -3,7 +3,6 @@ title: Predicate class
 slug: api-reference-4x/korzh-easyquery-namespace/predicate-class
 ---
 
-
 Represents group of conditions linked by some logical operator (AND or OR).
 ```csharp
 public abstract class Korzh.EasyQuery.Predicate
@@ -48,7 +47,7 @@ public abstract class Korzh.EasyQuery.Predicate
 | `String` | GetText(`QueryTextFormats` formats, `String` levelSpace, `String` prefix) | Returns text representation of condition | 
 | `IEnumerable<Entity>` | GetUsedEntities() | Gets the list of entities that are used in conditions of this predicate. | 
 | `void` | LoadFromJsonDict(`JsonDict` dictPredicate) | Loads condition from IDictionary. Used during loading query from JSON | 
-| `void` | LoadFromXmlReader(`XmlReader` reader) | Loads [Korzh.EasyQuery.Predicate](/api-reference-4x/korzh-easyquery-namespace/predicate-class) properties from XML reader. | 
+| `void` | LoadFromXmlReader(`XmlReader` reader) | Loads [Korzh.EasyQuery.Predicate](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/predicate-class) properties from XML reader. | 
 | `void` | Reset() | Clears the condition list and resets linking type | 
 | `void` | SaveToXmlWriter(`XmlWriter` writer) | Saves root condition group object to XML writer, if the predicate is root. Otherwise calls inherited method. | 
 | `void` | SetEnabled(`Boolean` newValue) | Sets the Enabled property. | 

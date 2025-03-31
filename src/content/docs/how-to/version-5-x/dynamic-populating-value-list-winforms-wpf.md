@@ -3,7 +3,6 @@ title: Dynamic populating of value lists in WinForms or WPF editions
 slug: how-to/version-5-x/dynamic-populating-value-list-winforms-wpf
 ---
 
-
 ## Problem
 
 It's a very common situation when users define the query conditions they would like to select some values from the predefined list instead of typing those values "manually".

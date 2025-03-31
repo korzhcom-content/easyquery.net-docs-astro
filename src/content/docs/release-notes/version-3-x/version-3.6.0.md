@@ -3,7 +3,6 @@ title: Version 3.6.0 release notes
 slug: release-notes/version-3-x/version-3.6.0
 ---
 
-
 Version 3.6.0 of EasyQuery adds a lot of new features, especially for ASP.NET MVC projects.
 Here you will find a brief description of most important changes
 

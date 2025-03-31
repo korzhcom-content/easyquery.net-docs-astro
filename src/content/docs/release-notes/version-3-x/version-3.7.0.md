@@ -3,7 +3,6 @@ title: Version 3.7.0 release notes
 slug: release-notes/version-3-x/version-3.7.0
 ---
 
-
 ## 1. New functions in EQ.client namespace (for ASP.NET MVC projects)
 
 We have added two new functions to the EQ.client namespace of EasyQuery.JS library: newQuery and removeQuery. Now (together with saveQuery/loadQuery functions available earlier) we have a full set of operations which allow you to manage the list of queries available for your end-users.

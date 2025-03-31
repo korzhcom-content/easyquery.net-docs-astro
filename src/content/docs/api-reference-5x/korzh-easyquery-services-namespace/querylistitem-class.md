@@ -3,7 +3,6 @@ title: QueryListItem class
 slug: api-reference-5x/korzh-easyquery-services-namespace/querylistitem-class
 ---
 
-
 Represents one item in the list of queries (usually returned for GetQueries request)
 ```csharp
 public class Korzh.EasyQuery.Services.QueryListItem

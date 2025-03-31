@@ -3,7 +3,6 @@ title: About Data Model Editor
 slug: data-model-editor/about
 ---
 
-
 ## What is it?
 
 EasyQuery uses a special repository (called “data model”) that allows you to hide the details of your database structure from the end-users. It contains information about tables, links between them, entities of the data domain (and their attributes) and operators which can be used in query conditions (such as "equals” or “is greater than”).
@@ -25,7 +24,7 @@ Though being easy to use and self-explanatory, data model editing requires some 
 
 First of all, you will use DME to create your first data model. Here is a detailed instruction which will guide you through all steps of model creation process:
 
- * [$$-Creating new data model using Data Model Editor-$$](//$aid/d3296080-f7cd-4e32-b6ea-1e5319948c82)
+ * [Creating new data model using Data Model Editor](//easyquery/docs/getting-started/working-with-data-model)
 
 Once a model is created (or opened), you will see 3 main tabs:
 

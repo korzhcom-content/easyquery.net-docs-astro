@@ -3,8 +3,7 @@ title: DbContextLoaderException class
 slug: api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloaderexception-class
 ---
 
-
-Represents exception class for [Korzh.EasyQuery.EntityFrameworkCore.DbContextLoader](/api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloader-class)
+Represents exception class for [Korzh.EasyQuery.EntityFrameworkCore.DbContextLoader](//easyquery/docs/api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloader-class)
 ```csharp
 public class Korzh.EasyQuery.EntityFrameworkCore.DbContextLoaderException
     : Exception, ISerializable

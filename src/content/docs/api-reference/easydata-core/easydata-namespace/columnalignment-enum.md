@@ -3,7 +3,6 @@ title: ColumnAlignment enum
 slug: api-reference/easydata-core/easydata-namespace/columnalignment-enum
 ---
 
-
 ```csharp
 public enum EasyData.ColumnAlignment
     : Enum

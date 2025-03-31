@@ -3,7 +3,6 @@ title: EqControllerBaseExtentions class
 slug: api-reference-5x/korzh-easyquery-aspnetcore-namespace/eqcontrollerbaseextentions-class
 ---
 
-
 Contains useful expression which allows to build some specific IActionResult objects.
 ```csharp
 public static class Korzh.EasyQuery.AspNetCore.EqControllerBaseExtentions

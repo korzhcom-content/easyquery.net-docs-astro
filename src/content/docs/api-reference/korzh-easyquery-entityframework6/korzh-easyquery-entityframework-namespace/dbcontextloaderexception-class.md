@@ -3,7 +3,6 @@ title: DbContextLoaderException class
 slug: api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/dbcontextloaderexception-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.EntityFramework.DbContextLoaderException
     : DbContextModelExtractorException

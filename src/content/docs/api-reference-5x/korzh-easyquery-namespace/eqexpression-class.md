@@ -3,7 +3,6 @@ title: EqExpression class
 slug: api-reference-5x/korzh-easyquery-namespace/eqexpression-class
 ---
 
-
 Represents common expression object.
 ```csharp
 public abstract class Korzh.EasyQuery.EqExpression

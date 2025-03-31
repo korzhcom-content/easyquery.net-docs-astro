@@ -3,7 +3,6 @@ title: LinkStore class
 slug: api-reference-5x/korzh-easyquery-db-namespace/linkstore-class
 ---
 
-
 Represetns storage of links.
 ```csharp
 public class Korzh.EasyQuery.Db.LinkStore

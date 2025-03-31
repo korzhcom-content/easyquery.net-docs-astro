@@ -3,7 +3,6 @@ title: XPanel class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xpanel-class
 ---
 
-
 Base class for all panels used in EasyQuery
 ```csharp
 public class Korzh.EasyQuery.Wpf.XPanel
@@ -25,7 +24,7 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Rows | [XRowList](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrowlist-class) | Gets or sets the rows. | 
+| Rows | [XRowList](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrowlist-class) | Gets or sets the rows. | 
 | ShowCheckBoxes | `bool` |  | 
 
 
@@ -33,5 +32,5 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| RowsProperty | `DependencyProperty` | List of [Korzh.EasyQuery.Wpf.XRow](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrow-class) | 
-| VisualOffsetPerLevel | `int` | [Korzh.EasyQuery.Wpf.XRow](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrow-class)'s visual offset for one level |
+| RowsProperty | `DependencyProperty` | List of [Korzh.EasyQuery.Wpf.XRow](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrow-class) | 
+| VisualOffsetPerLevel | `int` | [Korzh.EasyQuery.Wpf.XRow](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrow-class)'s visual offset for one level |

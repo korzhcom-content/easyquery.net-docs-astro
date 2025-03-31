@@ -3,7 +3,6 @@ title: Query with OR operators
 slug: tutorials/common-sql-queries/query-with-or-operators
 ---
 
-
 ## Query description
 
 Let's suppose we need to build a query where condition #1 OR condition #2 apply.
@@ -40,7 +39,7 @@ You need to perform three simple steps:
   1) Product Category is equal to Beverages
   2) Product Category is equal to Seafood
 
-![Query with OR operators](/easyquery/docs/images/query-or-1.gif)
+![Query with OR operators](https://files.aistant.com/korzh/easyquery-dotnet/images/query-or-1.gif)
 
 ## Query 2
 
@@ -83,4 +82,4 @@ Product Category is equal to Seafood
 
 Finally you should see something like the following:
 
-![Another query with OR operators](/easyquery/docs/images/query-or-2.gif)
+![Another query with OR operators](https://files.aistant.com/korzh/easyquery-dotnet/images/query-or-2.gif)

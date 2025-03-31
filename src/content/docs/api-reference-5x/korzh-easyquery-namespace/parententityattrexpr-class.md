@@ -3,7 +3,6 @@ title: ParentEntityAttrExpr class
 slug: api-reference-5x/korzh-easyquery-namespace/parententityattrexpr-class
 ---
 
-
 Represents parent entity attribute expression
 ```csharp
 public class Korzh.EasyQuery.ParentEntityAttrExpr

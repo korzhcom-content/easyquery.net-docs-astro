@@ -3,7 +3,6 @@ title: FormatType enum
 slug: api-reference-5x/korzh-easyquery-db-namespace/formattype-enum
 ---
 
-
 Represents different database types
 ```csharp
 public enum Korzh.EasyQuery.Db.FormatType

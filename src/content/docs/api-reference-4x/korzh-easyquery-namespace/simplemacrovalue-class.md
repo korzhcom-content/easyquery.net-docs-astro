@@ -3,7 +3,6 @@ title: SimpleMacroValue class
 slug: api-reference-4x/korzh-easyquery-namespace/simplemacrovalue-class
 ---
 
-
 Represents one macro value.
 ```csharp
 public class Korzh.EasyQuery.SimpleMacroValue

@@ -3,7 +3,6 @@ title: Exporting query results
 slug: tutorials/exporting-query-results
 ---
 
-
 ## 1. Problem Overview
 
 After building, executing and getting results from a query, users often may have a need to save their data in another format or transfer it for further processing to another program (e.g. Excel).

@@ -3,7 +3,6 @@ title: Version 4.4.2 release notes
 slug: release-notes/version-4-x/version-4-4-2
 ---
 
-
 ## 1. Core library
 
 * `UseParameters` options in EqServiceProvider class. Now you don't need to define your own `QueryBulider` handler. Just set `eqService.UseParameters = true` and all SQL statements will be generated with parameters. 

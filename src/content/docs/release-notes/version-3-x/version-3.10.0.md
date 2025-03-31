@@ -3,7 +3,6 @@ title: Version 3.10.0 release notes
 slug: release-notes/version-3-x/version-3.10.0
 ---
 
-
 ## Breaking changes
 
 Version 3.10.0 of EasyQuery changes the default behavior of EasyQuery server-side components. We changed it (a little) to make EasyQuery components completely stateless.

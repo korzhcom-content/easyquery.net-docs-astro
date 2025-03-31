@@ -3,7 +3,6 @@ title: IColumnDescriptor interface
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/icolumndescriptor-interface
 ---
 
-
 Contains descriptor for creating column.
 ```csharp
 public interface Korzh.EasyQuery.IColumnDescriptor
@@ -19,6 +18,6 @@ Assembly: `Korzh.EasyQuery.dll`
 | --- | --- | --- | 
 | AttrId | `string` | The attribute id. | 
 | Caption | `string` | The caption. | 
-| Expr | [EqExpression](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | The expression | 
+| Expr | [EqExpression](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | The expression | 
 | FuncId | `string` | The aggregate function Id | 
-| Sorting | [SortDirection](/api-reference/korzh-easyquery/korzh-easyquery-namespace/sortdirection-enum) | The sort direction. |
+| Sorting | [SortDirection](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/sortdirection-enum) | The sort direction. |

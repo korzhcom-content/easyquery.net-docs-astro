@@ -3,7 +3,6 @@ title: CustomValueEditor class
 slug: api-reference/easydata-core/easydata-namespace/customvalueeditor-class
 ---
 
-
 Represents custom (user defined) value editor.
 ```csharp
 public class EasyData.CustomValueEditor
@@ -18,8 +17,8 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CustomValueEditor() | `void` | Initializes a new instance of the [EasyData.CustomValueEditor](/api-reference/easydata-core/easydata-namespace/customvalueeditor-class) class. | 
-| CustomValueEditor(`string` tag) | `void` | Initializes a new instance of the [EasyData.CustomValueEditor](/api-reference/easydata-core/easydata-namespace/customvalueeditor-class) class. | 
+| CustomValueEditor() | `void` | Initializes a new instance of the [EasyData.CustomValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/customvalueeditor-class) class. | 
+| CustomValueEditor(`string` tag) | `void` | Initializes a new instance of the [EasyData.CustomValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/customvalueeditor-class) class. | 
 
 
 ### Properties
@@ -38,7 +37,7 @@ Assembly: `EasyData.Core.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | ReadOnePropFromJsonAsync(`JsonReader` reader, `string` propName) | `Task` | Reads one editor's property from JSON (asynchronous way). | 
-| WritePropertiesToJsonAsync(`JsonWriter` writer, [BitOptions](/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` | Writes the content of the "CUSTOM" value editor to JSON (asynchronous way). | 
+| WritePropertiesToJsonAsync(`JsonWriter` writer, [BitOptions](//easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` | Writes the content of the "CUSTOM" value editor to JSON (asynchronous way). | 
 
 
 ### Static Properties

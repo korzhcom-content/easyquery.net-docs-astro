@@ -3,7 +3,6 @@ title: HighlightSelectedTextTagHelper class
 slug: api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/highlightselectedtexttaghelper-class
 ---
 
-
 Represents a tag helper which allows to highlight the found pieces on the page.  Implements the `Microsoft.AspNetCore.Razor.TagHelpers.TagHelper`
 ```csharp
 public class Korzh.EasyQuery.AspNetCore.HighlightSelectedTextTagHelper

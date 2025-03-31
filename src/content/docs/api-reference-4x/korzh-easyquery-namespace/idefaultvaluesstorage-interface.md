@@ -3,7 +3,6 @@ title: IDefaultValuesStorage interface
 slug: api-reference-4x/korzh-easyquery-namespace/idefaultvaluesstorage-interface
 ---
 
-
 Represents a storage of default values
 ```csharp
 public interface Korzh.EasyQuery.IDefaultValuesStorage

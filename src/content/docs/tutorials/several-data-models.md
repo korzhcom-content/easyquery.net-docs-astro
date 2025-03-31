@@ -3,7 +3,6 @@ title: Working with several data models
 slug: tutorials/several-data-models
 ---
 
-
 ## Problem
 
 All EasyQuery demos works with one data model (and one database which corresponds to that model). However, some application might work with several databases and switch between them at run-time.

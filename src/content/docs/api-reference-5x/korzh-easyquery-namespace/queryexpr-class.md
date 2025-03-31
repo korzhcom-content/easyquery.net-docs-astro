@@ -3,7 +3,6 @@ title: QueryExpr class
 slug: api-reference-5x/korzh-easyquery-namespace/queryexpr-class
 ---
 
-
 Represents a sub-query expression
 ```csharp
 public class Korzh.EasyQuery.QueryExpr

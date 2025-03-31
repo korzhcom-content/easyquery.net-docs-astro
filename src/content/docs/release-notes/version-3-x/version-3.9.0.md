@@ -3,7 +3,6 @@ title: Version 3.9.0 release notes
 slug: release-notes/version-3-x/version-3.9.0
 ---
 
-
 ## 1. Core library
 
 * Now you can choose the symbol which precedes the parameter name (e.g. '@' or ':') with the new `ParameterPrefix` option in `DbQueryFormats`.

@@ -3,7 +3,6 @@ title: LinqTypeExtensions class
 slug: api-reference-4x/korzh-easyquery-namespace/linqtypeextensions-class
 ---
 
-
 ```csharp
 public static class Korzh.EasyQuery.LinqTypeExtensions
 

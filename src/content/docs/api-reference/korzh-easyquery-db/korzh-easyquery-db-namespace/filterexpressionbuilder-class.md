@@ -3,8 +3,7 @@ title: FilterExpressionBuilder class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/filterexpressionbuilder-class
 ---
 
-
-Used for building Sql commands using [Korzh.EasyQuery.Db.DbQuery](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbquery-class)
+Used for building Sql commands using [Korzh.EasyQuery.Db.DbQuery](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbquery-class)
 ```csharp
 public class Korzh.EasyQuery.Db.FilterExpressionBuilder
     : DbQueryBuilder
@@ -18,7 +17,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| FilterExpressionBuilder([DbQuery](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbquery-class) query) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.SqlQueryBuilder](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlquerybuilder-class) class. | 
+| FilterExpressionBuilder([DbQuery](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbquery-class) query) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.SqlQueryBuilder](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlquerybuilder-class) class. | 
 
 
 ### Properties
@@ -26,7 +25,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | CanBuild | `bool` | Gets a value indicating whether this instance can be built. | 
-| Result | [FilterExpression](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/filterexpression-class) | Gets the result. | 
+| Result | [FilterExpression](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/filterexpression-class) | Gets the result. | 
 
 
 ### Events
@@ -41,5 +40,5 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Build() | `bool` | Builds the filter expression. It can be used (for example) in DataSet.FilterExpression property to filter data | 
-| OnCondSqlGen([ConditionSqlGeneratedEventArgs](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/conditionsqlgeneratedeventargs-class) e) | `void` | Raises the `CondSqlGen` event. | 
+| OnCondSqlGen([ConditionSqlGeneratedEventArgs](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/conditionsqlgeneratedeventargs-class) e) | `void` | Raises the `CondSqlGen` event. | 
 | ResetFilterBuilder() | `void` | Resets the filter builder. |

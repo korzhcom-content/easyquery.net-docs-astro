@@ -3,7 +3,6 @@ title: WpfControlsExtensions class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/wpfcontrolsextensions-class
 ---
 
-
 Some useful extension methods for WPF controls
 ```csharp
 public static class Korzh.EasyQuery.Wpf.WpfControlsExtensions

@@ -3,7 +3,6 @@ title: Entity class
 slug: api-reference-5x/korzh-easyquery-namespace/entity-class
 ---
 
-
 Represents one entity
 ```csharp
 public class Korzh.EasyQuery.Entity

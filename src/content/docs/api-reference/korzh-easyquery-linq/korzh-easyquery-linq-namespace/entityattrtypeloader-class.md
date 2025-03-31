@@ -3,7 +3,6 @@ title: EntityAttrTypeLoader class
 slug: api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/entityattrtypeloader-class
 ---
 
-
 Represents one entity attribute of data model.
 ```csharp
 public class Korzh.EasyQuery.Linq.EntityAttrTypeLoader
@@ -24,4 +23,4 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadAttrFromProperty([EntityAttr](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `PropertyInfo` property, [Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent) | `void` | Fills the content of entity attribute by some property (specified by PropertyInfo object). |
+| LoadAttrFromProperty([EntityAttr](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `PropertyInfo` property, [Entity](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent) | `void` | Fills the content of entity attribute by some property (specified by PropertyInfo object). |

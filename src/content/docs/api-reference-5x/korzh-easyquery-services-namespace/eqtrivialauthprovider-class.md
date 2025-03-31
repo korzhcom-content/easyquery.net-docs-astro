@@ -3,8 +3,7 @@ title: EqTrivialAuthProvider class
 slug: api-reference-5x/korzh-easyquery-services-namespace/eqtrivialauthprovider-class
 ---
 
-
-Represents a trivial implementation of [Korzh.EasyQuery.Services.IEqAuthProvider](/api-reference-5x/korzh-easyquery-services-namespace/ieqauthprovider-interface)  which authorize any user for any action
+Represents a trivial implementation of [Korzh.EasyQuery.Services.IEqAuthProvider](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ieqauthprovider-interface)  which authorize any user for any action
 ```csharp
 public class Korzh.EasyQuery.Services.EqTrivialAuthProvider
     : IEqAuthProvider

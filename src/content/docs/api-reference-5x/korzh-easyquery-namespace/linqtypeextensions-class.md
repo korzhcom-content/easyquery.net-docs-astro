@@ -3,7 +3,6 @@ title: LinqTypeExtensions class
 slug: api-reference-5x/korzh-easyquery-namespace/linqtypeextensions-class
 ---
 
-
 Contains different extension functions for working with refrection and types
 ```csharp
 public static class Korzh.EasyQuery.LinqTypeExtensions

@@ -3,7 +3,6 @@ title: EntityNotFoundException class
 slug: api-reference/easydata-core/easydata-services-namespace/entitynotfoundexception-class
 ---
 
-
 ```csharp
 public class EasyData.Services.EntityNotFoundException
     : Exception

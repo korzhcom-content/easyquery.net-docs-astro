@@ -3,7 +3,6 @@ title: Condition.LinkType enum
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-linktype-enum
 ---
 
-
 Represents type of linking of conditions in group
 ```csharp
 public enum Korzh.EasyQuery.Condition.LinkType

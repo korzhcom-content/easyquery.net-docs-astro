@@ -3,8 +3,7 @@ title: MacroRequestEventArgs class
 slug: api-reference-4x/korzh-easyquery-namespace/macrorequesteventargs-class
 ---
 
-
-Provides data for [Korzh.EasyQuery.DataModel.MacroRequest](/api-reference-4x/korzh-easyquery-namespace/datamodel-class) event
+Provides data for [Korzh.EasyQuery.DataModel.MacroRequest](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/datamodel-class) event
 ```csharp
 public class Korzh.EasyQuery.MacroRequestEventArgs
 

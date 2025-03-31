@@ -3,7 +3,6 @@ title: ConstListValueEditorXmlSerializer class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/constlistvalueeditorxmlserializer-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.ConstListValueEditorXmlSerializer
     : ListValueEditorXmlSerializer<ConstListValueEditor>
@@ -17,12 +16,12 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ConstListValueEditorXmlSerializer([XmlSerializerFactory](/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| ConstListValueEditorXmlSerializer([XmlSerializerFactory](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadContent([ConstListValueEditor](/api-reference/easydata-core/easydata-namespace/constlistvalueeditor-class) editor, `XmlReader` reader) | `void` |  | 
-| SaveContent([ConstListValueEditor](/api-reference/easydata-core/easydata-namespace/constlistvalueeditor-class) editor, `XmlWriter` writer) | `void` |  |
+| LoadContent([ConstListValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/constlistvalueeditor-class) editor, `XmlReader` reader) | `void` |  | 
+| SaveContent([ConstListValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/constlistvalueeditor-class) editor, `XmlWriter` writer) | `void` |  |

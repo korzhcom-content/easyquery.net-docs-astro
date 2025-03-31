@@ -3,7 +3,6 @@ title: Create virtual (calculated) attribute in you model
 slug: tutorials/add-virtual-attribute-in-model
 ---
 
-
 ## What are virtual attributes for?
 
 There are 2 types of entity attributes in each data model:

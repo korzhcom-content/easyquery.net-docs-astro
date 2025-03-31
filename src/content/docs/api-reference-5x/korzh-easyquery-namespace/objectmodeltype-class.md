@@ -3,8 +3,7 @@ title: ObjectModelType class
 slug: api-reference-5x/korzh-easyquery-namespace/objectmodeltype-class
 ---
 
-
-Represents a vertex of the entity graph defined in `Korzh.EasyQuery.Linq.Graph`.  Used in [Korzh.EasyQuery.DataModel.LoadFromContext(System.Type)](/api-reference-5x/korzh-easyquery-namespace/datamodel-class) method
+Represents a vertex of the entity graph defined in `Korzh.EasyQuery.Linq.Graph`.  Used in [Korzh.EasyQuery.DataModel.LoadFromContext(System.Type)](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/datamodel-class) method
 ```csharp
 public class Korzh.EasyQuery.ObjectModelType
     : IEquatable<ObjectModelType>

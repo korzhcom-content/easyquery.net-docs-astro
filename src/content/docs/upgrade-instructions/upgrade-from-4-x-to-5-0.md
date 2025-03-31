@@ -1,8 +1,7 @@
 ---
 title: Upgrading from version 4.x to 5.x
-slug: release-notes/upgrade-from-4-x-to-5-0
+slug: upgrade-instructions/upgrade-from-4-x-to-5-0
 ---
-
 
 ## 1. Change the version of EasyQuery packages
 The first step is rather simple. You just need  to replace the version number in all EasyQuery packages and to add the new ones if necessary.

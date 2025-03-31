@@ -3,7 +3,6 @@ title: ModelLinqExtensions class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/modellinqextensions-class
 ---
 
-
 Contains different extension functions for loading data model from types.
 ```csharp
 public static class Korzh.EasyQuery.Linq.ModelLinqExtensions

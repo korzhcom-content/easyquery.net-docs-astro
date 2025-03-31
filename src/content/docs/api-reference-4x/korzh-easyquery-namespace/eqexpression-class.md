@@ -3,7 +3,6 @@ title: EqExpression class
 slug: api-reference-4x/korzh-easyquery-namespace/eqexpression-class
 ---
 
-
 Represents common expression object.
 ```csharp
 public abstract class Korzh.EasyQuery.EqExpression
@@ -28,7 +27,7 @@ public abstract class Korzh.EasyQuery.EqExpression
 | `DataKind` | Kind | Gets the expression kind. | 
 | `Type` | SystemType | Gets the system type for this expreesion (it's used in LINQ query builder) | 
 | `String` | Text | Gets or sets the expression text used for visual representation. | 
-| `String` | TypeName | Non-static version of [Korzh.EasyQuery.EqExpression.STypeName](/api-reference-4x/korzh-easyquery-namespace/eqexpression-class) property. | 
+| `String` | TypeName | Non-static version of [Korzh.EasyQuery.EqExpression.STypeName](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/eqexpression-class) property. | 
 | `String` | Value | Gets or sets the value of expression. | 
 
 

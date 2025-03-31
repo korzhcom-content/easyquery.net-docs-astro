@@ -3,7 +3,6 @@ title: EditXElement class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editxelement-class
 ---
 
-
 Used for user text input
 ```csharp
 public class Korzh.EasyQuery.Wpf.EditXElement

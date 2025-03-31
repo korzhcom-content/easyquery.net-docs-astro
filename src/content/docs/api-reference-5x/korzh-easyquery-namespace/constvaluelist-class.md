@@ -3,7 +3,6 @@ title: ConstValueList class
 slug: api-reference-5x/korzh-easyquery-namespace/constvaluelist-class
 ---
 
-
 Represents list of availalbe values.  Each item contain the value itself and some caption representing this value.
 ```csharp
 public class Korzh.EasyQuery.ConstValueList

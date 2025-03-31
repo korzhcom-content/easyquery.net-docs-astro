@@ -3,7 +3,6 @@ title: Build query by code on the client-side
 slug: how-to/build-query-by-code-on-clientside
 ---
 
-
 When you work with EasyQuery.JS to build a project (for example MVC-project) you work with two Query objects. First is on the server-side (it’s accessible by `GetQuery` method of `EqServiceProviderDb`) and other - on the client-side (you can get it using `EQ.client.getQuery()` function). 
 
 Sometimes it’s necessary to add query columns and/or conditions by code. Here is [an article](/how-to/add-columns-and-conditions-by-code) which describes how to do it with server-side query object. 

@@ -3,7 +3,6 @@ title: TimeMacro class
 slug: api-reference-4x/korzh-easyquery-namespace/timemacro-class
 ---
 
-
 Represents some date or time macro value
 ```csharp
 public class Korzh.EasyQuery.TimeMacro

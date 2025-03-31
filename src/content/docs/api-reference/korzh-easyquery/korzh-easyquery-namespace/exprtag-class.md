@@ -3,7 +3,6 @@ title: ExprTag class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/exprtag-class
 ---
 
-
 Contains several constant definitions for expressions tag
 ```csharp
 public static class Korzh.EasyQuery.ExprTag

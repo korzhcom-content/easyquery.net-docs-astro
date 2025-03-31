@@ -3,7 +3,6 @@ title: NotEnoughModelInfo class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class
 ---
 
-
 Represents an exactpion that occurs on query building if the information from the data model is not enought to build a proper SQL
 ```csharp
 public class Korzh.EasyQuery.NotEnoughModelInfo
@@ -18,6 +17,6 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| NotEnoughModelInfo() | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. | 
-| NotEnoughModelInfo(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. | 
-| NotEnoughModelInfo(`string` message, `Exception` innerException) | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. |
+| NotEnoughModelInfo() | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. | 
+| NotEnoughModelInfo(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. | 
+| NotEnoughModelInfo(`string` message, `Exception` innerException) | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. |

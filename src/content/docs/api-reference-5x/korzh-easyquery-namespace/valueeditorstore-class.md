@@ -3,8 +3,7 @@ title: ValueEditorStore class
 slug: api-reference-5x/korzh-easyquery-namespace/valueeditorstore-class
 ---
 
-
-Represents the list of value editors which belongs to some DataModel object.  Implements the [Korzh.EasyQuery.ValueEditorList](/api-reference-5x/korzh-easyquery-namespace/valueeditorlist-class)
+Represents the list of value editors which belongs to some DataModel object.  Implements the [Korzh.EasyQuery.ValueEditorList](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/valueeditorlist-class)
 ```csharp
 public class Korzh.EasyQuery.ValueEditorStore
     : ValueEditorList, IList<ValueEditor>, ICollection<ValueEditor>, IEnumerable<ValueEditor>, IEnumerable, IList, ICollection, IReadOnlyList<ValueEditor>, IReadOnlyCollection<ValueEditor>

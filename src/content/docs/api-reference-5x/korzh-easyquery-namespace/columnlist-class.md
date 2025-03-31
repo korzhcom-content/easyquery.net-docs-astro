@@ -3,7 +3,6 @@ title: ColumnList class
 slug: api-reference-5x/korzh-easyquery-namespace/columnlist-class
 ---
 
-
 Represents a list of columns.
 ```csharp
 public class Korzh.EasyQuery.ColumnList

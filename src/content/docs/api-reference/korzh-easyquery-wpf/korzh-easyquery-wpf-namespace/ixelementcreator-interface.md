@@ -3,7 +3,6 @@ title: IXElementCreator interface
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/ixelementcreator-interface
 ---
 
-
 Represents the interface for custom elements' creators
 ```csharp
 public interface Korzh.EasyQuery.Wpf.IXElementCreator
@@ -24,4 +23,4 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create() | [XElement](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) | Creates this instance. |
+| Create() | [XElement](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) | Creates this instance. |

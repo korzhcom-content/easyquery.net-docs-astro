@@ -3,7 +3,6 @@ title: EmptyServiceProvider class
 slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/emptyserviceprovider-class
 ---
 
-
 Implements DI Service provider that contains no element.
 ```csharp
 public class Korzh.EasyQuery.Services.EmptyServiceProvider

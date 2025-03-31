@@ -3,7 +3,6 @@ title: EqMvcExtensions class
 slug: api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqmvcextensions-class
 ---
 
-
 ```csharp
 public static class Korzh.EasyQuery.AspNet.EqMvcExtensions
 

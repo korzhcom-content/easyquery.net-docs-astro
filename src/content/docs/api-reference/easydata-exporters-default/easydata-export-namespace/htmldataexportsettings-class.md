@@ -3,7 +3,6 @@ title: HtmlDataExportSettings class
 slug: api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class
 ---
 
-
 Represents different settings used during exporting to HTML
 ```csharp
 public class EasyData.Export.HtmlDataExportSettings
@@ -18,8 +17,8 @@ Assembly: `EasyData.Exporters.Default.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| HtmlDataExportSettings() | `void` | Initializes a new instance of the[EasyData.Export.HtmlDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) class. | 
-| HtmlDataExportSettings(`CultureInfo` culture) | `void` | Initializes a new instance of the[EasyData.Export.HtmlDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) class. | 
+| HtmlDataExportSettings() | `void` | Initializes a new instance of the[EasyData.Export.HtmlDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) class. | 
+| HtmlDataExportSettings(`CultureInfo` culture) | `void` | Initializes a new instance of the[EasyData.Export.HtmlDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) class. | 
 
 
 ### Properties
@@ -41,4 +40,4 @@ Assembly: `EasyData.Exporters.Default.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Default | [HtmlDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) | Returns the default instance of [EasyData.Export.HtmlDataExportSettings](/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class). |
+| Default | [HtmlDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) | Returns the default instance of [EasyData.Export.HtmlDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class). |

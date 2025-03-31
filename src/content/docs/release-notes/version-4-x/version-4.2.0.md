@@ -3,7 +3,6 @@ title: Version 4.2.0 release notes
 slug: release-notes/version-4-x/version-4.2.0
 ---
 
-
  ## 1. Core library
 
 * Some improvements in `FillByDbGate` method of DbModel class: new `options` parameter and a possibility to turn on/off DB views from scanning

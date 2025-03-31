@@ -3,7 +3,6 @@ title: ColumnStore class
 slug: api-reference-4x/korzh-easyquery-namespace/columnstore-class
 ---
 
-
 Represents list of result columns.
 ```csharp
 public class Korzh.EasyQuery.ColumnStore
@@ -23,7 +22,7 @@ public class Korzh.EasyQuery.ColumnStore
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `Boolean` | IsJustSorting | Gets a value indicating whether this instance of the column store is used for "just sorting" columns. | 
-| `Boolean` | IsUpdating | Gets a value indicating whether this [Korzh.EasyQuery.ColumnList](/api-reference-4x/korzh-easyquery-namespace/columnlist-class) is updating. | 
+| `Boolean` | IsUpdating | Gets a value indicating whether this [Korzh.EasyQuery.ColumnList](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/columnlist-class) is updating. | 
 | `DataModel` | Model | Gets or sets the reference to the data model. | 
 | `Query` | ParentQuery | Gets the parent query. | 
 | `SortedColumnList` | SortedColumns | Gets the list of sorted columns. | 

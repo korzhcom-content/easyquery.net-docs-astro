@@ -3,7 +3,6 @@ title: EasyQuery client-side views
 slug: fundamentals/easyquery-client-side-views
 ---
 
-
 Starting from version 5.0 EasyQuery.JS introduces the concept of  a `view`. 
 
 "View" - is a set of different EasyQuery widgets assembled to work together on some web page to cover a particular use-case.

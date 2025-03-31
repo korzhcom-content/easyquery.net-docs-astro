@@ -3,7 +3,6 @@ title: QueryParam class
 slug: api-reference-4x/korzh-easyquery-namespace/queryparam-class
 ---
 
-
 Represents one parameter in parametrized query statement
 ```csharp
 public class Korzh.EasyQuery.QueryParam

@@ -3,7 +3,6 @@ title: LinqStatement class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/linqstatement-class
 ---
 
-
 Represents the result of performing Build function call of LinqQueryBuilder.
 ```csharp
 public class Korzh.EasyQuery.Linq.LinqStatement

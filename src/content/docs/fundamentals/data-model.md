@@ -3,7 +3,6 @@ title: Data Model
 slug: fundamentals/data-model
 ---
 
-
 In short (and by its name), data model - is a model (representation) of some data stored in your database. It solves two major problems:
 
 * Presents the data to the end user in a more friendly and familiar way.

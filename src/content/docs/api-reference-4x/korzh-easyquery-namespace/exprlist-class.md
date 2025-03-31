@@ -3,7 +3,6 @@ title: ExprList class
 slug: api-reference-4x/korzh-easyquery-namespace/exprlist-class
 ---
 
-
 Represents list of expression objects.
 ```csharp
 public class Korzh.EasyQuery.ExprList

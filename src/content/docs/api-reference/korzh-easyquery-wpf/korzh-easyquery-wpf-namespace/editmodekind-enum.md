@@ -3,8 +3,7 @@ title: EditModeKind enum
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editmodekind-enum
 ---
 
-
-Represents different types of modifications in [Korzh.EasyQuery.Wpf.QueryPanel](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) object available for users.
+Represents different types of modifications in [Korzh.EasyQuery.Wpf.QueryPanel](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) object available for users.
 ```csharp
 public enum Korzh.EasyQuery.Wpf.EditModeKind
     : Enum
@@ -22,4 +21,4 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 | FixedConditions | `1` | Condition list is fixed - so user can change existing conditions but can not add or delete them | 
 | FixedExpressions | `2` | User can not add\remove conditions and change the expression in the left part of condition, | 
 | ValuesOnly | `3` | User can modify only the values (right part of condition). All other parts of query panel are fixed. | 
-| None | `4` | None of modifications are possible. [Korzh.EasyQuery.Wpf.QueryPanel](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) object  is "read-only" in this mode. |
+| None | `4` | None of modifications are possible. [Korzh.EasyQuery.Wpf.QueryPanel](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) object  is "read-only" in this mode. |

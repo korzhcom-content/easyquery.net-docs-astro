@@ -3,7 +3,6 @@ title: TableListException class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelistexception-class
 ---
 
-
 Class TableListException.  Implements the `System.Exception`
 ```csharp
 public class Korzh.EasyQuery.Db.TableListException
@@ -18,4 +17,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TableListException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.TableListException](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelistexception-class) class. |
+| TableListException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.TableListException](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelistexception-class) class. |

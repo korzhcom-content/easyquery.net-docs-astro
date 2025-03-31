@@ -3,7 +3,6 @@ title: PagedList<T> class
 slug: api-reference-4x/korzh-easyquery-services-namespace/pagedlist-t--class
 ---
 
-
 Default implementation of `IPagedList` interface
 ```csharp
 public class Korzh.EasyQuery.Services.PagedList<T>

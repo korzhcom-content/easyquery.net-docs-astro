@@ -3,8 +3,7 @@ title: DbTable class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtable-class
 ---
 
-
-Represents one table in [Korzh.EasyQuery.Db.DbModel](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) object which corresponds to some database table
+Represents one table in [Korzh.EasyQuery.Db.DbModel](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) object which corresponds to some database table
 ```csharp
 public class Korzh.EasyQuery.Db.DbTable
     : Table
@@ -19,7 +18,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | DbTable() | `void` | Initializes a new instance of the `DbTable` class. | 
-| DbTable([Table](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) source) | `void` | Initializes a new instance of the `DbTable` class. | 
+| DbTable([Table](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) source) | `void` | Initializes a new instance of the `DbTable` class. | 
 
 
 ### Properties
@@ -37,10 +36,10 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | GetCalcAlias() | `string` | Gets the calculated alias (used when the "alias" field is empty) | 
-| GetFromExpr([SqlFormats](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlformats-class) formats) | `string` | Gets the full name of the table which is used in FROM clause. | 
+| GetFromExpr([SqlFormats](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlformats-class) formats) | `string` | Gets the full name of the table which is used in FROM clause. | 
 | GetRank() | `int` | Gets table's rank. It represents the number of links which come out from this table and table's priority | 
-| GetSqlExpr([SqlFormats](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlformats-class) formats) | `string` | Gets the SQL expression that represents the table in WHERE clause. | 
-| GetSqlName([SqlFormats](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlformats-class) formats) | `string` | Gets the full DB name that represents the table. | 
+| GetSqlExpr([SqlFormats](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlformats-class) formats) | `string` | Gets the SQL expression that represents the table in WHERE clause. | 
+| GetSqlName([SqlFormats](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlformats-class) formats) | `string` | Gets the full DB name that represents the table. | 
 | GetTableName() | `string` | Gets the name of the table. | 
 | GetTableTag() | `string` | Gets the table class (DB or virtual). | 
 | NeedQuote(`string` s) | `bool` | Gets a value indicating whether string should be quoted | 

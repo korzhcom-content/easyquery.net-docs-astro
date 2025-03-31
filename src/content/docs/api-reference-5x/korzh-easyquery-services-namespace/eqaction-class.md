@@ -3,7 +3,6 @@ title: EqAction class
 slug: api-reference-5x/korzh-easyquery-services-namespace/eqaction-class
 ---
 
-
 Defines the constant strings for all possible actions
 ```csharp
 public static class Korzh.EasyQuery.Services.EqAction

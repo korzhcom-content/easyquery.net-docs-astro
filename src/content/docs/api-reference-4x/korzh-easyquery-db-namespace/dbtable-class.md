@@ -3,8 +3,7 @@ title: DbTable class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dbtable-class
 ---
 
-
-Represents one table in [Korzh.EasyQuery.Db.DbModel](/api-reference-4x/korzh-easyquery-db-namespace/dbmodel-class) object which corresponds to some database table
+Represents one table in [Korzh.EasyQuery.Db.DbModel](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbmodel-class) object which corresponds to some database table
 ```csharp
 public class Korzh.EasyQuery.Db.DbTable
     : Table, IComparable<Table>

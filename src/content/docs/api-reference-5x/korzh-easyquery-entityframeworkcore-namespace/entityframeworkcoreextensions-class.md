@@ -3,7 +3,6 @@ title: EntityFrameworkCoreExtensions class
 slug: api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/entityframeworkcoreextensions-class
 ---
 
-
 Contains some extensions for using EasyQuery with Entity Framework Core.
 ```csharp
 public static class Korzh.EasyQuery.EntityFrameworkCore.EntityFrameworkCoreExtensions

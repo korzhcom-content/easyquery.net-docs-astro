@@ -3,7 +3,6 @@ title: EditorTags class
 slug: api-reference-5x/korzh-easyquery-namespace/editortags-class
 ---
 
-
 Defines the constants for value editors' tags.
 ```csharp
 public static class Korzh.EasyQuery.EditorTags

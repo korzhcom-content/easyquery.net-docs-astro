@@ -3,7 +3,6 @@ title: CustomListValueEditor class
 slug: api-reference-4x/korzh-easyquery-namespace/customlistvalueeditor-class
 ---
 
-
 Represents custom (user-defined) list value editor
 ```csharp
 public class Korzh.EasyQuery.CustomListValueEditor

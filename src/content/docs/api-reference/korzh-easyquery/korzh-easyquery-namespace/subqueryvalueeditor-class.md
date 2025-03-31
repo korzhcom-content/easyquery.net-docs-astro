@@ -3,7 +3,6 @@ title: SubQueryValueEditor class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/subqueryvalueeditor-class
 ---
 
-
 Represents the subquery value editor.
 ```csharp
 public class Korzh.EasyQuery.SubQueryValueEditor
@@ -18,7 +17,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SubQueryValueEditor() | `void` | Initializes a new instance of the [Korzh.EasyQuery.SubQueryValueEditor](/api-reference/korzh-easyquery/korzh-easyquery-namespace/subqueryvalueeditor-class) class. | 
+| SubQueryValueEditor() | `void` | Initializes a new instance of the [Korzh.EasyQuery.SubQueryValueEditor](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/subqueryvalueeditor-class) class. | 
 
 
 ### Properties

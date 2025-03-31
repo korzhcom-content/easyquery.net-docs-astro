@@ -3,7 +3,6 @@ title: Store queries in a database
 slug: how-to/version-5-x/store-queries-in-a-database
 ---
 
-
 ## Objective
 
 We have some web-application with authorized access to some parts of it. Our users creates their own queries (with the help of EasyQuery components of course) and they would like to store those queries and load them back. The query storage is not shared - so each user can access only the queries created by them.

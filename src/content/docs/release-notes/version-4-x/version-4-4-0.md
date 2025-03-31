@@ -3,7 +3,6 @@ title: Version 4.4.0 release notes
 slug: release-notes/version-4-x/version-4-4-0
 ---
 
-
 ## 1. Core library
 
 * .NET Core 2.1 support in the core library and samples.

@@ -3,7 +3,6 @@ title: ConstExpr class
 slug: api-reference-5x/korzh-easyquery-namespace/constexpr-class
 ---
 
-
 Represents a constant expression (like: 423 or "Master card").
 ```csharp
 public class Korzh.EasyQuery.ConstExpr

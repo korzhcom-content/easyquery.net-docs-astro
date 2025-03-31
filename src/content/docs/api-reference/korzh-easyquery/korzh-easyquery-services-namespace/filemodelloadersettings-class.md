@@ -3,8 +3,7 @@ title: FileModelLoaderSettings class
 slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/filemodelloadersettings-class
 ---
 
-
-Represents the settings for [Korzh.EasyQuery.Services.FileModelLoader](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/filemodelloader-class)
+Represents the settings for [Korzh.EasyQuery.Services.FileModelLoader](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/filemodelloader-class)
 ```csharp
 public class Korzh.EasyQuery.Services.FileModelLoaderSettings
 

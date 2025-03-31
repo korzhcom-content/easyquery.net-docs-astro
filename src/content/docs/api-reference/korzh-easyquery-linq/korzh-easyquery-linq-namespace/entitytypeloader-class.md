@@ -3,7 +3,6 @@ title: EntityTypeLoader class
 slug: api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/entitytypeloader-class
 ---
 
-
 Represents the class which loads type information from some type.
 ```csharp
 public class Korzh.EasyQuery.Linq.EntityTypeLoader
@@ -24,4 +23,4 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadEntityFromType([Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) entity, `Type` type, `string` entityName, [Entity](/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `List`&lt;`Type`&gt; processedTypes) | `void` | Fills entity type info from some type. |
+| LoadEntityFromType([Entity](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) entity, `Type` type, `string` entityName, [Entity](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `List`&lt;`Type`&gt; processedTypes) | `void` | Fills entity type info from some type. |

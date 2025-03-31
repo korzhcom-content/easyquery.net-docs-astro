@@ -3,7 +3,6 @@ title: ShowAttrOptions enum
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/showattroptions-enum
 ---
 
-
 Represents options of attributes visibility in Entities Panel
 ```csharp
 public enum Korzh.EasyQuery.WinForms.ShowAttrOptions

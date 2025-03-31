@@ -3,7 +3,6 @@ title: OrderByStyles enum
 slug: api-reference-4x/korzh-easyquery-namespace/orderbystyles-enum
 ---
 
-
 Represents the way fields appear in ORDER BY clause
 ```csharp
 public enum Korzh.EasyQuery.OrderByStyles

@@ -3,7 +3,6 @@ title: Managing data formats in client-side widgets (grid, charts) and exported 
 slug: tutorials/managing-data-formats
 ---
 
-
 ## 1. Problem
 
 Quite often it's required to modify the appearance and formatting of the data that we show to users as the result of queries' executions.
@@ -23,7 +22,7 @@ In this article, we will show you how to implement these (or similar) tasks.
 
 ## 2. Locale settings
 
-First of all to change the formats of your data you might consider adjusting the current locale settings on the client side. There is an article about [$$-EasyQuery.JS widgets localization-$$](//$aid/eqdn-sy2v8pfvi230) in general but if you need just to change some of the locale settings you can simply use `updateLocaleSettings` function from `easyquery.core.i18n` namespace:
+First of all to change the formats of your data you might consider adjusting the current locale settings on the client side. There is an article about [EasyQuery.JS widgets localization](//easyquery/docs/tutorials/javascript-widgets-localization) in general but if you need just to change some of the locale settings you can simply use `updateLocaleSettings` function from `easyquery.core.i18n` namespace:
 
 ```
 easyquery.core.i18n.updateLocaleSettings({
@@ -62,7 +61,7 @@ Here are some examples of data formats:
 
 If you define your data model using Data Model Editor utility, you can use "Display Format" field on the page with entity attribute's settings.
 
-![Display format for an entity attribute in DME](/easyquery/docs/images/eq-dme-sshot-display-format.png "Display format for an entity attribute in DME")
+![Display format for an entity attribute in DME](https://files.aistant.com/korzh/images/eq-dme-sshot-display-format.png "Display format for an entity attribute in DME")
 
 In all other cases (when we load the model from a DbContext or directly from DB metadata) we can set `DisplayFormat` property in `EntityAttr` class:
 
@@ -83,7 +82,7 @@ Query.Columns[0].DisplayFormat = "{0:dd/MMM/yyyy}";
 
 It's also possible to set the column format in UI with ColumnsBar widget:
 
-![Display format in ColumnsBar](/easyquery/docs/images/eq-columnbar-sshot-display-format.png "Display format in ColumnsBar")
+![Display format in ColumnsBar](https://files.aistant.com/korzh/images/eq-columnbar-sshot-display-format.png "Display format in ColumnsBar")
 
 The list of formats available for each data type can be set via `DisplayFormats` property of `DataModel` class.
 

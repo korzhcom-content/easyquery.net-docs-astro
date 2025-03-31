@@ -3,7 +3,6 @@ title: QueryTextFormats class
 slug: api-reference-4x/korzh-easyquery-namespace/querytextformats-class
 ---
 
-
 Represents different formats for query text representation
 ```csharp
 public class Korzh.EasyQuery.QueryTextFormats

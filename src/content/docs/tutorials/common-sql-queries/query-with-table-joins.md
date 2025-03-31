@@ -3,7 +3,6 @@ title: Query with table joins
 slug: tutorials/common-sql-queries/query-with-table-joins
 ---
 
-
 Let’s make our example more interesting. Suppose we would like to see all orders for USA customers. For each order, we want to see the name of customer, order date and sum. All result rows must be sorted by the order date.
 
 To get this data by SQL, we need to join two tables (Customers and Orders), list necessary columns in SELECT clause and add ORDER By clause:
@@ -23,4 +22,4 @@ So, just click on “[Add column]” link, select Order | Date from the menu. Th
 
 Here is a screenshot what you will get in the result - an example of a query with a tables' join:
 
-![Query with table joins](/easyquery/docs/images/query-example-02.png)
+![Query with table joins](https://files.aistant.com/korzh/easyquery-dotnet/images/query-example-02.png)

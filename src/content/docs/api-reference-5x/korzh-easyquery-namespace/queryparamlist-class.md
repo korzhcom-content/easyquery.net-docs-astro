@@ -3,8 +3,7 @@ title: QueryParamList class
 slug: api-reference-5x/korzh-easyquery-namespace/queryparamlist-class
 ---
 
-
-Represents simple list of [Korzh.EasyQuery.QueryParam](/api-reference-5x/korzh-easyquery-namespace/queryparam-class) objects.
+Represents simple list of [Korzh.EasyQuery.QueryParam](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryparam-class) objects.
 ```csharp
 public class Korzh.EasyQuery.QueryParamList
     : Collection<QueryParam>, IList<QueryParam>, ICollection<QueryParam>, IEnumerable<QueryParam>, IEnumerable, IList, ICollection, IReadOnlyList<QueryParam>, IReadOnlyCollection<QueryParam>

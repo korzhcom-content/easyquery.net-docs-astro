@@ -1,8 +1,7 @@
 ---
 title: JavaScript widgets formats and settings (Webforms)
-slug: tutorials/version-3-x/javascript-widgets-settings-formats-webforms
+slug: tutorials/version-3-x-tutorials/javascript-widgets-settings-formats-webforms
 ---
-
 
 ## Display formats for columns 
 

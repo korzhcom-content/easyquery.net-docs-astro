@@ -3,7 +3,6 @@ title: Operator class
 slug: api-reference-4x/korzh-easyquery-namespace/operator-class
 ---
 
-
 Represents a logical expression or predicate, like comparisions or LIKE predicate.
 ```csharp
 public class Korzh.EasyQuery.Operator

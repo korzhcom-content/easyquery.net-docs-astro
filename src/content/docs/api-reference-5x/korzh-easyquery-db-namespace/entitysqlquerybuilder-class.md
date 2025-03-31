@@ -3,8 +3,7 @@ title: EntitySqlQueryBuilder class
 slug: api-reference-5x/korzh-easyquery-db-namespace/entitysqlquerybuilder-class
 ---
 
-
-Lets you build Entity SQL commands based on [Korzh.EasyQuery.Db.DbQuery](/api-reference-5x/korzh-easyquery-db-namespace/dbquery-class) object
+Lets you build Entity SQL commands based on [Korzh.EasyQuery.Db.DbQuery](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbquery-class) object
 ```csharp
 public class Korzh.EasyQuery.Db.EntitySqlQueryBuilder
     : DbQueryBuilder, IQueryBuilder
@@ -30,7 +29,7 @@ public class Korzh.EasyQuery.Db.EntitySqlQueryBuilder
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `Boolean` | BuildParamSQL() | The same as [Korzh.EasyQuery.Db.EntitySqlQueryBuilder.BuildSQL](/api-reference-5x/korzh-easyquery-db-namespace/entitysqlquerybuilder-class) method but generates parametrized SQL expression where all values are replaced by parameters (e.g. @param1).  You can access full list of parameters used in generated SQL statement through `Query.Params` property. | 
+| `Boolean` | BuildParamSQL() | The same as [Korzh.EasyQuery.Db.EntitySqlQueryBuilder.BuildSQL](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/entitysqlquerybuilder-class) method but generates parametrized SQL expression where all values are replaced by parameters (e.g. @param1).  You can access full list of parameters used in generated SQL statement through `Query.Params` property. | 
 | `Boolean` | BuildSQL() | Builds the SQL statement. | 
 | `Boolean` | BuildSQLEx(`String` extraColumns, `String` extraConditions) | Builds the SQL with some additional columns and conditions which can be passed in parameters | 
 | `QueryBuilderResult` | CreateResult() | Creates the result object. | 

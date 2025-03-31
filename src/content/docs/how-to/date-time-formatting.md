@@ -3,7 +3,6 @@ title: Date/time values formatting
 slug: how-to/date-time-formatting
 ---
 
-
 While working with EasyQuery and Data Models, you will need to set up your own format of date & time. There are several types of formatting you may need: 
 
 * date/time values in generated SQL

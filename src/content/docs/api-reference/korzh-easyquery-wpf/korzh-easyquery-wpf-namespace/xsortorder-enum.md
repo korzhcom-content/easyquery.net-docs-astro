@@ -3,7 +3,6 @@ title: XSortOrder enum
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xsortorder-enum
 ---
 
-
 Represents sorting direction.
 ```csharp
 public enum Korzh.EasyQuery.Wpf.XSortOrder

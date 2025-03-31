@@ -3,7 +3,6 @@ title: ProgressBarDlg class
 slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/progressbardlg-class
 ---
 
-
 Summary description for ProgressBarDlg.
 ```csharp
 public class Korzh.EasyQuery.WinForms.ModelEditor.ProgressBarDlg

@@ -3,7 +3,6 @@ title: EasyDataCol class
 slug: api-reference/easydata-core/easydata-namespace/easydatacol-class
 ---
 
-
 ```csharp
 public class EasyData.EasyDataCol
 
@@ -16,7 +15,7 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EasyDataCol([EasyDataColDesc](/api-reference/easydata-core/easydata-namespace/easydatacoldesc-class) desc) | `void` |  | 
+| EasyDataCol([EasyDataColDesc](//easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatacoldesc-class) desc) | `void` |  | 
 
 
 ### Properties
@@ -29,5 +28,5 @@ Assembly: `EasyData.Core.dll`
 | IsAggr | `bool` |  | 
 | Label | `string` |  | 
 | OrginAttrId | `string` |  | 
-| Style | [EasyDataColStyle](/api-reference/easydata-core/easydata-namespace/easydatacolstyle-class) |  | 
-| Type | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) |  |
+| Style | [EasyDataColStyle](//easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatacolstyle-class) |  | 
+| Type | [DataType](//easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) |  |

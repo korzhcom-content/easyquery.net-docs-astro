@@ -3,8 +3,7 @@ title: LoginRequestEventArgs class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/loginrequesteventargs-class
 ---
 
-
-Provides data for [Korzh.EasyQuery.Db.DbGate.LoginRequest](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) event
+Provides data for [Korzh.EasyQuery.Db.DbGate.LoginRequest](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) event
 ```csharp
 public class Korzh.EasyQuery.Db.LoginRequestEventArgs
     : EventArgs

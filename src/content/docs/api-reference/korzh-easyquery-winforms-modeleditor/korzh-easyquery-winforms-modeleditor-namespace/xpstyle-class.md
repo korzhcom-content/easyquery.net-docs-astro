@@ -3,7 +3,6 @@ title: XPStyle class
 slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/xpstyle-class
 ---
 
-
 Represents different procedures that allows to turn on XP visual style for Windows Forms application
 ```csharp
 public class Korzh.EasyQuery.WinForms.ModelEditor.XPStyle

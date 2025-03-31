@@ -3,7 +3,6 @@ title: TableLinkType enum
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelinktype-enum
 ---
 
-
 Type of the link (inner, outer left, outer right or full)
 ```csharp
 public enum Korzh.EasyQuery.Db.TableLinkType

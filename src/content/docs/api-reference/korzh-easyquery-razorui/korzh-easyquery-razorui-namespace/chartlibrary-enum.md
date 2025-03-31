@@ -3,7 +3,6 @@ title: ChartLibrary enum
 slug: api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/chartlibrary-enum
 ---
 
-
 The chart library enum.
 ```csharp
 public enum Korzh.EasyQuery.RazorUI.ChartLibrary

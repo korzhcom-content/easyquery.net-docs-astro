@@ -3,7 +3,6 @@ title: ObjectGraph<T> class
 slug: api-reference-4x/korzh-easyquery-namespace/objectgraph-t--class
 ---
 
-
 Represents a graph structure. Each node in graph - is an object of type T.
 ```csharp
 public class Korzh.EasyQuery.ObjectGraph<T>

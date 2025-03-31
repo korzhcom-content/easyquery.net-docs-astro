@@ -3,7 +3,6 @@ title: XElement.Error class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-error-class
 ---
 
-
 Represents row element exceptions.
 ```csharp
 public class Korzh.EasyQuery.WinForms.XElement.Error
@@ -18,4 +17,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Error(`string` msg) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.XElement.Error](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) class. |
+| Error(`string` msg) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.XElement.Error](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) class. |

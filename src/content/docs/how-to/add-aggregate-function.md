@@ -3,7 +3,6 @@ title: Add a new aggregate function
 slug: how-to/add-aggregate-function
 ---
 
-
 ## 1. Problem Overview
 
 EasyQuery supports several aggregate functions (like SUM, COUNT, AVG, etc.) out-of-the-box. 

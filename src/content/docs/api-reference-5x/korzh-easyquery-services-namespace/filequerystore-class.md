@@ -3,8 +3,7 @@ title: FileQueryStore class
 slug: api-reference-5x/korzh-easyquery-services-namespace/filequerystore-class
 ---
 
-
-Represents the implementation of IQueryStore which store queries on the file system.  Implements the [Korzh.EasyQuery.Services.IQueryStore](/api-reference-5x/korzh-easyquery-services-namespace/iquerystore-interface)
+Represents the implementation of IQueryStore which store queries on the file system.  Implements the [Korzh.EasyQuery.Services.IQueryStore](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/iquerystore-interface)
 ```csharp
 public class Korzh.EasyQuery.Services.FileQueryStore
     : IQueryStore

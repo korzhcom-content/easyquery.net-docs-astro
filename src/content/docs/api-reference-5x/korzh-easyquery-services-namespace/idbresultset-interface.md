@@ -3,8 +3,7 @@ title: IDbResultSet interface
 slug: api-reference-5x/korzh-easyquery-services-namespace/idbresultset-interface
 ---
 
-
-Represents an extension of IEqResultSet interface which also contains a function for adding a row.  Implements the [Korzh.EasyQuery.Services.IEqResultSet](/api-reference-5x/korzh-easyquery-services-namespace/ieqresultset-interface)
+Represents an extension of IEqResultSet interface which also contains a function for adding a row.  Implements the [Korzh.EasyQuery.Services.IEqResultSet](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ieqresultset-interface)
 ```csharp
 public interface Korzh.EasyQuery.Services.IDbResultSet
     : IEqResultSet

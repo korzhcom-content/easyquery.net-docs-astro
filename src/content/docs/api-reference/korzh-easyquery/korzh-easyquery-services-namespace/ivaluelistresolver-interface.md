@@ -3,7 +3,6 @@ title: IValueListResolver interface
 slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ivaluelistresolver-interface
 ---
 
-
 Represents a type used to get the list of values by some "list" value editor.
 ```csharp
 public interface Korzh.EasyQuery.Services.IValueListResolver
@@ -17,4 +16,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TryGetValues([ListRequestOptions](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listrequestoptions-class) options, `IEnumerable`1&` result) | `bool` | Gets the list of values by the value editor specified in the parameter. |
+| TryGetValues([ListRequestOptions](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listrequestoptions-class) options, `IEnumerable`1&` result) | `bool` | Gets the list of values by the value editor specified in the parameter. |

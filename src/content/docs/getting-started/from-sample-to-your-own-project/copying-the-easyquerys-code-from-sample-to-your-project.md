@@ -3,7 +3,6 @@ title: Copying the EasyQuery's code from a sample to your project
 slug: getting-started/from-sample-to-your-own-project/copying-the-easyquerys-code-from-sample-to-your-project
 ---
 
-
 To copy a view/page with EasyQuery’s functionality (like “Advanced Search” or “Ad-hoc reporting”) you need to perform the following 3 simple steps:
 
 1. Install EasyQuery packages. This step is simple: just take a look which `Korzh.EasyQuery.*` packages are used in the sample you are copying your code from and install the same ones in your own project.
@@ -42,7 +41,7 @@ It's `Korzh.EasyQuery.AspNet4` and other packages depending on the scenario. As 
 
 ### 2. Setup the WebAPI controller
 
-Server-side part of EasyQuery works via a WebAPI controller which handles all AJAX requests from the JS widgets placed on views/pages. So you need to install Web API in your project if you don't have it yet. This topic is covered in another our article: [$$-Getting started for ASP.NET 4-$$](//$aid/eqdn-tp2v66l73lbj) (use Step 2 there). If the WebAPI is installed in your project already, just copy the corresponding controller (e.g. "AdvancedSearchController.cs") to your project
+Server-side part of EasyQuery works via a WebAPI controller which handles all AJAX requests from the JS widgets placed on views/pages. So you need to install Web API in your project if you don't have it yet. This topic is covered in another our article: [Getting started for ASP.NET 4](//easyquery/docs/getting-started/asp-net-4-mvc-or-webforms) (use Step 2 there). If the WebAPI is installed in your project already, just copy the corresponding controller (e.g. "AdvancedSearchController.cs") to your project
 
 ### 3. Copy the form/page.
 

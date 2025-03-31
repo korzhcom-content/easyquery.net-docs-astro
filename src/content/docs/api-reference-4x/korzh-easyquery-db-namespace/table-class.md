@@ -3,8 +3,7 @@ title: Table class
 slug: api-reference-4x/korzh-easyquery-db-namespace/table-class
 ---
 
-
-Table class represents one table in a [Korzh.EasyQuery.Db.DbModel](/api-reference-4x/korzh-easyquery-db-namespace/dbmodel-class) object
+Table class represents one table in a [Korzh.EasyQuery.Db.DbModel](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbmodel-class) object
 ```csharp
 public abstract class Korzh.EasyQuery.Db.Table
     : IComparable<Table>
@@ -16,7 +15,7 @@ public abstract class Korzh.EasyQuery.Db.Table
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `String` | categoryName |  | 
-| `TableLinkList` | links | List of [Korzh.EasyQuery.Db.TableLink](/api-reference-4x/korzh-easyquery-db-namespace/tablelink-class) which the tables takes part in. | 
+| `TableLinkList` | links | List of [Korzh.EasyQuery.Db.TableLink](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/tablelink-class) which the tables takes part in. | 
 | `QueryParamList` | Params | The list of parameters associated with this table. | 
 
 
@@ -57,11 +56,11 @@ public abstract class Korzh.EasyQuery.Db.Table
 | `String` | QuoteIfNecessary(`String` s, `DbQueryFormats` formats) | Puts quotes around identifier if necessary. | 
 | `void` | SaveAttributes(`XmlWriter` writer) | Saves table properties to `System.Xml.XmlWriter` object. | 
 | `void` | SaveNodes(`XmlWriter` writer) | Saves the nodes to XML writer. | 
-| `void` | SaveToXmlWriter(`XmlWriter` writer) | Saves table properties to `System.Xml.XmlWriter` object. Calls [Korzh.EasyQuery.Db.Table.SaveAttributes(System.Xml.XmlWriter)](/api-reference-4x/korzh-easyquery-db-namespace/table-class)procedure to do the job. | 
+| `void` | SaveToXmlWriter(`XmlWriter` writer) | Saves table properties to `System.Xml.XmlWriter` object. Calls [Korzh.EasyQuery.Db.Table.SaveAttributes(System.Xml.XmlWriter)](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/table-class)procedure to do the job. | 
 
 
 ### Static Methods
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `Table` | CreateByClass(`String` className) | Creates [Korzh.EasyQuery.Db.Table](/api-reference-4x/korzh-easyquery-db-namespace/table-class) object the by table class name (db or virtual). |
+| `Table` | CreateByClass(`String` className) | Creates [Korzh.EasyQuery.Db.Table](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/table-class) object the by table class name (db or virtual). |

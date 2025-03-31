@@ -3,7 +3,6 @@ title: Pages_EasyQuery_AdHocReporting class
 slug: api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_adhocreporting-class
 ---
 
-
 ```csharp
 public class AspNetCore.Pages_EasyQuery_AdHocReporting
     : Page
@@ -25,12 +24,12 @@ Assembly: `Korzh.EasyQuery.RazorUi.Views.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Component | `IViewComponentHelper` |  | 
-| Html | `IHtmlHelper`&lt;[Pages_EasyQuery_AdHocReporting](/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_adhocreporting-class)&gt; |  | 
+| Html | `IHtmlHelper`&lt;[Pages_EasyQuery_AdHocReporting](//easyquery/docs/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_adhocreporting-class)&gt; |  | 
 | Json | `IJsonHelper` |  | 
-| Model | [Pages_EasyQuery_AdHocReporting](/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_adhocreporting-class) |  | 
+| Model | [Pages_EasyQuery_AdHocReporting](//easyquery/docs/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_adhocreporting-class) |  | 
 | ModelExpressionProvider | `IModelExpressionProvider` |  | 
 | Url | `IUrlHelper` |  | 
-| ViewData | `ViewDataDictionary`&lt;[Pages_EasyQuery_AdHocReporting](/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_adhocreporting-class)&gt; |  | 
+| ViewData | `ViewDataDictionary`&lt;[Pages_EasyQuery_AdHocReporting](//easyquery/docs/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_adhocreporting-class)&gt; |  | 
 
 
 ### Methods

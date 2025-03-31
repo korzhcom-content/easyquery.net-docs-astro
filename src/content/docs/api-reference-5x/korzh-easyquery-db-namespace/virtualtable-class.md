@@ -3,7 +3,6 @@ title: VirtualTable class
 slug: api-reference-5x/korzh-easyquery-db-namespace/virtualtable-class
 ---
 
-
 Represents a virtual table.  Virtual tables do not correpond to some table in database but are defined through some SQL SELECT statement instead.
 ```csharp
 public class Korzh.EasyQuery.Db.VirtualTable

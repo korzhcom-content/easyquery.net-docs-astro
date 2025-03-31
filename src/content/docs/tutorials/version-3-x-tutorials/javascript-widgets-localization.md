@@ -1,8 +1,7 @@
 ---
 title: Localization of EasyQuery widgets (obsolete)
-slug: tutorials/version-3-x/javascript-widgets-localization
+slug: tutorials/version-3-x-tutorials/javascript-widgets-localization
 ---
-
 
 To localize JavaScript widgets, you need to create a separate .js file with translated texts and include it after eq.all.min.js.
 

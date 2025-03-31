@@ -3,7 +3,6 @@ title: EqServiceProvider class
 slug: api-reference-4x/korzh-easyquery-services-namespace/eqserviceprovider-class
 ---
 
-
 Class EqServiceProviderDb.  Provides basic functionality for building EasyQuery service to process AJAX requests from EasyQuery JavaScript widgets.  Can be used to create MVC controller, WebService class or WebAPI controller
 ```csharp
 public abstract class Korzh.EasyQuery.Services.EqServiceProvider
@@ -46,11 +45,11 @@ public abstract class Korzh.EasyQuery.Services.EqServiceProvider
 | `DataModel` | CreateModel() | Creates new DataModel object | 
 | `Query` | CreateQuery() | Creates new DbQuery object. | 
 | `QueryFormats` | CreateQueryFormats() | Creates new QueryFormats object | 
-| `void` | DefaultModelLoader(`DataModel` model, `String` modelId) | Default implementation of the model loader [Korzh.EasyQuery.Services.EqServiceProvider.ModelLoader](/api-reference-4x/korzh-easyquery-services-namespace/eqserviceprovider-class). | 
+| `void` | DefaultModelLoader(`DataModel` model, `String` modelId) | Default implementation of the model loader [Korzh.EasyQuery.Services.EqServiceProvider.ModelLoader](//easyquery/docs/api-reference-4x/korzh-easyquery-services-namespace/eqserviceprovider-class). | 
 | `IEnumerable<QueryListItem>` | DefaultQueryListResolver(`String` modelId) |  | 
-| `void` | DefaultQueryLoader(`Query` query, `String` queryId) | Default implementation of the query loader [Korzh.EasyQuery.Services.EqServiceProvider.QueryLoader](/api-reference-4x/korzh-easyquery-services-namespace/eqserviceprovider-class). | 
-| `void` | DefaultQueryRemover(`String` queryId) | Default implementation of the query remover [Korzh.EasyQuery.Services.EqServiceProvider.QueryRemover](/api-reference-4x/korzh-easyquery-services-namespace/eqserviceprovider-class). | 
-| `void` | DefaultQuerySaver(`Query` query, `String` queryId) | Default implementation of the query saver [Korzh.EasyQuery.Services.EqServiceProvider.QuerySaver](/api-reference-4x/korzh-easyquery-services-namespace/eqserviceprovider-class). | 
+| `void` | DefaultQueryLoader(`Query` query, `String` queryId) | Default implementation of the query loader [Korzh.EasyQuery.Services.EqServiceProvider.QueryLoader](//easyquery/docs/api-reference-4x/korzh-easyquery-services-namespace/eqserviceprovider-class). | 
+| `void` | DefaultQueryRemover(`String` queryId) | Default implementation of the query remover [Korzh.EasyQuery.Services.EqServiceProvider.QueryRemover](//easyquery/docs/api-reference-4x/korzh-easyquery-services-namespace/eqserviceprovider-class). | 
+| `void` | DefaultQuerySaver(`Query` query, `String` queryId) | Default implementation of the query saver [Korzh.EasyQuery.Services.EqServiceProvider.QuerySaver](//easyquery/docs/api-reference-4x/korzh-easyquery-services-namespace/eqserviceprovider-class). | 
 | `IEqResultSet` | ExecuteQuery(`Query` query, `JsonDict` optionsDict = <span style='color: blue'>null</span>) |  | 
 | `IEqResultSet` | ExecuteQueryCore(`Query` query, `JsonDict` optionsDict = <span style='color: blue'>null</span>) |  | 
 | `String` | GenerateQueryId(`String` name) |  | 
@@ -68,7 +67,7 @@ public abstract class Korzh.EasyQuery.Services.EqServiceProvider
 | `ListRequestOptions` | JsonDictToListRequestOptions(`JsonDict` optionsDict) | Converts JsonDict object to ListRequestOptions | 
 | `void` | LoadModelFromCache(`DataModel` model, `String` modelId) | Loads DataModel from cache by ID (name) | 
 | `void` | LoadOptions(`JsonDict` optionsDict) | Loads different options from JsonDict object (usually created by JSON deserialization). | 
-| `void` | LoadQueryById(`Query` query, `String` queryId) | Loads the query by ID. Default implementation tries to load [queryId].xml file from [Korzh.EasyQuery.Services.EqServiceProvider.DataPath](/api-reference-4x/korzh-easyquery-services-namespace/eqserviceprovider-class)\Queries\{UserId} folder. | 
+| `void` | LoadQueryById(`Query` query, `String` queryId) | Loads the query by ID. Default implementation tries to load [queryId].xml file from [Korzh.EasyQuery.Services.EqServiceProvider.DataPath](//easyquery/docs/api-reference-4x/korzh-easyquery-services-namespace/eqserviceprovider-class)\Queries\{UserId} folder. | 
 | `void` | LoadQueryFromCache(`Query` query, `String` queryId) | Loads Query from cache by ID | 
 | `Boolean` | RemoveQuery(`String` queryId) |  | 
 | `void` | SaveModelInCache(`DataModel` model) | Saves model into cache | 

@@ -3,7 +3,6 @@ title: Tables and links page
 slug: data-model-editor/tables-links-page
 ---
 
-
 Use this page to describe tables taking part in the data model.
 The page consists of 2 main sections: list of tables on the left side and properties of selected table at the right (the second panel is empty when no table is selected).
 The table properties panel is also divided into two panels: the properties themselves on the top and the list of table links at the bottom.

@@ -3,7 +3,6 @@ title: QueryBuilderOptions class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuilderoptions-class
 ---
 
-
 Contains differrent options for QueryBuilder
 ```csharp
 public class Korzh.EasyQuery.QueryBuilderOptions

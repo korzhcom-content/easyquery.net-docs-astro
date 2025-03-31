@@ -3,7 +3,6 @@ title: LinqOperator class
 slug: api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/linqoperator-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.Linq.LinqOperator
     : Operator
@@ -17,7 +16,7 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LinqOperator([DataModel](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` |  | 
+| LinqOperator([DataModel](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` |  | 
 
 
 ### Properties

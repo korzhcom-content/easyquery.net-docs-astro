@@ -3,7 +3,6 @@ title: License class
 slug: api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/license-class
 ---
 
-
 Static class that allows you to set the license key for EasyQuery.
 ```csharp
 public static class Korzh.EasyQuery.AspNet.License

@@ -3,7 +3,6 @@ title: IQueryStore interface
 slug: api-reference-5x/korzh-easyquery-services-namespace/iquerystore-interface
 ---
 
-
 Defines the basic operations of a query store.
 ```csharp
 public interface Korzh.EasyQuery.Services.IQueryStore

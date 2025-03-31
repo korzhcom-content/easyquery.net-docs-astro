@@ -3,8 +3,7 @@ title: MacroRequestEventArgs class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/macrorequesteventargs-class
 ---
 
-
-Provides data for [Korzh.EasyQuery.DataModel.MacroRequest](/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) event
+Provides data for [Korzh.EasyQuery.DataModel.MacroRequest](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) event
 ```csharp
 public class Korzh.EasyQuery.MacroRequestEventArgs
 
@@ -17,13 +16,13 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| MacroRequestEventArgs([IMacroValue](/api-reference/korzh-easyquery/korzh-easyquery-namespace/imacrovalue-interface) val) | `void` | Initializes a new instance of the [Korzh.EasyQuery.MacroRequestEventArgs](/api-reference/korzh-easyquery/korzh-easyquery-namespace/macrorequesteventargs-class) class. | 
+| MacroRequestEventArgs([IMacroValue](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/imacrovalue-interface) val) | `void` | Initializes a new instance of the [Korzh.EasyQuery.MacroRequestEventArgs](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/macrorequesteventargs-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DataType | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) | Macro data type | 
+| DataType | [DataType](//easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Macro data type | 
 | MacroId | `string` | Macro ID | 
 | Value | `string` | Value of this macro |

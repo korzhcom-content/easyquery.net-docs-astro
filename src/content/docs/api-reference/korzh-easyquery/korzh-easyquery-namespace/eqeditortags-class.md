@@ -3,7 +3,6 @@ title: EqEditorTags class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/eqeditortags-class
 ---
 
-
 ```csharp
 public static class Korzh.EasyQuery.EqEditorTags
 

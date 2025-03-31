@@ -3,7 +3,6 @@ title: EqExpressionException class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpressionexception-class
 ---
 
-
 Represents errors that occur during expressions processing
 ```csharp
 public class Korzh.EasyQuery.EqExpressionException
@@ -18,5 +17,5 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqExpressionException() | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqExpressionException](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpressionexception-class) class. | 
-| EqExpressionException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqExpressionException](/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpressionexception-class) class. |
+| EqExpressionException() | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqExpressionException](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpressionexception-class) class. | 
+| EqExpressionException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqExpressionException](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpressionexception-class) class. |

@@ -3,7 +3,6 @@ title: Getting started for WPF
 slug: getting-started/version-3-x/wpf
 ---
 
-
 1) Run Data Model Editor application in wizard mode (“Create Data Model” program icon) and follow the instructions to create a new data model that describes the data in your database. You will define database tables you want to use in your future queries, links between them and entities with their attributes (mostly the fields in already added tables).
 
 2) Save created data model to some file on your hard-drive (let it be model1.xml for example);

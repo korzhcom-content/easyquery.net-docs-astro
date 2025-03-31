@@ -3,7 +3,6 @@ title: DbTableInfo class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dbtableinfo-class
 ---
 
-
 Represents a structure that contains information about some database table
 ```csharp
 public class Korzh.EasyQuery.Db.DbTableInfo

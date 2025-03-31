@@ -3,7 +3,6 @@ title: DataType enum
 slug: api-reference-5x/korzh-easyquery-namespace/datatype-enum
 ---
 
-
 Represents the common types of the data.
 ```csharp
 public enum Korzh.EasyQuery.DataType

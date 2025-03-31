@@ -3,7 +3,6 @@ title: EOLSymbol enum
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/eolsymbol-enum
 ---
 
-
 Represents the symbol (or symbols) which are used to separate lines in generated SQL statements
 ```csharp
 public enum Korzh.EasyQuery.Db.EOLSymbol

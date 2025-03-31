@@ -3,7 +3,6 @@ title: IEqCachingService interface
 slug: api-reference-5x/korzh-easyquery-services-namespace/ieqcachingservice-interface
 ---
 
-
 Represents a type used to perform caching.
 ```csharp
 public interface Korzh.EasyQuery.Services.IEqCachingService

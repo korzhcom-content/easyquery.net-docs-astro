@@ -36,7 +36,7 @@ function flattenSidebar(sidebar: SidebarEntry[]): Link[] {
 
 const { sublist, nested } = Astro.props;
 
-const new_sublist = nested ? sublist.slice(1) : sublist;
+const new_sublist = (nested ? sublist.slice(1) : sublist) || [] ;
 ---
 
 <ul class:list={{ "top-level": !nested }}>

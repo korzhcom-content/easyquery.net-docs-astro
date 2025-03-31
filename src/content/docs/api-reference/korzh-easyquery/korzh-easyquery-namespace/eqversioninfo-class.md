@@ -3,7 +3,6 @@ title: EqVersionInfo class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/eqversioninfo-class
 ---
 
-
 ```csharp
 public static class Korzh.EasyQuery.EqVersionInfo
 

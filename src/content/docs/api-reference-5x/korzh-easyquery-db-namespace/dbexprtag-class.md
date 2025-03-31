@@ -3,7 +3,6 @@ title: DbExprTag class
 slug: api-reference-5x/korzh-easyquery-db-namespace/dbexprtag-class
 ---
 
-
 Contains several constants for db-related expressions tags values
 ```csharp
 public static class Korzh.EasyQuery.Db.DbExprTag

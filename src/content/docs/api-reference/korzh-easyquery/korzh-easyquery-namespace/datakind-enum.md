@@ -3,7 +3,6 @@ title: DataKind enum
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/datakind-enum
 ---
 
-
 Represents expression kinds.
 ```csharp
 public enum Korzh.EasyQuery.DataKind

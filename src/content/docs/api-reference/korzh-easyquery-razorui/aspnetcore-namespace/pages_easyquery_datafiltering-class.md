@@ -3,7 +3,6 @@ title: Pages_EasyQuery_DataFiltering class
 slug: api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_datafiltering-class
 ---
 
-
 ```csharp
 public class AspNetCore.Pages_EasyQuery_DataFiltering
     : Page
@@ -25,12 +24,12 @@ Assembly: `Korzh.EasyQuery.RazorUi.Views.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Component | `IViewComponentHelper` |  | 
-| Html | `IHtmlHelper`&lt;[Pages_EasyQuery_DataFiltering](/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_datafiltering-class)&gt; |  | 
+| Html | `IHtmlHelper`&lt;[Pages_EasyQuery_DataFiltering](//easyquery/docs/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_datafiltering-class)&gt; |  | 
 | Json | `IJsonHelper` |  | 
-| Model | [Pages_EasyQuery_DataFiltering](/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_datafiltering-class) |  | 
+| Model | [Pages_EasyQuery_DataFiltering](//easyquery/docs/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_datafiltering-class) |  | 
 | ModelExpressionProvider | `IModelExpressionProvider` |  | 
 | Url | `IUrlHelper` |  | 
-| ViewData | `ViewDataDictionary`&lt;[Pages_EasyQuery_DataFiltering](/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_datafiltering-class)&gt; |  | 
+| ViewData | `ViewDataDictionary`&lt;[Pages_EasyQuery_DataFiltering](//easyquery/docs/api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_easyquery_datafiltering-class)&gt; |  | 
 
 
 ### Methods

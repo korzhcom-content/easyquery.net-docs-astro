@@ -3,7 +3,6 @@ title: ConstValueItem class
 slug: api-reference-4x/korzh-easyquery-namespace/constvalueitem-class
 ---
 
-
 Represents one item in the list of available values for LIST value editor.
 ```csharp
 public class Korzh.EasyQuery.ConstValueItem

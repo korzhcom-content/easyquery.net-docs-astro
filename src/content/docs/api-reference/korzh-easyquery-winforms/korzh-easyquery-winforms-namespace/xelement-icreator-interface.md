@@ -3,7 +3,6 @@ title: XElement.ICreator interface
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-icreator-interface
 ---
 
-
 Internal interface used for definition new (custom) types of row elements
 ```csharp
 public interface Korzh.EasyQuery.WinForms.XElement.ICreator
@@ -24,4 +23,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create() | [XElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates row element of corresponding type |
+| Create() | [XElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates row element of corresponding type |

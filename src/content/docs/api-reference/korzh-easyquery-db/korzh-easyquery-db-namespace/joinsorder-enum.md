@@ -3,7 +3,6 @@ title: JoinsOrder enum
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/joinsorder-enum
 ---
 
-
 Represents differt types of table order in the FROM clause of generated SQL statement
 ```csharp
 public enum Korzh.EasyQuery.Db.JoinsOrder

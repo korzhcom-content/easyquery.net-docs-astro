@@ -3,7 +3,6 @@ title: ConstListValueEditor class
 slug: api-reference-5x/korzh-easyquery-namespace/constlistvalueeditor-class
 ---
 
-
 Represents the constant list value editor.
 ```csharp
 public class Korzh.EasyQuery.ConstListValueEditor

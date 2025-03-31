@@ -3,7 +3,6 @@ title: Pages class
 slug: api-reference-5x/korzh-easyquery-razorui-namespace/pages-class
 ---
 
-
 Contains the settings for the default pages from EasyQuery Razor UI library
 ```csharp
 public static class Korzh.EasyQuery.RazorUI.Pages

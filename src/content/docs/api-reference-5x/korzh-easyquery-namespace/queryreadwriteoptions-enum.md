@@ -3,7 +3,6 @@ title: QueryReadWriteOptions enum
 slug: api-reference-5x/korzh-easyquery-namespace/queryreadwriteoptions-enum
 ---
 
-
 Represents different options used during query loading or saving
 ```csharp
 public enum Korzh.EasyQuery.QueryReadWriteOptions

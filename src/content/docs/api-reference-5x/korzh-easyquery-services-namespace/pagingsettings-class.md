@@ -3,7 +3,6 @@ title: PagingSettings class
 slug: api-reference-5x/korzh-easyquery-services-namespace/pagingsettings-class
 ---
 
-
 Default implementation of IPaging interface
 ```csharp
 public class Korzh.EasyQuery.Services.PagingSettings

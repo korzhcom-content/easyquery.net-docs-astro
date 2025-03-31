@@ -1,8 +1,7 @@
 ---
-title: How to show descriptive texts in some column instead of numeric values
+title: How to show descriptive texts in some column instead of numeric values 
 slug: how-to/descriptive-texts-in-column-instead-numeric-values
 ---
-
 
 It's quite often you have some numeric field in your database table and the numbers stored there have some special meanings.
 For example, your Status field and possible values for that field can be: 1 - New, 2 - Reviewed, 3 - In Progress, 4 - Resolved, 5 - Closed

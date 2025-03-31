@@ -3,7 +3,6 @@ title: LinqBuilderExtensions class
 slug: api-reference-4x/korzh-easyquery-linq-namespace/linqbuilderextensions-class
 ---
 
-
 Exposes some extension methods for LINQ querying
 ```csharp
 public static class Korzh.EasyQuery.Linq.LinqBuilderExtensions

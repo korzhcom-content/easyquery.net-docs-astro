@@ -3,7 +3,6 @@ title: EasyQuery License key
 slug: getting-started/product-key
 ---
 
-
 ## 1. What is it?
 
 The license (product) key unlocks all "Enterprise" level features of EasyQuery library.

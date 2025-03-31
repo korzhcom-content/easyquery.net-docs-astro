@@ -3,7 +3,6 @@ title: Utils class
 slug: api-reference-5x/korzh-easyquery-namespace/utils-class
 ---
 
-
 Represents different type conversion functions and other useful procedures
 ```csharp
 public static class Korzh.EasyQuery.Utils

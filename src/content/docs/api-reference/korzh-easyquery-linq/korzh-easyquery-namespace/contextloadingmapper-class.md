@@ -3,7 +3,6 @@ title: ContextLoadingMapper class
 slug: api-reference/korzh-easyquery-linq/korzh-easyquery-namespace/contextloadingmapper-class
 ---
 
-
 Class ContextLoadingMapper.
 ```csharp
 public static class Korzh.EasyQuery.ContextLoadingMapper

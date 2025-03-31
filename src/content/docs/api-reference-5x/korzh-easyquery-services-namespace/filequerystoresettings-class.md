@@ -3,8 +3,7 @@ title: FileQueryStoreSettings class
 slug: api-reference-5x/korzh-easyquery-services-namespace/filequerystoresettings-class
 ---
 
-
-Represents the settings for [Korzh.EasyQuery.Services.FileQueryStore](/api-reference-5x/korzh-easyquery-services-namespace/filequerystore-class)
+Represents the settings for [Korzh.EasyQuery.Services.FileQueryStore](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/filequerystore-class)
 ```csharp
 public class Korzh.EasyQuery.Services.FileQueryStoreSettings
 

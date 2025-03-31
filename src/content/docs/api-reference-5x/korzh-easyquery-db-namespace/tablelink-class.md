@@ -3,7 +3,6 @@ title: TableLink class
 slug: api-reference-5x/korzh-easyquery-db-namespace/tablelink-class
 ---
 
-
 Represents link between two tables
 ```csharp
 public class Korzh.EasyQuery.Db.TableLink
@@ -14,7 +13,7 @@ public class Korzh.EasyQuery.Db.TableLink
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `String` | ConditionExpr | Gets or sets the expression of link condition.  This expression will be used if [Korzh.EasyQuery.Db.TableLink.Conditions](/api-reference-5x/korzh-easyquery-db-namespace/tablelink-class) list is empty. | 
+| `String` | ConditionExpr | Gets or sets the expression of link condition.  This expression will be used if [Korzh.EasyQuery.Db.TableLink.Conditions](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/tablelink-class) list is empty. | 
 | `ConditionList` | Conditions | Gets list of linking conditions. | 
 | `Boolean` | Enabled | Determines wether link can be used in building query. | 
 | `TableLinkType` | LnkType | Gets or sets the type of the link (inner, left, right or full). | 
@@ -45,4 +44,4 @@ public class Korzh.EasyQuery.Db.TableLink
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `TableLinkType` | StrToLinkType(`String` s) | Converts text to [Korzh.EasyQuery.Db.TableLinkType](/api-reference-5x/korzh-easyquery-db-namespace/tablelinktype-enum) value. |
+| `TableLinkType` | StrToLinkType(`String` s) | Converts text to [Korzh.EasyQuery.Db.TableLinkType](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/tablelinktype-enum) value. |

@@ -3,7 +3,6 @@ title: EqSortByEnumNamesAttribute class
 slug: api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/eqsortbyenumnamesattribute-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.Linq.EqSortByEnumNamesAttribute
     : Attribute

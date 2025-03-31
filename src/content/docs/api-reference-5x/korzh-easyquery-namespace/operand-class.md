@@ -3,7 +3,6 @@ title: Operand class
 slug: api-reference-5x/korzh-easyquery-namespace/operand-class
 ---
 
-
 Represents one operand in some operator's expression
 ```csharp
 public class Korzh.EasyQuery.Operand

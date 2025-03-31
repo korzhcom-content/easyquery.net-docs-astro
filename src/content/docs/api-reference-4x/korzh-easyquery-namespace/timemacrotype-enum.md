@@ -3,7 +3,6 @@ title: TimeMacroType enum
 slug: api-reference-4x/korzh-easyquery-namespace/timemacrotype-enum
 ---
 
-
 Represents some predefined values for TimeMacro
 ```csharp
 public enum Korzh.EasyQuery.TimeMacroType

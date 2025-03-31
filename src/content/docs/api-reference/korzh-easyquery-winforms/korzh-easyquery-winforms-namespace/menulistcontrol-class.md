@@ -3,8 +3,7 @@ title: MenuListControl class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/menulistcontrol-class
 ---
 
-
-Represents an implementation of [Korzh.EasyQuery.WinForms.ListControl](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listcontrol-class) class that shows the menu
+Represents an implementation of [Korzh.EasyQuery.WinForms.ListControl](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listcontrol-class) class that shows the menu
 ```csharp
 public class Korzh.EasyQuery.WinForms.MenuListControl
     : ListControl
@@ -18,7 +17,7 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| MenuListControl() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.MenuListControl](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/menulistcontrol-class) class. | 
+| MenuListControl() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.MenuListControl](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/menulistcontrol-class) class. | 
 
 
 ### Fields
@@ -41,5 +40,5 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 | --- | --- | --- | 
 | Dispose(`bool` disposing) | `void` | Clean up any resources being used. | 
 | Hide() | `void` | Hides this instance. | 
-| RefillItems([ValueItemList](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) items) | `void` | Refills the items. | 
-| Show([ListXElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-class) parentElement, `Point` position) | `void` | Shows list control. |
+| RefillItems([ValueItemList](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) items) | `void` | Refills the items. | 
+| Show([ListXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-class) parentElement, `Point` position) | `void` | Shows list control. |

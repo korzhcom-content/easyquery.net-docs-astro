@@ -3,8 +3,7 @@ title: FilterExpressionBuilder class
 slug: api-reference-5x/korzh-easyquery-db-namespace/filterexpressionbuilder-class
 ---
 
-
-Used for building Sql commands using [Korzh.EasyQuery.Db.DbQuery](/api-reference-5x/korzh-easyquery-db-namespace/dbquery-class)
+Used for building Sql commands using [Korzh.EasyQuery.Db.DbQuery](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbquery-class)
 ```csharp
 public class Korzh.EasyQuery.Db.FilterExpressionBuilder
     : DbQueryBuilder, IQueryBuilder

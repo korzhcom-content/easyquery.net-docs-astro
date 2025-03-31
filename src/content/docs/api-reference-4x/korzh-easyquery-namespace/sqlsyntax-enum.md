@@ -3,7 +3,6 @@ title: SqlSyntax enum
 slug: api-reference-4x/korzh-easyquery-namespace/sqlsyntax-enum
 ---
 
-
 Represents types of SQL syntax.
 ```csharp
 public enum Korzh.EasyQuery.SqlSyntax

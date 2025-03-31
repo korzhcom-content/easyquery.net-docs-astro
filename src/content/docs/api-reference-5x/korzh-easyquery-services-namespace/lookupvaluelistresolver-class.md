@@ -3,8 +3,7 @@ title: LookupValueListResolver class
 slug: api-reference-5x/korzh-easyquery-services-namespace/lookupvaluelistresolver-class
 ---
 
-
-Represents a special case of IValueListResolver which returns the list of values for the lookup fields.  Implements the [Korzh.EasyQuery.Services.IValueListResolver](/api-reference-5x/korzh-easyquery-services-namespace/ivaluelistresolver-interface)
+Represents a special case of IValueListResolver which returns the list of values for the lookup fields.  Implements the [Korzh.EasyQuery.Services.IValueListResolver](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ivaluelistresolver-interface)
 ```csharp
 public class Korzh.EasyQuery.Services.LookupValueListResolver
     : IValueListResolver

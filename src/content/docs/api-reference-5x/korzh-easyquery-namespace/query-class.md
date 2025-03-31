@@ -3,7 +3,6 @@ title: Query class
 slug: api-reference-5x/korzh-easyquery-namespace/query-class
 ---
 
-
 Represents internal query structure.
 ```csharp
 public class Korzh.EasyQuery.Query
@@ -29,7 +28,7 @@ public class Korzh.EasyQuery.Query
 | `ColumnStore` | Columns | Gets the columns. | 
 | `String` | Description | Gets or sets the query description. | 
 | `String` | ExtraColumns | Gets or sets the extra columns. | 
-| `Condition` | ExtraConditions | Gets the list of extra conditions for this query.  These conditions are not visible to end-users but included into result SQL statement as all others (defined in [Korzh.EasyQuery.Query.Root](/api-reference-5x/korzh-easyquery-namespace/query-class) condition group). | 
+| `Condition` | ExtraConditions | Gets the list of extra conditions for this query.  These conditions are not visible to end-users but included into result SQL statement as all others (defined in [Korzh.EasyQuery.Query.Root](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/query-class) condition group). | 
 | `Object` | ExtraData | Conatins user-defined extra data for current query. | 
 | `String` | FilePath | Gets the query file path. It is automatically assigned when you use LoadFromFile method. | 
 | `String` | ID | Gets or sets the ID of this query. | 
@@ -68,7 +67,7 @@ public class Korzh.EasyQuery.Query
 | `Column` | AddAggregateColumn(`String` attrId, `String` funcId, `String` caption = <span style='color: blue'>null</span>, `SortDirection` sorting = None) | Creates a new aggregate column by attribute's ID and aggregate function nameand. | 
 | `Condition` | AddConditionGroup(`Condition` parent = <span style='color: blue'>null</span>, `Int32` index = -1) | Creates a new condition group and adds it into the query. | 
 | `Column` | AddSimpleColumn(`String` attrId, `String` caption = <span style='color: blue'>null</span>, `SortDirection` sorting = None) | Creates a new column by attribute's ID and adds it into query. | 
-| `void` | BeginUpdate() | Turns on the "updating" state.  Any changes occured during this state will not initiate any "changed" event  (like [Korzh.EasyQuery.Query.ColumnsChanged](/api-reference-5x/korzh-easyquery-namespace/query-class) or [Korzh.EasyQuery.Query.ConditionsChanged](/api-reference-5x/korzh-easyquery-namespace/query-class)) until [Korzh.EasyQuery.Query.EndUpdate](/api-reference-5x/korzh-easyquery-namespace/query-class) is called. | 
+| `void` | BeginUpdate() | Turns on the "updating" state.  Any changes occured during this state will not initiate any "changed" event  (like [Korzh.EasyQuery.Query.ColumnsChanged](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/query-class) or [Korzh.EasyQuery.Query.ConditionsChanged](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/query-class)) until [Korzh.EasyQuery.Query.EndUpdate](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/query-class) is called. | 
 | `void` | CheckDataModel() | Checks the data model object. Generates an exception if Model property has null value. | 
 | `void` | CheckModelObject(`DataModel` model) | Checks if model object has appropriate type and raise exception if not | 
 | `void` | Clear() | Clears the query conditions and result columns. | 
@@ -94,7 +93,7 @@ public class Korzh.EasyQuery.Query
 | `Query` | CreateSubQuery() | Creates the subquery. | 
 | `void` | EndUpdate() | Turns the "updating" state off. | 
 | `String` | GetConditionsText(`QueryTextFormats` formats) | Returns human-readable text that represents current query conditions | 
-| `QueryFormats` | GetFormats() | Gets query formats (an instance of [Korzh.EasyQuery.QueryFormats](/api-reference-5x/korzh-easyquery-namespace/queryformats-class) class). | 
+| `QueryFormats` | GetFormats() | Gets query formats (an instance of [Korzh.EasyQuery.QueryFormats](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryformats-class) class). | 
 | `String` | GetOneValueForAttr(`EntityAttr` attr) | Gets the one value set in some query condition for indicated entity attribute | 
 | `Entity` | GetParentQueryRootEntity() | Gets the entities from parent query. | 
 | `void` | InnerSortOrderChanged(`SortOrderChangedEventArgs` e) |  | 
@@ -117,8 +116,8 @@ public class Korzh.EasyQuery.Query
 | `void` | OnConditionsChanged(`ConditionsChangeEventArgs` e) | Raises the ConditionsChanged event. | 
 | `void` | OnSortOrderChanged(`SortOrderChangedEventArgs` e) | Raises the `SortOrderChanged` event. | 
 | `void` | OnSubQueryConditionsChanged(`ConditionsChangeEventArgs` e) | Raises the `SubQueryConditionsChanged` event. | 
-| `void` | ReadFromJson(`JsonReader` reader, `QueryReadWriteOptions` rwOptions = All) | Loads query from JSON reader.  Calls See [Korzh.EasyQuery.Query.ReadOnePropFromJsonAsync(Newtonsoft.Json.JsonReader,System.String,Korzh.EasyQuery.QueryReadWriteOptions)](/api-reference-5x/korzh-easyquery-namespace/query-class) function. | 
-| `Task` | ReadFromJsonAsync(`JsonReader` reader, `QueryReadWriteOptions` rwOptions = All) | Loads query from JSON reader.  Calls See [Korzh.EasyQuery.Query.ReadOnePropFromJsonAsync(Newtonsoft.Json.JsonReader,System.String,Korzh.EasyQuery.QueryReadWriteOptions)](/api-reference-5x/korzh-easyquery-namespace/query-class) function. | 
+| `void` | ReadFromJson(`JsonReader` reader, `QueryReadWriteOptions` rwOptions = All) | Loads query from JSON reader.  Calls See [Korzh.EasyQuery.Query.ReadOnePropFromJsonAsync(Newtonsoft.Json.JsonReader,System.String,Korzh.EasyQuery.QueryReadWriteOptions)](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/query-class) function. | 
+| `Task` | ReadFromJsonAsync(`JsonReader` reader, `QueryReadWriteOptions` rwOptions = All) | Loads query from JSON reader.  Calls See [Korzh.EasyQuery.Query.ReadOnePropFromJsonAsync(Newtonsoft.Json.JsonReader,System.String,Korzh.EasyQuery.QueryReadWriteOptions)](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/query-class) function. | 
 | `void` | ReadOnePropFromJson(`JsonReader` reader, `String` propName, `QueryReadWriteOptions` rwOptions) | Reads the property from JSON reader or skip unused. | 
 | `Task` | ReadOnePropFromJsonAsync(`JsonReader` reader, `String` propName, `QueryReadWriteOptions` rwOptions) | Reads the property from JSON reader or skip unused. | 
 | `void` | ResolveDataModel(`String` modelId) | Resolves the data model by its ID | 
@@ -140,5 +139,5 @@ public class Korzh.EasyQuery.Query
 | `void` | Validate() | Validates this query instance.  This method throws an exception if query has "ghost" attributes | 
 | `void` | WritePropertiesToJson(`JsonWriter` writer, `QueryReadWriteOptions` rwOptions) | Saves content of the query to JSON. | 
 | `Task` | WritePropertiesToJsonAsync(`JsonWriter` writer, `QueryReadWriteOptions` rwOptions) | Saves content of the query to JSON (asynchronous way). | 
-| `void` | WriteToJson(`JsonWriter` writer, `QueryReadWriteOptions` rwOptions = Content) | Saves query to JSON using JSON writer.  Calls [Korzh.EasyQuery.Query.WritePropertiesToJson(Newtonsoft.Json.JsonWriter,Korzh.EasyQuery.QueryReadWriteOptions)](/api-reference-5x/korzh-easyquery-namespace/query-class) function. | 
-| `Task` | WriteToJsonAsync(`JsonWriter` writer, `QueryReadWriteOptions` rwOptions = Content) | Saves query to JSON using JSON writer (asynchronous way).  Calls [Korzh.EasyQuery.Query.WritePropertiesToJsonAsync(Newtonsoft.Json.JsonWriter,Korzh.EasyQuery.QueryReadWriteOptions)](/api-reference-5x/korzh-easyquery-namespace/query-class) function. |
+| `void` | WriteToJson(`JsonWriter` writer, `QueryReadWriteOptions` rwOptions = Content) | Saves query to JSON using JSON writer.  Calls [Korzh.EasyQuery.Query.WritePropertiesToJson(Newtonsoft.Json.JsonWriter,Korzh.EasyQuery.QueryReadWriteOptions)](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/query-class) function. | 
+| `Task` | WriteToJsonAsync(`JsonWriter` writer, `QueryReadWriteOptions` rwOptions = Content) | Saves query to JSON using JSON writer (asynchronous way).  Calls [Korzh.EasyQuery.Query.WritePropertiesToJsonAsync(Newtonsoft.Json.JsonWriter,Korzh.EasyQuery.QueryReadWriteOptions)](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/query-class) function. |

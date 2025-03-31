@@ -3,7 +3,6 @@ title: TotalsContainer.TotalsContainerBuilder class
 slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/totalscontainer-totalscontainerbuilder-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.Services.TotalsContainer.TotalsContainerBuilder
 

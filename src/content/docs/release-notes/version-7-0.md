@@ -3,7 +3,6 @@ title: Version 7.0 release notes
 slug: release-notes/version-7-0
 ---
 
-
 ## Overview
 
 Version 7.0 is a major update of both EasyQuery.NET and EasyQuery.JS. While there are plenty of important changes, don't expect a lot of new features in this release. Version 7.0 is more about code refactoring and unification of EasyQuery's APIs. 
@@ -65,7 +64,7 @@ There are a lot of changes in `EasyQueryManager` class (we already mentioned the
 
 Additionally, there are plenty of changes in EasyQuery.JS base classes (Query, DataModel, etc) that simplify all kinds of manipulations with queries and models on the client-side.
 
-For more information about all modifications and renames please refer to [Upgrade instructions for version 7.0](//$aid/eqdn-1n7jsnov2nnf).
+For more information about all modifications and renames please refer to [Upgrade instructions for version 7.0](//easyquery/docs/upgrade-instructions/version-7-0).
 
 ## Better support for extensions and 3party libraries
 
@@ -73,6 +72,6 @@ WIth the new moduling structure of EasyQuery it's easier now to extend EasyQuery
 
 ## Links
 
- -  [$$-Changelog-$$](//$aid/eqdn-id4za3lbv7bz)
+ -  [Changelog](//easyquery/docs/changelog)
 
- - [$$-Upgrade instructions: Version 7.0-$$](//$aid/eqdn-1n7jsnov2nnf)
+ - [Upgrade instructions: Version 7.0](//easyquery/docs/upgrade-instructions/version-7-0)

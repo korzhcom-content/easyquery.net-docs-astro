@@ -3,8 +3,7 @@ title: SqlListValueEditor class
 slug: api-reference-5x/korzh-easyquery-namespace/sqllistvalueeditor-class
 ---
 
-
-Represents the list [Korzh.EasyQuery.ValueEditor](/api-reference-5x/korzh-easyquery-namespace/valueeditor-class).
+Represents the list [Korzh.EasyQuery.ValueEditor](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/valueeditor-class).
 ```csharp
 public class Korzh.EasyQuery.SqlListValueEditor
     : ListValueEditor

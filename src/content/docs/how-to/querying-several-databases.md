@@ -3,7 +3,6 @@ title: Generating queries for 2 (or more) databases
 slug: how-to/querying-several-databases
 ---
 
-
 This option is not available “out-of-the-box”, but you can do it using some tricks.
 
 **1)** Run Data Model Editor (DME) and create a new data model based on connection to the first database. Add all the tables from that DB you need.

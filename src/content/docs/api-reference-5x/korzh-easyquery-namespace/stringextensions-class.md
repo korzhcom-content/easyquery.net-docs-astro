@@ -3,7 +3,6 @@ title: StringExtensions class
 slug: api-reference-5x/korzh-easyquery-namespace/stringextensions-class
 ---
 
-
 Useful extension methods for strings
 ```csharp
 public static class Korzh.EasyQuery.StringExtensions

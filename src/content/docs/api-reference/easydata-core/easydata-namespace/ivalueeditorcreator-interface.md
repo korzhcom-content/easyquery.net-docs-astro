@@ -3,7 +3,6 @@ title: IValueEditorCreator interface
 slug: api-reference/easydata-core/easydata-namespace/ivalueeditorcreator-interface
 ---
 
-
 Internal interface used for definition new (custom) types of value editors
 ```csharp
 public interface EasyData.IValueEditorCreator
@@ -17,4 +16,4 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create(`string` tag) | [ValueEditor](/api-reference/easydata-core/easydata-namespace/valueeditor-class) | Creates an instance of ValueEditor. |
+| Create(`string` tag) | [ValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) | Creates an instance of ValueEditor. |

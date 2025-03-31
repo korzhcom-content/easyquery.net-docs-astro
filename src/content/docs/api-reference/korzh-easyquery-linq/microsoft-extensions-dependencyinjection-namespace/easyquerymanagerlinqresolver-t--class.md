@@ -3,8 +3,7 @@ title: EasyQueryManagerLinqResolver<T> class
 slug: api-reference/korzh-easyquery-linq/microsoft-extensions-dependencyinjection-namespace/easyquerymanagerlinqresolver-t--class
 ---
 
-
-This is an auxiliary class which implements [Korzh.EasyQuery.Services.IEasyQueryManagerResolver](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieasyquerymanagerresolver-interface) interface  to register EasyQueryManagerLinq during the intialization of EasyQuery services.
+This is an auxiliary class which implements [Korzh.EasyQuery.Services.IEasyQueryManagerResolver](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieasyquerymanagerresolver-interface) interface  to register EasyQueryManagerLinq during the intialization of EasyQuery services.
 ```csharp
 public class Microsoft.Extensions.DependencyInjection.EasyQueryManagerLinqResolver<T>
     : IEasyQueryManagerResolver
@@ -25,4 +24,4 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| GetManager([EasyQueryOptions](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class) options, `IServiceProvider` services) | [EasyQueryManager](/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) | Gets the EasyQuery manager. |
+| GetManager([EasyQueryOptions](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class) options, `IServiceProvider` services) | [EasyQueryManager](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) | Gets the EasyQuery manager. |

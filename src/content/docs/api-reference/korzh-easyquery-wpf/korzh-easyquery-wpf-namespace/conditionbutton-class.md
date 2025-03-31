@@ -3,7 +3,6 @@ title: ConditionButton class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/conditionbutton-class
 ---
 
-
 Used for operations with condition rows (e.g. create, delete, move)
 ```csharp
 public class Korzh.EasyQuery.Wpf.ConditionButton
@@ -18,14 +17,14 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ConditionButton([QueryPanel](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) panel, [Condition](/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ConditionButton](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/conditionbutton-class) class. | 
+| ConditionButton([QueryPanel](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/querypanel-class) panel, [Condition](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ConditionButton](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/conditionbutton-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EditMode | [EditModeKind](/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editmodekind-enum) | Gets or sets the edit mode. | 
+| EditMode | [EditModeKind](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editmodekind-enum) | Gets or sets the edit mode. | 
 
 
 ### Methods

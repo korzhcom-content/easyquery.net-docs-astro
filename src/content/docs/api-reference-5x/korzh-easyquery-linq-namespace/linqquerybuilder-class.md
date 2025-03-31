@@ -3,7 +3,6 @@ title: LinqQueryBuilder class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/linqquerybuilder-class
 ---
 
-
 Builds Linq expressions
 ```csharp
 public class Korzh.EasyQuery.Linq.LinqQueryBuilder

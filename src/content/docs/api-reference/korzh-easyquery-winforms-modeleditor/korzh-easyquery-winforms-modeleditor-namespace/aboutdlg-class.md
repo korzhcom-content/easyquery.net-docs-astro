@@ -3,7 +3,6 @@ title: AboutDlg class
 slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/aboutdlg-class
 ---
 
-
 Summary description for AboutDlg.
 ```csharp
 public class Korzh.EasyQuery.WinForms.ModelEditor.AboutDlg

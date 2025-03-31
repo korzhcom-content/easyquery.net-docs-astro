@@ -3,7 +3,6 @@ title: TextXElement.Creator class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textxelement-creator-class
 ---
 
-
 Implements XElement.ICreator interface for TextXElement class
 ```csharp
 public class Korzh.EasyQuery.WinForms.TextXElement.Creator
@@ -32,4 +31,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create() | [XElement](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new TextXElement object |
+| Create() | [XElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new TextXElement object |

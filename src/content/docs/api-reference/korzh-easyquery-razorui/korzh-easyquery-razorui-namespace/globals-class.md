@@ -3,7 +3,6 @@ title: Globals class
 slug: api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/globals-class
 ---
 
-
 This file contains some global variables used in Korzh.EasyQuery.RazorUI library (scripts and styles versions mainly)
 ```csharp
 public static class Korzh.EasyQuery.RazorUI.Globals

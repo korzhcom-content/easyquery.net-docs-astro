@@ -3,7 +3,6 @@ title: EditorsMap class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/editorsmap-class
 ---
 
-
 Represents editors map - the list which defines what editor will be used for a particular data type and operator.
 ```csharp
 public class Korzh.EasyQuery.EditorsMap
@@ -25,5 +24,5 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AddEditor([ValueEditor](/api-reference/easydata-core/easydata-namespace/valueeditor-class) editor) | `void` | Adds the editor with empty list of operators | 
-| FindEditor([Operator](/api-reference/korzh-easyquery/korzh-easyquery-namespace/operator-class) op, [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) type) | [ValueEditor](/api-reference/easydata-core/easydata-namespace/valueeditor-class) | Finds the editor by operator and data type. |
+| AddEditor([ValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) editor) | `void` | Adds the editor with empty list of operators | 
+| FindEditor([Operator](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/operator-class) op, [DataType](//easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) type) | [ValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) | Finds the editor by operator and data type. |

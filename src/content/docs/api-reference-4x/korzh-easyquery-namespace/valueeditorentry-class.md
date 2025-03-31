@@ -3,7 +3,6 @@ title: ValueEditorEntry class
 slug: api-reference-4x/korzh-easyquery-namespace/valueeditorentry-class
 ---
 
-
 Represents map between operators and value editors.
 ```csharp
 public class Korzh.EasyQuery.ValueEditorEntry

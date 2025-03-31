@@ -3,7 +3,6 @@ title: JsonDictConverter class
 slug: api-reference-4x/korzh-easyquery-namespace/jsondictconverter-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.JsonDictConverter
     : JsonConverter

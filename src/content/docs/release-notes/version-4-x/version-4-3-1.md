@@ -3,7 +3,6 @@ title: Version 4.3.1 release notes
 slug: release-notes/version-4-x/version-4-3-1
 ---
 
-
 ## 1. Core library
 
 * `FullTextSearch` extension method - now you can easily set up a [full-text search functionality](https://youtu.be/0XQT6x0Ge08) in your app
@@ -32,4 +31,4 @@ Now you can fill your data model right from Oracle database using our OracleDbGa
 * Wrong processing of TimeSpan properties in `LoadFromEntityType` method and during SQL generation
 * `LoadFromEntityType` didn't process collection navigation properites correctly
 *  `[EqEntityAttr()]` and `[Display]` attributes were not correctly applied to navigation properties
-*  Empty list of values for the [dynamically populated lists](//$aid/88ca9173-d3de-4648-a33d-78ddf8a93e45)
+*  Empty list of values for the [dynamically populated lists](//easyquery/docs/how-to/dynamically-populating-list-webforms)

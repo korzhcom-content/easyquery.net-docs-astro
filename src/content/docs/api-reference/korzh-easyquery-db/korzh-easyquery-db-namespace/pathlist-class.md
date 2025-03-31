@@ -3,7 +3,6 @@ title: PathList class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/pathlist-class
 ---
 
-
 Represents list of paths.
 ```csharp
 public class Korzh.EasyQuery.Db.PathList

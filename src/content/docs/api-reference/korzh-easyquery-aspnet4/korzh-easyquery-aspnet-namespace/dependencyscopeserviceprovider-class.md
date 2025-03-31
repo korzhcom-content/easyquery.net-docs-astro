@@ -3,7 +3,6 @@ title: DependencyScopeServiceProvider class
 slug: api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/dependencyscopeserviceprovider-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.AspNet.DependencyScopeServiceProvider
     : IServiceProvider

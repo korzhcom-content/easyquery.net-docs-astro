@@ -3,7 +3,6 @@ title: TableLink.ConditionList class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-conditionlist-class
 ---
 
-
 Represents list of linking conditions
 ```csharp
 public class Korzh.EasyQuery.Db.TableLink.ConditionList

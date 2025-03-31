@@ -3,8 +3,7 @@ title: DbContextModelExtractorOptions class
 slug: api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractoroptions-class
 ---
 
-
-Contains different options for [Korzh.EasyQuery.EntityFrameworkCore.DbContextModelExtractor](/api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractor-class)
+Contains different options for [Korzh.EasyQuery.EntityFrameworkCore.DbContextModelExtractor](//easyquery/docs/api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractor-class)
 ```csharp
 public class Korzh.EasyQuery.EntityFrameworkCore.DbContextModelExtractorOptions
 
@@ -29,7 +28,7 @@ Assembly: `Korzh.EasyQuery.EntityFrameworkCore.Relational.dll`
 | SkipForeignKeys | `bool` | Gets or sets a value indicating whether we need to skip foreign key fields and don't include them into the data model. | 
 | SortAlphabetically | `bool` | If true, sorts all entities and their attributes in alphabet order | 
 | SplitTablesOnMultiReference | `bool` | Split one table on two (or more) if there are multi-references between two tables | 
-| SqlFormats | [SqlFormats](/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlformats-class) | Gets or sets the SQL formats used during the model extraction | 
+| SqlFormats | [SqlFormats](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlformats-class) | Gets or sets the SQL formats used during the model extraction | 
 | TablePerHierarchy | `bool` | If true, add one table for each entity derived from one abstract type | 
 
 

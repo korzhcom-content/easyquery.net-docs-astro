@@ -3,7 +3,6 @@ title: ConditionRowOptions enum
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/conditionrowoptions-enum
 ---
 
-
 Different options of condition row
 ```csharp
 public enum Korzh.EasyQuery.WinForms.ConditionRowOptions

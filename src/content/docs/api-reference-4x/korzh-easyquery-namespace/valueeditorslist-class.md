@@ -3,7 +3,6 @@ title: ValueEditorsList class
 slug: api-reference-4x/korzh-easyquery-namespace/valueeditorslist-class
 ---
 
-
 Represents list of value editors
 ```csharp
 public class Korzh.EasyQuery.ValueEditorsList

@@ -3,7 +3,6 @@ title: IEqResultSet interface
 slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieqresultset-interface
 ---
 
-
 Represents a type used to store the result set of the query execution.
 ```csharp
 public interface Korzh.EasyQuery.Services.IEqResultSet
@@ -18,5 +17,5 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AddColumn([EasyDataCol](/api-reference/easydata-core/easydata-namespace/easydatacol-class) column) | `void` | Adds a column | 
-| CreateColumn([EasyDataColDesc](/api-reference/easydata-core/easydata-namespace/easydatacoldesc-class) desc) | [EasyDataCol](/api-reference/easydata-core/easydata-namespace/easydatacol-class) | Creates a column. |
+| AddColumn([EasyDataCol](//easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatacol-class) column) | `void` | Adds a column | 
+| CreateColumn([EasyDataColDesc](//easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatacoldesc-class) desc) | [EasyDataCol](//easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatacol-class) | Creates a column. |

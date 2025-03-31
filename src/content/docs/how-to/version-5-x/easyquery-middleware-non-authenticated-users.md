@@ -3,7 +3,6 @@ title: How to restrict access to EasyQuery middleware for non-authenticated user
 slug: how-to/version-5-x/easyquery-middleware-non-authenticated-users
 ---
 
-
 ## Problem
 Your web application has an open part (main page, some info pages, login/registration forms) and the part that requires the authorization. 
 And you want that the data-filtering or ad-hoc reporting functionality provided by EasyQuery be available only for authorized users. 

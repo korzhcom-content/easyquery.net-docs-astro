@@ -3,7 +3,6 @@ title: EntityAttrExpr class
 slug: api-reference-5x/korzh-easyquery-namespace/entityattrexpr-class
 ---
 
-
 An EqExpression descendant that represents an entity attribute.
 ```csharp
 public class Korzh.EasyQuery.EntityAttrExpr

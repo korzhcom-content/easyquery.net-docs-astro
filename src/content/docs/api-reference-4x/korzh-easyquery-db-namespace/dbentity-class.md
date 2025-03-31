@@ -3,7 +3,6 @@ title: DbEntity class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dbentity-class
 ---
 
-
 Base SQL Entity
 ```csharp
 public class Korzh.EasyQuery.Db.DbEntity

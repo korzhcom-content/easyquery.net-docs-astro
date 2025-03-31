@@ -3,7 +3,6 @@ title: SubQueryExpr class
 slug: api-reference-4x/korzh-easyquery-db-namespace/subqueryexpr-class
 ---
 
-
 Represents a sub-query expression
 ```csharp
 public class Korzh.EasyQuery.Db.SubQueryExpr
@@ -17,7 +16,7 @@ public class Korzh.EasyQuery.Db.SubQueryExpr
 | --- | --- | --- | 
 | `DataType` | DataType | Gets or sets the data type. | 
 | `DataKind` | Kind | Gets the expression kind. | 
-| `String` | TypeName | Non-static version of [Korzh.EasyQuery.Db.SubQueryExpr.STypeName](/api-reference-4x/korzh-easyquery-db-namespace/subqueryexpr-class) property. | 
+| `String` | TypeName | Non-static version of [Korzh.EasyQuery.Db.SubQueryExpr.STypeName](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/subqueryexpr-class) property. | 
 | `String` | Value | Gets or sets the value of expression. | 
 
 
@@ -25,7 +24,7 @@ public class Korzh.EasyQuery.Db.SubQueryExpr
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `String` | GetSqlExpr(`DbQueryFormats` formats, `SqlExtraClauses` extraClauses = <span style='color: blue'>null</span>) | Gets the SQL expression of the [Korzh.EasyQuery.Db.SubQueryExpr](/api-reference-4x/korzh-easyquery-db-namespace/subqueryexpr-class) object. | 
+| `String` | GetSqlExpr(`DbQueryFormats` formats, `SqlExtraClauses` extraClauses = <span style='color: blue'>null</span>) | Gets the SQL expression of the [Korzh.EasyQuery.Db.SubQueryExpr](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/subqueryexpr-class) object. | 
 | `void` | GetUsedTables(`TableList` tables) | Add the tables used in this expression in the list. | 
 | `void` | LoadFromJsonDict(`JsonDict` dict) | Loads expression from IDictionary object (used when we load query from JSON). | 
 | `void` | LoadFromXmlReader(`XmlReader` reader) | Loads expression from `System.Xml.XmlReader` object. | 

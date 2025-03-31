@@ -3,7 +3,6 @@ title: DateXElement class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/datexelement-class
 ---
 
-
 Used for picking date and time for query conditions
 ```csharp
 public class Korzh.EasyQuery.Wpf.DateXElement

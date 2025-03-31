@@ -3,7 +3,6 @@ title: ListItemComparer class
 slug: api-reference-5x/korzh-easyquery-services-namespace/listitemcomparer-class
 ---
 
-
 Represents the comparer for two ListItem objects  Implements the `System.Collections.Generic.IEqualityComparer'1`
 ```csharp
 public class Korzh.EasyQuery.Services.ListItemComparer

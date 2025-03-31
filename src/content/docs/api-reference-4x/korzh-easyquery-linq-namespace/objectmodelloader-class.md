@@ -3,7 +3,6 @@ title: ObjectModelLoader class
 slug: api-reference-4x/korzh-easyquery-linq-namespace/objectmodelloader-class
 ---
 
-
 Represents a data model
 ```csharp
 public class Korzh.EasyQuery.Linq.ObjectModelLoader

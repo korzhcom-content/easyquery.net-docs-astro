@@ -3,7 +3,6 @@ title: UsedTableList class
 slug: api-reference-5x/korzh-easyquery-db-namespace/usedtablelist-class
 ---
 
-
 Represents a list of "used" tables.  The only difference with orginal TableList is that this class doesn't allow to insert already existing table and inserts tables in list according their priority
 ```csharp
 public class Korzh.EasyQuery.Db.UsedTableList

@@ -3,7 +3,6 @@ title: EntityStore class
 slug: api-reference-5x/korzh-easyquery-namespace/entitystore-class
 ---
 
-
 Represents storage of entities
 ```csharp
 public class Korzh.EasyQuery.EntityStore

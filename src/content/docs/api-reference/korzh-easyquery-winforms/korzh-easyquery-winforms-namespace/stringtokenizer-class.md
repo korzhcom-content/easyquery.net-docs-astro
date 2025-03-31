@@ -3,7 +3,6 @@ title: StringTokenizer class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/stringtokenizer-class
 ---
 
-
 This class allows an application to break a string into tokens.
 ```csharp
 public class Korzh.EasyQuery.WinForms.StringTokenizer

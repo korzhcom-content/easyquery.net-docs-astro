@@ -3,7 +3,6 @@ title: DataTypeList class
 slug: api-reference-5x/korzh-easyquery-namespace/datatypelist-class
 ---
 
-
 Represents a list of DataType values.
 ```csharp
 public class Korzh.EasyQuery.DataTypeList

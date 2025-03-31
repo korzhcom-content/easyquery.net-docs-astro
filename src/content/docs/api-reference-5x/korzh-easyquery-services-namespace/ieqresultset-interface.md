@@ -3,7 +3,6 @@ title: IEqResultSet interface
 slug: api-reference-5x/korzh-easyquery-services-namespace/ieqresultset-interface
 ---
 
-
 Represents a type used to store the result set of the query execution.
 ```csharp
 public interface Korzh.EasyQuery.Services.IEqResultSet

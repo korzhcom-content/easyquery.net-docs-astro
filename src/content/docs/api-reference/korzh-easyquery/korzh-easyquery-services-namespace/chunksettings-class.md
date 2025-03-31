@@ -3,7 +3,6 @@ title: ChunkSettings class
 slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/chunksettings-class
 ---
 
-
 Defines the parameters of one chunk of data requested from the client
 ```csharp
 public class Korzh.EasyQuery.Services.ChunkSettings

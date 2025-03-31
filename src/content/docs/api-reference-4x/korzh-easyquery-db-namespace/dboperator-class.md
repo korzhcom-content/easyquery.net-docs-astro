@@ -3,7 +3,6 @@ title: DbOperator class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dboperator-class
 ---
 
-
 Represents a logical expression or predicate, like comparisons or LIKE predicate.
 ```csharp
 public class Korzh.EasyQuery.Db.DbOperator

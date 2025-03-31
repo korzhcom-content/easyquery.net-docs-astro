@@ -3,7 +3,6 @@ title: EntityFrameworkCore2Extensions class
 slug: api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/entityframeworkcore2extensions-class
 ---
 
-
 ```csharp
 public static class Korzh.EasyQuery.EntityFrameworkCore.EntityFrameworkCore2Extensions
 

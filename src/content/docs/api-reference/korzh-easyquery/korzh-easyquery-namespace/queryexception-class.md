@@ -3,7 +3,6 @@ title: QueryException class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/queryexception-class
 ---
 
-
 ```csharp
 public class Korzh.EasyQuery.QueryException
     : Exception

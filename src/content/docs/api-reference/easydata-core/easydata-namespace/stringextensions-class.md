@@ -3,7 +3,6 @@ title: StringExtensions class
 slug: api-reference/easydata-core/easydata-namespace/stringextensions-class
 ---
 
-
 ```csharp
 public static class EasyData.StringExtensions
 

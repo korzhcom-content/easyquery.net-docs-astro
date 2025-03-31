@@ -3,16 +3,17 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --open",
     "start": "astro dev",
     "build": "node tools/create-indexes.js ./src/content && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.32.4",
-    "astro": "^5.5.4",
+    "@astrojs/starlight": "^0.32.5",
+    "astro": "^5.5.5",
     "fs-extra": "^11.3.0",
+    "gray-matter": "^4.0.3",
     "sharp": "^0.33.5",
     "starlight-links-validator": "^0.14.3",
     "starlight-showcases": "^0.3.0",
@@ -20,6 +21,7 @@
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
+    "@olton/progress": "^0.1.0",
     "glob": "^11.0.1"
   }
 }

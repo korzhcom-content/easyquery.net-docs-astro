@@ -3,7 +3,6 @@ title: XSortOrder enum
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xsortorder-enum
 ---
 
-
 Represents sorting direction.
 ```csharp
 public enum Korzh.EasyQuery.WinForms.XSortOrder

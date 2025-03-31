@@ -3,7 +3,6 @@ title: EasyQueryOptionsExtensionsEfCoreIdentity class
 slug: api-reference-5x/korzh-easyquery-services-namespace/easyqueryoptionsextensionsefcoreidentity-class
 ---
 
-
 Contains several extension methods for EasyQueryOptions  which allow to tune up the EasyQuery manager and middleware  in case of using them with EntityFrameworkCore and ASP.NET Core Identity
 ```csharp
 public static class Korzh.EasyQuery.Services.EasyQueryOptionsExtensionsEfCoreIdentity

@@ -3,7 +3,6 @@ title: IDataExportSettings interface
 slug: api-reference-5x/korzh-easyquery-services-namespace/idataexportsettings-interface
 ---
 
-
 Represents some settings used during exporting operations
 ```csharp
 public interface Korzh.EasyQuery.Services.IDataExportSettings

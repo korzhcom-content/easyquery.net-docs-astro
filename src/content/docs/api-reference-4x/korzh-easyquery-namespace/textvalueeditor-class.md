@@ -3,7 +3,6 @@ title: TextValueEditor class
 slug: api-reference-4x/korzh-easyquery-namespace/textvalueeditor-class
 ---
 
-
 Represents the simpliest value editor.
 ```csharp
 public class Korzh.EasyQuery.TextValueEditor

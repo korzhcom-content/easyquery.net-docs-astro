@@ -3,7 +3,6 @@ title: EntityFrameworkCore3PlusExtensions class
 slug: api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/entityframeworkcore3plusextensions-class
 ---
 
-
 Defines some extensions which unify meta-data functions used in EF Core 3 and higher
 ```csharp
 public static class Korzh.EasyQuery.EntityFrameworkCore.EntityFrameworkCore3PlusExtensions

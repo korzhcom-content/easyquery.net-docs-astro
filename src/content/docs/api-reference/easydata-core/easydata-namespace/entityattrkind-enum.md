@@ -3,7 +3,6 @@ title: EntityAttrKind enum
 slug: api-reference/easydata-core/easydata-namespace/entityattrkind-enum
 ---
 
-
 Represents an attribute's kind
 ```csharp
 public enum EasyData.EntityAttrKind

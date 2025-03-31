@@ -3,7 +3,6 @@ title: OperatorGroup class
 slug: api-reference-4x/korzh-easyquery-namespace/operatorgroup-class
 ---
 
-
 Represents a group of operators
 ```csharp
 public class Korzh.EasyQuery.OperatorGroup

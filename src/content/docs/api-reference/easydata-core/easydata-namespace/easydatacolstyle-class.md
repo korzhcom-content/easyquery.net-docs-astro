@@ -3,7 +3,6 @@ title: EasyDataColStyle class
 slug: api-reference/easydata-core/easydata-namespace/easydatacolstyle-class
 ---
 
-
 ```csharp
 public class EasyData.EasyDataColStyle
 
@@ -23,4 +22,4 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Alignment | [ColumnAlignment](/api-reference/easydata-core/easydata-namespace/columnalignment-enum) |  |
+| Alignment | [ColumnAlignment](//easyquery/docs/api-reference/easydata-core/easydata-namespace/columnalignment-enum) |  |

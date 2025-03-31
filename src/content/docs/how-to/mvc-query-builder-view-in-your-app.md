@@ -3,7 +3,6 @@ title: Add query builder page from our MVC sample project in your own app
 slug: how-to/mvc-query-builder-view-in-your-app
 ---
 
-
 ## The problem
 
 You would like to add into your project the same query builder page (or with some little modifications) as in our EQMvcDemoDB sample project.

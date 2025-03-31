@@ -3,7 +3,6 @@ title: Getting started for EasyQuery ASP.NET MVC
 slug: getting-started/version-3-x/asp-net-mvc
 ---
 
-
 > See also: [Getting started for ASP.NET WebForms](//easyquery/docs/getting-started/asp-net-webforms)
 
 &nbsp;             
@@ -54,12 +53,12 @@ using System.Data.SqlClient;
 
 From: 
 
-```sql
+``` .   .   .   .   .   .
     eqService.Connection = new SqlCeConnection("Data Source=" + System.IO.Path.Combine(dataPath, "Northwind.sdf"));
 ```
 to
 
-```sql
+``` .   .   .   .   .   .
     eqService.Connection = new SqlConnection("Your connection string goes here");
 ```
 

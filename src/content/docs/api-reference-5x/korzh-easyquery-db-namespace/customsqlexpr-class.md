@@ -3,7 +3,6 @@ title: CustomSqlExpr class
 slug: api-reference-5x/korzh-easyquery-db-namespace/customsqlexpr-class
 ---
 
-
 Represents a custom SQL expression
 ```csharp
 public class Korzh.EasyQuery.Db.CustomSqlExpr

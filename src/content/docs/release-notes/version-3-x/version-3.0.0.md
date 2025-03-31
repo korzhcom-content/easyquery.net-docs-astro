@@ -3,7 +3,6 @@ title: Version 3.0 release notes
 slug: release-notes/version-3-x/version-3.0.0
 ---
 
-
 ## **New in version 3.0**
 
 ### 1. New structure of EasyQuery assemblies and namespaces

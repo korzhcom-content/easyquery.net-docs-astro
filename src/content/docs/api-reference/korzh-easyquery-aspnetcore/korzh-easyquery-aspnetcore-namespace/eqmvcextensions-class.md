@@ -3,7 +3,6 @@ title: EqMvcExtensions class
 slug: api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqmvcextensions-class
 ---
 
-
 Contains several useful extension methods for working with EasyQuery types in MVC applications
 ```csharp
 public static class Korzh.EasyQuery.AspNetCore.EqMvcExtensions

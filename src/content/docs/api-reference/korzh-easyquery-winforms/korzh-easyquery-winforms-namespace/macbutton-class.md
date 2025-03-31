@@ -3,7 +3,6 @@ title: MacButton class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class
 ---
 
-
 The class that defines the flat MacOs-like button.
 ```csharp
 public class Korzh.EasyQuery.WinForms.MacButton
@@ -18,22 +17,22 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| MacButton() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.MacButton](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) class. | 
+| MacButton() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.MacButton](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ActiveBodyColor | `Color` | Gets or sets the color of the button when it is in [Korzh.EasyQuery.WinForms.MacButton.MState.stIn](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
-| ActiveBorderColor | `Color` | Gets or sets the color of the border when the button is in [Korzh.EasyQuery.WinForms.MacButton.MState.stIn](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
+| ActiveBodyColor | `Color` | Gets or sets the color of the button when it is in [Korzh.EasyQuery.WinForms.MacButton.MState.stIn](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
+| ActiveBorderColor | `Color` | Gets or sets the color of the border when the button is in [Korzh.EasyQuery.WinForms.MacButton.MState.stIn](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
 | BorderWidth | `int` | Gets or sets the width of the border. | 
-| ClickBodyColor | `Color` | Gets or sets the color of the button when it is in [Korzh.EasyQuery.WinForms.MacButton.MState.stClick](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
-| ClickBorderColor | `Color` | Gets or sets the color of the border when the button is in [Korzh.EasyQuery.WinForms.MacButton.MState.stClick](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
-| InactiveBodyColor | `Color` | Gets or sets the color of the button when it is in [Korzh.EasyQuery.WinForms.MacButton.MState.stNotIn](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
-| InactiveBorderColor | `Color` | Gets or sets the color of the border when the button is in [Korzh.EasyQuery.WinForms.MacButton.MState.stNotIn](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
+| ClickBodyColor | `Color` | Gets or sets the color of the button when it is in [Korzh.EasyQuery.WinForms.MacButton.MState.stClick](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
+| ClickBorderColor | `Color` | Gets or sets the color of the border when the button is in [Korzh.EasyQuery.WinForms.MacButton.MState.stClick](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
+| InactiveBodyColor | `Color` | Gets or sets the color of the button when it is in [Korzh.EasyQuery.WinForms.MacButton.MState.stNotIn](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
+| InactiveBorderColor | `Color` | Gets or sets the color of the border when the button is in [Korzh.EasyQuery.WinForms.MacButton.MState.stNotIn](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) state. | 
 | MacStyle | `bool` | Gets or sets a value indicating whether [standard button]. | 
-| Rounded | `bool` | Gets or sets a value indicating whether this [Korzh.EasyQuery.WinForms.MacButton](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) is displayed as ellipse in contrast to rectangle. | 
+| Rounded | `bool` | Gets or sets a value indicating whether this [Korzh.EasyQuery.WinForms.MacButton](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/macbutton-class) is displayed as ellipse in contrast to rectangle. | 
 | RoundRadius | `int` | Gets or sets the round radius. | 
 
 

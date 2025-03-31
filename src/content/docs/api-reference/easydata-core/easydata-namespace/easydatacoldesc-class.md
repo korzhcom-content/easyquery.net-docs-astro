@@ -3,7 +3,6 @@ title: EasyDataColDesc class
 slug: api-reference/easydata-core/easydata-namespace/easydatacoldesc-class
 ---
 
-
 ```csharp
 public class EasyData.EasyDataColDesc
 
@@ -29,5 +28,5 @@ Assembly: `EasyData.Core.dll`
 | Index | `int` |  | 
 | IsAggr | `bool` |  | 
 | Label | `string` |  | 
-| Style | [EasyDataColStyle](/api-reference/easydata-core/easydata-namespace/easydatacolstyle-class) |  | 
-| Type | [DataType](/api-reference/easydata-core/easydata-namespace/datatype-enum) |  |
+| Style | [EasyDataColStyle](//easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatacolstyle-class) |  | 
+| Type | [DataType](//easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) |  |

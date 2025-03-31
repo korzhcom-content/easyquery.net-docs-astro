@@ -3,7 +3,6 @@ title: Building data model dynamically by DB meta-information
 slug: how-to/build-data-model-by-db-meta-information
 ---
 
-
 You can avoid creating a data model XML file through Data Model Editor utility and fill your model right in the code directly from your database (or more precisely: by its meta-info).
 
 To perform this task, you just need to create an appropriate instance of DbGate class (depending on DB and connection type you use), connect it to your database and call FillByDbGate() method of DbModel.

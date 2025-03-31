@@ -3,7 +3,6 @@ title: TextAdjustingEventArgs class
 slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textadjustingeventargs-class
 ---
 
-
 Provides data for different "text adjusting" events in XElement descendants.
 ```csharp
 public class Korzh.EasyQuery.WinForms.TextAdjustingEventArgs
@@ -18,7 +17,7 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TextAdjustingEventArgs(`string` newValue, `string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.TextAdjustingEventArgs](/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textadjustingeventargs-class) class. | 
+| TextAdjustingEventArgs(`string` newValue, `string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.TextAdjustingEventArgs](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/textadjustingeventargs-class) class. | 
 
 
 ### Properties

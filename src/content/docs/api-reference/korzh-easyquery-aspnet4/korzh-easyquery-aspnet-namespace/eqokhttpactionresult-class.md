@@ -3,7 +3,6 @@ title: EqOkHttpActionResult class
 slug: api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokhttpactionresult-class
 ---
 
-
 Represents a special kind of `System.Web.Http.IHttpActionResult` which allows to build an OK (status code 200) response with some extra data  Implements the
 ```csharp
 public class Korzh.EasyQuery.AspNet.EqOkHttpActionResult
@@ -18,8 +17,8 @@ Assembly: `Korzh.EasyQuery.AspNet4.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqOkHttpActionResult(`HttpRequestMessage` request) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkHttpActionResult](/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokhttpactionresult-class) class. | 
-| EqOkHttpActionResult(`object` data, `HttpRequestMessage` request) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkHttpActionResult](/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokhttpactionresult-class) class. | 
+| EqOkHttpActionResult(`HttpRequestMessage` request) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkHttpActionResult](//easyquery/docs/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokhttpactionresult-class) class. | 
+| EqOkHttpActionResult(`object` data, `HttpRequestMessage` request) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkHttpActionResult](//easyquery/docs/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokhttpactionresult-class) class. | 
 
 
 ### Fields

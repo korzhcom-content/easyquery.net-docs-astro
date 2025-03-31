@@ -3,7 +3,6 @@ title: JSLicense class
 slug: api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/jslicense-class
 ---
 
-
 Static class that allows you to set the license key for EasyQuery JS.
 ```csharp
 public static class Korzh.EasyQuery.AspNetCore.JSLicense

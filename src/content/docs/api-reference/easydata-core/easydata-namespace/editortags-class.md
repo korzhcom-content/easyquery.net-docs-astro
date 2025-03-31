@@ -3,7 +3,6 @@ title: EditorTags class
 slug: api-reference/easydata-core/easydata-namespace/editortags-class
 ---
 
-
 Defines the constants for value editors' tags.
 ```csharp
 public static class EasyData.EditorTags
