@@ -1,6 +1,9 @@
 ---
 title: EdmxModelExtractorOptions class
-slug: api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/edmxmodelextractoroptions-class
+slug: >-
+  api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/edmxmodelextractoroptions-class
+sidebar:
+  order: 100
 ---
 
 Contains different options

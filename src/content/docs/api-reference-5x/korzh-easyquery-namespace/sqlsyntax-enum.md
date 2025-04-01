@@ -1,6 +1,8 @@
 ---
 title: SqlSyntax enum
 slug: api-reference-5x/korzh-easyquery-namespace/sqlsyntax-enum
+sidebar:
+  order: 100
 ---
 
 Represents types of SQL syntax.

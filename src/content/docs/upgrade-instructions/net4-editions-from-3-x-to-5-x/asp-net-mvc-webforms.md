@@ -1,6 +1,8 @@
 ---
 title: Upgrading to 5.x ASP.NET (MVC and WebForms) projects
 slug: upgrade-instructions/net4-editions-from-3-x-to-5-x/asp-net-mvc-webforms
+sidebar:
+  order: 100
 ---
 
 This tutorial describes how to upgrde your old ASP.NET MVC project with EasyQuery 3.x to EasyQuery version 5.2.0 (or higher).

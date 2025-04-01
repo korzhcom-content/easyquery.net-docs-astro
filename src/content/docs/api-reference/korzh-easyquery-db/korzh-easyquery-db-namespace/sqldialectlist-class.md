@@ -1,6 +1,9 @@
 ---
 title: SqlDialectList class
-slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqldialectlist-class
+slug: >-
+  api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqldialectlist-class
+sidebar:
+  order: 100
 ---
 
 Represents different dialects of SQL
@@ -24,4 +27,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| FindByName(`string` name) | [SqlDialect](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqldialect-class) | Finds the [Korzh.EasyQuery.Db.SqlDialect](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqldialect-class) object by name. |
+| FindByName(`string` name) | [SqlDialect](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqldialect-class) | Finds the [Korzh.EasyQuery.Db.SqlDialect](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqldialect-class) object by name. |

@@ -1,6 +1,8 @@
 ---
 title: How it works
 slug: fundamentals/how-it-works
+sidebar:
+  order: 100
 ---
 
 ![EasyQuery scheme](https://files.aistant.com/korzh/easyquery-dotnet/images/eq-lib-schema.png)

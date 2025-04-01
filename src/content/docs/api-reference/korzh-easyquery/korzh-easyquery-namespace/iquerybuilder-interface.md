@@ -1,6 +1,9 @@
 ---
 title: IQueryBuilder interface
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/iquerybuilder-interface
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/iquerybuilder-interface
+sidebar:
+  order: 100
 ---
 
 Interface IQueryBuilder - represents general-purpose query builder
@@ -16,9 +19,9 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Options | [QueryBuilderOptions](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuilderoptions-class) | Gets or sets the builder's options. | 
-| Query | [Query](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets the query this builder is defined for | 
-| Result | [IQueryStatement](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/iquerystatement-interface) | The query builder result. | 
+| Options | [QueryBuilderOptions](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuilderoptions-class) | Gets or sets the builder's options. | 
+| Query | [Query](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets the query this builder is defined for | 
+| Result | [IQueryStatement](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/iquerystatement-interface) | The query builder result. | 
 | StatementType | `Type` | Gets the the result type. | 
 
 

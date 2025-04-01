@@ -1,6 +1,9 @@
 ---
 title: StringTokenizer class
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/stringtokenizer-class
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/stringtokenizer-class
+sidebar:
+  order: 100
 ---
 
 This class allows an application to break a string into tokens.

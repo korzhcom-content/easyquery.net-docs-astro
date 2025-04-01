@@ -1,7 +1,10 @@
 ---
 title: EqEntityAttrAttribute class
 slug: api-reference-4x/korzh-easyquery-namespace/eqentityattrattribute-class
+sidebar:
+  order: 100
 ---
+# EqEntityAttrAttribute class
 
 Provides a general-purpose attribute that lets you specify different options for entity attribute classes.
 ```csharp

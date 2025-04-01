@@ -1,6 +1,9 @@
 ---
 title: ContentChangedEventArgs class
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/contentchangedeventargs-class
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/contentchangedeventargs-class
+sidebar:
+  order: 100
 ---
 
 Provides data for different content changing events in XElement descendants.
@@ -17,7 +20,7 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ContentChangedEventArgs(`bool` valueChanged, `bool` textChanged) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ContentChangedEventArgs](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/contentchangedeventargs-class) class. | 
+| ContentChangedEventArgs(`bool` valueChanged, `bool` textChanged) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ContentChangedEventArgs](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/contentchangedeventargs-class) class. | 
 
 
 ### Properties

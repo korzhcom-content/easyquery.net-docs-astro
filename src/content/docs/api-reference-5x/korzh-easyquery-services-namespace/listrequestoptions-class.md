@@ -1,6 +1,8 @@
 ---
 title: ListRequestOptions class
 slug: api-reference-5x/korzh-easyquery-services-namespace/listrequestoptions-class
+sidebar:
+  order: 100
 ---
 
 Represents different options specified in GetList AJAX request

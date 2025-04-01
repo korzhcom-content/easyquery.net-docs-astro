@@ -1,6 +1,8 @@
 ---
 title: VirtualTable class
 slug: api-reference-4x/korzh-easyquery-db-namespace/virtualtable-class
+sidebar:
+  order: 100
 ---
 
 Represents a virtual table.  Virtual tables do not correpond to some table in database but are defined through some SQL SELECT statement instead.

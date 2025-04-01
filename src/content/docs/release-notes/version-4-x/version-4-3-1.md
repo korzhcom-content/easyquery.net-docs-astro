@@ -1,6 +1,8 @@
 ---
 title: Version 4.3.1 release notes
 slug: release-notes/version-4-x/version-4-3-1
+sidebar:
+  order: 100
 ---
 
 ## 1. Core library
@@ -31,4 +33,4 @@ Now you can fill your data model right from Oracle database using our OracleDbGa
 * Wrong processing of TimeSpan properties in `LoadFromEntityType` method and during SQL generation
 * `LoadFromEntityType` didn't process collection navigation properites correctly
 *  `[EqEntityAttr()]` and `[Display]` attributes were not correctly applied to navigation properties
-*  Empty list of values for the [dynamically populated lists](//easyquery/docs/how-to/dynamically-populating-list-webforms)
+*  Empty list of values for the [dynamically populated lists](///////////////easyquery/docs/how-to/dynamically-populating-list-webforms)

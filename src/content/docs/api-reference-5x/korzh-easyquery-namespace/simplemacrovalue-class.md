@@ -1,6 +1,8 @@
 ---
 title: SimpleMacroValue class
 slug: api-reference-5x/korzh-easyquery-namespace/simplemacrovalue-class
+sidebar:
+  order: 100
 ---
 
 Represents one macro value.

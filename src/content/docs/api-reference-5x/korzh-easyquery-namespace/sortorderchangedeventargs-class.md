@@ -1,9 +1,11 @@
 ---
 title: SortOrderChangedEventArgs class
 slug: api-reference-5x/korzh-easyquery-namespace/sortorderchangedeventargs-class
+sidebar:
+  order: 100
 ---
 
-Provides data for [Korzh.EasyQuery.Query.SortOrderChanged](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/query-class) event
+Provides data for [Korzh.EasyQuery.Query.SortOrderChanged](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/query-class) event
 ```csharp
 public class Korzh.EasyQuery.SortOrderChangedEventArgs
     : EventArgs

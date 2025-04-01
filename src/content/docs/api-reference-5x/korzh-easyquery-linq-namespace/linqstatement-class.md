@@ -1,6 +1,8 @@
 ---
 title: LinqStatement class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/linqstatement-class
+sidebar:
+  order: 100
 ---
 
 Represents the result of performing Build function call of LinqQueryBuilder.

@@ -1,6 +1,8 @@
 ---
 title: QueryException class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/queryexception-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

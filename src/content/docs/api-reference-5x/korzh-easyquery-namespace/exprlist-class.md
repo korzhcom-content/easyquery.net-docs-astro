@@ -1,6 +1,8 @@
 ---
 title: ExprList class
 slug: api-reference-5x/korzh-easyquery-namespace/exprlist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of expression objects.

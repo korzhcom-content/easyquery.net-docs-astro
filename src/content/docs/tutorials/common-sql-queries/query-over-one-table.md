@@ -1,6 +1,8 @@
 ---
 title: Simple query over one table
 slug: tutorials/common-sql-queries/query-over-one-table
+sidebar:
+  order: 100
 ---
 
 Let’s suppose we need just a list of customers from one particular country (e.g. USA). Regarding SQL this query will look like:

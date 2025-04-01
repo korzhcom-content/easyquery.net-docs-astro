@@ -1,6 +1,8 @@
 ---
 title: EntityLinqExtensions class
 slug: api-reference-4x/korzh-easyquery-linq-namespace/entitylinqextensions-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

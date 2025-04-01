@@ -1,6 +1,9 @@
 ---
 title: IJsonConvertor interface
-slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/ijsonconvertor-interface
+slug: >-
+  api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/ijsonconvertor-interface
+sidebar:
+  order: 100
 ---
 
 Exposes a JSON serializer / deserializer

@@ -1,6 +1,9 @@
 ---
 title: QueryListItem class
-slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/querylistitem-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-services-namespace/querylistitem-class
+sidebar:
+  order: 100
 ---
 
 Represents one item in the list of queries (usually returned for GetQueries request)
@@ -16,9 +19,9 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| QueryListItem(`string` id, `string` name, `string` desc) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.QueryListItem](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/querylistitem-class) class. | 
-| QueryListItem(`string` id, `string` name) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.QueryListItem](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/querylistitem-class) class. | 
-| QueryListItem() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.QueryListItem](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/querylistitem-class) class. | 
+| QueryListItem(`string` id, `string` name, `string` desc) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.QueryListItem](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/querylistitem-class) class. | 
+| QueryListItem(`string` id, `string` name) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.QueryListItem](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/querylistitem-class) class. | 
+| QueryListItem() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.QueryListItem](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/querylistitem-class) class. | 
 
 
 ### Properties

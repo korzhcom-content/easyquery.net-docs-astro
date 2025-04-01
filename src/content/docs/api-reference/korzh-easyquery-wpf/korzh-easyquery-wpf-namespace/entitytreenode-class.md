@@ -1,9 +1,12 @@
 ---
 title: EntityTreeNode class
-slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class
+slug: >-
+  api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class
+sidebar:
+  order: 100
 ---
 
-Used to add [Korzh.EasyQuery.Wpf.EntityTreeNode.IsChecked](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) property to [Korzh.EasyQuery.Entity](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) objects
+Used to add [Korzh.EasyQuery.Wpf.EntityTreeNode.IsChecked](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) property to [Korzh.EasyQuery.Entity](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) objects
 ```csharp
 public class Korzh.EasyQuery.Wpf.EntityTreeNode
     : INotifyPropertyChanged
@@ -17,7 +20,7 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EntityTreeNode([EntityTreeNode](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) parent, `object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.EntityTreeNode](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) class. | 
+| EntityTreeNode([EntityTreeNode](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) parent, `object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.EntityTreeNode](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) class. | 
 
 
 ### Properties
@@ -25,11 +28,11 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Caption | `string` | Gets the caption of this entity. | 
-| Children | `ObservableCollection`&lt;[EntityTreeNode](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class)&gt; | Gets the children. | 
+| Children | `ObservableCollection`&lt;[EntityTreeNode](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class)&gt; | Gets the children. | 
 | Data | `object` | Gets or sets the data associated with this entity; | 
-| IsChecked | `bool` | Gets or sets a value indicating whether this instance is checked. Raises [Korzh.EasyQuery.Wpf.EntityTreeNode.PropertyChanged](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) event | 
+| IsChecked | `bool` | Gets or sets a value indicating whether this instance is checked. Raises [Korzh.EasyQuery.Wpf.EntityTreeNode.PropertyChanged](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) event | 
 | IsExpanded | `bool` | Gets or sets expanded state of associated treeview node | 
-| Parent | [EntityTreeNode](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) | Gets the parent. | 
+| Parent | [EntityTreeNode](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) | Gets the parent. | 
 | ShowTooltip | `bool` | Gets a value indicating whether the tooltip should be shown. | 
 | Tooltip | `string` | Gets the tooltip. | 
 | Visibility | `Visibility` | Visibility of the check entity | 

@@ -1,6 +1,8 @@
 ---
 title: Path class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/path-class
+sidebar:
+  order: 100
 ---
 
 Represents list of tables which are linked to each other
@@ -18,16 +20,16 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Path() | `void` |  | 
-| Path([Path](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/path-class) path) | `void` |  | 
+| Path([Path](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/path-class) path) | `void` |  | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EndPoint | [Table](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | Gets the end point (the last table) in the path. | 
+| EndPoint | [Table](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | Gets the end point (the last table) in the path. | 
 | Printed | `string` |  | 
-| StartPoint | [Table](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | Gets the start point (first table) of the path. | 
+| StartPoint | [Table](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | Gets the start point (first table) of the path. | 
 | Weight | `int` |  | 
 
 

@@ -1,6 +1,8 @@
 ---
 title: EqVersionInfo class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/eqversioninfo-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

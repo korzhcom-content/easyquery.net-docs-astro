@@ -1,6 +1,8 @@
 ---
 title: Adding columns and conditions with code
 slug: how-to/add-columns-conditions-with-code
+sidebar:
+  order: 100
 ---
 
 Here we suppose that our `Query` object is referenced as **query**

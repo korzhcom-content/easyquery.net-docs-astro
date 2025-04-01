@@ -1,6 +1,8 @@
 ---
 title: LinqTypeExtensions class
 slug: api-reference-5x/korzh-easyquery-namespace/linqtypeextensions-class
+sidebar:
+  order: 100
 ---
 
 Contains different extension functions for working with refrection and types

@@ -1,9 +1,11 @@
 ---
 title: GdtRow class
 slug: api-reference-5x/korzh-easyquery-services-namespace/gdtrow-class
+sidebar:
+  order: 100
 ---
 
-Represents one row in some [Korzh.EasyQuery.Services.GdtResultSet](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/gdtresultset-class) object
+Represents one row in some [Korzh.EasyQuery.Services.GdtResultSet](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/gdtresultset-class) object
 ```csharp
 public class Korzh.EasyQuery.Services.GdtRow
 

@@ -1,9 +1,11 @@
 ---
 title: ColumnsChangeEventArgs class
 slug: api-reference-4x/korzh-easyquery-namespace/columnschangeeventargs-class
+sidebar:
+  order: 100
 ---
 
-Provides data for [Korzh.EasyQuery.Query.ColumnsChanged](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/query-class) event
+Provides data for [Korzh.EasyQuery.Query.ColumnsChanged](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/query-class) event
 ```csharp
 public class Korzh.EasyQuery.ColumnsChangeEventArgs
     : EventArgs

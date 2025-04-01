@@ -1,6 +1,8 @@
 ---
 title: How to restrict access to EasyQuery middleware for non-authenticated users
 slug: how-to/version-5-x/easyquery-middleware-non-authenticated-users
+sidebar:
+  order: 100
 ---
 
 ## Problem

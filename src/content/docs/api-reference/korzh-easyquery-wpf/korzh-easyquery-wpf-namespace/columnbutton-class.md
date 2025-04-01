@@ -1,9 +1,12 @@
 ---
 title: ColumnButton class
-slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnbutton-class
+slug: >-
+  api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnbutton-class
+sidebar:
+  order: 100
 ---
 
-Represents a button used for [Korzh.EasyQuery.Wpf.SimpleColumnRow](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simplecolumnrow-class) and [Korzh.EasyQuery.Wpf.AggrColumnRow](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/aggrcolumnrow-class)
+Represents a button used for [Korzh.EasyQuery.Wpf.SimpleColumnRow](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simplecolumnrow-class) and [Korzh.EasyQuery.Wpf.AggrColumnRow](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/aggrcolumnrow-class)
 ```csharp
 public class Korzh.EasyQuery.Wpf.ColumnButton
     : XElement
@@ -17,14 +20,14 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ColumnButton([QueryColumn](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ColumnButton](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnbutton-class) class. | 
+| ColumnButton([QueryColumn](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ColumnButton](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnbutton-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EditMode | [ColumnsPanel.EditModeKind](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-editmodekind-enum) | Gets or sets the edit mode. | 
+| EditMode | [ColumnsPanel.EditModeKind](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-editmodekind-enum) | Gets or sets the edit mode. | 
 
 
 ### Methods

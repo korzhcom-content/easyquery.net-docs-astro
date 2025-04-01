@@ -1,6 +1,9 @@
 ---
 title: IEasyQueryManagerTuner interface
-slug: api-reference-5x/korzh-easyquery-services-namespace/ieasyquerymanagertuner-interface
+slug: >-
+  api-reference-5x/korzh-easyquery-services-namespace/ieasyquerymanagertuner-interface
+sidebar:
+  order: 100
 ---
 
 Defines the interaces for "manager tuner" classes

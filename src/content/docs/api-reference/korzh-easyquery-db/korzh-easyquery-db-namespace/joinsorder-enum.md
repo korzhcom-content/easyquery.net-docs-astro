@@ -1,6 +1,8 @@
 ---
 title: JoinsOrder enum
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/joinsorder-enum
+sidebar:
+  order: 100
 ---
 
 Represents differt types of table order in the FROM clause of generated SQL statement

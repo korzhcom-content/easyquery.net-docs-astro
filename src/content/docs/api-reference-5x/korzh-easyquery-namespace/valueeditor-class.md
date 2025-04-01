@@ -1,6 +1,8 @@
 ---
 title: ValueEditor class
 slug: api-reference-5x/korzh-easyquery-namespace/valueeditor-class
+sidebar:
+  order: 100
 ---
 
 Represents an abstract value editor.

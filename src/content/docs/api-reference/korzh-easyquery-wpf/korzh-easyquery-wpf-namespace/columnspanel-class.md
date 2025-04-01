@@ -1,6 +1,9 @@
 ---
 title: ColumnsPanel class
-slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-class
+slug: >-
+  api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-class
+sidebar:
+  order: 100
 ---
 
 Represents a set of columns used in SELECT clause in SQL query.
@@ -17,7 +20,7 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ColumnsPanel() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ColumnsPanel](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-class) class. | 
+| ColumnsPanel() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.ColumnsPanel](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-class) class. | 
 
 
 ### Properties
@@ -25,10 +28,10 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | AttributeElementFormat | `string` | Gets or sets the attribute element format. | 
-| EditMode | [ColumnsPanel.EditModeKind](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-editmodekind-enum) | Gets or sets the edit mode. | 
+| EditMode | [ColumnsPanel.EditModeKind](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-editmodekind-enum) | Gets or sets the edit mode. | 
 | IsAddRowVisible | `bool` | Gets or sets a value indicating whether "Click here to add ..." row is visible. | 
-| Query | [Query](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the query. | 
-| SortEntities | [XSortOrder](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xsortorder-enum) | Gets or sets the order of entities in context menu. | 
+| Query | [Query](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the query. | 
+| SortEntities | [XSortOrder](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xsortorder-enum) | Gets or sets the order of entities in context menu. | 
 
 
 ### Methods
@@ -43,4 +46,4 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| QueryProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ColumnsPanel.Query](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-class) dependency property |
+| QueryProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ColumnsPanel.Query](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-class) dependency property |

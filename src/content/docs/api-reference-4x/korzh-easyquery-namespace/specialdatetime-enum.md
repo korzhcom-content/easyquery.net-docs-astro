@@ -1,7 +1,10 @@
 ---
 title: SpecialDateTime enum
 slug: api-reference-4x/korzh-easyquery-namespace/specialdatetime-enum
+sidebar:
+  order: 100
 ---
+# SpecialDateTime enum
 
 Represents some predefined "special" date/time values
 ```csharp

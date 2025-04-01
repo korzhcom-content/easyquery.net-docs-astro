@@ -1,7 +1,10 @@
 ---
 title: ColumnList class
 slug: api-reference-4x/korzh-easyquery-namespace/columnlist-class
+sidebar:
+  order: 100
 ---
+# ColumnList class
 
 Represents a list of columns.
 ```csharp

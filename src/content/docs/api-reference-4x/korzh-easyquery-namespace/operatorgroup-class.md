@@ -1,7 +1,10 @@
 ---
 title: OperatorGroup class
 slug: api-reference-4x/korzh-easyquery-namespace/operatorgroup-class
+sidebar:
+  order: 100
 ---
+# OperatorGroup class
 
 Represents a group of operators
 ```csharp

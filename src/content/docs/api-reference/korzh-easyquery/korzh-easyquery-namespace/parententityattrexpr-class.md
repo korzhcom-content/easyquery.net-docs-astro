@@ -1,6 +1,9 @@
 ---
 title: ParentEntityAttrExpr class
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/parententityattrexpr-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/parententityattrexpr-class
+sidebar:
+  order: 100
 ---
 
 Represents parent entity attribute expression
@@ -17,7 +20,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ParentEntityAttrExpr([DataModel](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, [EntityAttr](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr) | `void` | Get the expression's tag - a special identifier that is used to distinguish the type of the expression . | 
+| ParentEntityAttrExpr([DataModel](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, [EntityAttr](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr) | `void` | Get the expression's tag - a special identifier that is used to distinguish the type of the expression . | 
 
 
 ### Properties

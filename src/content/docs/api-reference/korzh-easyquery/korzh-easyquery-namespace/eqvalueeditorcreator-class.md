@@ -1,6 +1,9 @@
 ---
 title: EqValueEditorCreator class
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/eqvalueeditorcreator-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/eqvalueeditorcreator-class
+sidebar:
+  order: 100
 ---
 
 ```csharp
@@ -23,4 +26,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create(`string` tag) | [ValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) |  |
+| Create(`string` tag) | [ValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) |  |

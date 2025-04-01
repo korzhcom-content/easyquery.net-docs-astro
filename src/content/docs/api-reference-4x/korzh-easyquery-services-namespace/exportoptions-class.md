@@ -1,6 +1,8 @@
 ---
 title: ExportOptions class
 slug: api-reference-4x/korzh-easyquery-services-namespace/exportoptions-class
+sidebar:
+  order: 100
 ---
 
 Represents different options for exporting operations

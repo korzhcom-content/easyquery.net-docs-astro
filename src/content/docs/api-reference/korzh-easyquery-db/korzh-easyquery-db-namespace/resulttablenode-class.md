@@ -1,6 +1,9 @@
 ---
 title: ResultTableNode class
-slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/resulttablenode-class
+slug: >-
+  api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/resulttablenode-class
+sidebar:
+  order: 100
 ---
 
 Represents one table in result SQL statement
@@ -16,4 +19,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Table | [Table](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | The reference to the original model table. |
+| Table | [Table](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | The reference to the original model table. |

@@ -1,6 +1,9 @@
 ---
 title: HighlightSelectedTextTagHelper class
-slug: api-reference-4x/korzh-easyquery-aspnetcore-namespace/highlightselectedtexttaghelper-class
+slug: >-
+  api-reference-4x/korzh-easyquery-aspnetcore-namespace/highlightselectedtexttaghelper-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

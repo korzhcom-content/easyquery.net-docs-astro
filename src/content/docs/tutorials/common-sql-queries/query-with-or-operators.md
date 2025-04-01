@@ -1,6 +1,8 @@
 ---
 title: Query with OR operators
 slug: tutorials/common-sql-queries/query-with-or-operators
+sidebar:
+  order: 100
 ---
 
 ## Query description

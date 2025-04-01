@@ -1,6 +1,9 @@
 ---
 title: EasyQueryOptionsExtensionsEfCore class
-slug: api-reference-5x/korzh-easyquery-services-namespace/easyqueryoptionsextensionsefcore-class
+slug: >-
+  api-reference-5x/korzh-easyquery-services-namespace/easyqueryoptionsextensionsefcore-class
+sidebar:
+  order: 100
 ---
 
 Contains several extension methods for EasyQueryOptions  which allow to tune up the EasyQuery manager and middleware  in case of using them with EntityFrameworkCore

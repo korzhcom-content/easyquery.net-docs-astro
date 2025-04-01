@@ -1,6 +1,9 @@
 ---
 title: SortingPanel.SortEditModeKind enum
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/sortingpanel-sorteditmodekind-enum
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/sortingpanel-sorteditmodekind-enum
+sidebar:
+  order: 100
 ---
 
 Represents different types of modifications in sort columns panel available for users.

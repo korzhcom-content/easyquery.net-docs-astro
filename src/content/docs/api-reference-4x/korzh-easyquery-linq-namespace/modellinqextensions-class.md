@@ -1,6 +1,8 @@
 ---
 title: ModelLinqExtensions class
 slug: api-reference-4x/korzh-easyquery-linq-namespace/modellinqextensions-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

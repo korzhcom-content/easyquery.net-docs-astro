@@ -1,6 +1,8 @@
 ---
 title: LinqQueryBuilderError class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/linqquerybuildererror-class
+sidebar:
+  order: 100
 ---
 
 Class LinqQueryBuilderError.

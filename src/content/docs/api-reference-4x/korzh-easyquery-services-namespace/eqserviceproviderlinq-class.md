@@ -1,6 +1,9 @@
 ---
 title: EqServiceProviderLinq class
-slug: api-reference-4x/korzh-easyquery-services-namespace/eqserviceproviderlinq-class
+slug: >-
+  api-reference-4x/korzh-easyquery-services-namespace/eqserviceproviderlinq-class
+sidebar:
+  order: 100
 ---
 
 Class EqServiceProviderDb.  Provides basic functionality for building EasyQuery service to process AJAX requests from EasyQuery JavaScript widgets.  Can be used to create MVC controller, WebService class or WebAPI controller

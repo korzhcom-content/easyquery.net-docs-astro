@@ -1,6 +1,8 @@
 ---
 title: ODataQueryBuilderFormats class
 slug: api-reference-5x/korzh-easyquery-namespace/odataquerybuilderformats-class
+sidebar:
+  order: 100
 ---
 
 Represents different formats which control ODataQueryBuilder behaviour.  This class is empty for now.

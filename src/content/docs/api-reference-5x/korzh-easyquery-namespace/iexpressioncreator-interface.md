@@ -1,6 +1,8 @@
 ---
 title: IExpressionCreator interface
 slug: api-reference-5x/korzh-easyquery-namespace/iexpressioncreator-interface
+sidebar:
+  order: 100
 ---
 
 Represents special interface used for definition new (custom) types of expression

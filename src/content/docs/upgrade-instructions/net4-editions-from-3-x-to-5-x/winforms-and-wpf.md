@@ -1,6 +1,8 @@
 ---
 title: Upgrading to 5.x WinForms and WPF projects
 slug: upgrade-instructions/net4-editions-from-3-x-to-5-x/winforms-and-wpf
+sidebar:
+  order: 100
 ---
 
 This tutorial describes how to modify your old Windows Forms or WPF project with EasyQuery 3.x to upgrade to EasyQuery version 5.2.0 (or higher).

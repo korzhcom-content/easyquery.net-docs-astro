@@ -1,6 +1,8 @@
 ---
 title: TextValueEditor class
 slug: api-reference-5x/korzh-easyquery-namespace/textvalueeditor-class
+sidebar:
+  order: 100
 ---
 
 Represents the simpliest value editor.

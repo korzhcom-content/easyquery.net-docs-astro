@@ -1,6 +1,8 @@
 ---
 title: Adhoc reporting page in your web application
 slug: tutorials/adhoc-reporting-in-your-webapp
+sidebar:
+  order: 100
 ---
 
 ## Problem
@@ -20,7 +22,7 @@ The whole process will takes just a few minutes.
 
 ### Getting started
 
-Please use one of the [Getting Started](/getting-started/asp-net-core) tutorials that is the most relevant to your situation. 
+Please use one of the [Getting Started](//////////////getting-started/asp-net-core) tutorials that is the most relevant to your situation. 
 
 
 

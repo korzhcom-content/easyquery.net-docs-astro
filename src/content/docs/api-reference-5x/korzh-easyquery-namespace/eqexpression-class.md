@@ -1,6 +1,8 @@
 ---
 title: EqExpression class
 slug: api-reference-5x/korzh-easyquery-namespace/eqexpression-class
+sidebar:
+  order: 100
 ---
 
 Represents common expression object.

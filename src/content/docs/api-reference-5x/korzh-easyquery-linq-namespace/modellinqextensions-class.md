@@ -1,6 +1,8 @@
 ---
 title: ModelLinqExtensions class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/modellinqextensions-class
+sidebar:
+  order: 100
 ---
 
 Contains different extension functions for loading data model from types.

@@ -1,6 +1,8 @@
 ---
 title: Dynamic PHP query builder with EasyQuery
 slug: tutorials/version-3-x-tutorials/dynamic-php-query-builder-with-easyquery
+sidebar:
+  order: 100
 ---
 
         <p>

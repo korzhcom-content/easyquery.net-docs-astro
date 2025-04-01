@@ -1,6 +1,8 @@
 ---
 title: ExprTag class
 slug: api-reference-5x/korzh-easyquery-namespace/exprtag-class
+sidebar:
+  order: 100
 ---
 
 Contains several constant definitions for expressions tag

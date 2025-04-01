@@ -1,6 +1,9 @@
 ---
 title: Pages_Shared_EasyQuery__DataFiltering class
-slug: api-reference-5x/aspnetcore-namespace/pages_shared_easyquery__datafiltering-class
+slug: >-
+  api-reference-5x/aspnetcore-namespace/pages_shared_easyquery__datafiltering-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

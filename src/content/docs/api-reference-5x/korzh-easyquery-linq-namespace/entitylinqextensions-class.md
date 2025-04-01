@@ -1,6 +1,8 @@
 ---
 title: EntityLinqExtensions class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/entitylinqextensions-class
+sidebar:
+  order: 100
 ---
 
 Contains several useful extensions for types processing and LINQ generation

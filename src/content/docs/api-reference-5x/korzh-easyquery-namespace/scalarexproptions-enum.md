@@ -1,6 +1,8 @@
 ---
 title: ScalarExprOptions enum
 slug: api-reference-5x/korzh-easyquery-namespace/scalarexproptions-enum
+sidebar:
+  order: 100
 ---
 
 Different options used during processing of scalar values

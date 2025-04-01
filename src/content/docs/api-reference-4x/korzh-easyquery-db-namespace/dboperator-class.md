@@ -1,6 +1,8 @@
 ---
 title: DbOperator class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dboperator-class
+sidebar:
+  order: 100
 ---
 
 Represents a logical expression or predicate, like comparisons or LIKE predicate.

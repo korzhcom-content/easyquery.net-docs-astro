@@ -1,6 +1,8 @@
 ---
 title: MetaDataException class
 slug: api-reference/easydata-core/easydata-namespace/metadataexception-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

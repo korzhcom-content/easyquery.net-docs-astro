@@ -1,6 +1,9 @@
 ---
 title: EditXElement class
-slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editxelement-class
+slug: >-
+  api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/editxelement-class
+sidebar:
+  order: 100
 ---
 
 Used for user text input

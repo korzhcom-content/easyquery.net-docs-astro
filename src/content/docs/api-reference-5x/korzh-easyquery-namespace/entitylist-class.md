@@ -1,6 +1,8 @@
 ---
 title: EntityList class
 slug: api-reference-5x/korzh-easyquery-namespace/entitylist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of entities

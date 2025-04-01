@@ -1,9 +1,11 @@
 ---
 title: MacroRequestEventArgs class
 slug: api-reference-4x/korzh-easyquery-namespace/macrorequesteventargs-class
+sidebar:
+  order: 100
 ---
 
-Provides data for [Korzh.EasyQuery.DataModel.MacroRequest](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/datamodel-class) event
+Provides data for [Korzh.EasyQuery.DataModel.MacroRequest](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/datamodel-class) event
 ```csharp
 public class Korzh.EasyQuery.MacroRequestEventArgs
 

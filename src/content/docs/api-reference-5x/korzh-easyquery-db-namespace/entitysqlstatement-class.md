@@ -1,6 +1,8 @@
 ---
 title: EntitySqlStatement class
 slug: api-reference-5x/korzh-easyquery-db-namespace/entitysqlstatement-class
+sidebar:
+  order: 100
 ---
 
 Represents the result of performing BuildSQL command.
@@ -22,8 +24,8 @@ public class Korzh.EasyQuery.Db.EntitySqlStatement
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `String` | EntitySql | Gets the "entity SQL" (for Entity Framework). | 
-| `SqlExtras` | ExtraClauses | Gets the [Korzh.EasyQuery.Db.SqlExtras](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/sqlextras-class) object which defines some extra clauses of generated query. | 
-| `DbQueryFormats` | Formats | Gets the [Korzh.EasyQuery.Db.DbQueryFormats](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object in the parent query. | 
+| `SqlExtras` | ExtraClauses | Gets the [Korzh.EasyQuery.Db.SqlExtras](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/sqlextras-class) object which defines some extra clauses of generated query. | 
+| `DbQueryFormats` | Formats | Gets the [Korzh.EasyQuery.Db.DbQueryFormats](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object in the parent query. | 
 | `String` | FromClause | Gets the text of FROM clause. | 
 | `String` | GroupClause | Gets the text of GROUP BY clause. | 
 | `String` | HavingClause | Gets the text of HAVING clause. | 

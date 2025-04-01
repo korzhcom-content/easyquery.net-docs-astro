@@ -1,6 +1,8 @@
 ---
 title: MetaEntityAttrList class
 slug: api-reference/easydata-core/easydata-namespace/metaentityattrlist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of entity attributes

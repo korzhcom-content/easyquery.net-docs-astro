@@ -1,7 +1,10 @@
 ---
 title: XmlExtensions class
 slug: api-reference-4x/korzh-easyquery-db-namespace/xmlextensions-class
+sidebar:
+  order: 100
 ---
+# XmlExtensions class
 
 Different extension methods used in other EasyQuery classes.
 ```csharp

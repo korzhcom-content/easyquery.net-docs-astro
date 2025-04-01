@@ -1,9 +1,11 @@
 ---
 title: Working with data models in EasyQuery
 slug: tutorials/working-with-data-model
+sidebar:
+  order: 100
 ---
 
-[Data model](//easyquery/docs/fundamentals/data-model) - is a core part of any project that uses EasyQuery framework. It is a user-friendly representation of your database structure that is used by different EasyQuery components to show available entities, their attributes, conditional operators and the lists of available values during the query building process. 
+[Data model](///////////////easyquery/docs/fundamentals/data-model) - is a core part of any project that uses EasyQuery framework. It is a user-friendly representation of your database structure that is used by different EasyQuery components to show available entities, their attributes, conditional operators and the lists of available values during the query building process. 
 
 Before starting to add EasyQuery visual controls/widgets to your application - you will need to choose the way you create and fill the data model in your application. 
 
@@ -15,7 +17,7 @@ There are several different options available:
 
 3. An option for LINQ query builders only: you can load data model either from some context class or from a separate model class (especially for [data filtering scenarios](https://korzh.com/demo/easyquery-asp-net-core-razor/data-filtering))
 
-5. Finally, you can create your data model "manually" using [Data Model Editor](//easyquery/docs/data-model-editor/about) utility and save it to XML or JSON file. That file can be loaded on application's start.
+5. Finally, you can create your data model "manually" using [Data Model Editor](///////////////easyquery/docs/data-model-editor/about) utility and save it to XML or JSON file. That file can be loaded on application's start.
 
 Below we will discuss all these options more in detail.
 
@@ -309,4 +311,4 @@ options.UseModelLoader(services => new CustomModelLoader());
 ## 6. Using EasyQuery API to fill a data model object
 
 Finally, you can build your data model object dynamically using the structures, classes and functions provided by EasyQuery API. Here is an artcile that describes how to do it: 
-[Creating data model dynamically with code](//easyquery/docs/how-to/create-data-model-dynamically-with-code)
+[Creating data model dynamically with code](///////////////easyquery/docs/how-to/create-data-model-dynamically-with-code)

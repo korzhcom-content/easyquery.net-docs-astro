@@ -1,6 +1,8 @@
 ---
 title: IEqAuthProvider interface
 slug: api-reference-5x/korzh-easyquery-services-namespace/ieqauthprovider-interface
+sidebar:
+  order: 100
 ---
 
 Defines the functions necessary to check the authorization status of the current user  over EasyQuery actions

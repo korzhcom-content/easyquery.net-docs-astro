@@ -1,6 +1,9 @@
 ---
 title: FilterOptions enum
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/filteroptions-enum
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/filteroptions-enum
+sidebar:
+  order: 100
 ---
 
 Represents options filter behaviour in Entities Panel

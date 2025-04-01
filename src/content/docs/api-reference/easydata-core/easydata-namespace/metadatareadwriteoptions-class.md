@@ -1,6 +1,8 @@
 ---
 title: MetaDataReadWriteOptions class
 slug: api-reference/easydata-core/easydata-namespace/metadatareadwriteoptions-class
+sidebar:
+  order: 100
 ---
 
 Represents different options used during meta data loading or saving
@@ -17,7 +19,7 @@ Assembly: `EasyData.Core.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | CustomInfo | `UInt64` |  | 
-| Defaults | [BitOptions](//easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) | Default options | 
+| Defaults | [BitOptions](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) | Default options | 
 | Description | `UInt64` |  | 
 | Editors | `UInt64` |  | 
 | Entities | `UInt64` |  | 
@@ -28,4 +30,4 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ClientSideContent | [BitOptions](//easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) |  |
+| ClientSideContent | [BitOptions](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) |  |

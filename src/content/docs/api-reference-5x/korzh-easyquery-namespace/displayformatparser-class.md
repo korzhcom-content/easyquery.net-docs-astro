@@ -1,6 +1,8 @@
 ---
 title: DisplayFormatParser class
 slug: api-reference-5x/korzh-easyquery-namespace/displayformatparser-class
+sidebar:
+  order: 100
 ---
 
 Represents a special class used for parsing operator display format values.

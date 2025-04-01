@@ -1,6 +1,9 @@
 ---
 title: EasyQueryManagerExtensions class
-slug: api-reference-5x/korzh-easyquery-aspnetcore-namespace/easyquerymanagerextensions-class
+slug: >-
+  api-reference-5x/korzh-easyquery-aspnetcore-namespace/easyquerymanagerextensions-class
+sidebar:
+  order: 100
 ---
 
 Contains several useful extension methods for working with EasyQuery types in ASP.NET Core applications

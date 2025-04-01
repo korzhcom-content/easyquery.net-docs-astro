@@ -1,6 +1,8 @@
 ---
 title: DbOperator class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dboperator-class
+sidebar:
+  order: 100
 ---
 
 Represents a logical expression or "predicate". For example: "less than", "is equal to", "starts with".
@@ -17,5 +19,5 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Model | [DbModel](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) | Gets or sets the model. | 
-| Tables | [TableList](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelist-class) | Gets the list of the tables used in this operator (only for operators with "isCondition==true" ). |
+| Model | [DbModel](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) | Gets or sets the model. | 
+| Tables | [TableList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelist-class) | Gets the list of the tables used in this operator (only for operators with "isCondition==true" ). |

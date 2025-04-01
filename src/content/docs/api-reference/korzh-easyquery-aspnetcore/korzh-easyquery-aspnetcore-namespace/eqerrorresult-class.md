@@ -1,6 +1,9 @@
 ---
 title: EqErrorResult class
-slug: api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqerrorresult-class
+slug: >-
+  api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqerrorresult-class
+sidebar:
+  order: 100
 ---
 
 Represents a special kind of `Microsoft.AspNetCore.Mvc.ActionResult` which allows to build an Error Request (with status code) response with some extra data  Implements the <seealso cref="T:Microsoft.AspNetCore.Mvc.ActionResult" />
@@ -17,7 +20,7 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqErrorResult(`string` message, `int` statusCode) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqErrorResult](//easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqerrorresult-class) class. | 
+| EqErrorResult(`string` message, `int` statusCode) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqErrorResult](///////////////easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqerrorresult-class) class. | 
 
 
 ### Methods

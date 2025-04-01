@@ -1,6 +1,9 @@
 ---
 title: ChunkSettings class
-slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/chunksettings-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-services-namespace/chunksettings-class
+sidebar:
+  order: 100
 ---
 
 Defines the parameters of one chunk of data requested from the client

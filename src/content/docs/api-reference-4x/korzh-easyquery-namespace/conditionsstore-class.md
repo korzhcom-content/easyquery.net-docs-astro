@@ -1,6 +1,8 @@
 ---
 title: ConditionsStore class
 slug: api-reference-4x/korzh-easyquery-namespace/conditionsstore-class
+sidebar:
+  order: 100
 ---
 
 Represents storage of conditions linked to some Query object

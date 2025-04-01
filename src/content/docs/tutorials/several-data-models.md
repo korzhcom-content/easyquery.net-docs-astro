@@ -1,6 +1,8 @@
 ---
 title: Working with several data models
 slug: tutorials/several-data-models
+sidebar:
+  order: 100
 ---
 
 ## Problem

@@ -1,6 +1,9 @@
 ---
 title: DisplayFormatParser.TokenType enum
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/displayformatparser-tokentype-enum
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/displayformatparser-tokentype-enum
+sidebar:
+  order: 100
 ---
 
 Represents type of the token.

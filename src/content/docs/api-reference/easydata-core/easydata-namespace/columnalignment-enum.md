@@ -1,6 +1,8 @@
 ---
 title: ColumnAlignment enum
 slug: api-reference/easydata-core/easydata-namespace/columnalignment-enum
+sidebar:
+  order: 100
 ---
 
 ```csharp

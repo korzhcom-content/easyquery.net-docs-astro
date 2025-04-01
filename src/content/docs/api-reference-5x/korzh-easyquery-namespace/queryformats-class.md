@@ -1,6 +1,8 @@
 ---
 title: QueryFormats class
 slug: api-reference-5x/korzh-easyquery-namespace/queryformats-class
+sidebar:
+  order: 100
 ---
 
 Represents different formats of statements.
@@ -56,14 +58,14 @@ public class Korzh.EasyQuery.QueryFormats
 | `Int32` | GetHashCode() | Returns a hash code for this instance. | 
 | `Boolean` | IsQuotedType(`DataType` type) | Determines whether the specified type must be quoted. | 
 | `void` | LoadFromXmlReader(`XmlReader` reader) | Loads formats from XML reader. | 
-| `void` | LoadNode(`String` nodeName, `String` nodeValue) | Loads the root node of the [Korzh.EasyQuery.QueryFormats](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryformats-class) object. | 
-| `void` | ReadFromJson(`JsonReader` reader) | Loads QueryFormats from JSON.  Calls [Korzh.EasyQuery.QueryFormats.ReadOnePropFromJson(Newtonsoft.Json.JsonReader,System.String)](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryformats-class) function. | 
-| `Task` | ReadFromJsonAsync(`JsonReader` reader) | Loads QueryFormats from JSON (asynchronous way).  Calls [Korzh.EasyQuery.QueryFormats.ReadOnePropFromJsonAsync(Newtonsoft.Json.JsonReader,System.String)](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryformats-class) function. | 
+| `void` | LoadNode(`String` nodeName, `String` nodeValue) | Loads the root node of the [Korzh.EasyQuery.QueryFormats](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryformats-class) object. | 
+| `void` | ReadFromJson(`JsonReader` reader) | Loads QueryFormats from JSON.  Calls [Korzh.EasyQuery.QueryFormats.ReadOnePropFromJson(Newtonsoft.Json.JsonReader,System.String)](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryformats-class) function. | 
+| `Task` | ReadFromJsonAsync(`JsonReader` reader) | Loads QueryFormats from JSON (asynchronous way).  Calls [Korzh.EasyQuery.QueryFormats.ReadOnePropFromJsonAsync(Newtonsoft.Json.JsonReader,System.String)](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryformats-class) function. | 
 | `void` | ReadOnePropFromJson(`JsonReader` reader, `String` propName) | Loads a property of QueryFormats. | 
 | `Task` | ReadOnePropFromJsonAsync(`JsonReader` reader, `String` propName) | Loads a property of QueryFormats (asynchronous way). | 
 | `void` | SaveNodes(`XmlWriter` writer) | Saves the root nodes of the formats. | 
 | `void` | SaveToXmlWriter(`XmlWriter` writer, `String` rootNodeName) | Saves formats to XML writer. | 
 | `void` | WriteContentToJson(`JsonWriter` writer) | Saves the properties of QueryFormats to JSON. | 
 | `Task` | WriteContentToJsonAsync(`JsonWriter` writer) | Saves the properties of QueryFormats to JSON (asynchronous way). | 
-| `void` | WriteToJson(`JsonWriter` writer) | Saves QueryFormats to JSON.  Calls [Korzh.EasyQuery.QueryFormats.WriteContentToJson(Newtonsoft.Json.JsonWriter)](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryformats-class) function. | 
-| `Task` | WriteToJsonAsync(`JsonWriter` writer) | Saves QueryFormats to JSON (asynchronous way).  Calls [Korzh.EasyQuery.QueryFormats.WriteContentToJsonAsync(Newtonsoft.Json.JsonWriter)](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryformats-class) function. |
+| `void` | WriteToJson(`JsonWriter` writer) | Saves QueryFormats to JSON.  Calls [Korzh.EasyQuery.QueryFormats.WriteContentToJson(Newtonsoft.Json.JsonWriter)](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryformats-class) function. | 
+| `Task` | WriteToJsonAsync(`JsonWriter` writer) | Saves QueryFormats to JSON (asynchronous way).  Calls [Korzh.EasyQuery.QueryFormats.WriteContentToJsonAsync(Newtonsoft.Json.JsonWriter)](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryformats-class) function. |

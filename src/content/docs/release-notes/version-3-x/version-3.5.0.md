@@ -1,6 +1,8 @@
 ---
 title: Version 3.5.0 release notes
 slug: release-notes/version-3-x/version-3.5.0
+sidebar:
+  order: 100
 ---
 
 Version 3.5 of EasyQuery ASP.NET contains several essential changes, especially for MVC projects. 

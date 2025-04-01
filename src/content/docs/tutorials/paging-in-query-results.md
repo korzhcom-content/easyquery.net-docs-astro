@@ -1,6 +1,8 @@
 ---
 title: Paging in query results
 slug: tutorials/paging-in-query-results
+sidebar:
+  order: 100
 ---
 
 ## 1. Problem Overview

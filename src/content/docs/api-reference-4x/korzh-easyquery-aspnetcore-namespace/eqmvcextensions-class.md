@@ -1,6 +1,8 @@
 ---
 title: EqMvcExtensions class
 slug: api-reference-4x/korzh-easyquery-aspnetcore-namespace/eqmvcextensions-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

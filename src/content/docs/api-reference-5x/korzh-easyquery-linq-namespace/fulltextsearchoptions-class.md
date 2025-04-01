@@ -1,6 +1,8 @@
 ---
 title: FullTextSearchOptions class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/fulltextsearchoptions-class
+sidebar:
+  order: 100
 ---
 
 Contains options for full text search

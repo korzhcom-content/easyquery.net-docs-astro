@@ -1,7 +1,10 @@
 ---
 title: IProgressIndicator interface
 slug: api-reference-4x/korzh-easyquery-namespace/iprogressindicator-interface
+sidebar:
+  order: 100
 ---
+# IProgressIndicator interface
 
 This interface is used to assign progress indicator for different time-consuming operations
 ```csharp

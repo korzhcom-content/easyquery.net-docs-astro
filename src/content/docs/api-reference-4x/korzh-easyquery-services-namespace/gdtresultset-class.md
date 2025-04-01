@@ -1,6 +1,8 @@
 ---
 title: GdtResultSet class
 slug: api-reference-4x/korzh-easyquery-services-namespace/gdtresultset-class
+sidebar:
+  order: 100
 ---
 
 Represents result set which can be easly convertend into Google's DataTable format

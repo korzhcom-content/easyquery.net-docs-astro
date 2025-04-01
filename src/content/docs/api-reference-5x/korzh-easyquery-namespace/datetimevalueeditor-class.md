@@ -1,6 +1,8 @@
 ---
 title: DateTimeValueEditor class
 slug: api-reference-5x/korzh-easyquery-namespace/datetimevalueeditor-class
+sidebar:
+  order: 100
 ---
 
 Represents the value editor for date and/or time.

@@ -1,7 +1,10 @@
 ---
 title: IMacroValue interface
 slug: api-reference-4x/korzh-easyquery-namespace/imacrovalue-interface
+sidebar:
+  order: 100
 ---
+# IMacroValue interface
 
 Represents one macro value.
 ```csharp

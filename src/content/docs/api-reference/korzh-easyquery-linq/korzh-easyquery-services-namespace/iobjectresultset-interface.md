@@ -1,6 +1,9 @@
 ---
 title: IObjectResultSet interface
-slug: api-reference/korzh-easyquery-linq/korzh-easyquery-services-namespace/iobjectresultset-interface
+slug: >-
+  api-reference/korzh-easyquery-linq/korzh-easyquery-services-namespace/iobjectresultset-interface
+sidebar:
+  order: 100
 ---
 
 ```csharp
@@ -16,4 +19,4 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CreateRow(`object` item, `IEnumerable`&lt;`PropertyInfo`&gt; properties) | [EasyDataRow](//easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatarow-class) |  |
+| CreateRow(`object` item, `IEnumerable`&lt;`PropertyInfo`&gt; properties) | [EasyDataRow](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatarow-class) |  |

@@ -1,6 +1,9 @@
 ---
 title: IValueListResolver interface
-slug: api-reference-5x/korzh-easyquery-services-namespace/ivaluelistresolver-interface
+slug: >-
+  api-reference-5x/korzh-easyquery-services-namespace/ivaluelistresolver-interface
+sidebar:
+  order: 100
 ---
 
 Represents a type used to get the list of values by some "list" value editor.

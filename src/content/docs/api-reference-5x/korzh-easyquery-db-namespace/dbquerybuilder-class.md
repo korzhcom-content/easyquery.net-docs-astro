@@ -1,9 +1,11 @@
 ---
 title: DbQueryBuilder class
 slug: api-reference-5x/korzh-easyquery-db-namespace/dbquerybuilder-class
+sidebar:
+  order: 100
 ---
 
-Lets you build SQL commands based on [Korzh.EasyQuery.Db.DbQuery](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbquery-class) object
+Lets you build SQL commands based on [Korzh.EasyQuery.Db.DbQuery](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbquery-class) object
 ```csharp
 public abstract class Korzh.EasyQuery.Db.DbQueryBuilder
     : BaseQueryBuilder, IQueryBuilder
@@ -15,8 +17,8 @@ public abstract class Korzh.EasyQuery.Db.DbQueryBuilder
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `String` | EscapeDef | contains escape symbol definition which will be added to the condition if necessary | 
-| `SqlExtras` | Extras | Gets the [Korzh.EasyQuery.Db.SqlExtras](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/sqlextras-class) object which defines some extra clauses and options of the generated query. | 
-| `DbQueryFormats` | Formats | Gets the [Korzh.EasyQuery.Db.DbQueryFormats](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object in the parent query. | 
+| `SqlExtras` | Extras | Gets the [Korzh.EasyQuery.Db.SqlExtras](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/sqlextras-class) object which defines some extra clauses and options of the generated query. | 
+| `DbQueryFormats` | Formats | Gets the [Korzh.EasyQuery.Db.DbQueryFormats](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object in the parent query. | 
 | `DbQuery` | Query | Gets the query object associated with the builder. | 
 
 
@@ -25,4 +27,4 @@ public abstract class Korzh.EasyQuery.Db.DbQueryBuilder
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `String` | AddWildSymbols(`Operator` op, `String` s) |  | 
-| `QueryFormats` | CreateFormats() | Creates [Korzh.EasyQuery.Db.DbQueryFormats](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object. |
+| `QueryFormats` | CreateFormats() | Creates [Korzh.EasyQuery.Db.DbQueryFormats](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object. |

@@ -1,6 +1,9 @@
 ---
 title: EqOkResult class
-slug: api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqokresult-class
+slug: >-
+  api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqokresult-class
+sidebar:
+  order: 100
 ---
 
 Represents a special kind of `Microsoft.AspNetCore.Mvc.IActionResult` which allows to build an OK (status code 200) response with some extra data  Implements the
@@ -17,8 +20,8 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqOkResult() | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqOkResult](//easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqokresult-class) class. | 
-| EqOkResult(`object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqOkResult](//easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqokresult-class) class. | 
+| EqOkResult() | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqOkResult](///////////////easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqokresult-class) class. | 
+| EqOkResult(`object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqOkResult](///////////////easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqokresult-class) class. | 
 
 
 ### Fields

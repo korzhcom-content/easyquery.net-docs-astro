@@ -1,6 +1,8 @@
 ---
 title: LinkStore class
 slug: api-reference-4x/korzh-easyquery-db-namespace/linkstore-class
+sidebar:
+  order: 100
 ---
 
 Represetns storage of links.

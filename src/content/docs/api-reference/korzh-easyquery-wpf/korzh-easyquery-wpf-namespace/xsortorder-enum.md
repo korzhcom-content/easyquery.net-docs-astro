@@ -1,6 +1,9 @@
 ---
 title: XSortOrder enum
-slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xsortorder-enum
+slug: >-
+  api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xsortorder-enum
+sidebar:
+  order: 100
 ---
 
 Represents sorting direction.

@@ -1,7 +1,10 @@
 ---
 title: OperatorList class
 slug: api-reference-4x/korzh-easyquery-namespace/operatorlist-class
+sidebar:
+  order: 100
 ---
+# OperatorList class
 
 Represents list of operators.
 ```csharp

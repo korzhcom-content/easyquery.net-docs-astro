@@ -1,6 +1,8 @@
 ---
 title: TimeMacro class
 slug: api-reference-4x/korzh-easyquery-namespace/timemacro-class
+sidebar:
+  order: 100
 ---
 
 Represents some date or time macro value

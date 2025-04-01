@@ -1,6 +1,8 @@
 ---
 title: Value Editors
 slug: data-model-editor/value-editors
+sidebar:
+  order: 100
 ---
 
 Here you can find the full list of editors and choose any you need in your work with Data Model: 

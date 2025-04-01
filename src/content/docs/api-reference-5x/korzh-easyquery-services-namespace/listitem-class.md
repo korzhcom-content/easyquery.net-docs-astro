@@ -1,6 +1,8 @@
 ---
 title: ListItem class
 slug: api-reference-5x/korzh-easyquery-services-namespace/listitem-class
+sidebar:
+  order: 100
 ---
 
 Represents one item in lists returned as response for GetValueList request

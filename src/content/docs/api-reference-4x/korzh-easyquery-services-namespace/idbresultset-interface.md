@@ -1,6 +1,8 @@
 ---
 title: IDbResultSet interface
 slug: api-reference-4x/korzh-easyquery-services-namespace/idbresultset-interface
+sidebar:
+  order: 100
 ---
 
 ```csharp

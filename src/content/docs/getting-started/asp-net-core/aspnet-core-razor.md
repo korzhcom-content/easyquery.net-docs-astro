@@ -1,18 +1,20 @@
 ---
 title: Getting started for ASP.NET Core + MVC or Razor pages
 slug: getting-started/asp-net-core/aspnet-core-razor
+sidebar:
+  order: 100
 ---
 
 Here we describe how to add EasyQuery to your ASP.NET Core application with MVC or Razor Pages views.  
 
 
 ## EasyQuery samples
-> The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](https://github.com/easyquery/AspNetCoreSamples). You can clone that repository with samples, [download it](https://github.com/easyquery/AspNetCoreSamples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](/git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FAspNetCoreSamples)</button> right away!
+> The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](https://github.com/easyquery/AspNetCoreSamples). You can clone that repository with samples, [download it](https://github.com/easyquery/AspNetCoreSamples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](//////////////git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FAspNetCoreSamples)</button> right away!
 
 
 ## Prerequisites
 1. You have an ASP.NET Core version 2.1+ project with MVC views (or Razor pages) 
-2. Your application uses Entity Framework Core to work with the database. NB: Of course, it's possible to use EasyQuery without EF Core. We show this approach here just because it's the simplest way. For other options please read [Possible ways of data model creation and loading](//easyquery/docs/tutorials/data-model-creation-loading) article. 
+2. Your application uses Entity Framework Core to work with the database. NB: Of course, it's possible to use EasyQuery without EF Core. We show this approach here just because it's the simplest way. For other options please read [Possible ways of data model creation and loading](///////////////easyquery/docs/tutorials/data-model-creation-loading) article. 
 
 ## Step 0: Register your trial version
 To start using EasyQuery trial you need to [register and get your trial version keys](https://korzh.com/easyquery#get-started) first. It takes 1-2 minutes of your time. On registration you will get access to a special "Client's Area" of our web-site where you can see available licenses, get the keys, and submit a support request if necessary.  
@@ -86,7 +88,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 The code above defines the following main settings:
 
 1. The endpoint is set to  `/api/easyquery`. This means that all requests from EasyQuery widgets will be started with this path (like `/api/easyquery/models/{modelId}` to load the model). Please note that this is the default value so you can omit this setting in your app.
-2. We will use the DbContext class specified in `UseDbContext` call to get the model or to execute the generated queries. It's the fastest way to specify the model loader and the connection to your DB. Otherwise you will need to set them separately via `UseModelLoader` or `UseDbConnection` extension functions. You can find examples in [this article](//easyquery/docs/tutorials/data-model-creation-loading)
+2. We will use the DbContext class specified in `UseDbContext` call to get the model or to execute the generated queries. It's the fastest way to specify the model loader and the connection to your DB. Otherwise you will need to set them separately via `UseModelLoader` or `UseDbConnection` extension functions. You can find examples in [this article](///////////////easyquery/docs/tutorials/data-model-creation-loading)
 4. The last `UsePaging` call turns on the paging and sets the page size.
 
 So, server-side setup is finished. Now we need to configure EasyQuery on the client-side part of our project. 
@@ -123,7 +125,7 @@ All you need to do for that:
 <partial name="EasyQuery/_AdvancedSearch" />
 ```
 
-6. Add `Scripts` section to your page with all necessary libraries ( `eq.enterprise.min.js`) and  the code which will initalize the advanced search view ([more about EasyQuery views](//easyquery/docs/fundamentals/easyquery-client-side-views)) on your page:
+6. Add `Scripts` section to your page with all necessary libraries ( `eq.enterprise.min.js`) and  the code which will initalize the advanced search view ([more about EasyQuery views](///////////////easyquery/docs/fundamentals/easyquery-client-side-views)) on your page:
 
 ```
 @section Scripts {

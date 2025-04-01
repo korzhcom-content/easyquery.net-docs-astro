@@ -1,6 +1,8 @@
 ---
 title: Localization of query builder's UI
 slug: tutorials/version-3-x-tutorials/query-builder-ui-localization
+sidebar:
+  order: 100
 ---
 
 It is quite easy to translate the user interface of EasyQuery components into another language. There two possible methods of localization:

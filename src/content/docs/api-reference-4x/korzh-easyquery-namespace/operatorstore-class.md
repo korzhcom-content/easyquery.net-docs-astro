@@ -1,6 +1,8 @@
 ---
 title: OperatorStore class
 slug: api-reference-4x/korzh-easyquery-namespace/operatorstore-class
+sidebar:
+  order: 100
 ---
 
 This class represents the list of operators associated with a particular DataModel

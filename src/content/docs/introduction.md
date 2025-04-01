@@ -1,6 +1,8 @@
 ---
 title: Introduction
 slug: introduction
+sidebar:
+  order: 100
 ---
 
 <p>If in short, EasyQuery - a set of components that allow you (as a developer) to implement a functional, user-friendly query builder in your application.

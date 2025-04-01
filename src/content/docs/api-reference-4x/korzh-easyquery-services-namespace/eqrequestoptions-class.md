@@ -1,6 +1,8 @@
 ---
 title: EqRequestOptions class
 slug: api-reference-4x/korzh-easyquery-services-namespace/eqrequestoptions-class
+sidebar:
+  order: 100
 ---
 
 Represents different options used in AJAX requests from EasyQuery JS widgets to server-side controller.

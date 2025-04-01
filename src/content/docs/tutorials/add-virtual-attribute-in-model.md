@@ -1,6 +1,8 @@
 ---
 title: Create virtual (calculated) attribute in you model
 slug: tutorials/add-virtual-attribute-in-model
+sidebar:
+  order: 100
 ---
 
 ## What are virtual attributes for?

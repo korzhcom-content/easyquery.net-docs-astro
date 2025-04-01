@@ -1,6 +1,8 @@
 ---
 title: RootEntity class
 slug: api-reference-5x/korzh-easyquery-namespace/rootentity-class
+sidebar:
+  order: 100
 ---
 
 Represents root entity in the model

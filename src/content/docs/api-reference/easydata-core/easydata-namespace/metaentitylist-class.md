@@ -1,6 +1,8 @@
 ---
 title: MetaEntityList class
 slug: api-reference/easydata-core/easydata-namespace/metaentitylist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of entities

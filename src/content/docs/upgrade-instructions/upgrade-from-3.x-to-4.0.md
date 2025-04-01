@@ -1,6 +1,8 @@
 ---
 title: Upgrading from version 3.x to 4.0
 slug: upgrade-instructions/upgrade-from-3.x-to-4.0
+sidebar:
+  order: 100
 ---
 
 ## 1. Change your assemblies

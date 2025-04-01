@@ -1,6 +1,9 @@
 ---
 title: Condition.LinkType enum
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-linktype-enum
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-linktype-enum
+sidebar:
+  order: 100
 ---
 
 Represents type of linking of conditions in group

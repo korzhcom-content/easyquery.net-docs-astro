@@ -1,6 +1,8 @@
 ---
 title: EqEditorTags class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/eqeditortags-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

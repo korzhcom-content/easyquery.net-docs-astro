@@ -1,6 +1,8 @@
 ---
 title: ObjectGraph<T> class
 slug: api-reference-5x/korzh-easyquery-namespace/objectgraph-t--class
+sidebar:
+  order: 100
 ---
 
 Represents a graph structure. Each node in graph - is an object of type T.

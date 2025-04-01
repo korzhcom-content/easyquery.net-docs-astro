@@ -1,6 +1,8 @@
 ---
 title: Entity class
 slug: api-reference-5x/korzh-easyquery-namespace/entity-class
+sidebar:
+  order: 100
 ---
 
 Represents one entity

@@ -1,6 +1,9 @@
 ---
 title: IColumnRowCreator interface
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/icolumnrowcreator-interface
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/icolumnrowcreator-interface
+sidebar:
+  order: 100
 ---
 
 Represents special interface used for definition of new (custom) types of row
@@ -16,5 +19,5 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create([ColumnsPanel](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnspanel-class) panel, [QueryColumn](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column, `bool` useCheckBox) | [ColumnRow](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnrow-class) | Creates an instance of [Korzh.EasyQuery.WinForms.ColumnRow](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnrow-class). | 
-| GetCaption([ColumnsPanel](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnspanel-class) panel) | `string` | Returns the caption for button menu. |
+| Create([ColumnsPanel](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnspanel-class) panel, [QueryColumn](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column, `bool` useCheckBox) | [ColumnRow](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnrow-class) | Creates an instance of [Korzh.EasyQuery.WinForms.ColumnRow](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnrow-class). | 
+| GetCaption([ColumnsPanel](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnspanel-class) panel) | `string` | Returns the caption for button menu. |

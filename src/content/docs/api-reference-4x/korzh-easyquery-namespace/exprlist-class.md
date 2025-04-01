@@ -1,7 +1,10 @@
 ---
 title: ExprList class
 slug: api-reference-4x/korzh-easyquery-namespace/exprlist-class
+sidebar:
+  order: 100
 ---
+# ExprList class
 
 Represents list of expression objects.
 ```csharp

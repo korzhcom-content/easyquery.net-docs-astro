@@ -1,6 +1,9 @@
 ---
 title: Signals enum
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/signals-enum
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/signals-enum
+sidebar:
+  order: 100
 ---
 
 Enumerates all possible internal signals

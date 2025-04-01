@@ -1,6 +1,8 @@
 ---
 title: JavaScript widgets formats and settings (MVC version)
 slug: tutorials/version-3-x-tutorials/javascript-widgets-settings-formats
+sidebar:
+  order: 100
 ---
 
 Sometimes you may need to set up individual settings for EasyQuery JavaScript widgets. In this article, we describe the most common issues and give examples of code to implement.

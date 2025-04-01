@@ -1,6 +1,9 @@
 ---
 title: DbContextOptions enum
-slug: api-reference-4x/korzh-easyquery-entityframeworkcore-namespace/dbcontextoptions-enum
+slug: >-
+  api-reference-4x/korzh-easyquery-entityframeworkcore-namespace/dbcontextoptions-enum
+sidebar:
+  order: 100
 ---
 
 ```csharp

@@ -1,6 +1,8 @@
 ---
 title: DbAggrFuncExpr class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dbaggrfuncexpr-class
+sidebar:
+  order: 100
 ---
 
 Represents an expression with aggregate function
@@ -15,7 +17,7 @@ public class Korzh.EasyQuery.Db.DbAggrFuncExpr
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `Boolean` | IsAggregate | Gets a value indicating whether this expression is aggregate. | 
-| `String` | TypeName | Non-static version of [Korzh.EasyQuery.Db.DbAggrFuncExpr.STypeName](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbaggrfuncexpr-class) property. | 
+| `String` | TypeName | Non-static version of [Korzh.EasyQuery.Db.DbAggrFuncExpr.STypeName](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbaggrfuncexpr-class) property. | 
 
 
 ### Methods

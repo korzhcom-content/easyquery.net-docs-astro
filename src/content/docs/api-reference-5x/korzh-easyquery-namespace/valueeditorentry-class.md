@@ -1,6 +1,8 @@
 ---
 title: ValueEditorEntry class
 slug: api-reference-5x/korzh-easyquery-namespace/valueeditorentry-class
+sidebar:
+  order: 100
 ---
 
 Represents map between operators and value editors.

@@ -1,6 +1,8 @@
 ---
 title: CommonExtensions class
 slug: api-reference-5x/korzh-easyquery-namespace/commonextensions-class
+sidebar:
+  order: 100
 ---
 
 Useful extension methods for EasyQuery's types

@@ -1,6 +1,9 @@
 ---
 title: EasyQueryOptionsExtensionsEfCore class
-slug: api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-services-namespace/easyqueryoptionsextensionsefcore-class
+slug: >-
+  api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-services-namespace/easyqueryoptionsextensionsefcore-class
+sidebar:
+  order: 100
 ---
 
 Contains several extension methods for EasyQueryOptions  which allow to tune up the EasyQuery manager and middleware  in case of using them with EntityFrameworkCore
@@ -16,5 +19,5 @@ Assembly: `Korzh.EasyQuery.EntityFrameworkCore.Relational.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| UseDbContext(<span style='color: blue'>this</span> [EasyQueryOptions](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class) options, [FormatType](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/formattype-enum) formatType, `Action`&lt;[DbContextModelExtractorOptions](//easyquery/docs/api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractoroptions-class)&gt; configurator = <span style='color: blue'>null</span>) | `void` |  | 
-| UseDbContext(<span style='color: blue'>this</span> [EasyQueryOptions](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class) options, `Action`&lt;[DbContextModelExtractorOptions](//easyquery/docs/api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractoroptions-class)&gt; configurator = <span style='color: blue'>null</span>) | `void` |  |
+| UseDbContext(<span style='color: blue'>this</span> [EasyQueryOptions](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class) options, [FormatType](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/formattype-enum) formatType, `Action`&lt;[DbContextModelExtractorOptions](///////////////easyquery/docs/api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractoroptions-class)&gt; configurator = <span style='color: blue'>null</span>) | `void` |  | 
+| UseDbContext(<span style='color: blue'>this</span> [EasyQueryOptions](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class) options, `Action`&lt;[DbContextModelExtractorOptions](///////////////easyquery/docs/api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/dbcontextmodelextractoroptions-class)&gt; configurator = <span style='color: blue'>null</span>) | `void` |  |

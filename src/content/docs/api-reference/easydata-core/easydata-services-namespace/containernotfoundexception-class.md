@@ -1,6 +1,9 @@
 ---
 title: ContainerNotFoundException class
-slug: api-reference/easydata-core/easydata-services-namespace/containernotfoundexception-class
+slug: >-
+  api-reference/easydata-core/easydata-services-namespace/containernotfoundexception-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

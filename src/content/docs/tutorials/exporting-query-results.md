@@ -1,6 +1,8 @@
 ---
 title: Exporting query results
 slug: tutorials/exporting-query-results
+sidebar:
+  order: 100
 ---
 
 ## 1. Problem Overview

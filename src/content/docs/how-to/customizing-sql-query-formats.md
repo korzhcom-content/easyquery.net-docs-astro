@@ -1,6 +1,8 @@
 ---
 title: Customizing SQL query formats
 slug: how-to/customizing-sql-query-formats
+sidebar:
+  order: 100
 ---
 
 ## Problem Overview

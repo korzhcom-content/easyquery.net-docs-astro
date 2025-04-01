@@ -1,9 +1,11 @@
 ---
 title: IDbCondition interface
 slug: api-reference-4x/korzh-easyquery-db-namespace/idbcondition-interface
+sidebar:
+  order: 100
 ---
 
-Used for conditions in [Korzh.EasyQuery.Db.DbQuery](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbquery-class)
+Used for conditions in [Korzh.EasyQuery.Db.DbQuery](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbquery-class)
 ```csharp
 public interface Korzh.EasyQuery.Db.IDbCondition
 

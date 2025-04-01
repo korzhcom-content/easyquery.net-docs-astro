@@ -1,6 +1,9 @@
 ---
 title: AggrFunctionDescriptor struct
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/aggrfunctiondescriptor-struct
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/aggrfunctiondescriptor-struct
+sidebar:
+  order: 100
 ---
 
 Defines a structure that "describes" an aggregate function

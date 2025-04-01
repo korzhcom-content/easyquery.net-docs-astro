@@ -1,6 +1,8 @@
 ---
 title: EntityAttrStore class
 slug: api-reference-4x/korzh-easyquery-namespace/entityattrstore-class
+sidebar:
+  order: 100
 ---
 
 Represents entity attributes storage associated with a particular entity.

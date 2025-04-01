@@ -1,6 +1,8 @@
 ---
 title: EqOkResult class
 slug: api-reference-5x/korzh-easyquery-aspnetcore-namespace/eqokresult-class
+sidebar:
+  order: 100
 ---
 
 Represents a special kind of `Microsoft.AspNetCore.Mvc.IActionResult` which allows to build an OK (status code 200) response with some extra data  Implements the

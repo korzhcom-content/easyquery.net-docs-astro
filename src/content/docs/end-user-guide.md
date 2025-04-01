@@ -1,6 +1,8 @@
 ---
 title: End-user's guide
 slug: end-user-guide
+sidebar:
+  order: 100
 ---
 
 <h3>1. EasyQuery: What’s That?</h3>

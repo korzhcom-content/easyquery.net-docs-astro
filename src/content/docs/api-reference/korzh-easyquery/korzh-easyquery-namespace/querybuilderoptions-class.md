@@ -1,6 +1,9 @@
 ---
 title: QueryBuilderOptions class
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuilderoptions-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuilderoptions-class
+sidebar:
+  order: 100
 ---
 
 Contains differrent options for QueryBuilder

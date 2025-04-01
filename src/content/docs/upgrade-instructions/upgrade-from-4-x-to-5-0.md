@@ -1,6 +1,8 @@
 ---
 title: Upgrading from version 4.x to 5.x
 slug: upgrade-instructions/upgrade-from-4-x-to-5-0
+sidebar:
+  order: 100
 ---
 
 ## 1. Change the version of EasyQuery packages

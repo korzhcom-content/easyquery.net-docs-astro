@@ -1,6 +1,8 @@
 ---
 title: AggrFuncExpr class
 slug: api-reference-5x/korzh-easyquery-namespace/aggrfuncexpr-class
+sidebar:
+  order: 100
 ---
 
 Represents an expression which is a result of applying some functions to other expressions
@@ -14,7 +16,7 @@ public class Korzh.EasyQuery.AggrFuncExpr
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `AggrFunction` | function | The function of [Korzh.EasyQuery.AggrFuncExpr](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/aggrfuncexpr-class) | 
+| `AggrFunction` | function | The function of [Korzh.EasyQuery.AggrFuncExpr](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/aggrfuncexpr-class) | 
 
 
 ### Properties

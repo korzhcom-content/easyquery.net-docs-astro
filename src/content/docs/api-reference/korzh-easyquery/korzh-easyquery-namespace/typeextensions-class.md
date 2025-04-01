@@ -1,6 +1,8 @@
 ---
 title: TypeExtensions class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/typeextensions-class
+sidebar:
+  order: 100
 ---
 
 Contains several useful extensions for reflection types and structures.

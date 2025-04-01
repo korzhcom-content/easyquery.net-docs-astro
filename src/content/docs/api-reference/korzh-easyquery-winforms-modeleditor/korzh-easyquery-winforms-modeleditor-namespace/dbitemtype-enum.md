@@ -1,6 +1,9 @@
 ---
 title: DbItemType enum
-slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/dbitemtype-enum
+slug: >-
+  api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/dbitemtype-enum
+sidebar:
+  order: 100
 ---
 
 Represents the type of items shown in dialogs

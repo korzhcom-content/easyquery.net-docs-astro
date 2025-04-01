@@ -1,6 +1,9 @@
 ---
 title: IDataExportSettings interface
-slug: api-reference-5x/korzh-easyquery-services-namespace/idataexportsettings-interface
+slug: >-
+  api-reference-5x/korzh-easyquery-services-namespace/idataexportsettings-interface
+sidebar:
+  order: 100
 ---
 
 Represents some settings used during exporting operations

@@ -1,6 +1,8 @@
 ---
 title: QueryTextFormats class
 slug: api-reference-4x/korzh-easyquery-namespace/querytextformats-class
+sidebar:
+  order: 100
 ---
 
 Represents different formats for query text representation

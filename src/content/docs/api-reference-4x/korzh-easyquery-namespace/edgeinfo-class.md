@@ -1,6 +1,8 @@
 ---
 title: EdgeInfo class
 slug: api-reference-4x/korzh-easyquery-namespace/edgeinfo-class
+sidebar:
+  order: 100
 ---
 
 Represents edges for entity graph defined through <see cref="!:Korzh.EasyQuery.Linq.ObjectGraph" />

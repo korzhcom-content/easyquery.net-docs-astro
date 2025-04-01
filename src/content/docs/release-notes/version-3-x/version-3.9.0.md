@@ -1,6 +1,8 @@
 ---
 title: Version 3.9.0 release notes
 slug: release-notes/version-3-x/version-3.9.0
+sidebar:
+  order: 100
 ---
 
 ## 1. Core library

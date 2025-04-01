@@ -1,7 +1,10 @@
 ---
 title: PropertyInfoExtensions class
 slug: api-reference-4x/korzh-easyquery-linq-namespace/propertyinfoextensions-class
+sidebar:
+  order: 100
 ---
+# PropertyInfoExtensions class
 
 Static class whic contains extension methods for PropertyInfo class
 ```csharp

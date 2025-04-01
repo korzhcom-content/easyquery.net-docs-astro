@@ -1,6 +1,8 @@
 ---
 title: EqExpressionException class
 slug: api-reference-5x/korzh-easyquery-namespace/eqexpressionexception-class
+sidebar:
+  order: 100
 ---
 
 Represents errors that occur during expressions processing

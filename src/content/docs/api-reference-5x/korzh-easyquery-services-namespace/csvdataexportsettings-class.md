@@ -1,6 +1,9 @@
 ---
 title: CsvDataExportSettings class
-slug: api-reference-5x/korzh-easyquery-services-namespace/csvdataexportsettings-class
+slug: >-
+  api-reference-5x/korzh-easyquery-services-namespace/csvdataexportsettings-class
+sidebar:
+  order: 100
 ---
 
 Represents csv format used during exporting operations
@@ -14,4 +17,4 @@ public class Korzh.EasyQuery.Services.CsvDataExportSettings
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `CsvDataExportSettings` | Default | Returns the default instance of [Korzh.EasyQuery.Services.CsvDataExportSettings](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/csvdataexportsettings-class). |
+| `CsvDataExportSettings` | Default | Returns the default instance of [Korzh.EasyQuery.Services.CsvDataExportSettings](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/csvdataexportsettings-class). |

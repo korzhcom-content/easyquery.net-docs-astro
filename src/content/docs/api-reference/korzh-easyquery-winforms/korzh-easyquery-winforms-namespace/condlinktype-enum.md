@@ -1,6 +1,9 @@
 ---
 title: CondLinkType enum
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/condlinktype-enum
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/condlinktype-enum
+sidebar:
+  order: 100
 ---
 
 Represents different possible types of linking between conditions

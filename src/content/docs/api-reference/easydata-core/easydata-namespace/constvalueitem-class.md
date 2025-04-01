@@ -1,6 +1,8 @@
 ---
 title: ConstValueItem class
 slug: api-reference/easydata-core/easydata-namespace/constvalueitem-class
+sidebar:
+  order: 100
 ---
 
 Represents one item in the list of available values for LIST value editor.

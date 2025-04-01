@@ -1,6 +1,9 @@
 ---
 title: DbOperatorXmlSerializer class
-slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dboperatorxmlserializer-class
+slug: >-
+  api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dboperatorxmlserializer-class
+sidebar:
+  order: 100
 ---
 
 ```csharp
@@ -16,12 +19,12 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DbOperatorXmlSerializer([XmlSerializerFactory](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| DbOperatorXmlSerializer([XmlSerializerFactory](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadAttribute([DbOperator](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dboperator-class) op, `string` propName, `string` propValue) | `void` |  | 
-| SaveAttributes([DbOperator](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dboperator-class) op, `XmlWriter` writer) | `void` |  |
+| LoadAttribute([DbOperator](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dboperator-class) op, `string` propName, `string` propValue) | `void` |  | 
+| SaveAttributes([DbOperator](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dboperator-class) op, `XmlWriter` writer) | `void` |  |

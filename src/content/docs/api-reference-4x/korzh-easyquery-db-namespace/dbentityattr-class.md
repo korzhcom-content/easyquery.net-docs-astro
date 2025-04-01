@@ -1,6 +1,8 @@
 ---
 title: DbEntityAttr class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dbentityattr-class
+sidebar:
+  order: 100
 ---
 
 Base attribute of SQL entity

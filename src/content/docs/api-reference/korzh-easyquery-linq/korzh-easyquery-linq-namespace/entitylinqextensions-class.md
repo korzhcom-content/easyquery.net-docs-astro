@@ -1,6 +1,9 @@
 ---
 title: EntityLinqExtensions class
-slug: api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/entitylinqextensions-class
+slug: >-
+  api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/entitylinqextensions-class
+sidebar:
+  order: 100
 ---
 
 Contains several useful extensions for types processing and LINQ generation
@@ -16,5 +19,5 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadFromProperty(<span style='color: blue'>this</span> [EntityAttr](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `PropertyInfo` propInfo, [Entity](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent) | `void` | Fills type information in some EntityAttr object from a specified type. | 
-| LoadFromType(<span style='color: blue'>this</span> [Entity](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) entity, `Type` entityType, `string` entityName, [Entity](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `List`&lt;`Type`&gt; ignoredTypes) | `void` | Fills the type information in some Entity object from a specified type. |
+| LoadFromProperty(<span style='color: blue'>this</span> [EntityAttr](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `PropertyInfo` propInfo, [Entity](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent) | `void` | Fills type information in some EntityAttr object from a specified type. | 
+| LoadFromType(<span style='color: blue'>this</span> [Entity](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) entity, `Type` entityType, `string` entityName, [Entity](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `List`&lt;`Type`&gt; ignoredTypes) | `void` | Fills the type information in some Entity object from a specified type. |

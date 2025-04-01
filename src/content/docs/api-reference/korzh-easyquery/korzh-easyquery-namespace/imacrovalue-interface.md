@@ -1,6 +1,8 @@
 ---
 title: IMacroValue interface
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/imacrovalue-interface
+sidebar:
+  order: 100
 ---
 
 Represents one macro value.
@@ -17,7 +19,7 @@ Assembly: `Korzh.EasyQuery.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Count | `int` | Gets the count of values returned by this macro | 
-| DataType | [DataType](//easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Macro data type | 
+| DataType | [DataType](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Macro data type | 
 | Id | `string` | Gets the macro ID. | 
 | Value | `string` | Returns the first value in list.  It is useful for macros which hold only single value | 
 

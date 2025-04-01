@@ -1,6 +1,9 @@
 ---
 title: EasyQueryServicesBuilderExtensionsLinq class
-slug: api-reference-5x/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilderextensionslinq-class
+slug: >-
+  api-reference-5x/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilderextensionslinq-class
+sidebar:
+  order: 100
 ---
 
 Contains the extension method for EasyQueryServicesBuilder.  This method is usually called during the registering of EasyQuery's services in DI.

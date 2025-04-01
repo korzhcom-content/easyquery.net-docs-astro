@@ -1,6 +1,8 @@
 ---
 title: DbEntity class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dbentity-class
+sidebar:
+  order: 100
 ---
 
 Base SQL Entity

@@ -1,6 +1,8 @@
 ---
 title: EasyQuery.NET 5.4.1 + EasyQuery.JS 6.1.0 release notes
 slug: release-notes/version-5-x/easyquery-net-5-4-1-easyquery-js-6-1-0
+sidebar:
+  order: 100
 ---
 
 ## Overview
@@ -93,4 +95,4 @@ Starting from EasyQuery.JS 6.1.0 you can attach some extra data to the query sen
 
 ### 2.5 Fixes and small improvements
 
-Refer to [changelog](/changelog) for more details
+Refer to [changelog](//////////////changelog) for more details

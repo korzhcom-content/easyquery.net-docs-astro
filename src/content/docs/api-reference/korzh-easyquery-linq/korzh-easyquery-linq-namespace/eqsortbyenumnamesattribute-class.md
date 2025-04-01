@@ -1,6 +1,9 @@
 ---
 title: EqSortByEnumNamesAttribute class
-slug: api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/eqsortbyenumnamesattribute-class
+slug: >-
+  api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/eqsortbyenumnamesattribute-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

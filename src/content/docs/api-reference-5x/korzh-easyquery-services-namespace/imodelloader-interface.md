@@ -1,6 +1,8 @@
 ---
 title: IModelLoader interface
 slug: api-reference-5x/korzh-easyquery-services-namespace/imodelloader-interface
+sidebar:
+  order: 100
 ---
 
 Represents a type used to perform model loading.

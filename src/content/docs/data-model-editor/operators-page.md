@@ -1,6 +1,8 @@
 ---
 title: Operators page
 slug: data-model-editor/operators-page
+sidebar:
+  order: 100
 ---
 
 This article defines operators which can be used in conditions (such as 'is equal to', 'less than' and others). List in the left part shows defined operations. Add or delete one by right-clicking the list and choosing an appropriate topic from the pop-up menu or using corresponding speed buttons on the top of the page. To edit an operation select it from the list and modify its properties in the right part of the page.

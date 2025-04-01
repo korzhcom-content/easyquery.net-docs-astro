@@ -1,6 +1,8 @@
 ---
 title: ListViewOptions class
 slug: api-reference-5x/korzh-easyquery-aspnetcore-namespace/listviewoptions-class
+sidebar:
+  order: 100
 ---
 
 Represents different options passed in list action requests

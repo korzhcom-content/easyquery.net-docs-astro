@@ -1,6 +1,8 @@
 ---
 title: QueryListItem class
 slug: api-reference-5x/korzh-easyquery-services-namespace/querylistitem-class
+sidebar:
+  order: 100
 ---
 
 Represents one item in the list of queries (usually returned for GetQueries request)

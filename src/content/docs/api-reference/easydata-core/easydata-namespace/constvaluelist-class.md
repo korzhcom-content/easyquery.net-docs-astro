@@ -1,6 +1,8 @@
 ---
 title: ConstValueList class
 slug: api-reference/easydata-core/easydata-namespace/constvaluelist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of availalbe values.  Each item contain the value itself and some caption representing this value.

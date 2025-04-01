@@ -1,9 +1,11 @@
 ---
 title: ConditionsChangeEventArgs class
 slug: api-reference-4x/korzh-easyquery-namespace/conditionschangeeventargs-class
+sidebar:
+  order: 100
 ---
 
-Provides data for [Korzh.EasyQuery.Query.ConditionsChanged](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/query-class) event
+Provides data for [Korzh.EasyQuery.Query.ConditionsChanged](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/query-class) event
 ```csharp
 public class Korzh.EasyQuery.ConditionsChangeEventArgs
     : EventArgs

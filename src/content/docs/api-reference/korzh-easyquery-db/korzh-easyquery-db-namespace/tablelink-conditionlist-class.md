@@ -1,6 +1,9 @@
 ---
 title: TableLink.ConditionList class
-slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-conditionlist-class
+slug: >-
+  api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-conditionlist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of linking conditions

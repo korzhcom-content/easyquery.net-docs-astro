@@ -1,6 +1,8 @@
 ---
 title: DataTypeList class
 slug: api-reference-5x/korzh-easyquery-namespace/datatypelist-class
+sidebar:
+  order: 100
 ---
 
 Represents a list of DataType values.

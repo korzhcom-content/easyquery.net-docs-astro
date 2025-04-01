@@ -1,13 +1,15 @@
 ---
 title: Getting started for EasyQuery ASP.NET MVC
 slug: getting-started/version-3-x/asp-net-mvc
+sidebar:
+  order: 100
 ---
 
-> See also: [Getting started for ASP.NET WebForms](//easyquery/docs/getting-started/asp-net-webforms)
+> See also: [Getting started for ASP.NET WebForms](///////////////easyquery/docs/getting-started/asp-net-webforms)
 
 &nbsp;             
 
-To apply [EasyQuery ASP.NET](//easyquery#asp-net/) to your MVC web application please perform the following steps:
+To apply [EasyQuery ASP.NET](///////////////easyquery#asp-net/) to your MVC web application please perform the following steps:
 
 ## 0. Install EasyQuery trial
 Just open [EasyQuery webpage](https://korzh.com/easyquery), click on "Try it now" button and select the edition you need to download trial version. 
@@ -17,9 +19,9 @@ When the download is finished - run the setup file and follow the instructions.
 
 Open “EasyQuery ASP.NET” folder on your desktop and run Data Model Editor (DME) application in wizard mode (“Create Data Model” program icon). Follow the instructions to create a new data model for your database. You will need to add database tables (select the ones you allow your users to use in their queries), links between them and the entities with their attributes (usually they are added automatically when you add tables). When the model is created - save it to App_Data folder of your project (let name it MyModel.xml for example). For more information about data model and for more detailed instructions on how to create it - please read:
 
-   1. [About Data Model](/fundamentals/data-model)
+   1. [About Data Model](//////////////fundamentals/data-model)
 
-   2. [Creating new data model using Data Model Editor](/getting-started/new-data-model)
+   2. [Creating new data model using Data Model Editor](//////////////getting-started/new-data-model)
 
 ## 2. Add references to EasyQuery libraries.
 

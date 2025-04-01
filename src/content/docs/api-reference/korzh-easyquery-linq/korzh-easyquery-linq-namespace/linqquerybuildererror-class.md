@@ -1,6 +1,9 @@
 ---
 title: LinqQueryBuilderError class
-slug: api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/linqquerybuildererror-class
+slug: >-
+  api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/linqquerybuildererror-class
+sidebar:
+  order: 100
 ---
 
 Class LinqQueryBuilderError.
@@ -17,4 +20,4 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LinqQueryBuilderError(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Linq.LinqQueryBuilderError](//easyquery/docs/api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/linqquerybuildererror-class) class. |
+| LinqQueryBuilderError(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Linq.LinqQueryBuilderError](///////////////easyquery/docs/api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/linqquerybuildererror-class) class. |

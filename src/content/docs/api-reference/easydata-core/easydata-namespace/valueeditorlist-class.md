@@ -1,6 +1,8 @@
 ---
 title: ValueEditorList class
 slug: api-reference/easydata-core/easydata-namespace/valueeditorlist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of value editors
@@ -24,11 +26,11 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Add([ValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) editor) | `void` |  | 
+| Add([ValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) editor) | `void` |  | 
 | ClearItems() | `void` |  | 
-| FindById(`string` editorId) | [ValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) | Finds the valueeditor by ID. | 
+| FindById(`string` editorId) | [ValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) | Finds the valueeditor by ID. | 
 | IndexById(`string` editorId) | `int` | Find valueeditor index by ID. | 
-| InsertItem(`int` index, [ValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) item) | `void` |  | 
+| InsertItem(`int` index, [ValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) item) | `void` |  | 
 | ReadFromJsonAsync(`JsonReader` reader) | `Task` | Reads the list of value editors from JSON (asynchronous way). | 
 | RemoveItem(`int` index) | `void` |  | 
-| WriteToJsonAsync(`JsonWriter` writer, [BitOptions](//easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions, `bool` includeDefaults = False) | `Task` | Writes the list of the value editors to JSON (asynchronous way). |
+| WriteToJsonAsync(`JsonWriter` writer, [BitOptions](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions, `bool` includeDefaults = False) | `Task` | Writes the list of the value editors to JSON (asynchronous way). |

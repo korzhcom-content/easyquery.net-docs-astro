@@ -1,6 +1,9 @@
 ---
 title: EmptyQueryBuilderResult class
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/emptyquerybuilderresult-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/emptyquerybuilderresult-class
+sidebar:
+  order: 100
 ---
 
 Represents a trivial implementation of QueryBuilderResult abstract class which always returns empty statement

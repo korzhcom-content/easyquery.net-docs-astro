@@ -1,6 +1,8 @@
 ---
 title: ConstListValueEditor class
 slug: api-reference-4x/korzh-easyquery-namespace/constlistvalueeditor-class
+sidebar:
+  order: 100
 ---
 
 Represents the constant list value editor.

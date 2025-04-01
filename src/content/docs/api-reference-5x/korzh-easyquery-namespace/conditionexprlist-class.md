@@ -1,6 +1,8 @@
 ---
 title: ConditionExprList class
 slug: api-reference-5x/korzh-easyquery-namespace/conditionexprlist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of expression for SimpleCondition object

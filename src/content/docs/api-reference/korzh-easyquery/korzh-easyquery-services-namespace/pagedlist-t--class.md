@@ -1,6 +1,9 @@
 ---
 title: PagedList<T> class
-slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/pagedlist-t--class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-services-namespace/pagedlist-t--class
+sidebar:
+  order: 100
 ---
 
 Default implementation of `IPagedList` interface
@@ -17,8 +20,8 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| PagedList(`IQueryable`&lt;`T`&gt; superset, `long` pageIndex, `long` pageSize) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.PagedList`1](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/pagedlist-t--class) class. | 
-| PagedList(`IEnumerable`&lt;`T`&gt; superset, `long` pageIndex, `long` pageSize) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.PagedList`1](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/pagedlist-t--class) class. | 
+| PagedList(`IQueryable`&lt;`T`&gt; superset, `long` pageIndex, `long` pageSize) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.PagedList`1](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/pagedlist-t--class) class. | 
+| PagedList(`IEnumerable`&lt;`T`&gt; superset, `long` pageIndex, `long` pageSize) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.PagedList`1](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/pagedlist-t--class) class. | 
 
 
 ### Fields

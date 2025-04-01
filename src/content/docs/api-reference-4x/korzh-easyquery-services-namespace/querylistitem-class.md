@@ -1,6 +1,8 @@
 ---
 title: QueryListItem class
 slug: api-reference-4x/korzh-easyquery-services-namespace/querylistitem-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

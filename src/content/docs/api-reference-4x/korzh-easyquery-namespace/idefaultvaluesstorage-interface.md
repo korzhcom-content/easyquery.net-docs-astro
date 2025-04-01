@@ -1,7 +1,10 @@
 ---
 title: IDefaultValuesStorage interface
 slug: api-reference-4x/korzh-easyquery-namespace/idefaultvaluesstorage-interface
+sidebar:
+  order: 100
 ---
+# IDefaultValuesStorage interface
 
 Represents a storage of default values
 ```csharp

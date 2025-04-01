@@ -1,6 +1,8 @@
 ---
 title: OperatorGroupList class
 slug: api-reference-5x/korzh-easyquery-namespace/operatorgrouplist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of operator groups

@@ -1,6 +1,8 @@
 ---
 title: Getting started for ASP.NET 4 (MVC or WebForms)
 slug: getting-started/asp-net-4-mvc-or-webforms
+sidebar:
+  order: 100
 ---
 
 > NB: The fastest way to apply EasyQuery to your ASP.NET 4 project is to clone the whole [EasyQuery samples Git repository](https://github.com/easyquery/Net4Samples), play with the demo project for MVC or WebForms from that repository and then copy necessary parts from that project to your own one.
@@ -22,7 +24,7 @@ It will take 1-2 minutes of your time. On registration you will get access to a 
 
 Data model - is a user-friendly representation of your project's database which is used by different EasyQuery components to show available entities, their attributes, conditional operators and the lists of available values during the query building process. So, first of all, you will need to choose the way you create your data model and/or load it in your application. There are several different ways of doing this. 
 
-For more information please read [Working with data model in EasyQuery](//easyquery/docs/getting-started/working-with-data-model) article first.
+For more information please read [Working with data model in EasyQuery](///////////////easyquery/docs/getting-started/working-with-data-model) article first.
 
 In this article, we assume that you use Entity Framework in your project and so, load your model directly from DbContext.
 

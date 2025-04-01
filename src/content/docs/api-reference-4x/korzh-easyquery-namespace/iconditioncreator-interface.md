@@ -1,6 +1,8 @@
 ---
 title: IConditionCreator interface
 slug: api-reference-4x/korzh-easyquery-namespace/iconditioncreator-interface
+sidebar:
+  order: 100
 ---
 
 Represents special interface used for definition new (custom) types of conditions

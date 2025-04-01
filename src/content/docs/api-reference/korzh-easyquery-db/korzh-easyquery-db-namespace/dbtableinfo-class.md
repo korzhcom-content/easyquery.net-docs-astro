@@ -1,6 +1,9 @@
 ---
 title: DbTableInfo class
-slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtableinfo-class
+slug: >-
+  api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtableinfo-class
+sidebar:
+  order: 100
 ---
 
 Represents a structure that contains information about some database table

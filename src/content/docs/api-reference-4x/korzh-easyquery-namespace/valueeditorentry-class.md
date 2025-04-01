@@ -1,7 +1,10 @@
 ---
 title: ValueEditorEntry class
 slug: api-reference-4x/korzh-easyquery-namespace/valueeditorentry-class
+sidebar:
+  order: 100
 ---
+# ValueEditorEntry class
 
 Represents map between operators and value editors.
 ```csharp

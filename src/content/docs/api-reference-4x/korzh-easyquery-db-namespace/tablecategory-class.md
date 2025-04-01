@@ -1,7 +1,10 @@
 ---
 title: TableCategory class
 slug: api-reference-4x/korzh-easyquery-db-namespace/tablecategory-class
+sidebar:
+  order: 100
 ---
+# TableCategory class
 
 Represents a category of tables
 ```csharp

@@ -1,6 +1,9 @@
 ---
 title: DbConnectionLoaderOptions class
-slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbconnectionloaderoptions-class
+slug: >-
+  api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbconnectionloaderoptions-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

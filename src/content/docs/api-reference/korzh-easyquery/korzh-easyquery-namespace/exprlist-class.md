@@ -1,6 +1,8 @@
 ---
 title: ExprList class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/exprlist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of expression objects.
@@ -17,4 +19,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ExprList() | `void` | Initializes a new instance of the [Korzh.EasyQuery.ExprList](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/exprlist-class) class. |
+| ExprList() | `void` | Initializes a new instance of the [Korzh.EasyQuery.ExprList](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/exprlist-class) class. |

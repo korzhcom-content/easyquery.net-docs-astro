@@ -1,6 +1,9 @@
 ---
 title: EqAction class
-slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/eqaction-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-services-namespace/eqaction-class
+sidebar:
+  order: 100
 ---
 
 Defines the constant strings for all possible actions

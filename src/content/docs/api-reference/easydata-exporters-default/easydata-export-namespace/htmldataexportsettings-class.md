@@ -1,6 +1,9 @@
 ---
 title: HtmlDataExportSettings class
-slug: api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class
+slug: >-
+  api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class
+sidebar:
+  order: 100
 ---
 
 Represents different settings used during exporting to HTML
@@ -17,8 +20,8 @@ Assembly: `EasyData.Exporters.Default.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| HtmlDataExportSettings() | `void` | Initializes a new instance of the[EasyData.Export.HtmlDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) class. | 
-| HtmlDataExportSettings(`CultureInfo` culture) | `void` | Initializes a new instance of the[EasyData.Export.HtmlDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) class. | 
+| HtmlDataExportSettings() | `void` | Initializes a new instance of the[EasyData.Export.HtmlDataExportSettings](///////////////easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) class. | 
+| HtmlDataExportSettings(`CultureInfo` culture) | `void` | Initializes a new instance of the[EasyData.Export.HtmlDataExportSettings](///////////////easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) class. | 
 
 
 ### Properties
@@ -40,4 +43,4 @@ Assembly: `EasyData.Exporters.Default.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Default | [HtmlDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) | Returns the default instance of [EasyData.Export.HtmlDataExportSettings](//easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class). |
+| Default | [HtmlDataExportSettings](///////////////easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class) | Returns the default instance of [EasyData.Export.HtmlDataExportSettings](///////////////easyquery/docs/api-reference/easydata-exporters-default/easydata-export-namespace/htmldataexportsettings-class). |

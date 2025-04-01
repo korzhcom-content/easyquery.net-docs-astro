@@ -1,6 +1,8 @@
 ---
 title: SubQueryValueEditor class
 slug: api-reference-4x/korzh-easyquery-namespace/subqueryvalueeditor-class
+sidebar:
+  order: 100
 ---
 
 Represents the subquery value editor.

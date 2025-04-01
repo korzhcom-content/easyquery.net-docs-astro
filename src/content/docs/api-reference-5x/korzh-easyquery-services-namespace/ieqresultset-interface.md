@@ -1,6 +1,8 @@
 ---
 title: IEqResultSet interface
 slug: api-reference-5x/korzh-easyquery-services-namespace/ieqresultset-interface
+sidebar:
+  order: 100
 ---
 
 Represents a type used to store the result set of the query execution.

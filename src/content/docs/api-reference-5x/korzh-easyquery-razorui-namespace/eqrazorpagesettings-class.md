@@ -1,6 +1,8 @@
 ---
 title: EqRazorPageSettings class
 slug: api-reference-5x/korzh-easyquery-razorui-namespace/eqrazorpagesettings-class
+sidebar:
+  order: 100
 ---
 
 Contains the settings for one EasyQuery's default Razor page

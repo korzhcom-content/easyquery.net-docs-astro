@@ -1,6 +1,8 @@
 ---
 title: EqListValueEditorAttribute class
 slug: api-reference-5x/korzh-easyquery-namespace/eqlistvalueeditorattribute-class
+sidebar:
+  order: 100
 ---
 
 Assigns a "List" value editor for an entity member.

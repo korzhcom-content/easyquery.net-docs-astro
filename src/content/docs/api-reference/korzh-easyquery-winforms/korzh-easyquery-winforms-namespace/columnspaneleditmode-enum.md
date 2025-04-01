@@ -1,6 +1,9 @@
 ---
 title: ColumnsPanelEditMode enum
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnspaneleditmode-enum
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/columnspaneleditmode-enum
+sidebar:
+  order: 100
 ---
 
 Represents different types of modifications in query columns panel available for users.

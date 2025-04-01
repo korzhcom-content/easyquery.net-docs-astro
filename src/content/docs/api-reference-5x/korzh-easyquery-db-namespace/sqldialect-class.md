@@ -1,6 +1,8 @@
 ---
 title: SqlDialect class
 slug: api-reference-5x/korzh-easyquery-db-namespace/sqldialect-class
+sidebar:
+  order: 100
 ---
 
 Represents some dialect of SQL syntax (like Oracle, MySQL, ANSI 92, etc)

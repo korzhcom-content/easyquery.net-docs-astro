@@ -1,6 +1,9 @@
 ---
 title: EntityFrameworkCore2Extensions class
-slug: api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/entityframeworkcore2extensions-class
+slug: >-
+  api-reference/korzh-easyquery-entityframeworkcore-relational/korzh-easyquery-entityframeworkcore-namespace/entityframeworkcore2extensions-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

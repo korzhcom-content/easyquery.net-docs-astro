@@ -1,9 +1,11 @@
 ---
 title: EdgeInfo class
 slug: api-reference-5x/korzh-easyquery-namespace/edgeinfo-class
+sidebar:
+  order: 100
 ---
 
-Represents edges for entity graph defined in some [Korzh.EasyQuery.ObjectGraph`1](//easyquery/docs/api-reference-5x/korzh-easyquery-namespace/objectgraph-t--class) object
+Represents edges for entity graph defined in some [Korzh.EasyQuery.ObjectGraph`1](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/objectgraph-t--class) object
 ```csharp
 public class Korzh.EasyQuery.EdgeInfo
 

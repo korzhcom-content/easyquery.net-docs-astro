@@ -1,6 +1,9 @@
 ---
 title: ShowAttrOptions enum
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/showattroptions-enum
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/showattroptions-enum
+sidebar:
+  order: 100
 ---
 
 Represents options of attributes visibility in Entities Panel

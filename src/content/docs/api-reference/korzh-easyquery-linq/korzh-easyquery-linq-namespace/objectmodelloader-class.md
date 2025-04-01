@@ -1,6 +1,9 @@
 ---
 title: ObjectModelLoader class
-slug: api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/objectmodelloader-class
+slug: >-
+  api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/objectmodelloader-class
+sidebar:
+  order: 100
 ---
 
 Represents a data model loader
@@ -24,7 +27,7 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | GetCollectionName(`Type` type) | `string` | Used to get the name of the collection in context | 
-| LoadFromContext([DataModel](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `Type` type) | `void` | Loads model from a context class. | 
-| LoadFromContextType([DataModel](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `Type` type, [ContextLoadingOptions](//easyquery/docs/api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/contextloadingoptions-enum) options) | `void` | Loads model from context class. | 
-| LoadFromEntityType([DataModel](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `Type` type, [ContextLoadingOptions](//easyquery/docs/api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/contextloadingoptions-enum) loadingOptions) | `void` | Loads model from some type (class).  All properties of this class with primitive types will be added as attributes of the root entity.  All complex type properties - as sub-entities and so on recursively . | 
-| LoadModelFromType([DataModel](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `Type` type) | `void` | Loads model from some type (class).  All properties of this class with primitive types will be added as attributes of the root entity.  All complex type properties - as sub-entities and so on recursively . |
+| LoadFromContext([DataModel](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `Type` type) | `void` | Loads model from a context class. | 
+| LoadFromContextType([DataModel](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `Type` type, [ContextLoadingOptions](///////////////easyquery/docs/api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/contextloadingoptions-enum) options) | `void` | Loads model from context class. | 
+| LoadFromEntityType([DataModel](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `Type` type, [ContextLoadingOptions](///////////////easyquery/docs/api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/contextloadingoptions-enum) loadingOptions) | `void` | Loads model from some type (class).  All properties of this class with primitive types will be added as attributes of the root entity.  All complex type properties - as sub-entities and so on recursively . | 
+| LoadModelFromType([DataModel](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `Type` type) | `void` | Loads model from some type (class).  All properties of this class with primitive types will be added as attributes of the root entity.  All complex type properties - as sub-entities and so on recursively . |

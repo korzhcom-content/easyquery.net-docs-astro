@@ -1,7 +1,10 @@
 ---
 title: Path class
 slug: api-reference-4x/korzh-easyquery-db-namespace/path-class
+sidebar:
+  order: 100
 ---
+# Path class
 
 Represents list of tables which are linked to each other
 ```csharp

@@ -1,6 +1,9 @@
 ---
 title: EasyDataManagerException class
-slug: api-reference/easydata-core/easydata-services-namespace/easydatamanagerexception-class
+slug: >-
+  api-reference/easydata-core/easydata-services-namespace/easydatamanagerexception-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

@@ -1,6 +1,8 @@
 ---
 title: Navigate through query conditions
 slug: how-to/run-through-query-conditions
+sidebar:
+  order: 100
 ---
 
 Sometimes you need to run through all conditions in your query to perform some operation for each condition or to find a particular one. 

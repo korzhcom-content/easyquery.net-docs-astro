@@ -1,6 +1,9 @@
 ---
 title: ProgressBarDlg class
-slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/progressbardlg-class
+slug: >-
+  api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/progressbardlg-class
+sidebar:
+  order: 100
 ---
 
 Summary description for ProgressBarDlg.

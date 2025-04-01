@@ -1,6 +1,9 @@
 ---
 title: IModelLoader interface
-slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/imodelloader-interface
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-services-namespace/imodelloader-interface
+sidebar:
+  order: 100
 ---
 
 Represents a type used to perform model loading.
@@ -16,4 +19,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadModelAsync([DataModel](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `string` modelId) | `Task`&lt;`bool`&gt; | Loads the model |
+| LoadModelAsync([DataModel](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `string` modelId) | `Task`&lt;`bool`&gt; | Loads the model |

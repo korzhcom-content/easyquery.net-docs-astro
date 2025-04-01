@@ -1,6 +1,9 @@
 ---
 title: TotalsContainer.TotalsContainerBuilder class
-slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/totalscontainer-totalscontainerbuilder-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-services-namespace/totalscontainer-totalscontainerbuilder-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

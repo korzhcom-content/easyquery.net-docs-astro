@@ -1,6 +1,9 @@
 ---
 title: EqRazorPageSettings class
-slug: api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/eqrazorpagesettings-class
+slug: >-
+  api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/eqrazorpagesettings-class
+sidebar:
+  order: 100
 ---
 
 Contains the settings for one EasyQuery's default Razor page
@@ -35,5 +38,5 @@ Assembly: `Korzh.EasyQuery.RazorUi.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Chart | [ChartLibrary](//easyquery/docs/api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/chartlibrary-enum) | The chart library to be used (if available). | 
+| Chart | [ChartLibrary](///////////////easyquery/docs/api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/chartlibrary-enum) | The chart library to be used (if available). | 
 | EqEndpoint | `string` | The EasyQuery API endpoint |

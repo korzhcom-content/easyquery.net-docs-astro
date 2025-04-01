@@ -1,6 +1,8 @@
 ---
 title: Version 7.2 release notes
 slug: release-notes/version-7-2
+sidebar:
+  order: 100
 ---
 
 Version 7.2 is a minor update of EasyQuery.NET and EasyQuery.JS. 

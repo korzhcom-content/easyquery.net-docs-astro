@@ -1,6 +1,8 @@
 ---
 title: HAVING and GROUP BY clauses in generated query
 slug: tutorials/having-group-by-clauses
+sidebar:
+  order: 100
 ---
 
 1) When a user inserts some aggregate column into the query - EasyQuery automatically adds `GROUP BY` clause into the result SQL statement. To add an aggregate column - just insert a column into `QueryColumnsPanel` as usual, then click on the button near the newly added column and select “Aggregate” in the menu that appears.

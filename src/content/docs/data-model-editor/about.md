@@ -1,6 +1,8 @@
 ---
 title: About Data Model Editor
 slug: data-model-editor/about
+sidebar:
+  order: 100
 ---
 
 ## What is it?
@@ -24,10 +26,10 @@ Though being easy to use and self-explanatory, data model editing requires some 
 
 First of all, you will use DME to create your first data model. Here is a detailed instruction which will guide you through all steps of model creation process:
 
- * [Creating new data model using Data Model Editor](//easyquery/docs/getting-started/working-with-data-model)
+ * [Creating new data model using Data Model Editor](///////////////easyquery/docs/getting-started/working-with-data-model)
 
 Once a model is created (or opened), you will see 3 main tabs:
 
-* [Tables and Links](/data-model-editor/tables-links-page) - to describe tables taking part in the data model. You may define an alias for each table, as described in [”Working with table aliases”](/data-model-editor/working-with-aliases) topic.
-* [Entities](/data-model-editor/entities-page) - to describe the entities and their attributes which end-user can operate with to build queries.
-* [Operators](/data-model-editor/operators-page) - to describe operations (like comparisons) upon the data model's fields. Each operator should have a default value editor set. All available editors are listed in [”Value editors”](/data-model-editor/value-editors) topic.
+* [Tables and Links](//////////////data-model-editor/tables-links-page) - to describe tables taking part in the data model. You may define an alias for each table, as described in [”Working with table aliases”](//////////////data-model-editor/working-with-aliases) topic.
+* [Entities](//////////////data-model-editor/entities-page) - to describe the entities and their attributes which end-user can operate with to build queries.
+* [Operators](//////////////data-model-editor/operators-page) - to describe operations (like comparisons) upon the data model's fields. Each operator should have a default value editor set. All available editors are listed in [”Value editors”](//////////////data-model-editor/value-editors) topic.

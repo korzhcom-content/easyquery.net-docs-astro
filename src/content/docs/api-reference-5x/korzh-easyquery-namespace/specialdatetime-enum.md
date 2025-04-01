@@ -1,6 +1,8 @@
 ---
 title: SpecialDateTime enum
 slug: api-reference-5x/korzh-easyquery-namespace/specialdatetime-enum
+sidebar:
+  order: 100
 ---
 
 Represents some predefined "special" date/time values

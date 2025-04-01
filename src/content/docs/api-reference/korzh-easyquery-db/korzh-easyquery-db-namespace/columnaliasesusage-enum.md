@@ -1,6 +1,9 @@
 ---
 title: ColumnAliasesUsage enum
-slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/columnaliasesusage-enum
+slug: >-
+  api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/columnaliasesusage-enum
+sidebar:
+  order: 100
 ---
 
 Represents the conditions when the result SQL should include column aliases.

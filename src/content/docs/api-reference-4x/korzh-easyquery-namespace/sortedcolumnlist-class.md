@@ -1,6 +1,8 @@
 ---
 title: SortedColumnList class
 slug: api-reference-4x/korzh-easyquery-namespace/sortedcolumnlist-class
+sidebar:
+  order: 100
 ---
 
 Represents the list of sorted columns
@@ -14,7 +16,7 @@ public class Korzh.EasyQuery.SortedColumnList
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `Boolean` | Updating | Gets a value indicating whether this [Korzh.EasyQuery.ColumnList](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/columnlist-class) is updating. | 
+| `Boolean` | Updating | Gets a value indicating whether this [Korzh.EasyQuery.ColumnList](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/columnlist-class) is updating. | 
 
 
 ### Methods

@@ -1,6 +1,9 @@
 ---
 title: EasyQueryMiddleware class
-slug: api-reference-5x/korzh-easyquery-aspnetcore-namespace/easyquerymiddleware-class
+slug: >-
+  api-reference-5x/korzh-easyquery-aspnetcore-namespace/easyquerymiddleware-class
+sidebar:
+  order: 100
 ---
 
 Represents the middleware which processes all requests from EasyQuery client-side widgets

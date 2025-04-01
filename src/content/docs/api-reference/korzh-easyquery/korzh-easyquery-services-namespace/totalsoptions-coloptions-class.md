@@ -1,6 +1,9 @@
 ---
 title: TotalsOptions.ColOptions class
-slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/totalsoptions-coloptions-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-services-namespace/totalsoptions-coloptions-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

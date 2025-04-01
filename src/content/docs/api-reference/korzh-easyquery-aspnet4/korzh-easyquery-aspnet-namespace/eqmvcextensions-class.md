@@ -1,6 +1,9 @@
 ---
 title: EqMvcExtensions class
-slug: api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqmvcextensions-class
+slug: >-
+  api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqmvcextensions-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

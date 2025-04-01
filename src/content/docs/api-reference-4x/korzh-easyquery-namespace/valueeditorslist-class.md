@@ -1,6 +1,8 @@
 ---
 title: ValueEditorsList class
 slug: api-reference-4x/korzh-easyquery-namespace/valueeditorslist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of value editors

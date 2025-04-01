@@ -1,6 +1,8 @@
 ---
 title: SqlDialectList class
 slug: api-reference-4x/korzh-easyquery-db-namespace/sqldialectlist-class
+sidebar:
+  order: 100
 ---
 
 Represents different dialects of SQL
@@ -14,4 +16,4 @@ public class Korzh.EasyQuery.Db.SqlDialectList
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `SqlDialect` | FindByName(`String` name) | Finds the [Korzh.EasyQuery.Db.SqlDialect](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/sqldialect-class) object by name. |
+| `SqlDialect` | FindByName(`String` name) | Finds the [Korzh.EasyQuery.Db.SqlDialect](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/sqldialect-class) object by name. |

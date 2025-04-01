@@ -1,6 +1,8 @@
 ---
 title: Advanced search page in your MVC app in 5 minutes
 slug: tutorials/version-3-x-tutorials/advanced-search-scaffold-nuget
+sidebar:
+  order: 100
 ---
 
 <h2>Problem</h2>

@@ -1,6 +1,9 @@
 ---
 title: WpfControlsExtensions class
-slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/wpfcontrolsextensions-class
+slug: >-
+  api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/wpfcontrolsextensions-class
+sidebar:
+  order: 100
 ---
 
 Some useful extension methods for WPF controls

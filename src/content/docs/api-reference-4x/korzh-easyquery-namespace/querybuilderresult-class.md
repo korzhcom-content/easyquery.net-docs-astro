@@ -1,6 +1,8 @@
 ---
 title: QueryBuilderResult class
 slug: api-reference-4x/korzh-easyquery-namespace/querybuilderresult-class
+sidebar:
+  order: 100
 ---
 
 Represents the result of query builder work.

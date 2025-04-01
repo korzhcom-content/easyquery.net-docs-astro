@@ -1,6 +1,8 @@
 ---
 title: ODataStatement class
 slug: api-reference-4x/korzh-easyquery-namespace/odatastatement-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

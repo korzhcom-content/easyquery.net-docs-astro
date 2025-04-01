@@ -1,6 +1,8 @@
 ---
 title: OperatorGroupKind enum
 slug: api-reference-5x/korzh-easyquery-namespace/operatorgroupkind-enum
+sidebar:
+  order: 100
 ---
 
 Represents different groups of operators

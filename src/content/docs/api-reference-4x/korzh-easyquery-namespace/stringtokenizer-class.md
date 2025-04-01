@@ -1,7 +1,10 @@
 ---
 title: StringTokenizer class
 slug: api-reference-4x/korzh-easyquery-namespace/stringtokenizer-class
+sidebar:
+  order: 100
 ---
+# StringTokenizer class
 
 This class allows an application to break a string into tokens.
 ```csharp

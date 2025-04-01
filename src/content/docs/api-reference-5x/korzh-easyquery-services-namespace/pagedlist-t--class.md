@@ -1,6 +1,8 @@
 ---
 title: PagedList<T> class
 slug: api-reference-5x/korzh-easyquery-services-namespace/pagedlist-t--class
+sidebar:
+  order: 100
 ---
 
 Default implementation of `IPagedList` interface

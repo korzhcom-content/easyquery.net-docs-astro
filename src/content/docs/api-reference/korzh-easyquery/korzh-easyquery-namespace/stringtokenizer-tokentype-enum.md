@@ -1,9 +1,12 @@
 ---
 title: StringTokenizer.TokenType enum
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/stringtokenizer-tokentype-enum
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/stringtokenizer-tokentype-enum
+sidebar:
+  order: 100
 ---
 
-Represents the types of tokens.  Used in [Korzh.EasyQuery.StringTokenizer](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/stringtokenizer-class) class
+Represents the types of tokens.  Used in [Korzh.EasyQuery.StringTokenizer](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/stringtokenizer-class) class
 ```csharp
 public enum Korzh.EasyQuery.StringTokenizer.TokenType
     : Enum
@@ -17,7 +20,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Value | Description | 
 | --- | --- | --- | 
-| Space | `0` | Space. It's not actually the type of a token but it's used for LastBreak property of [Korzh.EasyQuery.StringTokenizer](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/stringtokenizer-class) class | 
+| Space | `0` | Space. It's not actually the type of a token but it's used for LastBreak property of [Korzh.EasyQuery.StringTokenizer](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/stringtokenizer-class) class | 
 | Separator | `1` | Separator | 
 | Identifier | `2` | Word | 
 | CString | `3` | C-style string (some text placed in double quotes) | 

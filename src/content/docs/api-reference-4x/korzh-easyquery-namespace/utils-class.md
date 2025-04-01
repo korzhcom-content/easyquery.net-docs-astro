@@ -1,6 +1,8 @@
 ---
 title: Utils class
 slug: api-reference-4x/korzh-easyquery-namespace/utils-class
+sidebar:
+  order: 100
 ---
 
 Represents different type conversion functions and other useful procedures

@@ -1,6 +1,8 @@
 ---
 title: Version 7.0 release notes
 slug: release-notes/version-7-0
+sidebar:
+  order: 100
 ---
 
 ## Overview
@@ -64,7 +66,7 @@ There are a lot of changes in `EasyQueryManager` class (we already mentioned the
 
 Additionally, there are plenty of changes in EasyQuery.JS base classes (Query, DataModel, etc) that simplify all kinds of manipulations with queries and models on the client-side.
 
-For more information about all modifications and renames please refer to [Upgrade instructions for version 7.0](//easyquery/docs/upgrade-instructions/version-7-0).
+For more information about all modifications and renames please refer to [Upgrade instructions for version 7.0](///////////////easyquery/docs/upgrade-instructions/version-7-0).
 
 ## Better support for extensions and 3party libraries
 
@@ -72,6 +74,6 @@ WIth the new moduling structure of EasyQuery it's easier now to extend EasyQuery
 
 ## Links
 
- -  [Changelog](//easyquery/docs/changelog)
+ -  [Changelog](///////////////easyquery/docs/changelog)
 
- - [Upgrade instructions: Version 7.0](//easyquery/docs/upgrade-instructions/version-7-0)
+ - [Upgrade instructions: Version 7.0](///////////////easyquery/docs/upgrade-instructions/version-7-0)

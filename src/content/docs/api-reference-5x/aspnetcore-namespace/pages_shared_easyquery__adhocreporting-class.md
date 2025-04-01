@@ -1,6 +1,9 @@
 ---
 title: Pages_Shared_EasyQuery__AdHocReporting class
-slug: api-reference-5x/aspnetcore-namespace/pages_shared_easyquery__adhocreporting-class
+slug: >-
+  api-reference-5x/aspnetcore-namespace/pages_shared_easyquery__adhocreporting-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

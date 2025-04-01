@@ -1,6 +1,9 @@
 ---
 title: ChartLibrary enum
-slug: api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/chartlibrary-enum
+slug: >-
+  api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/chartlibrary-enum
+sidebar:
+  order: 100
 ---
 
 The chart library enum.

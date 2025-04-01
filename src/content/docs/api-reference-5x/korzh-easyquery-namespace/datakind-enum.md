@@ -1,6 +1,8 @@
 ---
 title: DataKind enum
 slug: api-reference-5x/korzh-easyquery-namespace/datakind-enum
+sidebar:
+  order: 100
 ---
 
 Represents expression kinds.

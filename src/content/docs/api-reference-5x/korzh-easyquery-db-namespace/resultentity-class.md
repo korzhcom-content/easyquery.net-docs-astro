@@ -1,6 +1,8 @@
 ---
 title: ResultEntity class
 slug: api-reference-5x/korzh-easyquery-db-namespace/resultentity-class
+sidebar:
+  order: 100
 ---
 
 Represents a table used in query.

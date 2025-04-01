@@ -1,6 +1,8 @@
 ---
 title: EasyDataColStyle class
 slug: api-reference/easydata-core/easydata-namespace/easydatacolstyle-class
+sidebar:
+  order: 100
 ---
 
 ```csharp
@@ -22,4 +24,4 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Alignment | [ColumnAlignment](//easyquery/docs/api-reference/easydata-core/easydata-namespace/columnalignment-enum) |  |
+| Alignment | [ColumnAlignment](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/columnalignment-enum) |  |

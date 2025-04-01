@@ -1,7 +1,10 @@
 ---
 title: ResultTable class
 slug: api-reference-4x/korzh-easyquery-db-namespace/resulttable-class
+sidebar:
+  order: 100
 ---
+# ResultTable class
 
 Represents a table used in query.
 ```csharp

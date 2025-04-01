@@ -1,6 +1,8 @@
 ---
 title: EqHtmlHelpers class
 slug: api-reference-5x/korzh-easyquery-aspnetcore-namespace/eqhtmlhelpers-class
+sidebar:
+  order: 100
 ---
 
 Extension methods for generating query panel and paging placeholders.

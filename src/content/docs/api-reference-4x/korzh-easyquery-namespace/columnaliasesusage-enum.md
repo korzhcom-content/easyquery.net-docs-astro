@@ -1,7 +1,10 @@
 ---
 title: ColumnAliasesUsage enum
 slug: api-reference-4x/korzh-easyquery-namespace/columnaliasesusage-enum
+sidebar:
+  order: 100
 ---
+# ColumnAliasesUsage enum
 
 Represents the conditions when the result SQL should include column aliases.
 ```csharp

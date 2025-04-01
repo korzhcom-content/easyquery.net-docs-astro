@@ -1,6 +1,8 @@
 ---
 title: SortDirection enum
 slug: api-reference-5x/korzh-easyquery-namespace/sortdirection-enum
+sidebar:
+  order: 100
 ---
 
 Represents sorting direction.

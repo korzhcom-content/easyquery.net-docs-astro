@@ -1,6 +1,8 @@
 ---
 title: ODataQueryBuilder class
 slug: api-reference-4x/korzh-easyquery-namespace/odataquerybuilder-class
+sidebar:
+  order: 100
 ---
 
 Builds OData expressions

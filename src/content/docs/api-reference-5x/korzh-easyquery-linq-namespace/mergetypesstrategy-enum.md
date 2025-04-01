@@ -1,6 +1,8 @@
 ---
 title: MergeTypesStrategy enum
 slug: api-reference-5x/korzh-easyquery-linq-namespace/mergetypesstrategy-enum
+sidebar:
+  order: 100
 ---
 
 Represents the strategy of merging of two types

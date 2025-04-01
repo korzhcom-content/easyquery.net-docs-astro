@@ -1,6 +1,8 @@
 ---
 title: EntityAttrTypeLoader class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/entityattrtypeloader-class
+sidebar:
+  order: 100
 ---
 
 Represents one entity attribute of data model.

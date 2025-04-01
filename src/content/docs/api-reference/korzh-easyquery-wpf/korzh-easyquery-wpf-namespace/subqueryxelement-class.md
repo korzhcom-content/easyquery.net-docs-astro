@@ -1,6 +1,9 @@
 ---
 title: SubQueryXElement class
-slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/subqueryxelement-class
+slug: >-
+  api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/subqueryxelement-class
+sidebar:
+  order: 100
 ---
 
 Used for creating conditions that contain subqueries
@@ -17,15 +20,15 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SubQueryXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SubQueryXElement](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/subqueryxelement-class) class. | 
+| SubQueryXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.SubQueryXElement](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/subqueryxelement-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ExprType | [DataType](//easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) |  | 
-| ParentQuery | [Query](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the parent query. | 
+| ExprType | [DataType](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) |  | 
+| ParentQuery | [Query](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the parent query. | 
 
 
 ### Methods

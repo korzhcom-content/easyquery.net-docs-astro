@@ -1,13 +1,15 @@
 ---
 title: Getting started for ASP.NET WebForms
 slug: getting-started/version-3-x/asp-net-webforms
+sidebar:
+  order: 100
 ---
 
-> See also: [Getting started for ASP.NET MVC](//easyquery/docs/getting-started/asp-net-mvc)
+> See also: [Getting started for ASP.NET MVC](///////////////easyquery/docs/getting-started/asp-net-mvc)
 
 &nbsp;             
 
-To apply [EasyQuery ASP.NET](//easyquery#asp-net/) to your WebForms application please perform the following steps:
+To apply [EasyQuery ASP.NET](///////////////easyquery#asp-net/) to your WebForms application please perform the following steps:
 
 ## 1. Create Data Model
 
@@ -16,8 +18,8 @@ You will need to add database tables (select the ones you allow your users to us
 When the model is created - save it to App_Data folder of your project (let name it MyModel.xml for example).
 For more information about data model and more detailed instructions on how to create it - please read:
 
-1. [About data model](/fundamentals/data-model)
-2. [Creating new data model using Data Model Editor](/getting-started/new-data-model)
+1. [About data model](//////////////fundamentals/data-model)
+2. [Creating new data model using Data Model Editor](//////////////getting-started/new-data-model)
 
 ## 2. Add the references to EasyQuery libraries
 

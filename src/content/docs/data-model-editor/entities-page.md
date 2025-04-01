@@ -1,6 +1,8 @@
 ---
 title: Entities page
 slug: data-model-editor/entities-page
+sidebar:
+  order: 100
 ---
 
 Entities are intended to hide data storage details from the end user. Instead of operating with tables, views and fields (such as Orders.CustNo, Customers.Addr1) user see some entities from the real world (Order, Customer, Vendor, etc.) and their attributes (Customer Name, Order Ship Date, Vendor Country, etc.).
@@ -61,8 +63,8 @@ This tab holds list of all operations applicable to the attribute. Add or remove
 
 Use *Defaults* button to reset the list of operators for selected attribute to a default state. The default operator list contains most appropriate operators for attribute's data type.
 
-See [Operators page](/data-model-editor/operators-page) for details about operators used in data models.
+See [Operators page](//////////////data-model-editor/operators-page) for details about operators used in data models.
 
 ## Value Editors tab
 
-This tab allows to define how a user will edit the parameters which the selected attribute is compared to in query conditions. To learn more about available editors see [Value Editors](/data-model-editor/value-editors) topic. To specify editor parameters click on “Settings…” button.
+This tab allows to define how a user will edit the parameters which the selected attribute is compared to in query conditions. To learn more about available editors see [Value Editors](//////////////data-model-editor/value-editors) topic. To specify editor parameters click on “Settings…” button.

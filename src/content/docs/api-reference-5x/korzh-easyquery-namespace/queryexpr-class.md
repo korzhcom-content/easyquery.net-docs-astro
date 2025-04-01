@@ -1,6 +1,8 @@
 ---
 title: QueryExpr class
 slug: api-reference-5x/korzh-easyquery-namespace/queryexpr-class
+sidebar:
+  order: 100
 ---
 
 Represents a sub-query expression

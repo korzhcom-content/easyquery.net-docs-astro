@@ -1,6 +1,8 @@
 ---
 title: EasyFilter class
 slug: api-reference/easydata-core/easydata-services-namespace/easyfilter-class
+sidebar:
+  order: 100
 ---
 
 ```csharp
@@ -15,19 +17,19 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EasyFilter([MetaData](//easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) model) | `void` |  | 
+| EasyFilter([MetaData](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) model) | `void` |  | 
 
 
 ### Fields
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Model | [MetaData](//easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) |  | 
+| Model | [MetaData](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Apply([MetaEntity](//easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) entity, `bool` isLookup, `object` data) | `object` |  | 
+| Apply([MetaEntity](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) entity, `bool` isLookup, `object` data) | `object` |  | 
 | ReadFromJsonAsync(`JsonReader` reader) | `Task` |  |

@@ -1,6 +1,8 @@
 ---
 title: ChangeType enum
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/changetype-enum
+sidebar:
+  order: 100
 ---
 
 Represents type of change that occured

@@ -1,6 +1,9 @@
 ---
 title: ListRequestOptions class
-slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listrequestoptions-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listrequestoptions-class
+sidebar:
+  order: 100
 ---
 
 Represents different options specified in GetList AJAX request
@@ -16,8 +19,8 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ListRequestOptions([EasyQueryManager](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager, `string` editorId) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ListRequestOptions](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listrequestoptions-class) class. | 
-| ListRequestOptions([EasyQueryManager](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager, `string` editorId, `IDictionary`&lt;`string`, `string`&gt; extraParams) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ListRequestOptions](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listrequestoptions-class) class. | 
+| ListRequestOptions([EasyQueryManager](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager, `string` editorId) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ListRequestOptions](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listrequestoptions-class) class. | 
+| ListRequestOptions([EasyQueryManager](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager, `string` editorId, `IDictionary`&lt;`string`, `string`&gt; extraParams) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ListRequestOptions](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listrequestoptions-class) class. | 
 
 
 ### Fields
@@ -31,8 +34,8 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Editor | [ListValueEditor](//easyquery/docs/api-reference/easydata-core/easydata-namespace/listvalueeditor-class) | The editor. | 
+| Editor | [ListValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/listvalueeditor-class) | The editor. | 
 | EditorId | `string` | Gets or sets editor's ID inside specified model | 
 | ListName | `string` | Gets or sets the name of the list. | 
-| Manager | [EasyQueryManager](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) | Gets the EasyQueryManager | 
+| Manager | [EasyQueryManager](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) | Gets the EasyQueryManager | 
 | Sql | `string` | Gets or sets the SQL statement (for SQLLIST value editors). |

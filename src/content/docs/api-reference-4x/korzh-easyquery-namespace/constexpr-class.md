@@ -1,6 +1,8 @@
 ---
 title: ConstExpr class
 slug: api-reference-4x/korzh-easyquery-namespace/constexpr-class
+sidebar:
+  order: 100
 ---
 
 Represents a constant expression (like: 423 or "Master card").
@@ -16,7 +18,7 @@ public class Korzh.EasyQuery.ConstExpr
 | --- | --- | --- | 
 | `DataType` | DataType | Gets or sets the data type. | 
 | `DataKind` | Kind | Gets the expression kind. | 
-| `String` | TypeName | Non-static version of [Korzh.EasyQuery.ConstExpr.STypeName](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/constexpr-class) property. | 
+| `String` | TypeName | Non-static version of [Korzh.EasyQuery.ConstExpr.STypeName](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/constexpr-class) property. | 
 | `String` | Value | Gets or sets the value of expression. | 
 
 

@@ -1,6 +1,8 @@
 ---
 title: Dynamic queries for ASP.NET Core projects with Entity Framework Core
 slug: getting-started/asp-net-core/dynamic-queries-ui-aspnet-core-entity-framework
+sidebar:
+  order: 100
 ---
 
 ## Prerequisites

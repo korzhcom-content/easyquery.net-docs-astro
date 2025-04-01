@@ -1,6 +1,9 @@
 ---
 title: EntityFrameworkCore2Extensions class
-slug: api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/entityframeworkcore2extensions-class
+slug: >-
+  api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/entityframeworkcore2extensions-class
+sidebar:
+  order: 100
 ---
 
 Defines some extensions which unify meta-data functions used in EF Core 2 with EF Core 3 API.

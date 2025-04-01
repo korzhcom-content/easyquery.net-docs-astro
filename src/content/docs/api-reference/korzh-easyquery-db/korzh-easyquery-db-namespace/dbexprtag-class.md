@@ -1,6 +1,8 @@
 ---
 title: DbExprTag class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbexprtag-class
+sidebar:
+  order: 100
 ---
 
 Contains several constants for db-related expressions tags values

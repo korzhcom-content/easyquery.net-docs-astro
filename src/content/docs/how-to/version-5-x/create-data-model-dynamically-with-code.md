@@ -1,9 +1,11 @@
 ---
 title: Creating data model dynamically with code
 slug: how-to/version-5-x/create-data-model-dynamically-with-code
+sidebar:
+  order: 100
 ---
 
-[Data Model](//easyquery/docs/fundamentals/data-model) object is an essential part of EasyQuery framework. Usually it's built automatically by DB metadata or DbContext object (in case if Entity Framework (Core) is used). It's also possible to define it "manually" using Data Model Editor utility. All these approaches are described in [Working with data models in EasyQuery](//easyquery/docs/getting-started/working-with-data-model) article.
+[Data Model](///////////////easyquery/docs/fundamentals/data-model) object is an essential part of EasyQuery framework. Usually it's built automatically by DB metadata or DbContext object (in case if Entity Framework (Core) is used). It's also possible to define it "manually" using Data Model Editor utility. All these approaches are described in [Working with data models in EasyQuery](///////////////easyquery/docs/getting-started/working-with-data-model) article.
 
 However, sometimes you need to add some entities, entity attributes or operators to the existing model or to fill it from scratch using DB metadata information got from another source. 
 

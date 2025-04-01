@@ -1,6 +1,8 @@
 ---
 title: EqVersionInfo class
 slug: api-reference-4x/korzh-easyquery-namespace/eqversioninfo-class
+sidebar:
+  order: 100
 ---
 
 Static class that holds EasyQuery version info

@@ -1,9 +1,11 @@
 ---
 title: CondSqlGenEventArgs class
 slug: api-reference-5x/korzh-easyquery-db-namespace/condsqlgeneventargs-class
+sidebar:
+  order: 100
 ---
 
-Provides data for CondSqlGen event of [Korzh.EasyQuery.Db.SqlQueryBuilder](//easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/sqlquerybuilder-class) class
+Provides data for CondSqlGen event of [Korzh.EasyQuery.Db.SqlQueryBuilder](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/sqlquerybuilder-class) class
 ```csharp
 public class Korzh.EasyQuery.Db.CondSqlGenEventArgs
     : EventArgs

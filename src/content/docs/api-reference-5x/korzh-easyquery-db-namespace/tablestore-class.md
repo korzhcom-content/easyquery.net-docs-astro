@@ -1,6 +1,8 @@
 ---
 title: TableStore class
 slug: api-reference-5x/korzh-easyquery-db-namespace/tablestore-class
+sidebar:
+  order: 100
 ---
 
 Represetns storage of tables.

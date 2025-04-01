@@ -1,6 +1,9 @@
 ---
 title: ConditionRowOptions enum
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/conditionrowoptions-enum
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/conditionrowoptions-enum
+sidebar:
+  order: 100
 ---
 
 Different options of condition row

@@ -1,6 +1,9 @@
 ---
 title: AboutDlg class
-slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/aboutdlg-class
+slug: >-
+  api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/aboutdlg-class
+sidebar:
+  order: 100
 ---
 
 Summary description for AboutDlg.

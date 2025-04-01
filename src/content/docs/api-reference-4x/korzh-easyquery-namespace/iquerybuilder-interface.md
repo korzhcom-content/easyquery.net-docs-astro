@@ -1,6 +1,8 @@
 ---
 title: IQueryBuilder interface
 slug: api-reference-4x/korzh-easyquery-namespace/iquerybuilder-interface
+sidebar:
+  order: 100
 ---
 
 Interface IQueryBuilder - represents general-purpose query builder

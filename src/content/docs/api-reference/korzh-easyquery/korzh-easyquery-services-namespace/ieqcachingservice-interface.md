@@ -1,6 +1,9 @@
 ---
 title: IEqCachingService interface
-slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieqcachingservice-interface
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieqcachingservice-interface
+sidebar:
+  order: 100
 ---
 
 Represents a type used to perform caching.

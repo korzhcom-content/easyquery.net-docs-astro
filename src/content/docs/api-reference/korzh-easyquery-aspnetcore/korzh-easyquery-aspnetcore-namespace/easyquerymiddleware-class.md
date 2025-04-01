@@ -1,6 +1,9 @@
 ---
 title: EasyQueryMiddleware class
-slug: api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/easyquerymiddleware-class
+slug: >-
+  api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/easyquerymiddleware-class
+sidebar:
+  order: 100
 ---
 
 Represents the middleware which processes all requests from EasyQuery client-side widgets
@@ -17,4 +20,4 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EasyQueryMiddleware(`RequestDelegate` next, [EasyQueryOptions](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class) options) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EasyQueryMiddleware](//easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/easyquerymiddleware-class) class. |
+| EasyQueryMiddleware(`RequestDelegate` next, [EasyQueryOptions](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class) options) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EasyQueryMiddleware](///////////////easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/easyquerymiddleware-class) class. |

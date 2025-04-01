@@ -1,6 +1,9 @@
 ---
 title: EqEntityAttribute class
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/eqentityattribute-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/eqentityattribute-class
+sidebar:
+  order: 100
 ---
 
 Provides a general-purpose attribute that lets you specify different options for entity classes.
@@ -17,8 +20,8 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqEntityAttribute(`bool` include) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqEntityAttribute](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqentityattribute-class) class. | 
-| EqEntityAttribute() | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqEntityAttribute](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqentityattribute-class) class. | 
+| EqEntityAttribute(`bool` include) | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqEntityAttribute](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqentityattribute-class) class. | 
+| EqEntityAttribute() | `void` | Initializes a new instance of the [Korzh.EasyQuery.EqEntityAttribute](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqentityattribute-class) class. | 
 
 
 ### Properties

@@ -1,6 +1,8 @@
 ---
 title: EqEntityAttribute class
 slug: api-reference-5x/korzh-easyquery-namespace/eqentityattribute-class
+sidebar:
+  order: 100
 ---
 
 Provides a general-purpose attribute that lets you specify different options for entity classes.

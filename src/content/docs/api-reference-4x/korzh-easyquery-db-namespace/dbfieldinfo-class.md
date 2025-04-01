@@ -1,7 +1,10 @@
 ---
 title: DbFieldInfo class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dbfieldinfo-class
+sidebar:
+  order: 100
 ---
+# DbFieldInfo class
 
 Represents a structure that contains information about some table field
 ```csharp

@@ -1,6 +1,8 @@
 ---
 title: Operand class
 slug: api-reference-4x/korzh-easyquery-namespace/operand-class
+sidebar:
+  order: 100
 ---
 
 Represents one operand in some operator's expression

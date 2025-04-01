@@ -1,6 +1,8 @@
 ---
 title: ConditionList class
 slug: api-reference-4x/korzh-easyquery-namespace/conditionlist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of conditions.

@@ -1,6 +1,8 @@
 ---
 title: FormatType enum
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/formattype-enum
+sidebar:
+  order: 100
 ---
 
 Represents different database types

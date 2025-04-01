@@ -1,6 +1,9 @@
 ---
 title: ImageLoader class
-slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/imageloader-class
+slug: >-
+  api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/imageloader-class
+sidebar:
+  order: 100
 ---
 
 A container of some bitmaps loaded from resources

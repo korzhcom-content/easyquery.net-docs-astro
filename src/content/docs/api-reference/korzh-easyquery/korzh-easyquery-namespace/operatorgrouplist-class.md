@@ -1,6 +1,9 @@
 ---
 title: OperatorGroupList class
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/operatorgrouplist-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/operatorgrouplist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of operator groups
@@ -24,4 +27,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| FindByName(`string` groupName) | [OperatorGroup](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/operatorgroup-class) | Finds the OperatorGroup by its name. |
+| FindByName(`string` groupName) | [OperatorGroup](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/operatorgroup-class) | Finds the OperatorGroup by its name. |

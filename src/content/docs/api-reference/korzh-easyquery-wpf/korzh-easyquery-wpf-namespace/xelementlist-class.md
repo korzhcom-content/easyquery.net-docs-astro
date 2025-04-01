@@ -1,9 +1,12 @@
 ---
 title: XElementList class
-slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelementlist-class
+slug: >-
+  api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelementlist-class
+sidebar:
+  order: 100
 ---
 
-List of [Korzh.EasyQuery.Wpf.XElement](//easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class)'s
+List of [Korzh.EasyQuery.Wpf.XElement](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class)'s
 ```csharp
 public class Korzh.EasyQuery.Wpf.XElementList
     : ObservableCollection<XElement>

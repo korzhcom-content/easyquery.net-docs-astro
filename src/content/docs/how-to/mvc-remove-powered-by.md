@@ -1,6 +1,8 @@
 ---
 title: How to remove "Powered by..." link (full version only)
 slug: how-to/mvc-remove-powered-by
+sidebar:
+  order: 100
 ---
 
 After purchasing a full version of EasyQuery library you may want to remove “Powered by EasyQuery” link that appears in the bottom-right corner of QueryPanel.
@@ -9,7 +11,7 @@ Here are the instructions.
 
 ## 0) Setup full version of EasyQuery
 
-Obvious step but we should mention it. First of all, you need to uninstall the trial version of EasyQuery and install its full version (eqn_asp_full_setup_##_##_##.exe file) that you can download from [Client Area](//account) of Korzh.com web-site.
+Obvious step but we should mention it. First of all, you need to uninstall the trial version of EasyQuery and install its full version (eqn_asp_full_setup_##_##_##.exe file) that you can download from [Client Area](///////////////account) of Korzh.com web-site.
 
 ## 1) Replace EasyQuery assemblies
 

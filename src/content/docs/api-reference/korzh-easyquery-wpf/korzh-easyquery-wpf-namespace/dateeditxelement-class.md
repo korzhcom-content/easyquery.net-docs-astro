@@ -1,6 +1,9 @@
 ---
 title: DateEditXElement class
-slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/dateeditxelement-class
+slug: >-
+  api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/dateeditxelement-class
+sidebar:
+  order: 100
 ---
 
 Used for user text input

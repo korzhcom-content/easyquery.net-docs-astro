@@ -1,6 +1,9 @@
 ---
 title: License class
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/license-class
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/license-class
+sidebar:
+  order: 100
 ---
 
 Static class that allows you to set the license key for EasyQuery.

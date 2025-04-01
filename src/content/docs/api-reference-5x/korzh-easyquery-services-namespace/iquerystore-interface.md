@@ -1,6 +1,8 @@
 ---
 title: IQueryStore interface
 slug: api-reference-5x/korzh-easyquery-services-namespace/iquerystore-interface
+sidebar:
+  order: 100
 ---
 
 Defines the basic operations of a query store.

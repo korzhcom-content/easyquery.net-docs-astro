@@ -1,6 +1,8 @@
 ---
 title: ColumnList class
 slug: api-reference-5x/korzh-easyquery-namespace/columnlist-class
+sidebar:
+  order: 100
 ---
 
 Represents a list of columns.

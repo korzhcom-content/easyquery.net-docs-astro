@@ -1,6 +1,8 @@
 ---
 title: JsonDict class
 slug: api-reference-4x/korzh-easyquery-namespace/jsondict-class
+sidebar:
+  order: 100
 ---
 
 A shorten form of Dictionary&lt;string, object&gt; type.  It used for JSON serialization / deserialization

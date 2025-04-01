@@ -1,6 +1,8 @@
 ---
 title: Pages class
 slug: api-reference-5x/korzh-easyquery-razorui-namespace/pages-class
+sidebar:
+  order: 100
 ---
 
 Contains the settings for the default pages from EasyQuery Razor UI library

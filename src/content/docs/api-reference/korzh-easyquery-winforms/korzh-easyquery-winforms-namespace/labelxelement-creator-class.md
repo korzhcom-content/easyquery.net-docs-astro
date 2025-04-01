@@ -1,9 +1,12 @@
 ---
 title: LabelXElement.Creator class
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-creator-class
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-creator-class
+sidebar:
+  order: 100
 ---
 
-Implements [Korzh.EasyQuery.WinForms.XElement.ICreator](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) interface for [Korzh.EasyQuery.WinForms.LabelXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) class
+Implements [Korzh.EasyQuery.WinForms.XElement.ICreator](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) interface for [Korzh.EasyQuery.WinForms.LabelXElement](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) class
 ```csharp
 public class Korzh.EasyQuery.WinForms.LabelXElement.Creator
     : XElement.ICreator
@@ -31,4 +34,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create() | [XElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new [Korzh.EasyQuery.WinForms.LabelXElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) object |
+| Create() | [XElement](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new [Korzh.EasyQuery.WinForms.LabelXElement](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/labelxelement-class) object |

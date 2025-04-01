@@ -1,6 +1,8 @@
 ---
 title: LinqQueryBuilder class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/linqquerybuilder-class
+sidebar:
+  order: 100
 ---
 
 Builds Linq expressions

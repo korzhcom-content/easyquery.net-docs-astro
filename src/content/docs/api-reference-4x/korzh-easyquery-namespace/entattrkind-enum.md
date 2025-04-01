@@ -1,6 +1,8 @@
 ---
 title: EntAttrKind enum
 slug: api-reference-4x/korzh-easyquery-namespace/entattrkind-enum
+sidebar:
+  order: 100
 ---
 
 Attribute kind enumeration (Data or Virtual).

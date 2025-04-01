@@ -1,6 +1,8 @@
 ---
 title: Query with a subquery
 slug: tutorials/common-sql-queries/query-with-a-subquery
+sidebar:
+  order: 100
 ---
 
 <div class="row">

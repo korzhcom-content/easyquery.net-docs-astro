@@ -1,11 +1,13 @@
 ---
 title: Upgrade instructions EasyQuery.NET 5.3 + EasyQuery.JS 6.0
 slug: upgrade-instructions/net-5-3-js-6-0
+sidebar:
+  order: 100
 ---
 
 ## What was changed
 
-There are some breaking changes made in JavaScript part of EasyQuery (EasyQuery.JS). Please read [Version 5.3 + EasyQuery.JS 6.0 release notes](//easyquery/docs/release-notes/version-5-3) for more information.
+There are some breaking changes made in JavaScript part of EasyQuery (EasyQuery.JS). Please read [Version 5.3 + EasyQuery.JS 6.0 release notes](///////////////easyquery/docs/release-notes/version-5-3) for more information.
 
 
 ## 1. Update EasyQuery.NET NuGet packages

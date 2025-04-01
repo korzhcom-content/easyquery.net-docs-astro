@@ -1,9 +1,11 @@
 ---
 title: DbPredicate class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dbpredicate-class
+sidebar:
+  order: 100
 ---
 
-Represents predicate in [Korzh.EasyQuery.Db.DbQuery](//easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbquery-class)
+Represents predicate in [Korzh.EasyQuery.Db.DbQuery](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbquery-class)
 ```csharp
 public class Korzh.EasyQuery.Db.DbPredicate
     : Predicate, IDbCondition

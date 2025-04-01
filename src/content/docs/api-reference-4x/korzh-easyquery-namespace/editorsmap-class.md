@@ -1,7 +1,10 @@
 ---
 title: EditorsMap class
 slug: api-reference-4x/korzh-easyquery-namespace/editorsmap-class
+sidebar:
+  order: 100
 ---
+# EditorsMap class
 
 Represents editors map - the list which defines what editor will be used for a particular data type and operator.
 ```csharp

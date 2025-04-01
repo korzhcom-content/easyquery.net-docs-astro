@@ -1,6 +1,8 @@
 ---
 title: CustomSqlExpr class
 slug: api-reference-5x/korzh-easyquery-db-namespace/customsqlexpr-class
+sidebar:
+  order: 100
 ---
 
 Represents a custom SQL expression

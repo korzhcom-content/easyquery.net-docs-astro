@@ -1,6 +1,8 @@
 ---
 title: Operator class
 slug: api-reference-5x/korzh-easyquery-namespace/operator-class
+sidebar:
+  order: 100
 ---
 
 Represents a logical expression or "predicate". For example: "less than", "is equal to", "starts with".

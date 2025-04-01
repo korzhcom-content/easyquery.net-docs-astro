@@ -1,6 +1,8 @@
 ---
 title: Working with table aliases
 slug: data-model-editor/working-with-aliases
+sidebar:
+  order: 100
 ---
 
 When do you need aliases? Sometimes you want to use one table for several different links and only your user's query can define which link you want to use to build a correct query.

@@ -1,6 +1,9 @@
 ---
 title: DependencyScopeServiceProvider class
-slug: api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/dependencyscopeserviceprovider-class
+slug: >-
+  api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/dependencyscopeserviceprovider-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

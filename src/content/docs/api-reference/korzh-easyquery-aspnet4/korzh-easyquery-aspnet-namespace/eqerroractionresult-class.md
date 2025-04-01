@@ -1,6 +1,9 @@
 ---
 title: EqErrorActionResult class
-slug: api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqerroractionresult-class
+slug: >-
+  api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqerroractionresult-class
+sidebar:
+  order: 100
 ---
 
 Represents a special kind of `System.Web.Mvc.ActionResult` which allows to build an BadRequest (status code 400) response with some extra data  Implements the <seealso cref="T:System.Web.Mvc.ActionResult" />
@@ -17,7 +20,7 @@ Assembly: `Korzh.EasyQuery.AspNet4.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqErrorActionResult(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqErrorActionResult](//easyquery/docs/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqerroractionresult-class) class. | 
+| EqErrorActionResult(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqErrorActionResult](///////////////easyquery/docs/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqerroractionresult-class) class. | 
 
 
 ### Fields

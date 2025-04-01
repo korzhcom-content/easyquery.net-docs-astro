@@ -1,7 +1,10 @@
 ---
 title: DbUtils class
 slug: api-reference-4x/korzh-easyquery-db-namespace/dbutils-class
+sidebar:
+  order: 100
 ---
+# DbUtils class
 
 Different utilties for database-oriented operations  For internal use only
 ```csharp

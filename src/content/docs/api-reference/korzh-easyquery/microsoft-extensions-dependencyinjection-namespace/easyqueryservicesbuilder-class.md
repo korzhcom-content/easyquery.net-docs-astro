@@ -1,6 +1,9 @@
 ---
 title: EasyQueryServicesBuilder class
-slug: api-reference/korzh-easyquery/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilder-class
+slug: >-
+  api-reference/korzh-easyquery/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilder-class
+sidebar:
+  order: 100
 ---
 
 A special class which is used during EasyQuery services registration in DI.
@@ -16,7 +19,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EasyQueryServicesBuilder(`IServiceCollection` services) | `void` | Initializes a new instance of the [Microsoft.Extensions.DependencyInjection.EasyQueryServicesBuilder](//easyquery/docs/api-reference/korzh-easyquery/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilder-class) class. | 
+| EasyQueryServicesBuilder(`IServiceCollection` services) | `void` | Initializes a new instance of the [Microsoft.Extensions.DependencyInjection.EasyQueryServicesBuilder](///////////////easyquery/docs/api-reference/korzh-easyquery/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilder-class) class. | 
 
 
 ### Properties

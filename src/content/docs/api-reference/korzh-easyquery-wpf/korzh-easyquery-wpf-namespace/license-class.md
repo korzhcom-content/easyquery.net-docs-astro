@@ -1,6 +1,8 @@
 ---
 title: License class
 slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/license-class
+sidebar:
+  order: 100
 ---
 
 Static class that allows you to set the license key for EasyQuery.

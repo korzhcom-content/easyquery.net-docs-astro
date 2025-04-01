@@ -1,6 +1,9 @@
 ---
 title: ContextLoadingOptions enum
-slug: api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/contextloadingoptions-enum
+slug: >-
+  api-reference/korzh-easyquery-linq/korzh-easyquery-linq-namespace/contextloadingoptions-enum
+sidebar:
+  order: 100
 ---
 
 Represents different options used during loading model from context

@@ -1,7 +1,10 @@
 ---
 title: ConstValueList class
 slug: api-reference-4x/korzh-easyquery-namespace/constvaluelist-class
+sidebar:
+  order: 100
 ---
+# ConstValueList class
 
 Represents list of availalbe values.  Each item contain the value itself and some caption representing this value.
 ```csharp

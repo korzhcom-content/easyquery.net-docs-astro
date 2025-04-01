@@ -1,7 +1,10 @@
 ---
 title: PathList class
 slug: api-reference-4x/korzh-easyquery-db-namespace/pathlist-class
+sidebar:
+  order: 100
 ---
+# PathList class
 
 Represents list of paths.
 ```csharp

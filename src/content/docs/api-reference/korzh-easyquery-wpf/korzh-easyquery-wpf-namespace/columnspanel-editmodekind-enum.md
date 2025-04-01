@@ -1,6 +1,9 @@
 ---
 title: ColumnsPanel.EditModeKind enum
-slug: api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-editmodekind-enum
+slug: >-
+  api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-editmodekind-enum
+sidebar:
+  order: 100
 ---
 
 Represents different types of modifications in query columns panel available for users.

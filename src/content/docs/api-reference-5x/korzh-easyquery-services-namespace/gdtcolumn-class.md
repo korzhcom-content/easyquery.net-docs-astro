@@ -1,9 +1,11 @@
 ---
 title: GdtColumn class
 slug: api-reference-5x/korzh-easyquery-services-namespace/gdtcolumn-class
+sidebar:
+  order: 100
 ---
 
-Represents one column in some [Korzh.EasyQuery.Services.GdtResultSet](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/gdtresultset-class) object
+Represents one column in some [Korzh.EasyQuery.Services.GdtResultSet](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/gdtresultset-class) object
 ```csharp
 public class Korzh.EasyQuery.Services.GdtColumn
 

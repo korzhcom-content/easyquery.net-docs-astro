@@ -1,6 +1,8 @@
 ---
 title: LinqBuilderExtensions class
 slug: api-reference-5x/korzh-easyquery-linq-namespace/linqbuilderextensions-class
+sidebar:
+  order: 100
 ---
 
 Exposes some extension methods for LINQ querying

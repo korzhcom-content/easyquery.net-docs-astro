@@ -1,6 +1,8 @@
 ---
 title: IEqResultSet interface
 slug: api-reference-4x/korzh-easyquery-services-namespace/ieqresultset-interface
+sidebar:
+  order: 100
 ---
 
 ```csharp

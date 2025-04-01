@@ -1,7 +1,10 @@
 ---
 title: IPaging interface
 slug: api-reference-4x/korzh-easyquery-services-namespace/ipaging-interface
+sidebar:
+  order: 100
 ---
+# IPaging interface
 
 Represents basic pagination parameters
 ```csharp

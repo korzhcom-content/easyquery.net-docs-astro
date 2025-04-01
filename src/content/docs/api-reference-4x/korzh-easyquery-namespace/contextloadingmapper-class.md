@@ -1,7 +1,10 @@
 ---
 title: ContextLoadingMapper class
 slug: api-reference-4x/korzh-easyquery-namespace/contextloadingmapper-class
+sidebar:
+  order: 100
 ---
+# ContextLoadingMapper class
 
 Class ContextLoadingMapper.
 ```csharp

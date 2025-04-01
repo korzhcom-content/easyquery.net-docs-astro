@@ -1,6 +1,8 @@
 ---
 title: PagingSettings class
 slug: api-reference-5x/korzh-easyquery-services-namespace/pagingsettings-class
+sidebar:
+  order: 100
 ---
 
 Default implementation of IPaging interface

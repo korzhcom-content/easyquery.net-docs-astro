@@ -1,6 +1,8 @@
 ---
 title: DbInfo class
 slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbinfo-class
+sidebar:
+  order: 100
 ---
 
 Represents a structure that contains information about some database

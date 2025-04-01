@@ -1,6 +1,9 @@
 ---
 title: DbContextLoaderException class
-slug: api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/dbcontextloaderexception-class
+slug: >-
+  api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/dbcontextloaderexception-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

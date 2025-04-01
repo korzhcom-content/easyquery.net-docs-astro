@@ -1,6 +1,9 @@
 ---
 title: SqlClientGate class
-slug: api-reference/korzh-easyquery-sqlservergate/korzh-easyquery-dbgates-namespace/sqlclientgate-class
+slug: >-
+  api-reference/korzh-easyquery-sqlservergate/korzh-easyquery-dbgates-namespace/sqlclientgate-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

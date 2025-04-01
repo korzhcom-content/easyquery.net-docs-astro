@@ -1,7 +1,10 @@
 ---
 title: OrderByStyles enum
 slug: api-reference-4x/korzh-easyquery-namespace/orderbystyles-enum
+sidebar:
+  order: 100
 ---
+# OrderByStyles enum
 
 Represents the way fields appear in ORDER BY clause
 ```csharp

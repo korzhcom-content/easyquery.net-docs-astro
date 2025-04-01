@@ -1,6 +1,8 @@
 ---
 title: EditorTags class
 slug: api-reference-5x/korzh-easyquery-namespace/editortags-class
+sidebar:
+  order: 100
 ---
 
 Defines the constants for value editors' tags.

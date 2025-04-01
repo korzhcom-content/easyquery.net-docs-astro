@@ -1,6 +1,9 @@
 ---
 title: SubQueryForm class
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/subqueryform-class
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/subqueryform-class
+sidebar:
+  order: 100
 ---
 
 Summary description for SubQueryForm.
@@ -32,6 +35,6 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | Dispose(`bool` disposing) | `void` | Clean up any resources being used. | 
-| Init([QueryPanel](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/querypanel-class) parentQueryPanel) | `void` | Initializes the form by some parent [Korzh.EasyQuery.WinForms.QueryPanel](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/querypanel-class) object. | 
-| InitQuery([Query](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) parentQuery, `string` queryJson) | `void` | Initializes the [Korzh.EasyQuery.Query](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) object by its JSON representation. | 
-| InitSQL([Query](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) parentQuery, [EqExpression](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) expr) | `void` |  |
+| Init([QueryPanel](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/querypanel-class) parentQueryPanel) | `void` | Initializes the form by some parent [Korzh.EasyQuery.WinForms.QueryPanel](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/querypanel-class) object. | 
+| InitQuery([Query](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) parentQuery, `string` queryJson) | `void` | Initializes the [Korzh.EasyQuery.Query](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) object by its JSON representation. | 
+| InitSQL([Query](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) parentQuery, [EqExpression](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) expr) | `void` |  |

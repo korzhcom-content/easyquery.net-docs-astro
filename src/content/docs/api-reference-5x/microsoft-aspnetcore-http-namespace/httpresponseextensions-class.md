@@ -1,6 +1,9 @@
 ---
 title: HttpResponseExtensions class
-slug: api-reference-5x/microsoft-aspnetcore-http-namespacehttpresponseextensions-class
+slug: >-
+  api-reference-5x/microsoft-aspnetcore-http-namespace/httpresponseextensions-class
+sidebar:
+  order: 100
 ---
 
 Class HttpResponseExtensions.

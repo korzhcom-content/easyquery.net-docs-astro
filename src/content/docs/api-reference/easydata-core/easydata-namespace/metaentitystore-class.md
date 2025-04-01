@@ -1,6 +1,8 @@
 ---
 title: MetaEntityStore class
 slug: api-reference/easydata-core/easydata-namespace/metaentitystore-class
+sidebar:
+  order: 100
 ---
 
 Represents storage of entities
@@ -17,21 +19,21 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| MetaEntityStore([MetaEntity](//easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) parentEntity) | `void` | Initializes a new instance of the `EntityStore` class. | 
+| MetaEntityStore([MetaEntity](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) parentEntity) | `void` | Initializes a new instance of the `EntityStore` class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Model | [MetaData](//easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) | Gets the model. | 
+| Model | [MetaData](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) | Gets the model. | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| InsertItem(`int` index, [MetaEntity](//easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) item) | `void` | Inserts an element into the `System.Collections.ObjectModel.Collection'1` at the specified index. | 
-| OnEntityInsertion([MetaEntity](//easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) entity, `int` index) | `void` | Called on entity's insertion. | 
+| InsertItem(`int` index, [MetaEntity](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) item) | `void` | Inserts an element into the `System.Collections.ObjectModel.Collection'1` at the specified index. | 
+| OnEntityInsertion([MetaEntity](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) entity, `int` index) | `void` | Called on entity's insertion. | 
 | ReadFromJsonAsync(`JsonReader` reader) | `Task` | Reads the list of entities from JSON (asynchronous way). | 
-| WriteToJsonAsync(`JsonWriter` writer, [BitOptions](//easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` | Writes the list of entities to JSON (asynchronous way). |
+| WriteToJsonAsync(`JsonWriter` writer, [BitOptions](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` | Writes the list of entities to JSON (asynchronous way). |

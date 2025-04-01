@@ -1,6 +1,8 @@
 ---
 title: EditorTags class
 slug: api-reference/easydata-core/easydata-namespace/editortags-class
+sidebar:
+  order: 100
 ---
 
 Defines the constants for value editors' tags.

@@ -1,6 +1,8 @@
 ---
 title: EqJsonExtensions class
 slug: api-reference-4x/korzh-easyquery-namespace/eqjsonextensions-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

@@ -1,6 +1,8 @@
 ---
 title: IEasyDataResultSet interface
 slug: api-reference/easydata-core/easydata-namespace/ieasydataresultset-interface
+sidebar:
+  order: 100
 ---
 
 ```csharp
@@ -15,5 +17,5 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Cols | `IReadOnlyList`&lt;[EasyDataCol](//easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatacol-class)&gt; | Gets columns | 
-| Rows | `IEnumerable`&lt;[EasyDataRow](//easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatarow-class)&gt; | Gets rows. |
+| Cols | `IReadOnlyList`&lt;[EasyDataCol](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatacol-class)&gt; | Gets columns | 
+| Rows | `IEnumerable`&lt;[EasyDataRow](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatarow-class)&gt; | Gets rows. |

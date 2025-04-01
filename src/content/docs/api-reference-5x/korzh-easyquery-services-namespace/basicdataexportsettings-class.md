@@ -1,6 +1,9 @@
 ---
 title: BasicDataExportSettings class
-slug: api-reference-5x/korzh-easyquery-services-namespace/basicdataexportsettings-class
+slug: >-
+  api-reference-5x/korzh-easyquery-services-namespace/basicdataexportsettings-class
+sidebar:
+  order: 100
 ---
 
 Represents basic (common) formats for data exporting operations
@@ -24,4 +27,4 @@ public class Korzh.EasyQuery.Services.BasicDataExportSettings
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `BasicDataExportSettings` | Default | Returns the default instance of [Korzh.EasyQuery.Services.BasicDataExportSettings](//easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/basicdataexportsettings-class). |
+| `BasicDataExportSettings` | Default | Returns the default instance of [Korzh.EasyQuery.Services.BasicDataExportSettings](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/basicdataexportsettings-class). |

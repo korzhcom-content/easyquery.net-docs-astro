@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { Progress } from '@olton/progress'
-import { clearConsole } from './console.js'
+import { Progress, clearConsole } from '@olton/progress'
 
 if (process.argv.length < 3) {
     console.error("Usage: node create-indexes.js <folder path>");
@@ -45,7 +44,7 @@ function processFolder(folderPath) {
     let content = fs.readFileSync(sectionFile, 'utf8');
     let lines = content.split('\n');
 
-    let captionIndex = lines.findIndex(line => line.startsWith('#'));
+    let captionIndex = lines.findIndex(line => line.startsWith('# '));
     if (captionIndex !== -1) {
         let caption = lines[captionIndex].replace(/^#+\s*/, ''); // Remove '#' and spaces
         lines.splice(captionIndex, 1); // Remove the heading from content

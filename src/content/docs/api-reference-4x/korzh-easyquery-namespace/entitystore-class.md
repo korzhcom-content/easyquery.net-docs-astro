@@ -1,6 +1,8 @@
 ---
 title: EntityStore class
 slug: api-reference-4x/korzh-easyquery-namespace/entitystore-class
+sidebar:
+  order: 100
 ---
 
 Represents storage of entities

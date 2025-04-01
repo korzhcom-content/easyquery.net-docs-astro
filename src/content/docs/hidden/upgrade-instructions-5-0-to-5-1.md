@@ -1,6 +1,8 @@
 ---
 title: Upgrade instructions from 5.0 to 5.1
 slug: hidden/upgrade-instructions-5-0-to-5-1
+sidebar:
+  order: 100
 ---
 
 ## 1. Add nuget.config

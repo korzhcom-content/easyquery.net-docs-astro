@@ -1,7 +1,10 @@
 ---
 title: DisplayFormatParser class
 slug: api-reference-4x/korzh-easyquery-namespace/displayformatparser-class
+sidebar:
+  order: 100
 ---
+# DisplayFormatParser class
 
 Represents a special class used for parsing operator display format values.
 ```csharp

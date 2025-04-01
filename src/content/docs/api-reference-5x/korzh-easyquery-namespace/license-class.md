@@ -1,6 +1,8 @@
 ---
 title: License class
 slug: api-reference-5x/korzh-easyquery-namespace/license-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

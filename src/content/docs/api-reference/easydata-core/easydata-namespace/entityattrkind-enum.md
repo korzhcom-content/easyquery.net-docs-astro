@@ -1,6 +1,8 @@
 ---
 title: EntityAttrKind enum
 slug: api-reference/easydata-core/easydata-namespace/entityattrkind-enum
+sidebar:
+  order: 100
 ---
 
 Represents an attribute's kind

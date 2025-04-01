@@ -1,6 +1,8 @@
 ---
 title: ParentEntityAttrExpr class
 slug: api-reference-5x/korzh-easyquery-namespace/parententityattrexpr-class
+sidebar:
+  order: 100
 ---
 
 Represents parent entity attribute expression

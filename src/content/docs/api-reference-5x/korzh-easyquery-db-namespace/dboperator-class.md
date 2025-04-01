@@ -1,6 +1,8 @@
 ---
 title: DbOperator class
 slug: api-reference-5x/korzh-easyquery-db-namespace/dboperator-class
+sidebar:
+  order: 100
 ---
 
 Represents a logical expression or "predicate". For example: "less than", "is equal to", "starts with".

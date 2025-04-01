@@ -1,6 +1,8 @@
 ---
 title: OperandList class
 slug: api-reference-4x/korzh-easyquery-namespace/operandlist-class
+sidebar:
+  order: 100
 ---
 
 Represents list of operands.

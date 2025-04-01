@@ -1,6 +1,8 @@
 ---
 title: EasyQuery License key
 slug: getting-started/product-key
+sidebar:
+  order: 100
 ---
 
 ## 1. What is it?

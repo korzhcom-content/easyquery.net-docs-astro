@@ -1,6 +1,9 @@
 ---
 title: TablePathFinder class
-slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablepathfinder-class
+slug: >-
+  api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablepathfinder-class
+sidebar:
+  order: 100
 ---
 
 Contains logic for finding path between two tables
@@ -23,4 +26,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| FindPath([Table](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) table1, [Table](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) table2) | [Path](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/path-class) | CalcPath method finds a path between tables and return it to caller or  returns null if there is no any path between specified tables. |
+| FindPath([Table](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) table1, [Table](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) table2) | [Path](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/path-class) | CalcPath method finds a path between tables and return it to caller or  returns null if there is no any path between specified tables. |

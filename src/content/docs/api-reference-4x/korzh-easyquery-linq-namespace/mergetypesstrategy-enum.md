@@ -1,7 +1,10 @@
 ---
 title: MergeTypesStrategy enum
 slug: api-reference-4x/korzh-easyquery-linq-namespace/mergetypesstrategy-enum
+sidebar:
+  order: 100
 ---
+# MergeTypesStrategy enum
 
 Represents the strategy of merging of two types
 ```csharp

@@ -1,6 +1,9 @@
 ---
 title: EasyQueryMiddlewareExtensions class
-slug: api-reference-5x/microsoft-aspnetcore-builder-namespace/easyquerymiddlewareextensions-class
+slug: >-
+  api-reference-5x/microsoft-aspnetcore-builder-namespace/easyquerymiddlewareextensions-class
+sidebar:
+  order: 100
 ---
 
 Contains the method which adds EasyQueryMiddleware to the pipeline.

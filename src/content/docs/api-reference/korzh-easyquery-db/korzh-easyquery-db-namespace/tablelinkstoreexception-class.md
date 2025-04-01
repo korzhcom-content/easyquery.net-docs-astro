@@ -1,6 +1,9 @@
 ---
 title: TableLinkStoreException class
-slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelinkstoreexception-class
+slug: >-
+  api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelinkstoreexception-class
+sidebar:
+  order: 100
 ---
 
 Class LinkStoreException.  Implements the `System.Exception`
@@ -17,4 +20,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TableLinkStoreException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.TableLinkStoreException](//easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelinkstoreexception-class) class. |
+| TableLinkStoreException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.TableLinkStoreException](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelinkstoreexception-class) class. |

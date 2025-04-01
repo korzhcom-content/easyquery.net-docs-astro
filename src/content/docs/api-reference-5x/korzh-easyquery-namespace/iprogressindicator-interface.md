@@ -1,6 +1,8 @@
 ---
 title: IProgressIndicator interface
 slug: api-reference-5x/korzh-easyquery-namespace/iprogressindicator-interface
+sidebar:
+  order: 100
 ---
 
 This interface is used to assign progress indicator for different time-consuming operations

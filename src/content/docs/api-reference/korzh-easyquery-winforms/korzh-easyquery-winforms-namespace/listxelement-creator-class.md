@@ -1,6 +1,9 @@
 ---
 title: ListXElement.Creator class
-slug: api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-creator-class
+slug: >-
+  api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-creator-class
+sidebar:
+  order: 100
 ---
 
 Implements XElement.ICreator interface for ListXElement class
@@ -31,4 +34,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create() | [XElement](//easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new ListXElement object |
+| Create() | [XElement](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Creates new ListXElement object |

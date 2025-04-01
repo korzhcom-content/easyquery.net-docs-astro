@@ -1,6 +1,8 @@
 ---
 title: ObjectModelLoader class
 slug: api-reference-4x/korzh-easyquery-linq-namespace/objectmodelloader-class
+sidebar:
+  order: 100
 ---
 
 Represents a data model

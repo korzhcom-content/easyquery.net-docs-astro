@@ -1,7 +1,10 @@
 ---
 title: ChangeType enum
 slug: api-reference-4x/korzh-easyquery-namespace/changetype-enum
+sidebar:
+  order: 100
 ---
+# ChangeType enum
 
 Represents type of change that occured
 ```csharp

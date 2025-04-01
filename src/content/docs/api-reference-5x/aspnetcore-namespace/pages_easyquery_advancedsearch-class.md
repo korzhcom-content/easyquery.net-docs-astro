@@ -1,6 +1,8 @@
 ---
 title: Pages_EasyQuery_AdvancedSearch class
 slug: api-reference-5x/aspnetcore-namespace/pages_easyquery_advancedsearch-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

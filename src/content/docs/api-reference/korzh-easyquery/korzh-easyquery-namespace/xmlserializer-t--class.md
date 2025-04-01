@@ -1,6 +1,8 @@
 ---
 title: XmlSerializer<T> class
 slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializer-t--class
+sidebar:
+  order: 100
 ---
 
 ```csharp
@@ -17,7 +19,7 @@ Assembly: `Korzh.EasyQuery.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | XmlSerializer() | `void` |  | 
-| XmlSerializer([XmlSerializerFactory](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| XmlSerializer([XmlSerializerFactory](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods

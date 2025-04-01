@@ -1,6 +1,8 @@
 ---
 title: Aggregate data
 slug: tutorials/common-sql-queries/aggregate-data
+sidebar:
+  order: 100
 ---
 
 We often need not only to extract data from database but to calculate something - entire orders sum, average weight, count of participants, etc.

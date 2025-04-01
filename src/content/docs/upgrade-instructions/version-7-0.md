@@ -1,6 +1,8 @@
 ---
 title: Upgrade instructions Version 7.0
 slug: upgrade-instructions/version-7-0
+sidebar:
+  order: 100
 ---
 
 Version 7.0 is a major update of EasyQuery that does not bring important new features but it includes a lot of refactoring and unification changes. 
@@ -9,7 +11,7 @@ Here we are going to describe the most important modifications that have to be m
 
 ## 0. License keys
 
-Since it's a major update you will need to get the new license keys from [Client's Area](https://korzh.com/account) and [apply them to your project(s)](//easyquery/docs/getting-started/product-key).
+Since it's a major update you will need to get the new license keys from [Client's Area](https://korzh.com/account) and [apply them to your project(s)](///////////////easyquery/docs/getting-started/product-key).
 
 
 ## 1. EasyQuery packages and scripts

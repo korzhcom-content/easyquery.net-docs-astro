@@ -1,6 +1,8 @@
 ---
 title: NoPathResolution enum
 slug: api-reference-5x/korzh-easyquery-namespace/nopathresolution-enum
+sidebar:
+  order: 100
 ---
 
 The values of this type will tell Query object how to  resolve the situation when two tables does not have a path between them

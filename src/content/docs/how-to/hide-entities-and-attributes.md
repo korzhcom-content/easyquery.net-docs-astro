@@ -1,6 +1,8 @@
 ---
 title: Hide some entities and/or attributes
 slug: how-to/hide-entities-and-attributes
+sidebar:
+  order: 100
 ---
 
 ## Problem

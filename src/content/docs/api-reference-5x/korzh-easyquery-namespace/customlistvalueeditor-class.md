@@ -1,6 +1,8 @@
 ---
 title: CustomListValueEditor class
 slug: api-reference-5x/korzh-easyquery-namespace/customlistvalueeditor-class
+sidebar:
+  order: 100
 ---
 
 Represents custom (user-defined) list value editor

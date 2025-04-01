@@ -1,6 +1,9 @@
 ---
 title: ContextLoadingMapper class
-slug: api-reference/korzh-easyquery-linq/korzh-easyquery-namespace/contextloadingmapper-class
+slug: >-
+  api-reference/korzh-easyquery-linq/korzh-easyquery-namespace/contextloadingmapper-class
+sidebar:
+  order: 100
 ---
 
 Class ContextLoadingMapper.

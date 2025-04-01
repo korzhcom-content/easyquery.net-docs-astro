@@ -1,6 +1,9 @@
 ---
 title: ModelLoaderException class
-slug: api-reference/korzh-easyquery/korzh-easyquery-services-namespace/modelloaderexception-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-services-namespace/modelloaderexception-class
+sidebar:
+  order: 100
 ---
 
 Represents errors that occur during the model loading.  Implements the `System.Exception`
@@ -17,4 +20,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ModelLoaderException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ModelLoaderException](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/modelloaderexception-class) class. |
+| ModelLoaderException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ModelLoaderException](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/modelloaderexception-class) class. |

@@ -1,7 +1,10 @@
 ---
 title: DataTypeList class
 slug: api-reference-4x/korzh-easyquery-namespace/datatypelist-class
+sidebar:
+  order: 100
 ---
+# DataTypeList class
 
 Represents a list of DataType values.
 ```csharp

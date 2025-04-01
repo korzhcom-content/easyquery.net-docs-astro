@@ -1,6 +1,9 @@
 ---
 title: ListValueEditorXmlSerializer class
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/listvalueeditorxmlserializer-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/listvalueeditorxmlserializer-class
+sidebar:
+  order: 100
 ---
 
 ```csharp
@@ -16,4 +19,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ListValueEditorXmlSerializer([XmlSerializerFactory](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  |
+| ListValueEditorXmlSerializer([XmlSerializerFactory](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  |

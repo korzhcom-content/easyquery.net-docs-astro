@@ -1,6 +1,9 @@
 ---
 title: ModelFormatIndex enum
-slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/modelformatindex-enum
+slug: >-
+  api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/modelformatindex-enum
+sidebar:
+  order: 100
 ---
 
 ```csharp

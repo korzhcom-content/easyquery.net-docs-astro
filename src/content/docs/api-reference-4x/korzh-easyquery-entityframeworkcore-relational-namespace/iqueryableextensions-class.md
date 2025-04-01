@@ -1,6 +1,9 @@
 ---
 title: IQueryableExtensions class
-slug: api-reference-4x/korzh-easyquery-entityframeworkcore-relational-namespace/iqueryableextensions-class
+slug: >-
+  api-reference-4x/korzh-easyquery-entityframeworkcore-relational-namespace/iqueryableextensions-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

@@ -1,6 +1,8 @@
 ---
 title: Version 5.3 + EasyQuery.JS 6.0 release notes
 slug: release-notes/version-5-x/version-5-3
+sidebar:
+  order: 100
 ---
 
 ## What was changed?
@@ -47,7 +49,7 @@ We've improved the way EasyQuery.JS widgets communicate with the server-side. Mo
 
 ### 1.4 Enterprise edition licensing
 
-All license owners of EasyQuery for ASP.NET or EasyQuery for ASP.NET Core automatically got a license for EasyQuery.JS as well. All you need to do is to get the license key on Korzh.com [Client's Area](https://korzh.com/account) and apply it properly. For more information - please read the [Upgrade instructions](//easyquery/docs/upgrade-instructions/net-5-3-js-6-0)  
+All license owners of EasyQuery for ASP.NET or EasyQuery for ASP.NET Core automatically got a license for EasyQuery.JS as well. All you need to do is to get the license key on Korzh.com [Client's Area](https://korzh.com/account) and apply it properly. For more information - please read the [Upgrade instructions](///////////////easyquery/docs/upgrade-instructions/net-5-3-js-6-0)  
 
 
 ## 2. Core library
@@ -84,7 +86,7 @@ app.UseEasyQuery(options => {
 
 ### 2.3 Better support for multi-reference between 2 tables
 
-Sometimes two tables in your database may be connected by more than one join. This situation is described more in detail [here](//easyquery/docs/data-model-editor/working-with-aliases). 
+Sometimes two tables in your database may be connected by more than one join. This situation is described more in detail [here](///////////////easyquery/docs/data-model-editor/working-with-aliases). 
 
 If the data model is loaded from a DbContext or directly from a DB connection EasyQuery now correctly processes such a scheme and creates additional table aliases for each extra connection.
 
@@ -115,18 +117,18 @@ Here are some problems that were fixed in version 5.3.0:
 
  The upgrade from the previous version is pretty easy. Here are the detailed instructions:
  
- [Upgrade instructions: EasyQuery.NET 5.3 + EasyQuery.JS 6.0](//easyquery/docs/upgrade-instructions/net-5-3-js-6-0)
+ [Upgrade instructions: EasyQuery.NET 5.3 + EasyQuery.JS 6.0](///////////////easyquery/docs/upgrade-instructions/net-5-3-js-6-0)
 
 ## Upgrade instructions for version 3.x users
 
 To upgrade from previous versions (below 5.0) you need to make an upgrade to 5.x branch first. Here are the instructions: 
 
-* [Upgrading to 5.x: Windows Forms and WPF projects](//easyquery/docs/upgrade-instructions/net4-editions-from-3-x-to-5-x/winforms-and-wpf)
-* [Upgrading to 5.x: ASP.NET (MVC and WebForms) projects](//easyquery/docs/upgrade-instructions/net-framework-3-x-to-5-x-/asp-net-mvc-webforms)
+* [Upgrading to 5.x: Windows Forms and WPF projects](///////////////easyquery/docs/upgrade-instructions/net4-editions-from-3-x-to-5-x/winforms-and-wpf)
+* [Upgrading to 5.x: ASP.NET (MVC and WebForms) projects](///////////////easyquery/docs/upgrade-instructions/net-framework-3-x-to-5-x-/asp-net-mvc-webforms)
 
 
 ## Version 5.3.x updates in  EasyQuery for .NET (Core)
-For the latest changes please see [Change Log](//easyquery/docs/changelog)
+For the latest changes please see [Change Log](///////////////easyquery/docs/changelog)
 
 * Added (*version 5.3.4*): `ReturnQueryOnSave` option for EasyQueryMiddleware option.
 * Fixed (*version 5.3.4*): Spaces are not considered as list separators in WinForms edition anymore

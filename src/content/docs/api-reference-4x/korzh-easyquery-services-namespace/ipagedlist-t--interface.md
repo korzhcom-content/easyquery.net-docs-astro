@@ -1,7 +1,10 @@
 ---
 title: IPagedList<T> interface
 slug: api-reference-4x/korzh-easyquery-services-namespace/ipagedlist-t--interface
+sidebar:
+  order: 100
 ---
+# IPagedList<T> interface
 
 Implements both `IPaging` and `System.Collections.Generic.IEnumerable` interfaces.  It's used to return paged list of objects.
 ```csharp

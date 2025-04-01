@@ -1,6 +1,8 @@
 ---
 title: StringExtensions class
 slug: api-reference/easydata-core/easydata-namespace/stringextensions-class
+sidebar:
+  order: 100
 ---
 
 ```csharp

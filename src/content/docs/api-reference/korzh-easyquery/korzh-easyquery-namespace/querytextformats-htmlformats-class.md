@@ -1,6 +1,9 @@
 ---
 title: QueryTextFormats.HtmlFormats class
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/querytextformats-htmlformats-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/querytextformats-htmlformats-class
+sidebar:
+  order: 100
 ---
 
 Represents different parameters of HTML formatting for query text representation

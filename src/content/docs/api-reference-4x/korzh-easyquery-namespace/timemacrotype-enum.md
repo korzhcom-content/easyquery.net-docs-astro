@@ -1,6 +1,8 @@
 ---
 title: TimeMacroType enum
 slug: api-reference-4x/korzh-easyquery-namespace/timemacrotype-enum
+sidebar:
+  order: 100
 ---
 
 Represents some predefined values for TimeMacro

@@ -1,6 +1,8 @@
 ---
 title: TableLinkType enum
 slug: api-reference-5x/korzh-easyquery-db-namespace/tablelinktype-enum
+sidebar:
+  order: 100
 ---
 
 Type of the link (inner, outer left, outer right or full)

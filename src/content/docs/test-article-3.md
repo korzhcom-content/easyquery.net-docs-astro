@@ -1,6 +1,8 @@
 ---
 title: Test article 3
 slug: test-article-3
+sidebar:
+  order: 100
 ---
 
 111
@@ -17,7 +19,7 @@ slug: test-article-3
 
 ![Cat1](https://files.aistant.com/korzh/images/Cat1.jpg "Cat1")
 
-[Add a new aggregate function](//easyquery/docs/how-to/add-aggregate-function)
+[Add a new aggregate function](///////////////easyquery/docs/how-to/add-aggregate-function)
 
 Represents sorting direction.
 

@@ -1,6 +1,8 @@
 ---
 title: DataType enum
 slug: api-reference-4x/korzh-easyquery-namespace/datatype-enum
+sidebar:
+  order: 100
 ---
 
 Represents the common types of the data.

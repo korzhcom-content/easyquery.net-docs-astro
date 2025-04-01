@@ -1,6 +1,9 @@
 ---
 title: OrderByStyles enum
-slug: api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/orderbystyles-enum
+slug: >-
+  api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/orderbystyles-enum
+sidebar:
+  order: 100
 ---
 
 Represents the way fields appear in ORDER BY clause

@@ -1,6 +1,8 @@
 ---
 title: Condition class
 slug: api-reference-4x/korzh-easyquery-namespace/condition-class
+sidebar:
+  order: 100
 ---
 
 Represents one condition in the query.
@@ -22,18 +24,18 @@ public class Korzh.EasyQuery.Condition
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `EntityAttr` | BaseAttr | Gets the base entity attribute for this condition. | 
-| `Boolean` | Enabled | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/condition-class) is enabled. | 
+| `Boolean` | Enabled | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/condition-class) is enabled. | 
 | `String` | FullNum | Gets the full number of condition. | 
 | `Int32` | ID | Gets or sets the ID. | 
 | `Int32` | Index | Gets the index in the parent's list. | 
 | `Boolean` | IsHaving | Gets a value indicating whether this condition must be placed into HAVING clause in result SQL. | 
 | `Boolean` | IsInJoin | Gets a value indicating whether this condition must be placed into JOIN clause in result SQL. | 
-| `Boolean` | IsParameterized | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/condition-class) is parameterized. | 
-| `Boolean` | IsReadOnly | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/condition-class) is read-only. | 
+| `Boolean` | IsParameterized | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/condition-class) is parameterized. | 
+| `Boolean` | IsReadOnly | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/condition-class) is read-only. | 
 | `Boolean` | IsSilent | Gets a value indicating whether this query is silent - so no event will be raised on change. | 
 | `Int32` | Level | Gets the level of this condition in query. | 
 | `DataModel` | Model | Gets the model. | 
-| `Predicate` | Parent | Gets the parent [Korzh.EasyQuery.Predicate](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/predicate-class) which this conditions is included to. | 
+| `Predicate` | Parent | Gets the parent [Korzh.EasyQuery.Predicate](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/predicate-class) which this conditions is included to. | 
 | `Query` | Query | Gets the query which this condition belongs to. | 
 | `String` | TypeName | Gets the name of the condition type (Simple, Predicate, etc). | 
 | `Boolean` | UseDefaultValues | Gets a value indicating whether condition expressions should get default values after creation | 
@@ -57,7 +59,7 @@ public class Korzh.EasyQuery.Condition
 | `void` | InnerSetEnabled(`Boolean` newValue) |  | 
 | `void` | InnerSetReadOnly(`Boolean` newValue) |  | 
 | `void` | LoadFromJsonDict(`JsonDict` dictCond) | Loads condition from IDictionary. Used during loading query from JSON | 
-| `void` | LoadFromXmlReader(`XmlReader` reader) | When overriden in a derived class loads [Korzh.EasyQuery.Condition](//easyquery/docs/api-reference-4x/korzh-easyquery-namespace/condition-class) properties from XML reader. | 
+| `void` | LoadFromXmlReader(`XmlReader` reader) | When overriden in a derived class loads [Korzh.EasyQuery.Condition](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/condition-class) properties from XML reader. | 
 | `void` | LoadXmlAttributes(`XmlReader` reader) | Loads conditions node attributes from XML reader. | 
 | `void` | MoveDown() | Moves the condition to one position down (taking into account the level of other conditions). | 
 | `void` | MoveUp() | Moves the condition to one position up (taking into account the level of other conditions). | 

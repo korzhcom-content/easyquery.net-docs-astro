@@ -1,6 +1,9 @@
 ---
 title: EntityDlgType enum
-slug: api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/entitydlgtype-enum
+slug: >-
+  api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/entitydlgtype-enum
+sidebar:
+  order: 100
 ---
 
 Represents the type of the dialog

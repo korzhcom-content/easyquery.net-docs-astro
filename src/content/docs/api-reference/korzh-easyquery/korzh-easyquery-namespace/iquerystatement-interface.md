@@ -1,6 +1,9 @@
 ---
 title: IQueryStatement interface
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/iquerystatement-interface
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/iquerystatement-interface
+sidebar:
+  order: 100
 ---
 
 Represents the result of query builder's work.
@@ -16,5 +19,5 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Params | [QueryParamList](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/queryparamlist-class) | Gets the list of parameters used in generated SQL statement. | 
+| Params | [QueryParamList](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/queryparamlist-class) | Gets the list of parameters used in generated SQL statement. | 
 | Statement | `string` | Gets the statement (SQL, filter expression, etc - depending on the concrete QueryStatement type). |

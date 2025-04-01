@@ -1,6 +1,8 @@
 ---
 title: EOLSymbol enum
 slug: api-reference-5x/korzh-easyquery-namespace/eolsymbol-enum
+sidebar:
+  order: 100
 ---
 
 Represents the symbol (or symbols) which are used to separate lines in generated SQL statements

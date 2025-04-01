@@ -1,6 +1,9 @@
 ---
 title: DisplayFormatParser class
-slug: api-reference/korzh-easyquery/korzh-easyquery-namespace/displayformatparser-class
+slug: >-
+  api-reference/korzh-easyquery/korzh-easyquery-namespace/displayformatparser-class
+sidebar:
+  order: 100
 ---
 
 Represents a special class used for parsing operator display format values.
@@ -16,7 +19,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DisplayFormatParser() | `void` | Initializes a new instance of the [Korzh.EasyQuery.DisplayFormatParser](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/displayformatparser-class) class. | 
+| DisplayFormatParser() | `void` | Initializes a new instance of the [Korzh.EasyQuery.DisplayFormatParser](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/displayformatparser-class) class. | 
 
 
 ### Properties
@@ -24,7 +27,7 @@ Assembly: `Korzh.EasyQuery.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | ExprNum | `int` | Gets the numeric value of expression (if possible). | 
-| Token | [DisplayFormatParser.TokenType](//easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/displayformatparser-tokentype-enum) | Gets the token type. | 
+| Token | [DisplayFormatParser.TokenType](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/displayformatparser-tokentype-enum) | Gets the token type. | 
 | TokenText | `string` | Gets the text of the token. | 
 
 

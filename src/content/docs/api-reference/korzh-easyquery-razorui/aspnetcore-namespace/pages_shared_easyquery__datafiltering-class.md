@@ -1,6 +1,9 @@
 ---
 title: Pages_Shared_EasyQuery__DataFiltering class
-slug: api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_shared_easyquery__datafiltering-class
+slug: >-
+  api-reference/korzh-easyquery-razorui/aspnetcore-namespace/pages_shared_easyquery__datafiltering-class
+sidebar:
+  order: 100
 ---
 
 ```csharp
