@@ -11,8 +11,8 @@ sidebar:
   <p>This is the point where EasyQuery’s QueryPanel web-control comes to help. Take a look at the following GridView filtering form example:</p>
   <div class="c-center">
   <div class="krh-blog-ss-block">
-  <a href="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-grid-filtering01.png" class="fancybox" data-fancybox-group="gallery" title="GridView filtering form">
-  <img src="https://files.aistant.com/korzh/easyquery-dotnet/images/eq-grid-filtering01.png" alt="GridView filtering form">
+  <a href="/easyquery/docs/images/eq-grid-filtering01.png" class="fancybox" data-fancybox-group="gallery" title="GridView filtering form">
+  <img src="/easyquery/docs/images/eq-grid-filtering01.png" alt="GridView filtering form">
   </a>
   </div>
   </div>

@@ -19,8 +19,8 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ListValueEditor() | `void` | Initializes a new instance of the [EasyData.ListValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/listvalueeditor-class) class. | 
-| ListValueEditor(`string` id) | `void` | Initializes a new instance of the [EasyData.ListValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/listvalueeditor-class) class. | 
+| ListValueEditor() | `void` | Initializes a new instance of the [EasyData.ListValueEditor](///easyquery/docs/api-reference/easydata-core/easydata-namespace/listvalueeditor-class) class. | 
+| ListValueEditor(`string` id) | `void` | Initializes a new instance of the [EasyData.ListValueEditor](///easyquery/docs/api-reference/easydata-core/easydata-namespace/listvalueeditor-class) class. | 
 
 
 ### Properties
@@ -28,8 +28,8 @@ Assembly: `EasyData.Core.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | ControlType | `string` | Gets or sets the type of list control (MENU, LISTBOX, etc). | 
-| ExtraParams | `Dictionary`&lt;`string`, `string`&gt; | Gets ExtraParams for this [EasyData.ListValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/listvalueeditor-class). | 
-| Multiselect | `bool` | Gets or sets a value indicating whether this [EasyData.ListValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/listvalueeditor-class) allows to select several items. | 
+| ExtraParams | `Dictionary`&lt;`string`, `string`&gt; | Gets ExtraParams for this [EasyData.ListValueEditor](///easyquery/docs/api-reference/easydata-core/easydata-namespace/listvalueeditor-class). | 
+| Multiselect | `bool` | Gets or sets a value indicating whether this [EasyData.ListValueEditor](///easyquery/docs/api-reference/easydata-core/easydata-namespace/listvalueeditor-class) allows to select several items. | 
 
 
 ### Methods
@@ -37,4 +37,4 @@ Assembly: `EasyData.Core.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | ReadOnePropFromJsonAsync(`JsonReader` reader, `string` propName) | `Task` | Reads one editor's property from JSON (asynchronous way). | 
-| WritePropertiesToJsonAsync(`JsonWriter` writer, [BitOptions](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` | Writes the content of the custom value editor to JSON (asynchronous way). |
+| WritePropertiesToJsonAsync(`JsonWriter` writer, [BitOptions](///easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` | Writes the content of the custom value editor to JSON (asynchronous way). |

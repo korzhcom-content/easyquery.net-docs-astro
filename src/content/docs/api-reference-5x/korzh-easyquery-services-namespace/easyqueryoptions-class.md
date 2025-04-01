@@ -22,7 +22,7 @@ public class Korzh.EasyQuery.Services.EasyQueryOptions
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `Func<IServiceProvider, IEqAuthProvider>` | AuthProviderResolver | Gets the authentication provider resolver  - a function that (most possibly) creates and returns an instance of  [Korzh.EasyQuery.Services.IEqAuthProvider](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ieqauthprovider-interface) interface. | 
+| `Func<IServiceProvider, IEqAuthProvider>` | AuthProviderResolver | Gets the authentication provider resolver  - a function that (most possibly) creates and returns an instance of  [Korzh.EasyQuery.Services.IEqAuthProvider](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ieqauthprovider-interface) interface. | 
 | `List<Action<IQueryBuilder>>` | BuilderTuners | Gets the list of the builder tuners.  Each tuner - is a function which allows to modify some options of the current query builder | 
 | `Boolean` | BuildQueryOnSync | Gets or sets the value indicating whether we need to build query on every SyncQuery request and attach the statement to the response. | 
 | `Boolean` | BuildWithParameters | Gets or sets the value indicating whether the query will be built with parameters instead of injected values | 
@@ -53,13 +53,13 @@ public class Korzh.EasyQuery.Services.EasyQueryOptions
 | `void` | AddBuilderTuner(`Action<IQueryBuilder>` builderTuner) | Adds the builder tuner. <seealso cref="P:Korzh.EasyQuery.Services.EasyQueryOptions.BuilderTuners" /> | 
 | `void` | AddPreExecuteTuner(`IEasyQueryManagerTuner` tuner) | Adds the tuner which is called before the query execution. | 
 | `void` | AddValueListResolver(`Func<String, IEnumerable<ListItem>>` resolver) | Adds the custom value list resolver defined by a function passed in the parameter. The function takes a list name and returns the list of values. | 
-| `void` | SetFormats(`IQueryFormats` formats) | Sets the formats of the query builder (an instance of [Korzh.EasyQuery.Services.EasyQueryOptions.QueryFormats](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/easyqueryoptions-class) class). | 
-| `void` | UseAuthProvider(`Func<IServiceProvider, IEqAuthProvider>` authProviderResolver) | Adds the authentication provider resolver - a function which returns an object with [Korzh.EasyQuery.Services.IEqAuthProvider](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ieqauthprovider-interface) interface. | 
+| `void` | SetFormats(`IQueryFormats` formats) | Sets the formats of the query builder (an instance of [Korzh.EasyQuery.Services.EasyQueryOptions.QueryFormats](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/easyqueryoptions-class) class). | 
+| `void` | UseAuthProvider(`Func<IServiceProvider, IEqAuthProvider>` authProviderResolver) | Adds the authentication provider resolver - a function which returns an object with [Korzh.EasyQuery.Services.IEqAuthProvider](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ieqauthprovider-interface) interface. | 
 | `void` | UseCaching(`Func<IServiceProvider, IEqCachingService>` cachingServiceResolver) | Defines the functions which returns the caching service by DI services | 
 | `void` | UseConnection(`Func<IServiceProvider, String, Object>` connectionResolver) | Defines the functions which returns the connection by DI services and model ID | 
 | `void` | UseManager(`ManagerResolverFunc` managerResolver) | Defines the function which creates and returns an instance of EasyQuery manager.  The manager defines all basic operations with the models and queries: creating, loading, saving and query building itself. | 
 | `void` | UseManager() | Defines the function which creates and returns an instance of EasyQuery manager.  The manager defines all basic operations with the models and queries: creating, loading, saving and query building itself. | 
 | `void` | UseModelLoader(`Func<IServiceProvider, IModelLoader>` resolver) | Defines the functions which returns the model loader - an instance of IModelLoader interface | 
-| `void` | UseModelTuner(`Action<DataModel>` tuner) | Defines the model tuner. See more about the model tuner in [Korzh.EasyQuery.Services.EasyQueryOptions.ModelTuner](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/easyqueryoptions-class) property description | 
+| `void` | UseModelTuner(`Action<DataModel>` tuner) | Defines the model tuner. See more about the model tuner in [Korzh.EasyQuery.Services.EasyQueryOptions.ModelTuner](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/easyqueryoptions-class) property description | 
 | `void` | UsePaging(`Int64` pageSize) | Turns on the paging and sets the page size. | 
 | `void` | UseQueryStore(`Func<IServiceProvider, IQueryStore>` resolver) | Defines the functions which returns the query store - an instance of IQueryStore interface |

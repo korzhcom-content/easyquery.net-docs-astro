@@ -19,4 +19,4 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| UseLinqManager(<span style='color: blue'>this</span> [EasyQueryServicesBuilder](///////////////easyquery/docs/api-reference/korzh-easyquery/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilder-class) builder) | [EasyQueryServicesBuilder](///////////////easyquery/docs/api-reference/korzh-easyquery/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilder-class) |  |
+| UseLinqManager(<span style='color: blue'>this</span> [EasyQueryServicesBuilder](///easyquery/docs/api-reference/korzh-easyquery/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilder-class) builder) | [EasyQueryServicesBuilder](///easyquery/docs/api-reference/korzh-easyquery/microsoft-extensions-dependencyinjection-namespace/easyqueryservicesbuilder-class) |  |

@@ -18,7 +18,7 @@ public class Korzh.EasyQuery.Db.DbQuery
 | --- | --- | --- | 
 | `TableList` | ExtraTables | Gets the list of "extra" tables (the tables which will be included into result query by user request). | 
 | `NoPathResolution` | NoPathResolution | Get or set the type of reaction for the situation when two tables have no path between them | 
-| `SqlExtraClauses` | Options | Gets the [Korzh.EasyQuery.Db.SqlExtraClauses](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/sqlextraclauses-class) object which defines some extra clauses of generated query. | 
+| `SqlExtraClauses` | Options | Gets the [Korzh.EasyQuery.Db.SqlExtraClauses](///easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/sqlextraclauses-class) object which defines some extra clauses of generated query. | 
 | `IEnumerable<Column>` | ResultColumns | Gets the full list of columns which will be returned in result query.  It equals to Columns list if it's not empty. Otherwise - it's an array of all fields from all tables taking part in this query (like SELECT * in SQL). | 
 
 

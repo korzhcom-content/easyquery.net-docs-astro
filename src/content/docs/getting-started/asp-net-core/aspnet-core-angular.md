@@ -9,13 +9,13 @@ Here we describe how to add EasyQuery widgets to your ASP.NET Core + Angular pro
 
 ## EasyQuery samples
 
-> The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](https://github.com/easyquery/AspNetCoreSamples). You can clone that repository with samples, [download it](https://github.com/easyquery/AspNetCoreSamples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](//////////////git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FAspNetCoreSamples)</button> right away!
+> The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](https://github.com/easyquery/AspNetCoreSamples). You can clone that repository with samples, [download it](https://github.com/easyquery/AspNetCoreSamples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](//git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FAspNetCoreSamples)</button> right away!
 
 
 ## Prerequisites
 
 1. You have an ASP.NET Core (version 2.1+) project with Angular (6.0+) on the client-side. We suppose the project was created using a standard ASP.NET Core template (`dotnet new angular`) but it's not a requirement.
-2.  Your application uses Entity Framework Core to work with the database. NB: Of course, it's possible to use EasyQuery without EF Core. We show this approach here just because it's the simplest way. For other options please read [Possible ways of data model creation and loading](///////////////easyquery/docs/tutorials/data-model-creation-loading) article. 
+2.  Your application uses Entity Framework Core to work with the database. NB: Of course, it's possible to use EasyQuery without EF Core. We show this approach here just because it's the simplest way. For other options please read [Possible ways of data model creation and loading](///easyquery/docs/tutorials/data-model-creation-loading) article. 
 
 
 ## Trial version registration (for new users)
@@ -236,4 +236,4 @@ and add a link to a new page to nav-menu (`app/nav-menu/nav-menu.component.html`
 
 That's all. If everything was done right you will get something like the following in result:
 
-![eq-aspcore-angular](https://files.aistant.com/korzh/easyquery-dotnet/images/eq-aspcore-angular.png "eq-aspcore-angular")
+![eq-aspcore-angular](/easyquery/docs/images/eq-aspcore-angular.png "eq-aspcore-angular")

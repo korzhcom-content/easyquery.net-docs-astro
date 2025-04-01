@@ -17,4 +17,4 @@ public class Korzh.EasyQuery.Services.ExcelHtmlDataExportSettings
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `ExcelHtmlDataExportSettings` | Default | Returns the default instance of [Korzh.EasyQuery.Services.ExcelHtmlDataExportSettings](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/excelhtmldataexportsettings-class). |
+| `ExcelHtmlDataExportSettings` | Default | Returns the default instance of [Korzh.EasyQuery.Services.ExcelHtmlDataExportSettings](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/excelhtmldataexportsettings-class). |

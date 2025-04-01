@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-The default implementation of the [Korzh.EasyQuery.Services.IEqAuthProvider](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ieqauthprovider-interface) interface.  Contains several methods which allow to mark some EasyQuery actions as "anonymous" (so they can be accessed by any user)  and to restrict the access to them depening on user role.
+The default implementation of the [Korzh.EasyQuery.Services.IEqAuthProvider](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ieqauthprovider-interface) interface.  Contains several methods which allow to mark some EasyQuery actions as "anonymous" (so they can be accessed by any user)  and to restrict the access to them depening on user role.
 ```csharp
 public class Korzh.EasyQuery.Services.DefaultEqAuthProvider
     : IEqAuthProvider
@@ -26,7 +26,7 @@ public class Korzh.EasyQuery.Services.DefaultEqAuthProvider
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `DefaultEqAuthProvider` | AllowAnonymous(`String[]` actions) | Sets anonymous access for the actions specified in the parameter. | 
-| `void` | FillDefaultActionGuards() | Fills the [Korzh.EasyQuery.Services.DefaultEqAuthProvider.ActionGuards](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/defaulteqauthprovider-class) list with the default guards.  The default setup includes the following 2 rules:  1. All actions requires authorization.  2. NewQuery, SaveQuery and RemoveQuery actions requires also the "EasyQuery Manager" (`eqmanager`) role. | 
+| `void` | FillDefaultActionGuards() | Fills the [Korzh.EasyQuery.Services.DefaultEqAuthProvider.ActionGuards](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/defaulteqauthprovider-class) list with the default guards.  The default setup includes the following 2 rules:  1. All actions requires authorization.  2. NewQuery, SaveQuery and RemoveQuery actions requires also the "EasyQuery Manager" (`eqmanager`) role. | 
 | `Func<Boolean>` | GetAuthorizedGuard() | Gets the guard functions which returnc <c>true</c> only if the current user is authenticated. | 
 | `Func<Boolean>` | GetGrantAccessForRolesGuard(`String[]` roles) | Gets the guard functions which grants access only for users with the specifeid roles. | 
 | `DefaultEqAuthProvider` | GrantAccessForRoles(`String` action, `String[]` roles) | Grants the access to specified action for one more roles passed in the second parameter. | 

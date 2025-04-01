@@ -111,4 +111,4 @@ Of course, it is possible to make your own page with another layout, style, and,
 
 If everything was done right you can build and run your project. Then just open `/EasyQuery/AdvancedSearch` and enjoy the new functionality.
 
-![eq-aspcore-razor](https://files.aistant.com/korzh/easyquery-dotnet/images/eq-aspcore-razor.png "eq-aspcore-razor")
+![eq-aspcore-razor](//easyquery/docs/images/eq-aspcore-razor.png "eq-aspcore-razor")

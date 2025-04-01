@@ -19,14 +19,14 @@ Assembly: `Korzh.EasyQuery.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | OperatorGroup(`string` groupName, `DataType[]` appliedTypes) | `void` | Initializes a new instance of the `OperatorGroup` class. | 
-| OperatorGroup(`string` groupName, [DataTypeList](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datatypelist-class) appliedTypes) | `void` | Initializes a new instance of the `OperatorGroup` class. | 
+| OperatorGroup(`string` groupName, [DataTypeList](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatypelist-class) appliedTypes) | `void` | Initializes a new instance of the `OperatorGroup` class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AppliedTypes | [DataTypeList](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datatypelist-class) | Gets the list of applied types for this operator. | 
+| AppliedTypes | [DataTypeList](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatypelist-class) | Gets the list of applied types for this operator. | 
 | Name | `string` | Gets or sets the name of the group. | 
 
 

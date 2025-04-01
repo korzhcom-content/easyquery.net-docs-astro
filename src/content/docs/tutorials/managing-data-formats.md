@@ -24,7 +24,7 @@ In this article, we will show you how to implement these (or similar) tasks.
 
 ## 2. Locale settings
 
-First of all to change the formats of your data you might consider adjusting the current locale settings on the client side. There is an article about [EasyQuery.JS widgets localization](///////////////easyquery/docs/tutorials/javascript-widgets-localization) in general but if you need just to change some of the locale settings you can simply use `updateLocaleSettings` function from `easyquery.core.i18n` namespace:
+First of all to change the formats of your data you might consider adjusting the current locale settings on the client side. There is an article about [EasyQuery.JS widgets localization](///easyquery/docs/tutorials/javascript-widgets-localization) in general but if you need just to change some of the locale settings you can simply use `updateLocaleSettings` function from `easyquery.core.i18n` namespace:
 
 ```
 easyquery.core.i18n.updateLocaleSettings({

@@ -38,7 +38,7 @@ public abstract class Korzh.EasyQuery.SimpleCondition
 | `String` | GetText(`QueryTextFormats` formats, `String` levelSpace, `String` prefix) | Returns text representation of  condition | 
 | `IEnumerable<Entity>` | GetUsedEntities() | Gets the list of all entities used in condition. | 
 | `void` | LoadFromJsonDict(`JsonDict` dictCond) | Loads condition from IDictionary. Used during loading query from JSON | 
-| `void` | LoadFromXmlReader(`XmlReader` reader) | Loads [Korzh.EasyQuery.SimpleCondition](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/simplecondition-class) properties from XML reader. | 
+| `void` | LoadFromXmlReader(`XmlReader` reader) | Loads [Korzh.EasyQuery.SimpleCondition](///easyquery/docs/api-reference-4x/korzh-easyquery-namespace/simplecondition-class) properties from XML reader. | 
 | `EqExpression` | RecreateValueExpr(`Int32` index) | Recreates the value expression. | 
 | `void` | SetOperator(`Operator` newOperator) | Sets the operator. | 
 | `void` | SetOperatorSilent(`Operator` newOperator) | Sets the operator in "silent" mode (no event is raised, no expression is adjusted). | 

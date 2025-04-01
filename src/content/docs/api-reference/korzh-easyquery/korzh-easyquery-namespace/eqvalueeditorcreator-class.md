@@ -26,4 +26,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create(`string` tag) | [ValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) |  |
+| Create(`string` tag) | [ValueEditor](///easyquery/docs/api-reference/easydata-core/easydata-namespace/valueeditor-class) |  |

@@ -19,12 +19,12 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DateTimeValueEditorXmlSerializer([XmlSerializerFactory](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| DateTimeValueEditorXmlSerializer([XmlSerializerFactory](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadAttribute([DateTimeValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) editor, `string` propName, `string` propValue) | `void` |  | 
-| SaveAttributes([DateTimeValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) editor, `XmlWriter` writer) | `void` |  |
+| LoadAttribute([DateTimeValueEditor](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) editor, `string` propName, `string` propValue) | `void` |  | 
+| SaveAttributes([DateTimeValueEditor](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) editor, `XmlWriter` writer) | `void` |  |

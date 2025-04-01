@@ -44,7 +44,7 @@ It's `Korzh.EasyQuery.AspNet4` and other packages depending on the scenario. As 
 
 ### 2. Setup the WebAPI controller
 
-Server-side part of EasyQuery works via a WebAPI controller which handles all AJAX requests from the JS widgets placed on views/pages. So you need to install Web API in your project if you don't have it yet. This topic is covered in another our article: [Getting started for ASP.NET 4](///////////////easyquery/docs/getting-started/asp-net-4-mvc-or-webforms) (use Step 2 there). If the WebAPI is installed in your project already, just copy the corresponding controller (e.g. "AdvancedSearchController.cs") to your project
+Server-side part of EasyQuery works via a WebAPI controller which handles all AJAX requests from the JS widgets placed on views/pages. So you need to install Web API in your project if you don't have it yet. This topic is covered in another our article: [Getting started for ASP.NET 4](///easyquery/docs/getting-started/asp-net-4-mvc-or-webforms) (use Step 2 there). If the WebAPI is installed in your project already, just copy the corresponding controller (e.g. "AdvancedSearchController.cs") to your project
 
 ### 3. Copy the form/page.
 

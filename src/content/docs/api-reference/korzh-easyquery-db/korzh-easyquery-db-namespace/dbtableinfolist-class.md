@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Represents the list of [Korzh.EasyQuery.Db.DbTableInfo](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtableinfo-class) objects
+Represents the list of [Korzh.EasyQuery.Db.DbTableInfo](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtableinfo-class) objects
 ```csharp
 public class Korzh.EasyQuery.Db.DbTableInfoList
     : Collection<DbTableInfo>

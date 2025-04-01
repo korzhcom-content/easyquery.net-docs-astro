@@ -20,8 +20,8 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ListXElement(`string` type) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ListXElement](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-class) class. | 
-| ListXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ListXElement](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-class) class. | 
+| ListXElement(`string` type) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ListXElement](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-class) class. | 
+| ListXElement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ListXElement](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-class) class. | 
 
 
 ### Properties
@@ -29,26 +29,26 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | AllowList | `bool` | Gets or sets a value indicating whether this row element allows list values. | 
-| AutoSelectFirstItem | `bool` | Gets or sets a value indicating whether the element should automatically select first item on [Korzh.EasyQuery.WinForms.XElement.CoreLaunch](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) . | 
+| AutoSelectFirstItem | `bool` | Gets or sets a value indicating whether the element should automatically select first item on [Korzh.EasyQuery.WinForms.XElement.CoreLaunch](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) . | 
 | ControlType | `string` | Gets or sets the type of the control (MENU or LISTBOX). | 
-| Items | [ValueItemList](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) | Gets the list of items. | 
+| Items | [ValueItemList](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitemlist-class) | Gets the list of items. | 
 | ListName | `string` | Gets or sets the name of the list. | 
-| Sorting | [XSortOrder](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xsortorder-enum) | Gets or sets the sort order for the list | 
+| Sorting | [XSortOrder](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xsortorder-enum) | Gets or sets the sort order for the list | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AddListItem([ValueItem](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) parentItem, [ValueItem](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) newItem) | `void` | Adds a new item to the list (menu). | 
-| AddListItem([ValueItem](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) parentItem, `string` text, `string` value, `string` action, `string` hint) | [ValueItem](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) | Adds a new item to the list (menu). | 
-| AddListItem([ValueItem](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) parentItem, `string` text, `string` value) | [ValueItem](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) | Adds a new item to the list (menu). | 
+| AddListItem([ValueItem](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) parentItem, [ValueItem](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) newItem) | `void` | Adds a new item to the list (menu). | 
+| AddListItem([ValueItem](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) parentItem, `string` text, `string` value, `string` action, `string` hint) | [ValueItem](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) | Adds a new item to the list (menu). | 
+| AddListItem([ValueItem](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) parentItem, `string` text, `string` value) | [ValueItem](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/valueitem-class) | Adds a new item to the list (menu). | 
 | CalcNewValue() | `string` | Gets the new value from edit control | 
 | CheckListControl(`bool` refill) | `void` | Checks if the list control is created correctly and re-creates it if necessary. | 
 | CoreGetTextAdjustedByValue(`string` newValue) | `string` | Gets the element's text according to its value.  This method can be overridden in inherited classes. | 
-| CoreLaunch() | `void` | Is called when both [Korzh.EasyQuery.WinForms.XElement.ParentRow](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) and [Korzh.EasyQuery.WinForms.XElement.ParentPanel](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) for this element are established. | 
-| CoreRefreshList() | `void` | Internal implementation of [Korzh.EasyQuery.WinForms.ListXElement.RefreshList](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-class) method.  It makes parent panel to raise RequestList event to fill the custom lists. | 
-| CreateListControl() | [ListControl](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listcontrol-class) | Creates the list control. | 
+| CoreLaunch() | `void` | Is called when both [Korzh.EasyQuery.WinForms.XElement.ParentRow](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) and [Korzh.EasyQuery.WinForms.XElement.ParentPanel](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) for this element are established. | 
+| CoreRefreshList() | `void` | Internal implementation of [Korzh.EasyQuery.WinForms.ListXElement.RefreshList](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-class) method.  It makes parent panel to raise RequestList event to fill the custom lists. | 
+| CreateListControl() | [ListControl](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listcontrol-class) | Creates the list control. | 
 | CreateRootItem() | `void` | Creates the root ValueItem object. | 
 | DoItemsChanged(`object` sender, `EventArgs` e) | `void` | Called when Changed event occurs in root item | 
 | GetItemByValue(`string` val, `ValueItem&` resItem) | `bool` | Gets the item by value. | 
@@ -70,7 +70,7 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DefaultListControlType | `string` | Represents default control type for list elements  Will be applied to all new [Korzh.EasyQuery.WinForms.ListXElement](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-class) objects | 
+| DefaultListControlType | `string` | Represents default control type for list elements  Will be applied to all new [Korzh.EasyQuery.WinForms.ListXElement](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/listxelement-class) objects | 
 
 
 ### Static Properties

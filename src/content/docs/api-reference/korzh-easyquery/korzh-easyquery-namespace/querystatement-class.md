@@ -19,14 +19,14 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| QueryStatement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryStatement](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querystatement-class) class. | 
+| QueryStatement() | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryStatement](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querystatement-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Params | [QueryParamList](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/queryparamlist-class) | Gets the list of parameters used in generated SQL statement. | 
+| Params | [QueryParamList](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/queryparamlist-class) | Gets the list of parameters used in generated SQL statement. | 
 | Statement | `string` | Gets the statement (SQL, filter expression, etc - depending on the concrete QueryBuilderResult type). | 
 
 
@@ -42,4 +42,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Empty | [QueryStatement](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querystatement-class) | Gets an empty query builder result. |
+| Empty | [QueryStatement](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querystatement-class) | Gets an empty query builder result. |

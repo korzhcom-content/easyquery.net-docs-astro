@@ -18,4 +18,4 @@ public enum Korzh.EasyQuery.EntityAttrProp
 | --- | --- | --- | 
 | `0` | ID | Attribute ID | 
 | `1` | Caption | Attribute caption | 
-| `2` | Expression | Some expression (should be defined in descendants). Same as ID for [Korzh.EasyQuery.Entity](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/entity-class) class. |
+| `2` | Expression | Some expression (should be defined in descendants). Same as ID for [Korzh.EasyQuery.Entity](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/entity-class) class. |

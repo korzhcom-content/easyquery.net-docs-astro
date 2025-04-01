@@ -31,7 +31,7 @@ public class Korzh.EasyQuery.Query
 | --- | --- | --- | 
 | `ColumnStore` | Columns | Gets the columns. | 
 | `String` | ExtraColumns | Gets or sets the extra columns. | 
-| `Predicate` | ExtraConditions | Gets the list of extra conditions for this query.  These conditions are not visible to end-users but included into result SQL statement as all others (defined in [Korzh.EasyQuery.Query.Root](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/query-class) predicate). | 
+| `Predicate` | ExtraConditions | Gets the list of extra conditions for this query.  These conditions are not visible to end-users but included into result SQL statement as all others (defined in [Korzh.EasyQuery.Query.Root](///easyquery/docs/api-reference-4x/korzh-easyquery-namespace/query-class) predicate). | 
 | `String` | FilePath | Gets the query file path. It is automatically assigned when you use LoadFromFile method. | 
 | `String` | ID | Gets or sets the ID of this query. | 
 | `Boolean` | IsEmpty | Gets a value indicating whether this query is empty (no columns and no conditions are defined). | 
@@ -90,7 +90,7 @@ public class Korzh.EasyQuery.Query
 | `SimpleCondition` | CreateSimpleCondition(`EntityAttr` attr, `Operator` op, `EqExpression[]` exprs) | Creates the simple condition. | 
 | `Query` | CreateSubQuery() | Creates the subquery. | 
 | `String` | GetConditionsText(`QueryTextFormats` formats) | Returns human-readable text that represents current query conditions | 
-| `QueryFormats` | GetFormats() | Gets query formats (an instance of [Korzh.EasyQuery.QueryFormats](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/queryformats-class) class). | 
+| `QueryFormats` | GetFormats() | Gets query formats (an instance of [Korzh.EasyQuery.QueryFormats](///easyquery/docs/api-reference-4x/korzh-easyquery-namespace/queryformats-class) class). | 
 | `String` | GetOneValueForAttr(`EntityAttr` attr) | Gets the one value set in some query condition for indicated entity attribute | 
 | `Entity` | GetParentQueryRootEntity() | Gets the entities from parent query. | 
 | `void` | InnerSortOrderChanged(`SortOrderChangedEventArgs` e) |  | 

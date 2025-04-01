@@ -49,14 +49,14 @@ public class Korzh.EasyQuery.Db.DbQueryFormats
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `void` | CopyFromCore(`QueryFormats` source) | Copies all formats from some [Korzh.EasyQuery.Db.DbQueryFormats](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object. | 
+| `void` | CopyFromCore(`QueryFormats` source) | Copies all formats from some [Korzh.EasyQuery.Db.DbQueryFormats](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object. | 
 | `Boolean` | Equals(`Object` obj) | Determines whether the specified `System.Object` is equal to this instance. | 
 | `Int32` | GetHashCode() | Returns a hash code for this instance. | 
-| `void` | LoadNode(`String` nodeName, `String` nodeValue) | Loads the root node of the [Korzh.EasyQuery.Db.DbQueryFormats](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object. | 
+| `void` | LoadNode(`String` nodeName, `String` nodeValue) | Loads the root node of the [Korzh.EasyQuery.Db.DbQueryFormats](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object. | 
 | `String` | QuoteIdentifier(`String` ident) | Returns the string passed in paraters wrapped with IdentQuote1 and IdentQuote2 symbols | 
 | `void` | ReadOnePropFromJson(`JsonReader` reader, `String` propName) | Loads a property of QueryFormats. | 
 | `Task` | ReadOnePropFromJsonAsync(`JsonReader` reader, `String` propName) | Loads a property of QueryFormats (asynchronous way). | 
-| `void` | SaveNodes(`XmlWriter` writer) | Saves [Korzh.EasyQuery.Db.DbQueryFormats](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object to XML writer. | 
+| `void` | SaveNodes(`XmlWriter` writer) | Saves [Korzh.EasyQuery.Db.DbQueryFormats](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object to XML writer. | 
 | `void` | SetDefaultFormats(`FormatType` formatType) | Sets the default formats for different types of databases. | 
 | `void` | WriteContentToJson(`JsonWriter` writer) | Saves the properties of QueryFormats to JSON. | 
 | `Task` | WriteContentToJsonAsync(`JsonWriter` writer) | Saves the properties of QueryFormats to JSON (asynchronous way). | 

@@ -26,4 +26,4 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadEntityFromType([Entity](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) entity, `Type` type, `string` entityName, [Entity](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `List`&lt;`Type`&gt; processedTypes) | `void` | Fills entity type info from some type. |
+| LoadEntityFromType([Entity](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) entity, `Type` type, `string` entityName, [Entity](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `List`&lt;`Type`&gt; processedTypes) | `void` | Fills entity type info from some type. |

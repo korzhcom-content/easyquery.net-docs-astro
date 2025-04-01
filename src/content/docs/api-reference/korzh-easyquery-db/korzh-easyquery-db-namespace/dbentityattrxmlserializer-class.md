@@ -19,13 +19,13 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DbEntityAttrXmlSerializer([XmlSerializerFactory](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| DbEntityAttrXmlSerializer([XmlSerializerFactory](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadAttribute([DbEntityAttr](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbentityattr-class) attr, `string` propName, `string` propValue) | `void` |  | 
-| LoadNodes([DbEntityAttr](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbentityattr-class) attr, `XmlReader` reader) | `void` |  | 
-| SaveAttributes([DbEntityAttr](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbentityattr-class) attr, `XmlWriter` writer) | `void` |  |
+| LoadAttribute([DbEntityAttr](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbentityattr-class) attr, `string` propName, `string` propValue) | `void` |  | 
+| LoadNodes([DbEntityAttr](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbentityattr-class) attr, `XmlReader` reader) | `void` |  | 
+| SaveAttributes([DbEntityAttr](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbentityattr-class) attr, `XmlWriter` writer) | `void` |  |

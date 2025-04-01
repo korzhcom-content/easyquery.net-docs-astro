@@ -19,29 +19,29 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Condition([TableLink](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-class) link) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.TableLink.Condition](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-class) class. | 
-| Condition([TableLink](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-class) link, [Condition](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-condition-class) cond) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.TableLink.Condition](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-class) class. | 
+| Condition([TableLink](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-class) link) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.TableLink.Condition](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-class) class. | 
+| Condition([TableLink](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-class) link, [Condition](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-condition-class) cond) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.TableLink.Condition](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelink-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CondType | [LinkCondType](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/linkcondtype-enum) | Gets or sets the type of condition (field to field or field to expression). | 
+| CondType | [LinkCondType](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/linkcondtype-enum) | Gets or sets the type of condition (field to field or field to expression). | 
 | CustomExpr | `string` | Gets or sets the custom expression of condition (if 'CustomExpr' condition type is used) | 
 | Expr1 | `string` | Gets or sets the left side of linking condition. | 
 | Expr2 | `string` | Gets or sets the right side of linking condition. | 
 | Info | `IDictionary`&lt;`string`, `object`&gt; | Stores additional information associated with this condition | 
 | Operator | `string` | Gets or sets the condition operator. | 
-| Table1 | [Table](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | Gets the first (left) table taken part in link. | 
-| Table2 | [Table](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | Gets the second (right) table taken part in link. | 
+| Table1 | [Table](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | Gets the first (left) table taken part in link. | 
+| Table2 | [Table](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) | Gets the second (right) table taken part in link. | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| GetSqlExpr([SqlFormats](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlformats-class) formats) | `string` | Gets the SQL expression that represents the condition. | 
+| GetSqlExpr([SqlFormats](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/sqlformats-class) formats) | `string` | Gets the SQL expression that represents the condition. | 
 | ToString() | `string` | Returns a <see cref="T:System.String"></see> that represents the current <see cref="T:System.Object"></see>. | 
 
 
@@ -49,5 +49,5 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LinkCondTypeToStr([LinkCondType](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/linkcondtype-enum) type) | `string` | Convert [Korzh.EasyQuery.Db.LinkCondType](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/linkcondtype-enum) value to its text representation | 
-| StrToLinkCondType(`string` s) | [LinkCondType](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/linkcondtype-enum) | Allows to get [Korzh.EasyQuery.Db.LinkCondType](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/linkcondtype-enum) by its text representation |
+| LinkCondTypeToStr([LinkCondType](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/linkcondtype-enum) type) | `string` | Convert [Korzh.EasyQuery.Db.LinkCondType](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/linkcondtype-enum) value to its text representation | 
+| StrToLinkCondType(`string` s) | [LinkCondType](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/linkcondtype-enum) | Allows to get [Korzh.EasyQuery.Db.LinkCondType](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/linkcondtype-enum) by its text representation |

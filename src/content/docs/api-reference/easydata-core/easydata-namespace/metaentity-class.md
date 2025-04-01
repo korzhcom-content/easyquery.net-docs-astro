@@ -19,8 +19,8 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| _model | [MetaData](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) |  | 
-| Attributes | [MetaEntityAttrStore](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattrstore-class) | List of Attributes that belong to this entity. | 
+| _model | [MetaData](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) |  | 
+| Attributes | [MetaEntityAttrStore](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattrstore-class) | List of Attributes that belong to this entity. | 
 | ClrType | `Type` | Gets or sets the type of the entity. | 
 | DbSetName | `string` | Gets or sets the name of the DbSet associated with entity | 
 | Description | `string` | Gets or sets the description. | 
@@ -28,11 +28,11 @@ Assembly: `EasyData.Core.dll`
 | Index | `int` | Gets or sets the index of Entity | 
 | IsEmpty | `bool` | Gets a value indicating whether this instance is empty. | 
 | IsRoot | `bool` | Gets a value indicating whether this entity is a root entity. | 
-| Model | [MetaData](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) | Gets the model. | 
+| Model | [MetaData](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) | Gets the model. | 
 | Name | `string` | Gets or sets the name of the entity. | 
 | NamePlural | `string` | Gets or sets the name of the entity in plural form. | 
-| Parent | [MetaEntity](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) | Gets the parent entity. | 
-| SubEntities | [MetaEntityStore](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentitystore-class) | List of sub entities that belong to this entity. | 
+| Parent | [MetaEntity](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) | Gets the parent entity. | 
+| SubEntities | [MetaEntityStore](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentitystore-class) | List of sub entities that belong to this entity. | 
 | TypeName | `string` | Gets or sets the path for building query for complex types | 
 | UserData | `object` | Gets or sets the user data object associated with entity. | 
 
@@ -41,19 +41,19 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CreateEntityAttrStore() | [MetaEntityAttrStore](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattrstore-class) |  | 
-| CreateEntityStore() | [MetaEntityStore](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentitystore-class) |  | 
+| CreateEntityAttrStore() | [MetaEntityAttrStore](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattrstore-class) |  | 
+| CreateEntityStore() | [MetaEntityStore](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentitystore-class) |  | 
 | DeleteSubEntities(`String[]` namesToDelete) | `int` | Deletes the sub-entities specified by name(s) passed in method's parameter(s). | 
-| DeleteSubEntities(`Func`&lt;[MetaEntity](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class), `bool`&gt; entityToDeleteFilter) | `int` | Deletes the sub-entities specified by name(s) passed in method's parameter(s). | 
-| FindAttribute(`Func`&lt;[MetaEntityAttr](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class), `bool`&gt; predicate) | [MetaEntityAttr](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class) |  | 
-| FindAttributeByCaption(`string` caption) | [MetaEntityAttr](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class) |  | 
-| FindAttributeByExpression(`string` expr) | [MetaEntityAttr](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class) |  | 
-| FindAttributeById(`string` id) | [MetaEntityAttr](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class) |  | 
-| FindSubEntity(`string` entityName) | [MetaEntity](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) | Finds a sub-entity in current entity by its name. | 
-| GetFirstLeaf() | [MetaEntityAttr](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class) | Gets the first attribute in all attributes and sub-entities of the current entity. | 
+| DeleteSubEntities(`Func`&lt;[MetaEntity](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class), `bool`&gt; entityToDeleteFilter) | `int` | Deletes the sub-entities specified by name(s) passed in method's parameter(s). | 
+| FindAttribute(`Func`&lt;[MetaEntityAttr](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class), `bool`&gt; predicate) | [MetaEntityAttr](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class) |  | 
+| FindAttributeByCaption(`string` caption) | [MetaEntityAttr](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class) |  | 
+| FindAttributeByExpression(`string` expr) | [MetaEntityAttr](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class) |  | 
+| FindAttributeById(`string` id) | [MetaEntityAttr](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class) |  | 
+| FindSubEntity(`string` entityName) | [MetaEntity](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class) | Finds a sub-entity in current entity by its name. | 
+| GetFirstLeaf() | [MetaEntityAttr](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class) | Gets the first attribute in all attributes and sub-entities of the current entity. | 
 | GetFullName(`string` separator) | `string` | Gets the full name. | 
 | ReadFromJsonAsync(`JsonReader` reader) | `Task` | Reads the entity content from JSON (asynchronous way). | 
 | ReadOnePropertyFromJsonAsync(`JsonReader` reader, `string` propName) | `Task` | Reads one entity property from JSON (asynchronous way) or skips unused. | 
-| Scan(`Action`&lt;[MetaEntity](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class)&gt; entityHandler, `Action`&lt;[MetaEntityAttr](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class)&gt; attrHandler, `bool` processRoot = True) | `void` | Scans all child entities and attributes (including this one one) calls entityHandler and attrHanlder delegates (correspondingly) for each of them | 
+| Scan(`Action`&lt;[MetaEntity](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentity-class)&gt; entityHandler, `Action`&lt;[MetaEntityAttr](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metaentityattr-class)&gt; attrHandler, `bool` processRoot = True) | `void` | Scans all child entities and attributes (including this one one) calls entityHandler and attrHanlder delegates (correspondingly) for each of them | 
 | WritePropertiesToJsonAsync(`JsonWriter` writer) | `Task` | Writes entity's properties to JSON (asynchronous way). | 
-| WriteToJsonAsync(`JsonWriter` writer, [BitOptions](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) options) | `Task` | Writes the content of the entity to JSON (asynchronious way) |
+| WriteToJsonAsync(`JsonWriter` writer, [BitOptions](///easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) options) | `Task` | Writes the content of the entity to JSON (asynchronious way) |

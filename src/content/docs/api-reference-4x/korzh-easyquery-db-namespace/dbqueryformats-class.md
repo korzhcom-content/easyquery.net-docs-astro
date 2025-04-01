@@ -47,13 +47,13 @@ public class Korzh.EasyQuery.Db.DbQueryFormats
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `void` | CopyFrom(`QueryFormats` source) | Copies all formats from some [Korzh.EasyQuery.Db.DbQueryFormats](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbqueryformats-class) object. | 
+| `void` | CopyFrom(`QueryFormats` source) | Copies all formats from some [Korzh.EasyQuery.Db.DbQueryFormats](///easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbqueryformats-class) object. | 
 | `Boolean` | Equals(`Object` obj) | Determines whether the specified `System.Object` is equal to this instance. | 
 | `Int32` | GetHashCode() | Returns a hash code for this instance. | 
 | `void` | LoadFromJsonDict(`JsonDict` dict) | Loads DbQueryFormats from the IDictionary&lt;string, object&gt; object.  Used for deserialization from JSON | 
-| `void` | LoadNode(`String` nodeName, `String` nodeValue) | Loads the root node of the [Korzh.EasyQuery.Db.DbQueryFormats](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbqueryformats-class) object. | 
+| `void` | LoadNode(`String` nodeName, `String` nodeValue) | Loads the root node of the [Korzh.EasyQuery.Db.DbQueryFormats](///easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbqueryformats-class) object. | 
 | `String` | QuoteIdentifier(`String` ident) | Returns the string passed in paraters wrapped with IdentQuote1 and IdentQuote2 symbols | 
-| `void` | SaveNodes(`XmlWriter` writer) | Saves [Korzh.EasyQuery.Db.DbQueryFormats](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbqueryformats-class) object to XML writer. | 
+| `void` | SaveNodes(`XmlWriter` writer) | Saves [Korzh.EasyQuery.Db.DbQueryFormats](///easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbqueryformats-class) object to XML writer. | 
 | `void` | SaveToJsonDict(`JsonDict` dict) | Saves DbQueryFormats to IDictionary&lt;string, object&gt; object.  Used for serialization to JSON | 
 | `void` | SetDefaultFormats(`FormatType` formatType) | Sets the default formats for different types of databases. | 
 

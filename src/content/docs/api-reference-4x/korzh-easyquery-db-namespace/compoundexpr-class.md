@@ -17,7 +17,7 @@ public class Korzh.EasyQuery.Db.CompoundExpr
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `String` | Text | Gets or sets the expression text used for visual representation. | 
-| `String` | TypeName | Non-static version of [Korzh.EasyQuery.Db.CompoundExpr.STypeName](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/compoundexpr-class) property. | 
+| `String` | TypeName | Non-static version of [Korzh.EasyQuery.Db.CompoundExpr.STypeName](///easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/compoundexpr-class) property. | 
 
 
 ### Methods

@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-List of [Korzh.EasyQuery.Wpf.XRow](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrow-class)'s
+List of [Korzh.EasyQuery.Wpf.XRow](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrow-class)'s
 ```csharp
 public class Korzh.EasyQuery.Wpf.XRowList
     : ObservableCollection<XRow>

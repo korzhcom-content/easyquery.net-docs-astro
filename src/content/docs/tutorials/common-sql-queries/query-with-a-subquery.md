@@ -56,8 +56,8 @@ Now aggregate the OrderID column - click the Function button on the right side o
 
 <div class="c-center">
 <div class="krh-blog-ss-block">
-<a href="https://files.aistant.com/korzh/easyquery-dotnet/images/subquery.gif" class="fancybox" data-fancybox-group="gallery" title="EasyQuery example: using sub-query">
-<img src="https://files.aistant.com/korzh/easyquery-dotnet/images/subquery.gif" alt="EasyQuery example: using sub-query">
+<a href="/easyquery/docs/images/subquery.gif" class="fancybox" data-fancybox-group="gallery" title="EasyQuery example: using sub-query">
+<img src="/easyquery/docs/images/subquery.gif" alt="EasyQuery example: using sub-query">
 </a>
 </div>
 </div>

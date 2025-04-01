@@ -18,5 +18,5 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| MapEasyQuery(<span style='color: blue'>this</span> `IEndpointRouteBuilder` builder, `Action`&lt;[EasyQueryOptions](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class)&gt; optionsTuner = <span style='color: blue'>null</span>) | `IEndpointConventionBuilder` |  | 
-| MapEasyQuery(<span style='color: blue'>this</span> `IEndpointRouteBuilder` builder, `Action`&lt;[EasyQueryOptions](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class)&gt; optionsTuner = <span style='color: blue'>null</span>) | `IEndpointConventionBuilder` |  |
+| MapEasyQuery(<span style='color: blue'>this</span> `IEndpointRouteBuilder` builder, `Action`&lt;[EasyQueryOptions](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class)&gt; optionsTuner = <span style='color: blue'>null</span>) | `IEndpointConventionBuilder` |  | 
+| MapEasyQuery(<span style='color: blue'>this</span> `IEndpointRouteBuilder` builder, `Action`&lt;[EasyQueryOptions](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class)&gt; optionsTuner = <span style='color: blue'>null</span>) | `IEndpointConventionBuilder` |  |

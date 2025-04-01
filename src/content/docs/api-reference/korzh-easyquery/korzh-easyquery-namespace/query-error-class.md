@@ -19,4 +19,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Error(`string` msg) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Query.Error](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) class. |
+| Error(`string` msg) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Query.Error](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) class. |

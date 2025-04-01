@@ -60,6 +60,6 @@ Then go to the Fields page and create two fields:
 
 Now your users can create queries and use 2 States tables which a really connected to one table in the database. SQL standard allows you to create such queries when you use aliases and Simple Query does too. See the example on the picture: 
 
-![Data Model Editor - query example](https://files.aistant.com/korzh/easyquery-dotnet/images/dme-query.png)
+![Data Model Editor - query example](/easyquery/docs/images/dme-query.png)
 
 Here we ask for the people who have arrived from California and do not live in Oregon now.

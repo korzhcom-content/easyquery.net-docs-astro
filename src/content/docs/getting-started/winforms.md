@@ -5,14 +5,14 @@ sidebar:
   order: 100
 ---
 
-> __NB__: The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](https://github.com/easyquery/Net4Samples). You can clone that repository with samples, [download it](https://github.com/easyquery/Net4Samples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](//////////////git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FNet4Samples)</button> right away!
+> __NB__: The easiest way to start getting acquainted with EasyQuery framework is to install and launch our demo projects available on [GitHub](https://github.com/easyquery/Net4Samples). You can clone that repository with samples, [download it](https://github.com/easyquery/Net4Samples/archive/master.zip) as a ZIP archive or even <button>[Open it in Visual Studio](//git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FNet4Samples)</button> right away!
 
 
 Below you will find the instructions of what to do if you are going to add EasyQuery to your WinForms application from the scratch.
 
 ## 0. Choose the way you create and use your data model 
 
-Data model - is a user-friendly representation of your project's database which is used by different EasyQuery components to show available entities, their attributes, conditional operators and the lists of available values during the query building process. So, first of all, you will need to choose the way you create your data model and/or load it in your application. There are several different ways of doing this. For more information please read [Working with data model in EasyQuery](///////////////easyquery/docs/getting-started/working-with-data-model) article first.
+Data model - is a user-friendly representation of your project's database which is used by different EasyQuery components to show available entities, their attributes, conditional operators and the lists of available values during the query building process. So, first of all, you will need to choose the way you create your data model and/or load it in your application. There are several different ways of doing this. For more information please read [Working with data model in EasyQuery](///easyquery/docs/getting-started/working-with-data-model) article first.
 
 In this article, we assume that your data model is created with Data Model Editor, then saved to some JSON (or XML) file and that file is added to your project.
 

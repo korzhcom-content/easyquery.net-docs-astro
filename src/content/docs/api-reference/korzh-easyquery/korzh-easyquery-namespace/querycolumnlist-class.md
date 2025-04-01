@@ -19,7 +19,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| QueryColumnList() | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryColumnList](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumnlist-class) class. | 
+| QueryColumnList() | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryColumnList](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumnlist-class) class. | 
 
 
 ### Properties
@@ -34,8 +34,8 @@ Assembly: `Korzh.EasyQuery.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | ContainsGhosts(`QueryColumn&` column) | `bool` | Gets a value indicating whether this instance contains columns with "ghost" attributes. | 
-| FindByAlias(`string` alias) | [QueryColumn](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Finds the column by alias. | 
-| FindByBaseAttrId(`string` attrId) | [QueryColumn](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Finds the column by its base attribute ID. | 
-| FindByCaption(`string` caption) | [QueryColumn](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Finds the column by its caption. | 
-| FindById(`string` id) | [QueryColumn](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | inds the column by its id. | 
-| GetEnabledByIndex(`int` index) | [QueryColumn](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Gets the column by its index among all enabled columns. |
+| FindByAlias(`string` alias) | [QueryColumn](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Finds the column by alias. | 
+| FindByBaseAttrId(`string` attrId) | [QueryColumn](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Finds the column by its base attribute ID. | 
+| FindByCaption(`string` caption) | [QueryColumn](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Finds the column by its caption. | 
+| FindById(`string` id) | [QueryColumn](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | inds the column by its id. | 
+| GetEnabledByIndex(`int` index) | [QueryColumn](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Gets the column by its index among all enabled columns. |

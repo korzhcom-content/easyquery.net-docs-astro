@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Represents exception class for [Korzh.EasyQuery.EntityFramework.DbContextModelExtractor](///////////////easyquery/docs/api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/dbcontextmodelextractor-class)
+Represents exception class for [Korzh.EasyQuery.EntityFramework.DbContextModelExtractor](///easyquery/docs/api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/dbcontextmodelextractor-class)
 ```csharp
 public class Korzh.EasyQuery.EntityFramework.DbContextModelExtractorException
     : Exception
@@ -20,4 +20,4 @@ Assembly: `Korzh.EasyQuery.EntityFramework6.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DbContextModelExtractorException(`string` message) | `void` | nitializes a new instance of the [Korzh.EasyQuery.EntityFramework.DbContextModelExtractorException](///////////////easyquery/docs/api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/dbcontextmodelextractorexception-class) class. |
+| DbContextModelExtractorException(`string` message) | `void` | nitializes a new instance of the [Korzh.EasyQuery.EntityFramework.DbContextModelExtractorException](///easyquery/docs/api-reference/korzh-easyquery-entityframework6/korzh-easyquery-entityframework-namespace/dbcontextmodelextractorexception-class) class. |

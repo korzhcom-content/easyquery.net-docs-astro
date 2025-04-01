@@ -148,7 +148,7 @@ As we described at the beginng, the server-side part of EasyQuery library passes
 
 In both examples above we used `FileQueryStore` class defined in `Korzh.EasyQuery.Services` namespace. This class allows you to store queries as files in the specified directory (usually inside `App_Data` folder). 
 
-Of course you can write your own "query store" class that will save your queries in your own SQL database or in a No-SQL DB or whatever else storage by your choice. The only requirement: this class must implement [`IQueryStore` interface](//////////////api-reference-5x/korzh-easyquery-services-namespace/iquerystore-interface). When the class is defined, you need to register your store using `UseQuerStore` method as we showed above for `FileQueryStore` class. 
+Of course you can write your own "query store" class that will save your queries in your own SQL database or in a No-SQL DB or whatever else storage by your choice. The only requirement: this class must implement [`IQueryStore` interface](//api-reference-5x/korzh-easyquery-services-namespace/iquerystore-interface). When the class is defined, you need to register your store using `UseQuerStore` method as we showed above for `FileQueryStore` class. 
 
 Here you can find [an example of a query store class (`ReportStore`)](https://github.com/easyquery/AspNetCoreSamples/blob/master/EqAspNetCoreDemo/Services/ReportStore.cs) that saves the queries (reports) to a database table via Entity Framerowk Core. You can use this class as a template for your own one.
 

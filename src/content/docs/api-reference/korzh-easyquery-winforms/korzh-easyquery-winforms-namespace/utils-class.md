@@ -25,4 +25,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| GetFormattedAttributeTitle([EntityAttr](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `string` format = <span style='color: blue'>null</span>) | `string` |  |
+| GetFormattedAttributeTitle([EntityAttr](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) attr, `string` format = <span style='color: blue'>null</span>) | `string` |  |

@@ -19,12 +19,12 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CustomListValueEditorXmlSerializer([XmlSerializerFactory](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| CustomListValueEditorXmlSerializer([XmlSerializerFactory](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadAttribute([CustomListValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/customlistvalueeditor-class) editor, `string` propName, `string` propValue) | `void` |  | 
-| SaveAttributes([CustomListValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/customlistvalueeditor-class) editor, `XmlWriter` writer) | `void` |  |
+| LoadAttribute([CustomListValueEditor](///easyquery/docs/api-reference/easydata-core/easydata-namespace/customlistvalueeditor-class) editor, `string` propName, `string` propValue) | `void` |  | 
+| SaveAttributes([CustomListValueEditor](///easyquery/docs/api-reference/easydata-core/easydata-namespace/customlistvalueeditor-class) editor, `XmlWriter` writer) | `void` |  |

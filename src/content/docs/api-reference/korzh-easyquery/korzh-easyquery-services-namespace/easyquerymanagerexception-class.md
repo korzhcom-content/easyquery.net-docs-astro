@@ -20,4 +20,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EasyQueryManagerException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.EasyQueryManagerException](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanagerexception-class) class. |
+| EasyQueryManagerException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.EasyQueryManagerException](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanagerexception-class) class. |

@@ -20,26 +20,26 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AggrColumnRow([QueryColumn](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column, [ColumnsPanel](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-class) panel) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.AggrColumnRow](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/aggrcolumnrow-class) class. | 
+| AggrColumnRow([QueryColumn](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) column, [ColumnsPanel](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-class) panel) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Wpf.AggrColumnRow](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/aggrcolumnrow-class) class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Column | [QueryColumn](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Gets or sets the column. | 
-| EditMode | [ColumnsPanel.EditModeKind](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-editmodekind-enum) | Gets or sets the edit mode. | 
+| Column | [QueryColumn](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querycolumn-class) | Gets or sets the column. | 
+| EditMode | [ColumnsPanel.EditModeKind](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/columnspanel-editmodekind-enum) | Gets or sets the edit mode. | 
 
 
 ### Static Fields
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ColumnProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.SimpleColumnRow.Column](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simplecolumnrow-class) dependency property | 
+| ColumnProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.SimpleColumnRow.Column](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/simplecolumnrow-class) dependency property | 
 
 
 ### Static Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TypeIsInList([DataType](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) type, `DataType[]` list) | `bool` | Checks whether the type is in list |
+| TypeIsInList([DataType](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) type, `DataType[]` list) | `bool` | Checks whether the type is in list |

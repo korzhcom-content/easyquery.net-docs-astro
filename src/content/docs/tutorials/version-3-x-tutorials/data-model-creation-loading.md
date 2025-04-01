@@ -7,4 +7,4 @@ sidebar:
 
 This article is obsolete. 
 
-For the latest version please read [Working with data models in EasyQuery](///////////////easyquery/docs/getting-started/working-with-data-model)
+For the latest version please read [Working with data models in EasyQuery](///easyquery/docs/getting-started/working-with-data-model)

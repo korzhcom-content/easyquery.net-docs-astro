@@ -17,4 +17,4 @@ With EasyQuery this simple query becomes even simpler. Just click “Add new con
 
 Here is EasyQuery example of simple SQL query over one table:
 
-![Simple query over one table](https://files.aistant.com/korzh/easyquery-dotnet/images/query-example-01.png)
+![Simple query over one table](/easyquery/docs/images/query-example-01.png)

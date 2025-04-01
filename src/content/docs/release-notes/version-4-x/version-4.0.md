@@ -28,7 +28,7 @@ Here are the main principles:
 * Nuget only.    
 No installation is needed. 
 All EasyQuery assemblies are distributed as Nuget packages now.   
-The only exception from this rule is Data Model Editor utility which is available for [free download](///////////////download/dme_setup.exe) as a separate setup file.
+The only exception from this rule is Data Model Editor utility which is available for [free download](///download/dme_setup.exe) as a separate setup file.
 
 * Product key for license owners.    
 Instead of downloading and installing the full version of EasyQuery - you will now need a unique product key and one line of code to remove all trial version limitations.    
@@ -44,4 +44,4 @@ All sample projects for EasyQuery 4.0 are available on [GitHub] (https://github.
  
 ## 6. Upgrade from version 3.x
 There are many changes in EasyQuery API version 4.x in comparison with version 3.x.
-Here you will find the [detailed list of them and the instructions](///////////////easyquery/release-notes/upgrade-from-3.x-to-4.0) for upgrading your projects.
+Here you will find the [detailed list of them and the instructions](///easyquery/release-notes/upgrade-from-3.x-to-4.0) for upgrading your projects.

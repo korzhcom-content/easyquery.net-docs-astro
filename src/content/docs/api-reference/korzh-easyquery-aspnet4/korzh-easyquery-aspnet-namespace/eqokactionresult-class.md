@@ -20,7 +20,7 @@ Assembly: `Korzh.EasyQuery.AspNet4.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqOkActionResult(`object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkActionResult](///////////////easyquery/docs/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokactionresult-class) class. | 
+| EqOkActionResult(`object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkActionResult](///easyquery/docs/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokactionresult-class) class. | 
 
 
 ### Fields

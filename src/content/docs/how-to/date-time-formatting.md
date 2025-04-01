@@ -48,7 +48,7 @@ builder.BuildSQL();
 . . . . . . . .
 ```
 
-More information about SQL formats you can find in the following [article](//////////////how-to/customizing-sql-query-formats)
+More information about SQL formats you can find in the following [article](//how-to/customizing-sql-query-formats)
 
 
 
@@ -59,7 +59,7 @@ Date/time formatting in visual controls or widgets can differ in various edition
 
 ### 2.1. ASP.NET MVC
 Use `dateFormatValue` and `dateFormatDisplay` options of QueryPanel widgets.
-You can find date/time formatting settings in this [article](//////////////tutorials/how-to-set-up-javascript-widgets-mvc-version), items 2.1 and 2.2.
+You can find date/time formatting settings in this [article](//tutorials/how-to-set-up-javascript-widgets-mvc-version), items 2.1 and 2.2.
 
 ### 2.2. ASP.NET WebForms and WinForms
 In these editions, you can use `Apperance.DateFormat` and `Appearance.TimeFormat` properties of QueryPanel control. The format of date+time values is set as a concatenation of these two formats. 
@@ -85,7 +85,7 @@ Although this part is not covered by EasyQuery components directly, we are often
 Here we collected the most useful recommendations on this topic: 
 
 ### 3.1. ASP.NET/MVC 
-You can find date/time formatting settings in this [article](//////////////tutorials/managing-result-grid-client-side) 
+You can find date/time formatting settings in this [article](//tutorials/managing-result-grid-client-side) 
 
 ### 3.2. ASP.NET WebForms edition
 Here we guess that you use GridView control to show the result set. In such case, you can use BoundField element together with its DataFormatString property for formatting date/time values.

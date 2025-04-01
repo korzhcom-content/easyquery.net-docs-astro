@@ -19,4 +19,4 @@ Assembly: `Korzh.EasyQuery.Linq.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CreateRow(`object` item, `IEnumerable`&lt;`PropertyInfo`&gt; properties) | [EasyDataRow](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatarow-class) |  |
+| CreateRow(`object` item, `IEnumerable`&lt;`PropertyInfo`&gt; properties) | [EasyDataRow](///easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatarow-class) |  |

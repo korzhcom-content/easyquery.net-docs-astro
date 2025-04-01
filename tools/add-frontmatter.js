@@ -75,6 +75,7 @@ function frontmatter(path, options = {}) {
             .replaceAll('](', '](/')
             .replaceAll('/http', 'http')
             .replaceAll('https://korzh.com/easyquery/docs', '')
+            .replaceAll('https://files.aistant.com/korzh/easyquery-dotnet/images/', '/easyquery/docs/images/')
         
         writeFileSync(file, matter.stringify(newContent, frontmatter), 'utf-8')
         

@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Represents a value editor which returns the list of values  retrieved from a database with some SQL SELECT statement.  Implements the [Korzh.EasyQuery.Services.IValueListResolver](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ivaluelistresolver-interface)
+Represents a value editor which returns the list of values  retrieved from a database with some SQL SELECT statement.  Implements the [Korzh.EasyQuery.Services.IValueListResolver](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ivaluelistresolver-interface)
 ```csharp
 public class Korzh.EasyQuery.Services.SqlValueListResolver
     : IValueListResolver

@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightThemeRapide from 'starlight-theme-rapide'
+import starlightImageZoom from 'starlight-image-zoom'
 import { rehypeLinks } from './plugins/rehype-links';
 import { updateFrontmatter } from './plugins/update-frontmatter';
 import getSidebar from "./tools/get-sidebar.js"
@@ -48,6 +49,7 @@ export default defineConfig({
 			lastUpdated: true,
 			plugins: [
 				starlightThemeRapide(),
+				starlightImageZoom(),
 			],
 			tableOfContents: {
 				minHeadingLevel: 2,

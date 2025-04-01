@@ -19,12 +19,12 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DbTableXmlSerializer([XmlSerializerFactory](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
+| DbTableXmlSerializer([XmlSerializerFactory](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoadOneAttribute([DbTable](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtable-class) table, `string` propName, `string` propValue) | `void` |  | 
-| SaveAttributes([DbTable](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtable-class) table, `XmlWriter` writer) | `void` |  |
+| LoadOneAttribute([DbTable](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtable-class) table, `string` propName, `string` propValue) | `void` |  | 
+| SaveAttributes([DbTable](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtable-class) table, `XmlWriter` writer) | `void` |  |

@@ -19,7 +19,7 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EasyQueryApiHandler([EasyQueryManager](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager, `HttpContext` httpContext) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EasyQueryApiHandler](///////////////easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/easyqueryapihandler-class) class. | 
+| EasyQueryApiHandler([EasyQueryManager](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager, `HttpContext` httpContext) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EasyQueryApiHandler](///easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/easyqueryapihandler-class) class. | 
 
 
 ### Fields
@@ -27,7 +27,7 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | HttpContext | `HttpContext` | The current HttpContext | 
-| Manager | [EasyQueryManager](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) | An instance of EasyQueryManager that incapsulates all business logic of EasyQuery API | 
+| Manager | [EasyQueryManager](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) | An instance of EasyQueryManager that incapsulates all business logic of EasyQuery API | 
 
 
 ### Methods
@@ -53,9 +53,9 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 | HandleSyncQueryAsync(`string` modelId, `string` queryId) | `Task` | Handles the "SyncQuery" request.  This action gets a JSON representation of the query in request's body and  passes it SyncQuery method of EasyQueryManager.  The manager can save the query and/or build it and return SQL statement (depending on options) | 
 | HandleUploadQueryFileAsync(`string` modelId) | `Task` | Handles UploadQueryFile request. | 
 | LoadQueryFromFormFileAsync(`IFormFile` file) | `Task` | Loads query from a form file. | 
-| WriteExecuteQueryResponseAsync(`JsonWriter` jsonWriter, [IEqResultSet](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieqresultset-interface) resultSet) | `Task` | Writes the response for ExecuteQuery request to JsonWriter.  Can be overrided in derived classes to add extra data to the response. | 
+| WriteExecuteQueryResponseAsync(`JsonWriter` jsonWriter, [IEqResultSet](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieqresultset-interface) resultSet) | `Task` | Writes the response for ExecuteQuery request to JsonWriter.  Can be overrided in derived classes to add extra data to the response. | 
 | WriteExportedDataAsync(`Stream` responseStream, `string` formatType) | `Task` | Writes exported data to the response. | 
-| WriteGetModelResponseAsync(`JsonWriter` jsonWriter, [DataModel](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `Task` | Writes the model's content to the JsonWriter.  Can be overriden in the derived classes to write some extra data to the response for GetModel request . | 
-| WriteGetQueryResponseAsync(`JsonWriter` jsonWriter, [Query](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) query) | `Task` | Being overriden in the derived classes this method allows to write some extra data to the response for GetQuery request . | 
+| WriteGetModelResponseAsync(`JsonWriter` jsonWriter, [DataModel](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `Task` | Writes the model's content to the JsonWriter.  Can be overriden in the derived classes to write some extra data to the response for GetModel request . | 
+| WriteGetQueryResponseAsync(`JsonWriter` jsonWriter, [Query](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) query) | `Task` | Being overriden in the derived classes this method allows to write some extra data to the response for GetQuery request . | 
 | WriteQueryStreamAsync(`HttpResponseStreamWriter` responseWriter, `string` fileFormat) | `Task` | Write query into the response stream. | 
 | WriteSyncQueryResponseAsync(`JsonWriter` jsonWriter, `bool` isAuthorized, `bool` querySaved) | `Task` | Writes the response for SyncQuery request to JsonWriter.  Can be overrided in derived classes to add extra data to the respons |

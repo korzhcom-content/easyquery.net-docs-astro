@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Provides data for [Korzh.EasyQuery.WinForms.XPanel.Action](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xpanel-class) event
+Provides data for [Korzh.EasyQuery.WinForms.XPanel.Action](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xpanel-class) event
 ```csharp
 public class Korzh.EasyQuery.WinForms.ActionEventArgs
     : EventArgs
@@ -20,8 +20,8 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ActionEventArgs(`string` actionName, `object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ActionEventArgs](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/actioneventargs-class) class. | 
-| ActionEventArgs(`string` actionName) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ActionEventArgs](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/actioneventargs-class) class. | 
+| ActionEventArgs(`string` actionName, `object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ActionEventArgs](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/actioneventargs-class) class. | 
+| ActionEventArgs(`string` actionName) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.ActionEventArgs](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/actioneventargs-class) class. | 
 
 
 ### Properties

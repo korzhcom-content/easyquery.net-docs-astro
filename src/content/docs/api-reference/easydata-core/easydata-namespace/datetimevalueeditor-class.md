@@ -19,8 +19,8 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DateTimeValueEditor() | `void` | Initializes a new instance of the [EasyData.DateTimeValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) class. | 
-| DateTimeValueEditor(`string` id, [DataType](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) subType) | `void` | Initializes a new instance of the [EasyData.DateTimeValueEditor](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) class. | 
+| DateTimeValueEditor() | `void` | Initializes a new instance of the [EasyData.DateTimeValueEditor](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) class. | 
+| DateTimeValueEditor(`string` id, [DataType](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) subType) | `void` | Initializes a new instance of the [EasyData.DateTimeValueEditor](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datetimevalueeditor-class) class. | 
 
 
 ### Properties
@@ -29,8 +29,8 @@ Assembly: `EasyData.Core.dll`
 | --- | --- | --- | 
 | DefaultText | `string` | Gets or sets the default text. | 
 | DefaultValue | `string` | Gets or sets the default value. | 
-| DefaultValues | [ConstValueList](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/constvaluelist-class) | Gets the list of default values | 
-| SubType | [DataType](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the type of data (Date, Time or DateTime). | 
+| DefaultValues | [ConstValueList](///easyquery/docs/api-reference/easydata-core/easydata-namespace/constvaluelist-class) | Gets the list of default values | 
+| SubType | [DataType](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the type of data (Date, Time or DateTime). | 
 | Tag | `string` | Gets the name of the value editor type. | 
 | XmlDefinition | `string` | Gets the XML definition of value editor. | 
 
@@ -40,7 +40,7 @@ Assembly: `EasyData.Core.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | ReadOnePropFromJsonAsync(`JsonReader` reader, `string` propName) | `Task` | Reads one editor's property from JSON (asynchronous way). | 
-| WritePropertiesToJsonAsync(`JsonWriter` writer, [BitOptions](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` | Writes the content of the date/time value editor to JSON (asynchronous way). | 
+| WritePropertiesToJsonAsync(`JsonWriter` writer, [BitOptions](///easyquery/docs/api-reference/easydata-core/easydata-namespace/bitoptions-class) rwOptions) | `Task` | Writes the content of the date/time value editor to JSON (asynchronous way). | 
 
 
 ### Static Properties

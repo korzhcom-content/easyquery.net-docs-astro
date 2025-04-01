@@ -95,4 +95,4 @@ Starting from EasyQuery.JS 6.1.0 you can attach some extra data to the query sen
 
 ### 2.5 Fixes and small improvements
 
-Refer to [changelog](//////////////changelog) for more details
+Refer to [changelog](//changelog) for more details

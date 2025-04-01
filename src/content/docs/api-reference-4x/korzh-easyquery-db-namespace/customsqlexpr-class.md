@@ -18,7 +18,7 @@ public class Korzh.EasyQuery.Db.CustomSqlExpr
 | --- | --- | --- | 
 | `EntityAttr` | BaseAttr | Gets or sets the base attribute for this custom SQL expression. | 
 | `Boolean` | IsAggregate | Gets a value indicating whether this expression is aggregate. | 
-| `String` | TypeName | Non-static version of [Korzh.EasyQuery.Db.CustomSqlExpr.STypeName](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/customsqlexpr-class) property. | 
+| `String` | TypeName | Non-static version of [Korzh.EasyQuery.Db.CustomSqlExpr.STypeName](///easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/customsqlexpr-class) property. | 
 | `String` | Value | Gets or sets the value of expression. | 
 
 

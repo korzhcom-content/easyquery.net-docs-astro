@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Represents the settings for [Korzh.EasyQuery.Services.FileQueryStore](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/filequerystore-class)
+Represents the settings for [Korzh.EasyQuery.Services.FileQueryStore](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/filequerystore-class)
 ```csharp
 public class Korzh.EasyQuery.Services.FileQueryStoreSettings
 

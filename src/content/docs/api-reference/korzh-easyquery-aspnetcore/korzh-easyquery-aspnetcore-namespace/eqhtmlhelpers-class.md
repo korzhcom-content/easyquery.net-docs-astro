@@ -19,4 +19,4 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| PageNavigator(<span style='color: blue'>this</span> `IHtmlHelper` html, [IPaging](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ipaging-interface) paging) | `IHtmlContent` | Renders the placeholder for the configurable paging control. |
+| PageNavigator(<span style='color: blue'>this</span> `IHtmlHelper` html, [IPaging](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ipaging-interface) paging) | `IHtmlContent` | Renders the placeholder for the configurable paging control. |

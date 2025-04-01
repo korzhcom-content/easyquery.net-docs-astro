@@ -27,5 +27,5 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Equals([ListItem](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) x, [ListItem](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) y) | `bool` | Determines whether the specified objects are equal. | 
-| GetHashCode([ListItem](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) obj) | `int` | Returns a hash code for this instance. |
+| Equals([ListItem](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) x, [ListItem](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) y) | `bool` | Determines whether the specified objects are equal. | 
+| GetHashCode([ListItem](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) obj) | `int` | Returns a hash code for this instance. |

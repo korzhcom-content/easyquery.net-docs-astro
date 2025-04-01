@@ -26,12 +26,12 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Item | [DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) | Gets or sets the [Korzh.EasyQuery.Db.DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) with the specified name. | 
+| Item | [DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) | Gets or sets the [Korzh.EasyQuery.Db.DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) with the specified name. | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Find(`string` className, `string` version) | [DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) | Finds the specified [Korzh.EasyQuery.Db.DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) object by its class name and version number | 
-| FindByName(`string` name, `string` version) | [DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) | Finds the specified [Korzh.EasyQuery.Db.DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) object by its name and version number |
+| Find(`string` className, `string` version) | [DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) | Finds the specified [Korzh.EasyQuery.Db.DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) object by its class name and version number | 
+| FindByName(`string` name, `string` version) | [DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) | Finds the specified [Korzh.EasyQuery.Db.DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) object by its name and version number |

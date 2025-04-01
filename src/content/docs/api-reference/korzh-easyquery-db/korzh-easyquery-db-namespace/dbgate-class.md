@@ -19,7 +19,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DbGate() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) class. | 
+| DbGate() | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) class. | 
 
 
 ### Properties
@@ -30,63 +30,63 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | Connection | `DbConnection` | Gets the connection. | 
 | ConnectionIsInternalSetted | `bool` |  | 
 | ConnectionString | `string` | Gets or sets the connection string. | 
-| ConnectionStringBuilderDlg | [IConnectionStringBuilderDlg](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/iconnectionstringbuilderdlg-interface) | Gets or sets the connection string builder dialog. | 
+| ConnectionStringBuilderDlg | [IConnectionStringBuilderDlg](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/iconnectionstringbuilderdlg-interface) | Gets or sets the connection string builder dialog. | 
 | FinalConnectionString | `string` |  | 
-| LoginPrompt | `bool` | Gets or sets a value indicating whether [Korzh.EasyQuery.Db.DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) object should ask user for login and password when connect to database. | 
+| LoginPrompt | `bool` | Gets or sets a value indicating whether [Korzh.EasyQuery.Db.DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) object should ask user for login and password when connect to database. | 
 | Password | `string` | Gets or sets the "Password" parameter of database connection. | 
-| ProgressIndicator | [IProgressIndicator](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/iprogressindicator-interface) | Gets or sets the progress indicator object. | 
+| ProgressIndicator | [IProgressIndicator](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/iprogressindicator-interface) | Gets or sets the progress indicator object. | 
 | UserID | `string` | Gets or sets the "User ID" parameter of database connection. | 
-| UseViews | `bool` | Gets or sets a value indicating whether [Korzh.EasyQuery.Db.DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) will add views in the list of tables returned by [Korzh.EasyQuery.Db.DbGate.GetTables(System.String,System.String)](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
-| Version | `string` | Gets the version of the current [Korzh.EasyQuery.Db.DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) implementation | 
+| UseViews | `bool` | Gets or sets a value indicating whether [Korzh.EasyQuery.Db.DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) will add views in the list of tables returned by [Korzh.EasyQuery.Db.DbGate.GetTables(System.String,System.String)](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
+| Version | `string` | Gets the version of the current [Korzh.EasyQuery.Db.DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) implementation | 
 
 
 ### Events
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| LoginRequest | `LoginRequestEventHandler` | Occurs when the [Korzh.EasyQuery.Db.DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) objects needs to get [Korzh.EasyQuery.Db.DbGate.UserID](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) and [Korzh.EasyQuery.Db.DbGate.Password](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) to connect to some database. | 
+| LoginRequest | `LoginRequestEventHandler` | Occurs when the [Korzh.EasyQuery.Db.DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) objects needs to get [Korzh.EasyQuery.Db.DbGate.UserID](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) and [Korzh.EasyQuery.Db.DbGate.Password](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) to connect to some database. | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AssembleConnectionString() | `string` | Builds the final connection string based on the string defined in [Korzh.EasyQuery.Db.DbGate.ConnectionString](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) property,  current environment variables and the parameters defined in UserID and Password properties. | 
+| AssembleConnectionString() | `string` | Builds the final connection string based on the string defined in [Korzh.EasyQuery.Db.DbGate.ConnectionString](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) property,  current environment variables and the parameters defined in UserID and Password properties. | 
 | CheckConnection() | `void` | Checks the connection. Calls CoreCheckConnection() method. | 
 | CoreCheckConnection() | `void` | When overriden in derived class, performs the actual connection checking | 
-| CoreGetDatabases([DbInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbinfolist-class) databases) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.GetDatabases](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
-| CoreGetFields(`string` dbName, `string` schemaName, `string` tableName, [DbFieldInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class) fields) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.GetFields(System.String,System.String,System.String)](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
-| CoreGetFieldsBySQL(`string` sql, [DbFieldInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class) fields) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.GetFieldsBySQL(System.String)](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
-| CoreGetLinks(`string` dbName, `string` schemaName, [DbLinkInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dblinkinfolist-class) links) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.GetLinks(System.String,System.String)](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
-| CoreGetTables(`string` dbName, `string` schemaName, [DbTableInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtableinfolist-class) tables) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.GetTables(System.String,System.String)](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
-| CoreLoadParams([DbParameters](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class) dbParams) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.LoadParams(Korzh.EasyQuery.Db.DbParameters)](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
-| CoreSaveParams([DbParameters](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class) dbParams) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.SaveParams(Korzh.EasyQuery.Db.DbParameters)](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
+| CoreGetDatabases([DbInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbinfolist-class) databases) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.GetDatabases](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
+| CoreGetFields(`string` dbName, `string` schemaName, `string` tableName, [DbFieldInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class) fields) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.GetFields(System.String,System.String,System.String)](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
+| CoreGetFieldsBySQL(`string` sql, [DbFieldInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class) fields) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.GetFieldsBySQL(System.String)](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
+| CoreGetLinks(`string` dbName, `string` schemaName, [DbLinkInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dblinkinfolist-class) links) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.GetLinks(System.String,System.String)](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
+| CoreGetTables(`string` dbName, `string` schemaName, [DbTableInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtableinfolist-class) tables) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.GetTables(System.String,System.String)](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
+| CoreLoadParams([DbParameters](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class) dbParams) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.LoadParams(Korzh.EasyQuery.Db.DbParameters)](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
+| CoreSaveParams([DbParameters](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class) dbParams) | `void` | Core implementation of [Korzh.EasyQuery.Db.DbGate.SaveParams(Korzh.EasyQuery.Db.DbParameters)](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) method. | 
 | Dispose(`bool` disposing) | `void` | Releases unmanaged and - optionally - managed resources. | 
 | Dispose() | `void` | Releases unmanaged and - optionally - managed resources. | 
-| GetConnected() | `bool` | Core implemenation of "get" method of [Korzh.EasyQuery.Db.DbGate.Connected](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) property. | 
+| GetConnected() | `bool` | Core implemenation of "get" method of [Korzh.EasyQuery.Db.DbGate.Connected](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) property. | 
 | GetConnection() | `DbConnection` | When overriden in derived class, returns the connection | 
 | GetDataAdapter(`string` sqlText) | `DbDataAdapter` | Gets the data adapter. | 
-| GetDatabases() | [DbInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbinfolist-class) | Gets the list of available databases. | 
-| GetFields(`string` dbName, `string` schemaName, `string` tableName) | [DbFieldInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class) | Gets the fields by table. | 
-| GetFieldsBySQL(`string` sql) | [DbFieldInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class) | Gets the fields of result set of some SQL statement execution. | 
-| GetFieldsEx(`string` dbName, `string` schemaName, `string` tableName, `bool` sortByOriginalPosition) | [DbFieldInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class) | Gets the fields by table. | 
-| GetFormatType() | [FormatType](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/formattype-enum) | Returns the format type for this DB gate | 
-| GetGateId() | `string` | Gets the id of [Korzh.EasyQuery.Db.DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class). Must be overrided in inherited classes | 
-| GetLinks(`string` dbName, `string` schemaName) | [DbLinkInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dblinkinfolist-class) | Gets the list of available tables. | 
-| GetName() | `string` | Gets the name of [Korzh.EasyQuery.Db.DbGate](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class). Must be overrided in inherited classes | 
+| GetDatabases() | [DbInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbinfolist-class) | Gets the list of available databases. | 
+| GetFields(`string` dbName, `string` schemaName, `string` tableName) | [DbFieldInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class) | Gets the fields by table. | 
+| GetFieldsBySQL(`string` sql) | [DbFieldInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class) | Gets the fields of result set of some SQL statement execution. | 
+| GetFieldsEx(`string` dbName, `string` schemaName, `string` tableName, `bool` sortByOriginalPosition) | [DbFieldInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class) | Gets the fields by table. | 
+| GetFormatType() | [FormatType](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/formattype-enum) | Returns the format type for this DB gate | 
+| GetGateId() | `string` | Gets the id of [Korzh.EasyQuery.Db.DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class). Must be overrided in inherited classes | 
+| GetLinks(`string` dbName, `string` schemaName) | [DbLinkInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dblinkinfolist-class) | Gets the list of available tables. | 
+| GetName() | `string` | Gets the name of [Korzh.EasyQuery.Db.DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class). Must be overrided in inherited classes | 
 | GetPwdName() | `string` | Gets the name of "password" attribute in connection string. | 
 | GetSqlDialect() | `string` | Gets the name of default SQL dialect. Can be overrided in inherited classes | 
-| GetTableFieldsMap(`string` dbName, `string` schemaName) | `Dictionary`&lt;`string`, [DbFieldInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class)&gt; | Returns all table fields map for the particular DB and schema. Called in [Korzh.EasyQuery.Db.DbGate.CoreGetFields(System.String,System.String,System.String,Korzh.EasyQuery.Db.DbFieldInfoList)](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) | 
-| GetTables(`string` dbName, `string` schemaName) | [DbTableInfoList](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtableinfolist-class) | Gets the list of available tables. | 
+| GetTableFieldsMap(`string` dbName, `string` schemaName) | `Dictionary`&lt;`string`, [DbFieldInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbfieldinfolist-class)&gt; | Returns all table fields map for the particular DB and schema. Called in [Korzh.EasyQuery.Db.DbGate.CoreGetFields(System.String,System.String,System.String,Korzh.EasyQuery.Db.DbFieldInfoList)](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) | 
+| GetTables(`string` dbName, `string` schemaName) | [DbTableInfoList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbtableinfolist-class) | Gets the list of available tables. | 
 | GetUidName() | `string` | Gets the name of User ID attribute in connection string | 
-| GetVersion() | `string` | Core implemenation of [Korzh.EasyQuery.Db.DbGate.Version](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) property. Must be overrided in descendants. | 
-| LoadParams([DbParameters](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class) dbParams) | `void` | Loads the connection parameters. | 
+| GetVersion() | `string` | Core implemenation of [Korzh.EasyQuery.Db.DbGate.Version](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) property. Must be overrided in descendants. | 
+| LoadParams([DbParameters](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class) dbParams) | `void` | Loads the connection parameters. | 
 | LogDebug(`string` message, `Object[]` args) | `void` | Formats and writes a debug log message. | 
 | LogError(`string` message, `Object[]` args) | `void` | Formats and writes an error log message. | 
 | LogInfo(`string` message, `Object[]` args) | `void` | Formats and writes an informational log message. | 
 | OnLoginRequest() | `void` | Raises the `LoginRequest` event and filled UserID and Password by values returned in event arguments | 
-| SaveParams([DbParameters](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class) dbParams) | `void` | Saves the connection parameters. | 
-| SetConnected(`bool` connected) | `void` | Core implemenation of "set" method of [Korzh.EasyQuery.Db.DbGate.Connected](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) property. | 
+| SaveParams([DbParameters](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class) dbParams) | `void` | Saves the connection parameters. | 
+| SetConnected(`bool` connected) | `void` | Core implemenation of "set" method of [Korzh.EasyQuery.Db.DbGate.Connected](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class) property. | 
 | SetConnection(`DbConnection` value) | `void` |  | 
 | SetLogger(`ILogger` logger) | `void` | Set a logger | 
 | SetProgress(`int` pos) | `void` | Set the progress to the specified position. | 
@@ -106,5 +106,5 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DbTypeByDataType([DataType](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) dt) | `SqlDbType` | Gets SqlDbType object which coressponds to DataType object specified in  parameter | 
+| DbTypeByDataType([DataType](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) dt) | `SqlDbType` | Gets SqlDbType object which coressponds to DataType object specified in  parameter | 
 | Register(`Type` gateType) | `void` | Registers the specified gate type. |

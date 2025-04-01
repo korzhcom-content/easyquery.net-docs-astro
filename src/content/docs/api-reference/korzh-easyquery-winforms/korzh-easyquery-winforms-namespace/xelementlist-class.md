@@ -27,5 +27,5 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| FindByData(`object` data) | [XElement](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Searches the element with specified [Korzh.EasyQuery.WinForms.XElement.Data](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) in the list. | 
-| IndexByData(`object` data) | `int` | Searches the element with specified [Korzh.EasyQuery.WinForms.XElement.Data](///////////////easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) in the list. |
+| FindByData(`object` data) | [XElement](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Searches the element with specified [Korzh.EasyQuery.WinForms.XElement.Data](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) in the list. | 
+| IndexByData(`object` data) | `int` | Searches the element with specified [Korzh.EasyQuery.WinForms.XElement.Data](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) in the list. |

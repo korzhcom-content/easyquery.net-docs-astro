@@ -18,7 +18,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TextStorage(`ResourceManager` nativeResources = <span style='color: blue'>null</span>) | `void` | Initializes a new instance of the [Korzh.Utils.TextStorage](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) class. | 
+| TextStorage(`ResourceManager` nativeResources = <span style='color: blue'>null</span>) | `void` | Initializes a new instance of the [Korzh.Utils.TextStorage](///easyquery/docs/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) class. | 
 
 
 ### Methods
@@ -29,8 +29,8 @@ Assembly: `Korzh.EasyQuery.dll`
 | LoadFromFile(`string` path) | `void` | Loads text resources from file. | 
 | LoadFromFileForCulture(`string` baseFileName, `CultureInfo` cultureInfo = <span style='color: blue'>null</span>, `string` fileExt = properties) | `void` | Loads resources from .properties like file for indicated culture. | 
 | LoadFromResources(`ResourceManager` resManager) | `void` | Loads texts from ResourceManager object. | 
-| LoadFromStream(`Stream` input) | `void` | Loads this [Korzh.Utils.TextStorage](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) object from `System.IO.Stream` object. | 
-| LoadFromTextReader(`TextReader` reader) | `void` | Loads this [Korzh.Utils.TextStorage](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) object from `System.IO.TextReader` object. | 
+| LoadFromStream(`Stream` input) | `void` | Loads this [Korzh.Utils.TextStorage](///easyquery/docs/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) object from `System.IO.Stream` object. | 
+| LoadFromTextReader(`TextReader` reader) | `void` | Loads this [Korzh.Utils.TextStorage](///easyquery/docs/api-reference/korzh-easyquery/korzh-utils-namespace/textstorage-class) object from `System.IO.TextReader` object. | 
 | Put(`string` key, `string` value) | `void` | Adds new resource item with specified key and value. | 
 
 

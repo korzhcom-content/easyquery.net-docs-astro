@@ -15,7 +15,7 @@ public class Korzh.EasyQuery.Db.TableLink
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `String` | ConditionExpr | Gets or sets the expression of link condition.  This expression will be used if [Korzh.EasyQuery.Db.TableLink.Conditions](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/tablelink-class) list is empty. | 
+| `String` | ConditionExpr | Gets or sets the expression of link condition.  This expression will be used if [Korzh.EasyQuery.Db.TableLink.Conditions](///easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/tablelink-class) list is empty. | 
 | `ConditionList` | Conditions | Gets list of linking conditions. | 
 | `LinkType` | LnkType | Gets or sets the type of the link (inner, left, right or full). | 
 | `Boolean` | QuoteFields | Gets or sets a value indicating whether field names in link conditions should be quoted in SQL expressions. | 
@@ -45,4 +45,4 @@ public class Korzh.EasyQuery.Db.TableLink
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `LinkType` | StrToLinkType(`String` s) | Converts text to [Korzh.EasyQuery.Db.TableLink.LinkType](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/tablelink-class) value. |
+| `LinkType` | StrToLinkType(`String` s) | Converts text to [Korzh.EasyQuery.Db.TableLink.LinkType](///easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/tablelink-class) value. |

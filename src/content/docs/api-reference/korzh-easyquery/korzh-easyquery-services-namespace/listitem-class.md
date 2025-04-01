@@ -19,9 +19,9 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ListItem(`string` id, `string` text, `IEnumerable`&lt;[ListItem](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class)&gt; items) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ListItem](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) class. | 
-| ListItem(`string` id, `string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ListItem](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) class. | 
-| ListItem(`string` idAndText) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ListItem](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) class. | 
+| ListItem(`string` id, `string` text, `IEnumerable`&lt;[ListItem](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class)&gt; items) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ListItem](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) class. | 
+| ListItem(`string` id, `string` text) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ListItem](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) class. | 
+| ListItem(`string` idAndText) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.ListItem](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class) class. | 
 
 
 ### Properties
@@ -29,5 +29,5 @@ Assembly: `Korzh.EasyQuery.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | id | `string` | Gets or sets the identifier. | 
-| items | `IEnumerable`&lt;[ListItem](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class)&gt; | Gets or sets the list of sub-items for the current item. | 
+| items | `IEnumerable`&lt;[ListItem](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/listitem-class)&gt; | Gets or sets the list of sub-items for the current item. | 
 | text | `string` | Gets or sets the text. |

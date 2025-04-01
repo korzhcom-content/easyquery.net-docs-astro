@@ -26,7 +26,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| FieldType | [DataType](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the type of the field. | 
+| FieldType | [DataType](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the type of the field. | 
 | IsForeignKey | `bool` | If the field is foreign key | 
 | IsKey | `bool` | If the field is the key; | 
 | IsNullable | `bool` | Indicates whether the field is nullable; | 

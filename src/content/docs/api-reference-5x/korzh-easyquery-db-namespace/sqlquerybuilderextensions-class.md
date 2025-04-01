@@ -16,5 +16,5 @@ public static class Korzh.EasyQuery.Db.SqlQueryBuilderExtensions
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `void` | CollectUsedTables(<span style='color: blue'>this</span> `Condition` condition, `TableList` usedTables) | Collects the tables used by this condition and adds them to the list passed in usedTables parameter | 
-| `String` | GetSqlExpr(<span style='color: blue'>this</span> `EqExpression` expr, `DbQueryFormats` formats, `SqlExtras` extras = <span style='color: blue'>null</span>) | Gets the SQL expression of the [Korzh.EasyQuery.EqExpression](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/eqexpression-class) object. | 
+| `String` | GetSqlExpr(<span style='color: blue'>this</span> `EqExpression` expr, `DbQueryFormats` formats, `SqlExtras` extras = <span style='color: blue'>null</span>) | Gets the SQL expression of the [Korzh.EasyQuery.EqExpression](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/eqexpression-class) object. | 
 | `void` | GetUsedTables(<span style='color: blue'>this</span> `EqExpression` expr, `TableList` tables) | Add the tables used in this expression into the list. |

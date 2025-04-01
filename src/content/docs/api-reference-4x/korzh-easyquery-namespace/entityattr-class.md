@@ -73,7 +73,7 @@ public class Korzh.EasyQuery.EntityAttr
 | `void` | OnModelAssignment() | Called when model is assigned. | 
 | `void` | ProcessVirtualExpr() | Scans attribute's expression for new parameters, tables, etc | 
 | `void` | SaveToJsonDict(`JsonDict` dict) | Saves attribute properties to Dictionary object (used for serialization to JSON). | 
-| `void` | SaveToXmlWriter(`XmlWriter` writer) | Saves [Korzh.EasyQuery.EntityAttr](///////////////easyquery/docs/api-reference-4x/korzh-easyquery-namespace/entityattr-class) to XML writer. | 
+| `void` | SaveToXmlWriter(`XmlWriter` writer) | Saves [Korzh.EasyQuery.EntityAttr](///easyquery/docs/api-reference-4x/korzh-easyquery-namespace/entityattr-class) to XML writer. | 
 | `void` | SaveXmlAttributes(`XmlWriter` writer) | Saves the attributes to XML writer. | 
 | `void` | SaveXmlNodes(`XmlWriter` writer) | Saves the nodes to XML writer. | 
 | `void` | SetDefaultOperator(`Operator` op) | Sets the default operator. | 

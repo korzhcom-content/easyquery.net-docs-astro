@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Table class represents one table in a [Korzh.EasyQuery.Db.DbModel](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbmodel-class) object
+Table class represents one table in a [Korzh.EasyQuery.Db.DbModel](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbmodel-class) object
 ```csharp
 public abstract class Korzh.EasyQuery.Db.Table
     : IComparable<Table>
@@ -63,15 +63,15 @@ public abstract class Korzh.EasyQuery.Db.Table
 | `Task` | ReadOnePropFromJsonAsync(`JsonReader` reader, `String` propName) | Reads one table's property from JSON (asynchronous way). | 
 | `void` | SaveAttributes(`XmlWriter` writer) | Saves table properties to `System.Xml.XmlWriter` object. | 
 | `void` | SaveNodes(`XmlWriter` writer) | Saves the nodes to XML writer. | 
-| `void` | SaveToXmlWriter(`XmlWriter` writer) | Saves table properties to `System.Xml.XmlWriter` object. Calls [Korzh.EasyQuery.Db.Table.SaveAttributes(System.Xml.XmlWriter)](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/table-class)procedure to do the job. | 
+| `void` | SaveToXmlWriter(`XmlWriter` writer) | Saves table properties to `System.Xml.XmlWriter` object. Calls [Korzh.EasyQuery.Db.Table.SaveAttributes(System.Xml.XmlWriter)](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/table-class)procedure to do the job. | 
 | `void` | WritePropertiesToJson(`JsonWriter` writer) | Writes table's properties to JSON (asynchronous way). | 
 | `Task` | WritePropertiesToJsonAsync(`JsonWriter` writer) | Writes table's properties to JSON . | 
-| `void` | WriteToJson(`JsonWriter` writer) | Writes table properties to `Newtonsoft.Json.JsonWriter` object. Calls [Korzh.EasyQuery.Db.Table.WritePropertiesToJson(Newtonsoft.Json.JsonWriter)](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/table-class)procedure to do the job. | 
-| `Task` | WriteToJsonAsync(`JsonWriter` writer) | Writes table properties to `Newtonsoft.Json.JsonWriter` object. Calls [Korzh.EasyQuery.Db.Table.WritePropertiesToJsonAsync(Newtonsoft.Json.JsonWriter)](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/table-class)procedure to do the job (asynchronous way). | 
+| `void` | WriteToJson(`JsonWriter` writer) | Writes table properties to `Newtonsoft.Json.JsonWriter` object. Calls [Korzh.EasyQuery.Db.Table.WritePropertiesToJson(Newtonsoft.Json.JsonWriter)](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/table-class)procedure to do the job. | 
+| `Task` | WriteToJsonAsync(`JsonWriter` writer) | Writes table properties to `Newtonsoft.Json.JsonWriter` object. Calls [Korzh.EasyQuery.Db.Table.WritePropertiesToJsonAsync(Newtonsoft.Json.JsonWriter)](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/table-class)procedure to do the job (asynchronous way). | 
 
 
 ### Static Methods
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `Table` | CreateByClass(`String` className) | Creates [Korzh.EasyQuery.Db.Table](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/table-class) object the by table class name (db or virtual). |
+| `Table` | CreateByClass(`String` className) | Creates [Korzh.EasyQuery.Db.Table](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/table-class) object the by table class name (db or virtual). |

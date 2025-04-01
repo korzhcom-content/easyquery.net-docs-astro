@@ -34,8 +34,8 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Condition | [Condition](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) | Gets or sets the condition. | 
-| Items | [ValueItemList](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitemlist-class) | Gets or sets the items. | 
+| Condition | [Condition](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) | Gets or sets the condition. | 
+| Items | [ValueItemList](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitemlist-class) | Gets or sets the items. | 
 
 
 ### Events
@@ -57,5 +57,5 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ItemsProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ListXElement.Items](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/listxelement-class) dependency property | 
-| ListRequestEvent | `RoutedEvent` | Identifies the [Korzh.EasyQuery.Wpf.ListXElement.ListRequest](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/listxelement-class) routed event |
+| ItemsProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.ListXElement.Items](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/listxelement-class) dependency property | 
+| ListRequestEvent | `RoutedEvent` | Identifies the [Korzh.EasyQuery.Wpf.ListXElement.ListRequest](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/listxelement-class) routed event |

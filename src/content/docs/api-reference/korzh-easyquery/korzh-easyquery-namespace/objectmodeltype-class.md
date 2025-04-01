@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Represents a vertex of the entity graph defined in `Korzh.EasyQuery.Linq.Graph`.  Used in [Korzh.EasyQuery.DataModel.LoadFromContext(System.Type)](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) method
+Represents a vertex of the entity graph defined in `Korzh.EasyQuery.Linq.Graph`.  Used in [Korzh.EasyQuery.DataModel.LoadFromContext(System.Type)](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) method
 ```csharp
 public class Korzh.EasyQuery.ObjectModelType
     : IEquatable<ObjectModelType>
@@ -19,7 +19,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ObjectModelType(`Type` type) | `void` | Initializes a new instance of the [Korzh.EasyQuery.ObjectModelType](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) class. | 
+| ObjectModelType(`Type` type) | `void` | Initializes a new instance of the [Korzh.EasyQuery.ObjectModelType](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) class. | 
 
 
 ### Properties
@@ -33,6 +33,6 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Equals([ObjectModelType](///////////////easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) other) | `bool` | Indicates whether the current object is equal to another object of the same type. | 
+| Equals([ObjectModelType](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) other) | `bool` | Indicates whether the current object is equal to another object of the same type. | 
 | Equals(`object` obj) | `bool` | Indicates whether the current object is equal to another object of the same type. | 
 | GetHashCode() | `int` | Returns a hash code for this instance. |

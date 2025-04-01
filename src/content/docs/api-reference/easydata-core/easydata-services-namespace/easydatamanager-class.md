@@ -18,14 +18,14 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EasyDataManager(`IServiceProvider` services, [EasyDataOptions](///////////////easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easydataoptions-class) options) | `void` |  | 
+| EasyDataManager(`IServiceProvider` services, [EasyDataOptions](///easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easydataoptions-class) options) | `void` |  | 
 
 
 ### Fields
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Options | [EasyDataOptions](///////////////easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easydataoptions-class) |  | 
+| Options | [EasyDataOptions](///easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easydataoptions-class) |  | 
 | Services | `IServiceProvider` |  | 
 
 
@@ -33,7 +33,7 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Model | [MetaData](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) |  | 
+| Model | [MetaData](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) |  | 
 
 
 ### Methods
@@ -44,9 +44,9 @@ Assembly: `EasyData.Core.dll`
 | DeleteEntityAsync(`string` modelId, `string` entityContainer, `string` keyStr) | `Task` |  | 
 | Dispose(`bool` disposing) | `void` | Releases unmanaged and - optionally - managed resources. | 
 | Dispose() | `void` | Releases unmanaged and - optionally - managed resources. | 
-| GetEntitiesAsync(`string` modelId, `string` entityContainer, `IEnumerable`&lt;[EasyFilter](///////////////easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easyfilter-class)&gt; filters = <span style='color: blue'>null</span>, `bool` isLookup = False, `Nullable`&lt;`int`&gt; offset = <span style='color: blue'>null</span>, `Nullable`&lt;`int`&gt; fetch = <span style='color: blue'>null</span>) | `Task`&lt;[EasyDataResultSet](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/easydataresultset-class)&gt; |  | 
+| GetEntitiesAsync(`string` modelId, `string` entityContainer, `IEnumerable`&lt;[EasyFilter](///easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easyfilter-class)&gt; filters = <span style='color: blue'>null</span>, `bool` isLookup = False, `Nullable`&lt;`int`&gt; offset = <span style='color: blue'>null</span>, `Nullable`&lt;`int`&gt; fetch = <span style='color: blue'>null</span>) | `Task`&lt;[EasyDataResultSet](///easyquery/docs/api-reference/easydata-core/easydata-namespace/easydataresultset-class)&gt; |  | 
 | GetEntityAsync(`string` modelId, `string` entityContainer, `string` keyStr) | `Task`&lt;`object`&gt; |  | 
-| GetModelAsync(`string` modelId) | `Task`&lt;[MetaData](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class)&gt; |  | 
-| GetTotalEntitiesAsync(`string` modelId, `string` entityContainer, `IEnumerable`&lt;[EasyFilter](///////////////easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easyfilter-class)&gt; filters = <span style='color: blue'>null</span>, `bool` isLookup = False) | `Task`&lt;`long`&gt; |  | 
+| GetModelAsync(`string` modelId) | `Task`&lt;[MetaData](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class)&gt; |  | 
+| GetTotalEntitiesAsync(`string` modelId, `string` entityContainer, `IEnumerable`&lt;[EasyFilter](///easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easyfilter-class)&gt; filters = <span style='color: blue'>null</span>, `bool` isLookup = False) | `Task`&lt;`long`&gt; |  | 
 | LoadModelAsync(`string` modelId) | `Task` |  | 
 | UpdateEntityAsync(`string` modelId, `string` entityContainer, `string` keyStr, `JObject` props) | `Task`&lt;`object`&gt; |  |

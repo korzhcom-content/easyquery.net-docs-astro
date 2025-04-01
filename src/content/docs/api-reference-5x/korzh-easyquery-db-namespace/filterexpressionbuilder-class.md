@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Used for building Sql commands using [Korzh.EasyQuery.Db.DbQuery](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbquery-class)
+Used for building Sql commands using [Korzh.EasyQuery.Db.DbQuery](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbquery-class)
 ```csharp
 public class Korzh.EasyQuery.Db.FilterExpressionBuilder
     : DbQueryBuilder, IQueryBuilder

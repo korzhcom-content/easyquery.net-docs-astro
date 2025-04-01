@@ -19,7 +19,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TableStore([DbModel](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) model) | `void` | Initializes a new instance of the `TablesStorage` class. | 
+| TableStore([DbModel](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbmodel-class) model) | `void` | Initializes a new instance of the `TablesStorage` class. | 
 
 
 ### Methods
@@ -27,7 +27,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | ClearItems() | `void` | Removes all elements from the `System.Collections.ObjectModel.Collection`. | 
-| InsertItem(`int` index, [Table](///////////////easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) item) | `void` | Inserts an element into the <see cref="T:System.Collections.ObjectModel.Collection`1"></see> at the specified index. | 
+| InsertItem(`int` index, [Table](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class) item) | `void` | Inserts an element into the <see cref="T:System.Collections.ObjectModel.Collection`1"></see> at the specified index. | 
 | ReadFromJsonAsync(`JsonReader` reader) | `Task` | Reads the list of tables from JSON (asynchronous way). | 
 | RemoveItem(`int` index) | `void` | Removes the element at the specified index of the `System.Collections.ObjectModel.Collection'1`. | 
 | WriteToJsonAsync(`JsonWriter` writer) | `Task` | Writes the list of tables to JSON (asynchronous way). |

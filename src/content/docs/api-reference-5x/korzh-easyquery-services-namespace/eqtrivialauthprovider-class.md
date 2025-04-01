@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Represents a trivial implementation of [Korzh.EasyQuery.Services.IEqAuthProvider](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ieqauthprovider-interface)  which authorize any user for any action
+Represents a trivial implementation of [Korzh.EasyQuery.Services.IEqAuthProvider](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/ieqauthprovider-interface)  which authorize any user for any action
 ```csharp
 public class Korzh.EasyQuery.Services.EqTrivialAuthProvider
     : IEqAuthProvider

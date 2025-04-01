@@ -35,6 +35,6 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | GetAutoScrollToLasttItem(`DependencyObject` obj) | `bool` | Returns the value of the AutoScrollToCurrentItemProperty | 
-| OnAutoScrollToLastItem(`ListBox` listBox, [XRowList](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrowlist-class) rows) | `void` | Called when listbox is scrolled to last item. | 
-| OnAutoScrollToLastItemChanged(`DependencyObject` s, `DependencyPropertyChangedEventArgs` e) | `void` | Called when [Korzh.EasyQuery.Wpf.ListBoxExtenders.OnAutoScrollToLastItem(System.Windows.Controls.ListBox,Korzh.EasyQuery.Wpf.XRowList)](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/listboxextenders-class) changes | 
+| OnAutoScrollToLastItem(`ListBox` listBox, [XRowList](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xrowlist-class) rows) | `void` | Called when listbox is scrolled to last item. | 
+| OnAutoScrollToLastItemChanged(`DependencyObject` s, `DependencyPropertyChangedEventArgs` e) | `void` | Called when [Korzh.EasyQuery.Wpf.ListBoxExtenders.OnAutoScrollToLastItem(System.Windows.Controls.ListBox,Korzh.EasyQuery.Wpf.XRowList)](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/listboxextenders-class) changes | 
 | SetAutoScrollToLastItem(`DependencyObject` obj, `bool` value) | `void` | Sets the value of the AutoScrollToCurrentItemProperty |

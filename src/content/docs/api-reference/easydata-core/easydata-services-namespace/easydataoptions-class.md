@@ -17,7 +17,7 @@ Assembly: `EasyData.Core.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EasyDataOptions(`IServiceProvider` services) | `void` | Initializes a new instance of the [EasyData.Services.EasyDataOptions](///////////////easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easydataoptions-class) class. | 
+| EasyDataOptions(`IServiceProvider` services) | `void` | Initializes a new instance of the [EasyData.Services.EasyDataOptions](///easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easydataoptions-class) class. | 
 
 
 ### Properties
@@ -35,6 +35,6 @@ Assembly: `EasyData.Core.dll`
 | --- | --- | --- | 
 | RegisterFilter(`string` filterClass, `Type` filterType) | `void` |  | 
 | RegisterFilter(`string` filterClass) | `void` |  | 
-| ResolveFilter(`string` filterClass, [MetaData](///////////////easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) model) | [EasyFilter](///////////////easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easyfilter-class) |  | 
+| ResolveFilter(`string` filterClass, [MetaData](///easyquery/docs/api-reference/easydata-core/easydata-namespace/metadata-class) model) | [EasyFilter](///easyquery/docs/api-reference/easydata-core/easydata-services-namespace/easyfilter-class) |  | 
 | UseManager(`EasyDataManagerResolver` managerResolver) | `void` | Defines the function which creates and returns an instance of EasyQuery manager.  The manager defines all basic operations with the models and queries: creating, loading, saving and query building itself. | 
 | UseManager() | `void` | Defines the function which creates and returns an instance of EasyQuery manager.  The manager defines all basic operations with the models and queries: creating, loading, saving and query building itself. |

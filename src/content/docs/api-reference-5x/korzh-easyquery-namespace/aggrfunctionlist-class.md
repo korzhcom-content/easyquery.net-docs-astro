@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Represents the list of [Korzh.EasyQuery.AggrFunction](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/aggrfunction-class) objects
+Represents the list of [Korzh.EasyQuery.AggrFunction](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/aggrfunction-class) objects
 ```csharp
 public class Korzh.EasyQuery.AggrFunctionList
     : Collection<AggrFunction>, IList<AggrFunction>, ICollection<AggrFunction>, IEnumerable<AggrFunction>, IEnumerable, IList, ICollection, IReadOnlyList<AggrFunction>, IReadOnlyCollection<AggrFunction>

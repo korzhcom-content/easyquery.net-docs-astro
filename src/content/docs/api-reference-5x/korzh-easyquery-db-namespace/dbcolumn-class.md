@@ -16,7 +16,7 @@ public class Korzh.EasyQuery.Db.DbColumn
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `EntityAttr` | BaseAttr | Gets the entity attribute ([Korzh.EasyQuery.EntityAttr](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/entityattr-class) object) this column is based on. | 
+| `EntityAttr` | BaseAttr | Gets the entity attribute ([Korzh.EasyQuery.EntityAttr](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/entityattr-class) object) this column is based on. | 
 | `DbModel` | Model | Gets or sets the reference to the data model where this column is defined. | 
 | `SortDirection` | Sorting | Gets or sets the sorting. | 
 | `TableList` | UsedTables | Gets the used tables. | 

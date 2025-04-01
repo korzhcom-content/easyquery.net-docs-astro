@@ -16,7 +16,7 @@ public class Korzh.EasyQuery.SortedColumnList
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `Boolean` | Updating | Gets a value indicating whether this [Korzh.EasyQuery.ColumnList](///////////////easyquery/docs/api-reference-5x/korzh-easyquery-namespace/columnlist-class) is updating. | 
+| `Boolean` | Updating | Gets a value indicating whether this [Korzh.EasyQuery.ColumnList](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/columnlist-class) is updating. | 
 
 
 ### Methods

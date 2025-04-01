@@ -50,10 +50,10 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| SubTypeProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.XElement.SubType](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) dependency property | 
-| TextProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.XElement.Text](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) dependency property | 
-| ValueChangedEvent | `RoutedEvent` | Identifies the [Korzh.EasyQuery.Wpf.XElement.ValueChanged](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) routed event | 
-| ValueProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.XElement.Value](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) dependency property | 
+| SubTypeProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.XElement.SubType](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) dependency property | 
+| TextProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.XElement.Text](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) dependency property | 
+| ValueChangedEvent | `RoutedEvent` | Identifies the [Korzh.EasyQuery.Wpf.XElement.ValueChanged](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) routed event | 
+| ValueProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.XElement.Value](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) dependency property | 
 
 
 ### Static Properties
@@ -67,5 +67,5 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Create(`string` tagName) | [XElement](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) | Creates [Korzh.EasyQuery.Wpf.XElement](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) with the specified tag name. | 
-| Register([IXElementCreator](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/ixelementcreator-interface) creator) | `void` | Registers the specified [Korzh.EasyQuery.Wpf.IXElementCreator](///////////////easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/ixelementcreator-interface). |
+| Create(`string` tagName) | [XElement](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) | Creates [Korzh.EasyQuery.Wpf.XElement](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xelement-class) with the specified tag name. | 
+| Register([IXElementCreator](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/ixelementcreator-interface) creator) | `void` | Registers the specified [Korzh.EasyQuery.Wpf.IXElementCreator](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/ixelementcreator-interface). |

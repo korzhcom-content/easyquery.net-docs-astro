@@ -66,7 +66,7 @@ Now you can call `eqi18n.addLocale` function to add new locale with all text res
 
 ### Custom dialogs in AdvancedSearchView
 
-It's possible now to define custom dialogs (for example using JQuery Dialogs) for New/Save/Remove Query operations. There is a [tutorial which describes how to do it](///////////////easyquery/docs/tutorials/custom-javascript-dialogs-saving-loading).
+It's possible now to define custom dialogs (for example using JQuery Dialogs) for New/Save/Remove Query operations. There is a [tutorial which describes how to do it](///easyquery/docs/tutorials/custom-javascript-dialogs-saving-loading).
 
 ### New functions in the Query object
 
@@ -99,4 +99,4 @@ now it should be:
 let view = new easyquery.ui.AdvancedSearchViewJQuery();
 ```
 
-> NB: For those, who upgrades from the version  4.x of EasyQuery for ASP.NET Core - please follow these [detailed upgrade instructions](///////////////easyquery/docs/release-notes/upgrade-from-4-x-to-5-0) first.
+> NB: For those, who upgrades from the version  4.x of EasyQuery for ASP.NET Core - please follow these [detailed upgrade instructions](///easyquery/docs/release-notes/upgrade-from-4-x-to-5-0) first.
