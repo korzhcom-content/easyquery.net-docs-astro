@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev --open",
     "start": "astro dev",
-    "build": "node tools/create-indexes.js ./src/content && astro build",
+    "build": "node tools/add-indexes.js ./src/content/docs && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
