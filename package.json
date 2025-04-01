@@ -19,9 +19,7 @@
     "starlight-links-validator": "^0.14.3",
     "starlight-showcases": "^0.3.0",
     "starlight-theme-rapide": "^0.4.0",
-    "unist-util-visit": "^5.0.0"
-  },
-  "devDependencies": {
+    "unist-util-visit": "^5.0.0",
     "@olton/progress": "^0.2.0",
     "glob": "^11.0.1"
   }
