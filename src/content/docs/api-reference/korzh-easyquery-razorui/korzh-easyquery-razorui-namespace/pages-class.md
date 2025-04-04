@@ -19,6 +19,6 @@ Assembly: `Korzh.EasyQuery.RazorUi.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AdHocReporting | [EqRazorPageSettings](///easyquery/docs/api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/eqrazorpagesettings-class) | "Adhoc Reporting" page settings. | 
-| AdvancedSearch | [EqRazorPageSettings](///easyquery/docs/api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/eqrazorpagesettings-class) | "Advanced Search" page settings. | 
-| DataFiltering | [EqRazorPageSettings](///easyquery/docs/api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/eqrazorpagesettings-class) | "Data Filtering" page settings. |
+| AdHocReporting | [EqRazorPageSettings](/easyquery/docs/api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/eqrazorpagesettings-class) | "Adhoc Reporting" page settings. | 
+| AdvancedSearch | [EqRazorPageSettings](/easyquery/docs/api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/eqrazorpagesettings-class) | "Advanced Search" page settings. | 
+| DataFiltering | [EqRazorPageSettings](/easyquery/docs/api-reference/korzh-easyquery-razorui/korzh-easyquery-razorui-namespace/eqrazorpagesettings-class) | "Data Filtering" page settings. |

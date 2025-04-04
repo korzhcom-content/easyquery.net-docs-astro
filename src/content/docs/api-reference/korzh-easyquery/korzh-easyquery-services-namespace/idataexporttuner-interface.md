@@ -19,4 +19,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Tune([EasyQueryManager](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager, [IDataExportSettings](///easyquery/docs/api-reference/easydata-core/easydata-export-namespace/idataexportsettings-interface) settings) | `bool` | Allows to tune the manager and export settings inside it |
+| Tune([EasyQueryManager](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager, [IDataExportSettings](/easyquery/docs/api-reference/easydata-core/easydata-export-namespace/idataexportsettings-interface) settings) | `bool` | Allows to tune the manager and export settings inside it |

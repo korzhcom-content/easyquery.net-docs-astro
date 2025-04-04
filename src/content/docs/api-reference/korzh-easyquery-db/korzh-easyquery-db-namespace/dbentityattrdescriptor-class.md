@@ -19,12 +19,12 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| DbEntityAttrDescriptor([Entity](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `string` expr, `Table[]` tables) | `void` |  | 
-| DbEntityAttrDescriptor([Entity](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, [EntityAttrKind](///easyquery/docs/api-reference/easydata-core/easydata-namespace/entityattrkind-enum) kind, `string` expr, `Table[]` tables) | `void` |  | 
+| DbEntityAttrDescriptor([Entity](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, `string` expr, `Table[]` tables) | `void` |  | 
+| DbEntityAttrDescriptor([Entity](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entity-class) parent, [EntityAttrKind](/easyquery/docs/api-reference/easydata-core/easydata-namespace/entityattrkind-enum) kind, `string` expr, `Table[]` tables) | `void` |  | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Tables | `List`&lt;[Table](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class)&gt; |  |
+| Tables | `List`&lt;[Table](/easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/table-class)&gt; |  |

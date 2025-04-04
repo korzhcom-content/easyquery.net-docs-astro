@@ -20,14 +20,14 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ValueRequestEventArgs([Condition](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition, `string` value, `string` text, `string` data, `RoutedEvent` routedEvent) | `void` | Initializes a new instance of the `ValueRequestEventArgs` class. | 
+| ValueRequestEventArgs([Condition](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition, `string` value, `string` text, `string` data, `RoutedEvent` routedEvent) | `void` | Initializes a new instance of the `ValueRequestEventArgs` class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Condition | [Condition](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) | Gets or sets the condition asssociated with current row in query panel | 
+| Condition | [Condition](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) | Gets or sets the condition asssociated with current row in query panel | 
 | Data | `string` | Gets the data associated with corresponding custom value editor. | 
 | Text | `string` | Gets or sets the text which will be shown to user. | 
 | Value | `string` | Gets or sets the value. |

@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-List of [Korzh.EasyQuery.Wpf.ValueItem](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class)'s
+List of [Korzh.EasyQuery.Wpf.ValueItem](/easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class)'s
 ```csharp
 public class Korzh.EasyQuery.Wpf.ValueItemList
     : ObservableCollection<ValueItem>
@@ -27,5 +27,5 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Add(`string` text, `string` fvalue) | [ValueItem](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) | Creates [Korzh.EasyQuery.Wpf.ValueItem](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) with the specified text and value and adds it to collection | 
+| Add(`string` text, `string` fvalue) | [ValueItem](/easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) | Creates [Korzh.EasyQuery.Wpf.ValueItem](/easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/valueitem-class) with the specified text and value and adds it to collection | 
 | LoadFromXml(`string` xml) | `void` | Loads items from XML. |

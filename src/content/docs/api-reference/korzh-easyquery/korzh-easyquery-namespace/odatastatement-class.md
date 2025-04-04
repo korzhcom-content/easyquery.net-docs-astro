@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Represents the result of ODataQueryBuilder's work.  Implements the [Korzh.EasyQuery.QueryStatement](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querystatement-class)
+Represents the result of ODataQueryBuilder's work.  Implements the [Korzh.EasyQuery.QueryStatement](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querystatement-class)
 ```csharp
 public class Korzh.EasyQuery.ODataStatement
     : QueryStatement

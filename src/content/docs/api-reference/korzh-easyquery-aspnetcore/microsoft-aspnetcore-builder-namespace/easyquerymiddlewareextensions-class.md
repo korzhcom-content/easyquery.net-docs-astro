@@ -19,5 +19,5 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| UseEasyQuery(<span style='color: blue'>this</span> `IApplicationBuilder` appBuilder, `Action`&lt;[EasyQueryOptions](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class)&gt; optionsAction = <span style='color: blue'>null</span>) | `IApplicationBuilder` | Adds the EasyQueryMiddleware to the middleware pipeline. | 
-| UseEasyQuery(<span style='color: blue'>this</span> `IApplicationBuilder` appBuilder, `Action`&lt;[EasyQueryOptions](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class)&gt; optionsAction = <span style='color: blue'>null</span>) | `IApplicationBuilder` | Adds the EasyQueryMiddleware to the middleware pipeline. |
+| UseEasyQuery(<span style='color: blue'>this</span> `IApplicationBuilder` appBuilder, `Action`&lt;[EasyQueryOptions](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class)&gt; optionsAction = <span style='color: blue'>null</span>) | `IApplicationBuilder` | Adds the EasyQueryMiddleware to the middleware pipeline. | 
+| UseEasyQuery(<span style='color: blue'>this</span> `IApplicationBuilder` appBuilder, `Action`&lt;[EasyQueryOptions](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyqueryoptions-class)&gt; optionsAction = <span style='color: blue'>null</span>) | `IApplicationBuilder` | Adds the EasyQueryMiddleware to the middleware pipeline. |

@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Represents an implementation of [Korzh.EasyQuery.Services.EasyQueryManager](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/easyquerymanager-class)  which loads the model from some type and generates LINQ queries.
+Represents an implementation of [Korzh.EasyQuery.Services.EasyQueryManager](/easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/easyquerymanager-class)  which loads the model from some type and generates LINQ queries.
 ```csharp
 public class Korzh.EasyQuery.Services.EasyQueryManagerLinq<T>
     : EasyQueryManager

@@ -26,7 +26,7 @@ public class Korzh.EasyQuery.Db.DbEntityAttr
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `void` | AddParamsTo(`QueryParamList` prms) | Adds the parameters associated with some entity attribute into the list of query parameters (see [Korzh.EasyQuery.QueryParamList](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryparamlist-class). | 
+| `void` | AddParamsTo(`QueryParamList` prms) | Adds the parameters associated with some entity attribute into the list of query parameters (see [Korzh.EasyQuery.QueryParamList](/easyquery/docs/api-reference-5x/korzh-easyquery-namespace/queryparamlist-class). | 
 | `Boolean` | CompareWithExpr(`String` expr) | Compares attribute's expression with the one passed in the parameter. | 
 | `void` | CopyFrom(`EntityAttr` attr) | Copies all attribute's properties from another entity attribute | 
 | `String` | GetDataAttrFullExpr() | Gets a string that represents full expression of EntityAttr instance. | 

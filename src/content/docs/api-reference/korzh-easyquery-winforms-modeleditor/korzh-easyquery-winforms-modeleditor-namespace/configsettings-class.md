@@ -25,8 +25,8 @@ Assembly: `Korzh.EasyQuery.WinForms.ModelEditor.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ModelDbParameters | `Dictionary`&lt;`string`, [DbParameters](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class)&gt; |  | 
-| ModelFormatIndex | [ModelFormatIndex](///easyquery/docs/api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/modelformatindex-enum) |  | 
+| ModelDbParameters | `Dictionary`&lt;`string`, [DbParameters](/easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbparameters-class)&gt; |  | 
+| ModelFormatIndex | [ModelFormatIndex](/easyquery/docs/api-reference/korzh-easyquery-winforms-modeleditor/korzh-easyquery-winforms-modeleditor-namespace/modelformatindex-enum) |  | 
 | PositionX | `string` |  | 
 | PositionY | `string` |  | 
 | SizeX | `string` |  | 

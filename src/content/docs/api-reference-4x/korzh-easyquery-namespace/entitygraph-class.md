@@ -24,7 +24,7 @@ public class Korzh.EasyQuery.EntityGraph
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `String` | GetCollectionName(`Type` type) | Used to get the name of the collection in context | 
-| `EdgeInfo` | GetEdgeInfo(`ObjectModelType` t1, `ObjectModelType` t2) | Gets the information about some edge in entity graph (see [Korzh.EasyQuery.EntityGraph](///easyquery/docs/api-reference-4x/korzh-easyquery-namespace/entitygraph-class) for details). | 
+| `EdgeInfo` | GetEdgeInfo(`ObjectModelType` t1, `ObjectModelType` t2) | Gets the information about some edge in entity graph (see [Korzh.EasyQuery.EntityGraph](/easyquery/docs/api-reference-4x/korzh-easyquery-namespace/entitygraph-class) for details). | 
 | `String` | GetNavigationPropertyName(`Type` from, `Type` to) |  | 
 | `void` | SetCollectionName(`Type` type, `String` name) |  | 
 | `void` | SetNavigationPropertyName(`Type` from, `Type` to, `String` name) |  | 

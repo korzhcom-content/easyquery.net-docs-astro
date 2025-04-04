@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Interface IEasyQueryManagerResolver  Contains only one function: GetManager which returns an instance of EasyQueryManagerBase descendant (like EasyQueryManagerSql or EasyQueryManagerLinq)  by DI services and options (an instance of [Korzh.EasyQuery.Services.EasyQueryOptions](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/easyqueryoptions-class) object)
+Interface IEasyQueryManagerResolver  Contains only one function: GetManager which returns an instance of EasyQueryManagerBase descendant (like EasyQueryManagerSql or EasyQueryManagerLinq)  by DI services and options (an instance of [Korzh.EasyQuery.Services.EasyQueryOptions](/easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/easyqueryoptions-class) object)
 ```csharp
 public interface Korzh.EasyQuery.Services.IEasyQueryManagerResolver
 

@@ -27,5 +27,5 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| FindByType([DataType](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) type) | [DataModel.TypeOperatorEntry](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-typeoperatorentry-class) | Returns the first entry that contains specified type in its Types list. | 
-| IndexByType([DataType](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) type) | `int` | Returns index of the first entry that contains specified type in its Types list. |
+| FindByType([DataType](/easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) type) | [DataModel.TypeOperatorEntry](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-typeoperatorentry-class) | Returns the first entry that contains specified type in its Types list. | 
+| IndexByType([DataType](/easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) type) | `int` | Returns index of the first entry that contains specified type in its Types list. |

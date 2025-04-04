@@ -21,4 +21,4 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 | --- | --- | --- | 
 | WriteJsonAsync(<span style='color: blue'>this</span> `HttpResponse` response, `object` data) | `Task` | Serializes and object to JSON and writes it to the HTTP response. | 
 | WriteObjectAsync(<span style='color: blue'>this</span> `JsonWriter` jsonWriter, `object` data) | `Task` | Serializes and object to JSON and writes it to the JsonWriter. | 
-| WriteResultSetAsync(<span style='color: blue'>this</span> `JsonWriter` jsonWriter, [IEqResultSet](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieqresultset-interface) resultSet) | `Task` | Serializes result set to JSON and writes it to the JsonWriter. |
+| WriteResultSetAsync(<span style='color: blue'>this</span> `JsonWriter` jsonWriter, [IEqResultSet](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieqresultset-interface) resultSet) | `Task` | Serializes result set to JSON and writes it to the JsonWriter. |

@@ -16,9 +16,9 @@ public class Korzh.EasyQuery.Db.FilterExpression
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `SqlExtras` | ExtraClauses | Gets the [Korzh.EasyQuery.Db.SqlExtras](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/sqlextras-class) object which defines some extra clauses of generated query. | 
+| `SqlExtras` | ExtraClauses | Gets the [Korzh.EasyQuery.Db.SqlExtras](/easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/sqlextras-class) object which defines some extra clauses of generated query. | 
 | `String` | FilterExpr | Gets the filter expression. | 
-| `DbQueryFormats` | Formats | Gets the [Korzh.EasyQuery.Db.DbQueryFormats](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object in the parent query. | 
+| `DbQueryFormats` | Formats | Gets the [Korzh.EasyQuery.Db.DbQueryFormats](/easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbqueryformats-class) object in the parent query. | 
 
 
 ### Methods

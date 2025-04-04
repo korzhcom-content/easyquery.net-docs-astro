@@ -20,6 +20,6 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| QueryBuilderError() | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryBuilderError](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuildererror-class) class. | 
-| QueryBuilderError(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryBuilderError](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuildererror-class) class. | 
-| QueryBuilderError(`string` message, `Exception` innerException) | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryBuilderError](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuildererror-class) class. |
+| QueryBuilderError() | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryBuilderError](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuildererror-class) class. | 
+| QueryBuilderError(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryBuilderError](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuildererror-class) class. | 
+| QueryBuilderError(`string` message, `Exception` innerException) | `void` | Initializes a new instance of the [Korzh.EasyQuery.QueryBuilderError](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querybuildererror-class) class. |

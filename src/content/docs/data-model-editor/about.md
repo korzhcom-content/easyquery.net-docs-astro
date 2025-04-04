@@ -26,7 +26,7 @@ Though being easy to use and self-explanatory, data model editing requires some 
 
 First of all, you will use DME to create your first data model. Here is a detailed instruction which will guide you through all steps of model creation process:
 
- * [Creating new data model using Data Model Editor](///easyquery/docs/getting-started/working-with-data-model)
+ * [Creating new data model using Data Model Editor](/easyquery/docs/getting-started/working-with-data-model)
 
 Once a model is created (or opened), you will see 3 main tabs:
 

@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Represents the settings for [Korzh.EasyQuery.Services.FileModelLoader](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/filemodelloader-class)
+Represents the settings for [Korzh.EasyQuery.Services.FileModelLoader](/easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/filemodelloader-class)
 ```csharp
 public class Korzh.EasyQuery.Services.FileModelLoaderSettings
 

@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-> See also: [Getting started for ASP.NET WebForms](///easyquery/docs/getting-started/asp-net-webforms)
+> See also: [Getting started for ASP.NET WebForms](/easyquery/docs/getting-started/asp-net-webforms)
 
 &nbsp;             
 
@@ -55,13 +55,13 @@ using System.Data.SqlClient;
 
 From: 
 
-``` .   .   .   .   .   .
-    eqService.Connection = new SqlCeConnection("Data Source=" + System.IO.Path.Combine(dataPath, "Northwind.sdf"));
+```
+eqService.Connection = new SqlCeConnection("Data Source=" + System.IO.Path.Combine(dataPath, "Northwind.sdf"));
 ```
 to
 
-``` .   .   .   .   .   .
-    eqService.Connection = new SqlConnection("Your connection string goes here");
+```
+eqService.Connection = new SqlConnection("Your connection string goes here");
 ```
 
 ## 4. Client-side scripts and CSS files

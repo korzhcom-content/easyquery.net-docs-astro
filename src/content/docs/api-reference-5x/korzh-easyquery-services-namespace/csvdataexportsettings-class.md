@@ -17,4 +17,4 @@ public class Korzh.EasyQuery.Services.CsvDataExportSettings
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `CsvDataExportSettings` | Default | Returns the default instance of [Korzh.EasyQuery.Services.CsvDataExportSettings](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/csvdataexportsettings-class). |
+| `CsvDataExportSettings` | Default | Returns the default instance of [Korzh.EasyQuery.Services.CsvDataExportSettings](/easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/csvdataexportsettings-class). |

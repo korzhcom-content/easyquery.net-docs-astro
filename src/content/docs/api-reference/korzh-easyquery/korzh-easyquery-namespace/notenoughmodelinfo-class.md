@@ -20,6 +20,6 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| NotEnoughModelInfo() | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. | 
-| NotEnoughModelInfo(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. | 
-| NotEnoughModelInfo(`string` message, `Exception` innerException) | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. |
+| NotEnoughModelInfo() | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. | 
+| NotEnoughModelInfo(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. | 
+| NotEnoughModelInfo(`string` message, `Exception` innerException) | `void` | Initializes a new instance of the [Korzh.EasyQuery.NotEnoughModelInfo](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/notenoughmodelinfo-class) class. |

@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Represents different options for [Korzh.EasyQuery.Services.DbConnectionModelLoader](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/dbconnectionmodelloader-class) class
+Represents different options for [Korzh.EasyQuery.Services.DbConnectionModelLoader](/easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/dbconnectionmodelloader-class) class
 ```csharp
 public class Korzh.EasyQuery.Db.DbConnectionLoaderOptions
 
@@ -26,5 +26,5 @@ public class Korzh.EasyQuery.Db.DbConnectionLoaderOptions
 | --- | --- | --- | 
 | `DbConnectionLoaderOptions` | AddFieldFilter(`Func<DbFieldInfo, Boolean>` filter) | Adds the field filter. | 
 | `DbConnectionLoaderOptions` | AddTableFilter(`Func<DbTableInfo, Boolean>` filter) | Adds the table filter. | 
-| `DbConnectionLoaderOptions` | DoNotReplaceToSingularNames() | Sets the value [Korzh.EasyQuery.Db.DbConnectionLoaderOptions.ReplaceToSingularNames](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbconnectionloaderoptions-class) property to false.  This function returns the same instance of [Korzh.EasyQuery.Db.DbConnectionLoaderOptions](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbconnectionloaderoptions-class) so it can be used in the method chaining calls. | 
-| `DbConnectionLoaderOptions` | IgnoreViews() | Add the filter which makes model loader to ignore the views and process only the tables.  This function returns the same instance of [Korzh.EasyQuery.Db.DbConnectionLoaderOptions](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbconnectionloaderoptions-class) so it can be used in the method chaining calls. |
+| `DbConnectionLoaderOptions` | DoNotReplaceToSingularNames() | Sets the value [Korzh.EasyQuery.Db.DbConnectionLoaderOptions.ReplaceToSingularNames](/easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbconnectionloaderoptions-class) property to false.  This function returns the same instance of [Korzh.EasyQuery.Db.DbConnectionLoaderOptions](/easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbconnectionloaderoptions-class) so it can be used in the method chaining calls. | 
+| `DbConnectionLoaderOptions` | IgnoreViews() | Add the filter which makes model loader to ignore the views and process only the tables.  This function returns the same instance of [Korzh.EasyQuery.Db.DbConnectionLoaderOptions](/easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbconnectionloaderoptions-class) so it can be used in the method chaining calls. |

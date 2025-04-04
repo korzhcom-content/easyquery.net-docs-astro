@@ -19,4 +19,4 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ReadRequestContentFromStreamAsync(<span style='color: blue'>this</span> [EasyQueryManager](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager, `string` modelId, `Stream` stream) | `Task` | Loads all reaquest's data (like query, options, etc) from the stream. |
+| ReadRequestContentFromStreamAsync(<span style='color: blue'>this</span> [EasyQueryManager](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/easyquerymanager-class) manager, `string` modelId, `Stream` stream) | `Task` | Loads all reaquest's data (like query, options, etc) from the stream. |

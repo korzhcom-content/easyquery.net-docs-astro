@@ -20,8 +20,8 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqOkResult() | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqOkResult](///easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqokresult-class) class. | 
-| EqOkResult(`object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqOkResult](///easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqokresult-class) class. | 
+| EqOkResult() | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqOkResult](/easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqokresult-class) class. | 
+| EqOkResult(`object` data) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqOkResult](/easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqokresult-class) class. | 
 
 
 ### Fields

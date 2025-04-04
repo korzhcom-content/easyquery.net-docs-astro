@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Represents different options for [Korzh.EasyQuery.Services.EntityTypeModelLoader`1](///easyquery/docs/api-reference/korzh-easyquery-linq/korzh-easyquery-services-namespace/entitytypemodelloader-t--class) class
+Represents different options for [Korzh.EasyQuery.Services.EntityTypeModelLoader`1](/easyquery/docs/api-reference/korzh-easyquery-linq/korzh-easyquery-services-namespace/entitytypemodelloader-t--class) class
 ```csharp
 public class Korzh.EasyQuery.Services.EntityTypeModelLoaderOptions
 

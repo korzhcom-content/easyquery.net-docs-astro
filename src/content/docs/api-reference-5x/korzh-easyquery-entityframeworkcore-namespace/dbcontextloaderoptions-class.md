@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Contains different options for [Korzh.EasyQuery.EntityFrameworkCore.DbContextLoader](///easyquery/docs/api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloader-class)
+Contains different options for [Korzh.EasyQuery.EntityFrameworkCore.DbContextLoader](/easyquery/docs/api-reference-5x/korzh-easyquery-entityframeworkcore-namespace/dbcontextloader-class)
 ```csharp
 public class Korzh.EasyQuery.EntityFrameworkCore.DbContextLoaderOptions
 

@@ -15,7 +15,7 @@ Here we describe how to add EasyQuery widgets to your ASP.NET Core + Vue.js proj
 ## Prerequisites
 
 1. You have an ASP.NET Core (version 2.1+) project with Vue.js (version 2.5.0 or higher) on the client-side. 
-2. Your application uses Entity Framework Core to work with the database. NB: Of course, it's possible to use EasyQuery without EF Core. We show this approach here just because it's the simplest way. For other options please read [Possible ways of data model creation and loading](///easyquery/docs/tutorials/data-model-creation-loading) article. 
+2. Your application uses Entity Framework Core to work with the database. NB: Of course, it's possible to use EasyQuery without EF Core. We show this approach here just because it's the simplest way. For other options please read [Possible ways of data model creation and loading](/easyquery/docs/tutorials/data-model-creation-loading) article. 
 
 
 ## Trial version registration (for new users)

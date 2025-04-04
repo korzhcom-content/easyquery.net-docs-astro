@@ -15,7 +15,7 @@ public class Korzh.EasyQuery.Db.DbEntityLink
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `String` | ConditionExpr | Gets or sets the expression of link condition.  This expression will be used if [Korzh.EasyQuery.Db.DbEntityLink.Conditions](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbentitylink-class) list is empty. | 
+| `String` | ConditionExpr | Gets or sets the expression of link condition.  This expression will be used if [Korzh.EasyQuery.Db.DbEntityLink.Conditions](/easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbentitylink-class) list is empty. | 
 | `ConditionList` | Conditions | Gets list of linking conditions. | 
 | `Entity` | Entity1 | Gets or sets the first entity of the link. | 
 | `Entity` | Entity2 | Gets or sets the second entity of the link. | 

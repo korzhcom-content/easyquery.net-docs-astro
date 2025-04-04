@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Represents the list [Korzh.EasyQuery.ValueEditor](///easyquery/docs/api-reference-4x/korzh-easyquery-namespace/valueeditor-class).
+Represents the list [Korzh.EasyQuery.ValueEditor](/easyquery/docs/api-reference-4x/korzh-easyquery-namespace/valueeditor-class).
 ```csharp
 public class Korzh.EasyQuery.SqlListValueEditor
     : ListValueEditor

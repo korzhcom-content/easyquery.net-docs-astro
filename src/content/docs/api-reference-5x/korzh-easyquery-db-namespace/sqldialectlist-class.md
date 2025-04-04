@@ -16,4 +16,4 @@ public class Korzh.EasyQuery.Db.SqlDialectList
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `SqlDialect` | FindByName(`String` name) | Finds the [Korzh.EasyQuery.Db.SqlDialect](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/sqldialect-class) object by name. |
+| `SqlDialect` | FindByName(`String` name) | Finds the [Korzh.EasyQuery.Db.SqlDialect](/easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/sqldialect-class) object by name. |

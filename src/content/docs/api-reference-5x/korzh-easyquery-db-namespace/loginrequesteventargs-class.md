@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Provides data for [Korzh.EasyQuery.Db.DbGate.LoginRequest](///easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbgate-class) event
+Provides data for [Korzh.EasyQuery.Db.DbGate.LoginRequest](/easyquery/docs/api-reference-5x/korzh-easyquery-db-namespace/dbgate-class) event
 ```csharp
 public class Korzh.EasyQuery.Db.LoginRequestEventArgs
     : EventArgs

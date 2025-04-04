@@ -26,4 +26,4 @@ Assembly: `Korzh.EasyQuery.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | CalcGrandTotals | `bool` |  | 
-| Cols | `Dictionary`&lt;`string`, [ColOptions](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/totalsoptions-coloptions-class)&gt; |  |
+| Cols | `Dictionary`&lt;`string`, [ColOptions](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/totalsoptions-coloptions-class)&gt; |  |

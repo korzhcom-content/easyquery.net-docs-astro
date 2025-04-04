@@ -24,7 +24,7 @@ public class Korzh.EasyQuery.ColumnStore
 | Type | Name | Description | 
 | --- | --- | --- | 
 | `Boolean` | IsJustSorting | Gets a value indicating whether this instance of the column store is used for "just sorting" columns. | 
-| `Boolean` | IsUpdating | Gets a value indicating whether this [Korzh.EasyQuery.ColumnList](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/columnlist-class) is updating. | 
+| `Boolean` | IsUpdating | Gets a value indicating whether this [Korzh.EasyQuery.ColumnList](/easyquery/docs/api-reference-5x/korzh-easyquery-namespace/columnlist-class) is updating. | 
 | `DataModel` | Model | Gets the DataModel object associated with this list | 
 | `Query` | ParentQuery | Gets the parent query. | 
 | `SortedColumnList` | SortedColumns | Gets the list of sorted columns. | 
@@ -42,7 +42,7 @@ public class Korzh.EasyQuery.ColumnStore
 
 | Type | Name | Description | 
 | --- | --- | --- | 
-| `void` | BeginUpdate() | Turns on the "updating" state.  Any changes occured during this state will not initiate [Korzh.EasyQuery.ColumnStore.ColumnsChanged](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/columnstore-class) event  until [Korzh.EasyQuery.ColumnStore.EndUpdate](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/columnstore-class) is called. | 
+| `void` | BeginUpdate() | Turns on the "updating" state.  Any changes occured during this state will not initiate [Korzh.EasyQuery.ColumnStore.ColumnsChanged](/easyquery/docs/api-reference-5x/korzh-easyquery-namespace/columnstore-class) event  until [Korzh.EasyQuery.ColumnStore.EndUpdate](/easyquery/docs/api-reference-5x/korzh-easyquery-namespace/columnstore-class) is called. | 
 | `void` | ClearItems() | Removes all elements from the `System.Collections.ObjectModel.Collection'1`. | 
 | `void` | CoreRefreshParams() | Refreshes the list of query parameters by parameters associated with attributes used in query columns . | 
 | `void` | EndUpdate() | Turns the "updating" state off. | 

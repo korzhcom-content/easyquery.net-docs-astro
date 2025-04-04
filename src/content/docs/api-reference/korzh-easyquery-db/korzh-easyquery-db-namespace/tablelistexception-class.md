@@ -20,4 +20,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TableListException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.TableListException](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelistexception-class) class. |
+| TableListException(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Db.TableListException](/easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelistexception-class) class. |

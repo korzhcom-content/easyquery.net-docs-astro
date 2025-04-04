@@ -28,11 +28,11 @@ Assembly: `Korzh.EasyQuery.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | FullToken | `string` | Gets the full token string including quotes, brackets, etc. | 
-| LastBreak | [StringTokenizer.TokenType](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/stringtokenizer-tokentype-enum) | Returns the type of the last scan stop. It can be either space or separator. | 
+| LastBreak | [StringTokenizer.TokenType](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/stringtokenizer-tokentype-enum) | Returns the type of the last scan stop. It can be either space or separator. | 
 | Position | `int` | Returns current Position in the scanned string. | 
 | ProcessAIdents | `bool` | Gets or sets a value indicating whether the tokenizer should recognize the identifiers placed in [] brackets. | 
 | TokenStart | `int` | Returns start position of the current token. | 
-| TokType | [StringTokenizer.TokenType](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/stringtokenizer-tokentype-enum) | Gets the current token type. | 
+| TokType | [StringTokenizer.TokenType](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/stringtokenizer-tokentype-enum) | Gets the current token type. | 
 
 
 ### Methods

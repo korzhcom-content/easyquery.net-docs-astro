@@ -19,4 +19,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Error(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.DataModel.Error](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) class. |
+| Error(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.DataModel.Error](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) class. |

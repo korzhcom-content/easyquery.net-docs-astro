@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Represents an implementation of [Korzh.EasyQuery.Services.EasyQueryManager](///easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/easyquerymanager-class)  which generates SQL queries and can work with some relational DB directly.
+Represents an implementation of [Korzh.EasyQuery.Services.EasyQueryManager](/easyquery/docs/api-reference-5x/korzh-easyquery-services-namespace/easyquerymanager-class)  which generates SQL queries and can work with some relational DB directly.
 ```csharp
 public class Korzh.EasyQuery.Services.EasyQueryManagerSql
     : EasyQueryManager

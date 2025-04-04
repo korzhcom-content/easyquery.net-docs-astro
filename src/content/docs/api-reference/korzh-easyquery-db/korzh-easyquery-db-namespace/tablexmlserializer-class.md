@@ -19,4 +19,4 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| TableXmlSerializer([XmlSerializerFactory](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  |
+| TableXmlSerializer([XmlSerializerFactory](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) factory) | `void` |  |

@@ -6,10 +6,28 @@ import starlightImageZoom from 'starlight-image-zoom'
 import { rehypeLinks } from './plugins/rehype-links';
 import { updateFrontmatter } from './plugins/update-frontmatter';
 import getSidebar from "./tools/get-sidebar.js"
+import starlightLinksValidator from 'starlight-links-validator'
 
 const base = 'easyquery/docs';
 const site = 'https://korzh.com';
 const outDir = './dist/easyquery/docs';
+
+const plugins = [
+	starlightThemeRapide(),
+	starlightImageZoom(),
+]
+
+if (process.env.CHECK_LINKS) {
+	plugins.push(starlightLinksValidator({
+		errorOnFallbackPages: true,
+		errorOnInconsistentLocale: false,
+		errorOnRelativeLinks: true,
+		errorOnInvalidHashes: true,
+		errorOnLocalLinks: true,
+		exclude: [],
+		sameSitePolicy: "ignore",
+	}));
+}
 
 // https://astro.build/config
 export default defineConfig({
@@ -22,8 +40,6 @@ export default defineConfig({
 			title: 'EasyQuery.NET',
 			favicon: '/favicon.ico',
 			social: {
-				github: 'https://github.com/korzhcom-content/easyquery.net-docs-astro',
-				discord: 'https://discord.gg',
 			},
 			sidebar: [
 				{ label: "Introduction", slug: "introduction" },
@@ -47,10 +63,7 @@ export default defineConfig({
 				Sidebar: './src/components/Sidebar.astro',
 			},
 			lastUpdated: true,
-			plugins: [
-				starlightThemeRapide(),
-				starlightImageZoom(),
-			],
+			plugins,
 			tableOfContents: {
 				minHeadingLevel: 2,
 				maxHeadingLevel: 4,

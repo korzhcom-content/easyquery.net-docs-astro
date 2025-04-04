@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-> See also: [Getting started for ASP.NET MVC](///easyquery/docs/getting-started/asp-net-mvc)
+> See also: [Getting started for ASP.NET MVC](/easyquery/docs/getting-started/asp-net-mvc)
 
 &nbsp;             
 

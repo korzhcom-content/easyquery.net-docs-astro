@@ -20,7 +20,7 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqErrorResult(`string` message, `int` statusCode) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqErrorResult](///easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqerrorresult-class) class. | 
+| EqErrorResult(`string` message, `int` statusCode) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNetCore.EqErrorResult](/easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-aspnetcore-namespace/eqerrorresult-class) class. | 
 
 
 ### Methods

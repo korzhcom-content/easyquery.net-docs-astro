@@ -27,9 +27,9 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CheckedEntities | `ObservableCollection`&lt;[EntityTreeNode](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class)&gt; | Identifies [Korzh.EasyQuery.Wpf.EntitiesPanel.CheckedEntities](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitiespanel-class) dependency property | 
-| Query | [Query](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the query. | 
-| SortEntities | [XSortOrder](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xsortorder-enum) | Gets or sets the order of entities in context menu. | 
+| CheckedEntities | `ObservableCollection`&lt;[EntityTreeNode](/easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class)&gt; | Identifies [Korzh.EasyQuery.Wpf.EntitiesPanel.CheckedEntities](/easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitiespanel-class) dependency property | 
+| Query | [Query](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/query-class) | Gets or sets the query. | 
+| SortEntities | [XSortOrder](/easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/xsortorder-enum) | Gets or sets the order of entities in context menu. | 
 
 
 ### Events
@@ -44,10 +44,10 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | FilterByText(`string` text) | `void` | Filters entity tree by some text | 
-| GetExpandedNodes() | `IEnumerable`&lt;[EntityTreeNode](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class)&gt; | Returns all currently expanded nodes | 
+| GetExpandedNodes() | `IEnumerable`&lt;[EntityTreeNode](/easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class)&gt; | Returns all currently expanded nodes | 
 | OnApplyTemplate() | `void` | When overridden in a derived class, is invoked whenever application code or internal processes call `System.Windows.FrameworkElement.ApplyTemplate`. | 
 | RefreshEntityTree() | `void` | Refreshes the entity tree. | 
-| SatisfiesTheFilter([EntityTreeNode](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) ce) | `bool` | Returns true if the item passed in parameter satisfies the current filter.  This method calls FilterItem event which allows you to filter some items before they are added into the tree | 
+| SatisfiesTheFilter([EntityTreeNode](/easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitytreenode-class) ce) | `bool` | Returns true if the item passed in parameter satisfies the current filter.  This method calls FilterItem event which allows you to filter some items before they are added into the tree | 
 | UpdateModelInfo() | `void` | Updates the control by the latest changes in associated model. | 
 
 
@@ -55,4 +55,4 @@ Assembly: `Korzh.EasyQuery.WPF.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| QueryProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.EntitiesPanel.Query](///easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitiespanel-class) dependency property |
+| QueryProperty | `DependencyProperty` | Identifies the [Korzh.EasyQuery.Wpf.EntitiesPanel.Query](/easyquery/docs/api-reference/korzh-easyquery-wpf/korzh-easyquery-wpf-namespace/entitiespanel-class) dependency property |

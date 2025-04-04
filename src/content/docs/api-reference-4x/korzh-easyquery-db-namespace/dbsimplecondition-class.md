@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Represents simple condition in [Korzh.EasyQuery.Db.DbQuery](///easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbquery-class)
+Represents simple condition in [Korzh.EasyQuery.Db.DbQuery](/easyquery/docs/api-reference-4x/korzh-easyquery-db-namespace/dbquery-class)
 ```csharp
 public class Korzh.EasyQuery.Db.DbSimpleCondition
     : SimpleCondition, IDbCondition

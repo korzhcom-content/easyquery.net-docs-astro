@@ -8,7 +8,7 @@ sidebar:
 It's quite often you have some numeric field in your database table and the numbers stored there have some special meanings.
 For example, your Status field and possible values for that field can be: 1 - New, 2 - Reviewed, 3 - In Progress, 4 - Resolved, 5 - Closed
 
-For condition section, you can define a [value editor](///easyquery/docs/fundamentals/about-data-editors) which will show the list of available values as those descriptive meanings (New, Reviewed, ...).
+For condition section, you can define a [value editor](/easyquery/docs/fundamentals/about-data-editors) which will show the list of available values as those descriptive meanings (New, Reviewed, ...).
 
 However, when a user adds that field into Columns section of query - it will get only numeric values in a result. 
 To get those descriptive meanings instead of numeric values, you need to define a virtual attribute with the expression like `CASE Status WHEN 1 THEN 'New' WHEN 2 ...` and then use that new attribute as a column in your queries.

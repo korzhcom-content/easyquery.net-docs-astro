@@ -44,7 +44,7 @@ The product key will be available on your [Client’s Area page](https://korzh.c
 ### Windows Forms and WPF
 
 There are no big changes in functionality of WPF and WinForms editions of EasyQuery in this update (except one small addition in EasyQuery WPF). 
-Only some re-namings in EasyQuery namespaces and class names. All of them are described in the [upgrading instructions for WPF/WinForms](///easyquery/docs/upgrade-instructions/net4-editions-from-3-x-to-5-x/winforms-and-wpf)
+Only some re-namings in EasyQuery namespaces and class names. All of them are described in the [upgrading instructions for WPF/WinForms](/easyquery/docs/upgrade-instructions/net4-editions-from-3-x-to-5-x/winforms-and-wpf)
 
 The small addition in WPF we mentioned above is a new `ShowCheckboxes` option in ColumnPanel control. If it's turned on, the user will see the checboxes at the beginning of each row and will be able to disable corresponding query column temporarely (without deleting). 
 
@@ -61,7 +61,7 @@ Starting from version 5.2.0 EasyQuery for ASP.NET uses the latest version of the
 
 Instead of MVC controller used in the previous version, now EasyQuery provides you with a default implementation of WebAPI controller `EasyQueryApiController` class from which you can derive your own contoller class and tune it according to your requirements. 
 
-For more information about using EasyQuery in ASP.NET MVC applications please read [Getting started for ASP.NET 4](///easyquery/docs/getting-started/asp-net-4-mvc-or-webforms) tutorial or the [upgrade instructions](///easyquery/docs/upgrade-instructions/net-framework-3-x-to-5-x-/asp-net-mvc-webforms) for ASP.NET MVC projects.
+For more information about using EasyQuery in ASP.NET MVC applications please read [Getting started for ASP.NET 4](/easyquery/docs/getting-started/asp-net-4-mvc-or-webforms) tutorial or the [upgrade instructions](/easyquery/docs/upgrade-instructions/net-framework-3-x-to-5-x-/asp-net-mvc-webforms) for ASP.NET MVC projects.
 
 ### ASP.NET 4.x with WebForms
 
@@ -69,7 +69,7 @@ We discontinue our EasyQuery WebForms controls. However, it does not mean you ca
 
 The same as for MVC applications, for WebForms we now use the latest version of EasyQuery.JS library on the client-side and a WebAPI controller on the server-side. The only difference with MVC is that instead of an MVC view you will need to define some .aspx page with all markup and scripts necessary to run EasyQuery.JS widgets.   
 
-For more information please read [Getting started for ASP.NET 4](///easyquery/docs/getting-started/asp-net-4-mvc-or-webforms) tutorial and the [upgrade instructions](///easyquery/docs/upgrade-instructions/net-framework-3-x-to-5-x-/asp-net-mvc-webforms) for WebForms projects.
+For more information please read [Getting started for ASP.NET 4](/easyquery/docs/getting-started/asp-net-4-mvc-or-webforms) tutorial and the [upgrade instructions](/easyquery/docs/upgrade-instructions/net-framework-3-x-to-5-x-/asp-net-mvc-webforms) for WebForms projects.
 
 ## Version 5.2.x updates
 Since the initial release of version 5.2.0 we have made few updates of EasyQuery. Here are the list of the most essential changes:
@@ -103,5 +103,5 @@ If you are upgrading from version 5.x  for ASP.NET Core - you just need to chang
 
 For the upgrade instructions for other editions - please use one of the articles listed below:
 
-* [Upgrading to 5.x: Windows Forms and WPF projects](///easyquery/docs/upgrade-instructions/net4-editions-from-3-x-to-5-x/winforms-and-wpf)
-* [Upgrading to 5.x: ASP.NET (MVC and WebForms) projects](///easyquery/docs/upgrade-instructions/net-framework-3-x-to-5-x-/asp-net-mvc-webforms)
+* [Upgrading to 5.x: Windows Forms and WPF projects](/easyquery/docs/upgrade-instructions/net4-editions-from-3-x-to-5-x/winforms-and-wpf)
+* [Upgrading to 5.x: ASP.NET (MVC and WebForms) projects](/easyquery/docs/upgrade-instructions/net-framework-3-x-to-5-x-/asp-net-mvc-webforms)

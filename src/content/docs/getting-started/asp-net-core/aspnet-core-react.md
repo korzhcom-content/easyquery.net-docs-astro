@@ -14,7 +14,7 @@ Here we describe how to add EasyQuery widgets to your ASP.NET Core + React.js pr
 ## Prerequisites
 
 1. You have an ASP.NET Core (version 2.1+) project with React.js on the client-side.  We suppose the project was created using a standard ASP.NET Core template (`dotnet new react` or `... reactredux`) but it's not the requirement.
-2. Your application uses Entity Framework Core to work with the database. NB: Of course, it's possible to use EasyQuery without EF Core. We show this approach here just because it's the simplest way. For other options please read [Possible ways of data model creation and loading](///easyquery/docs/tutorials/data-model-creation-loading) article. 
+2. Your application uses Entity Framework Core to work with the database. NB: Of course, it's possible to use EasyQuery without EF Core. We show this approach here just because it's the simplest way. For other options please read [Possible ways of data model creation and loading](/easyquery/docs/tutorials/data-model-creation-loading) article. 
 
 ## Trial version registration (for new users)
 

@@ -27,7 +27,7 @@ public class Korzh.EasyQuery.DataModel
 | `Int32` | maxEntAttrID | Number of virtual attributes | 
 | `String` | modelName | User-defined name of the model | 
 | `Int32` | modelVersion | Version of the model | 
-| `Boolean` | useResourcesForOperators | Indicates whether resources will be used for getting caption and format of the [Korzh.EasyQuery.Operator](///easyquery/docs/api-reference-4x/korzh-easyquery-namespace/operator-class) | 
+| `Boolean` | useResourcesForOperators | Indicates whether resources will be used for getting caption and format of the [Korzh.EasyQuery.Operator](/easyquery/docs/api-reference-4x/korzh-easyquery-namespace/operator-class) | 
 
 
 ### Properties
@@ -110,7 +110,7 @@ public class Korzh.EasyQuery.DataModel
 | `void` | LoadFromXmlReader(`XmlReader` reader) | Loads data model from XML reader. | 
 | `void` | LoadFromXmlReader(`XmlReader` reader, `RWOptions` rwOptions) | Loads data model from XML reader. | 
 | `void` | LoadModelAtrributesFromXmlReader(`XmlReader` reader) | Loads data model's attributes from the main XML node (DataModel) | 
-| `void` | LoadNode(`XmlReader` reader, `RWOptions` rwOptions) | Loads the root node of the model. Can be overriden for loading additional root nodes in [Korzh.EasyQuery.DataModel](///easyquery/docs/api-reference-4x/korzh-easyquery-namespace/datamodel-class)'s descendants | 
+| `void` | LoadNode(`XmlReader` reader, `RWOptions` rwOptions) | Loads the root node of the model. Can be overriden for loading additional root nodes in [Korzh.EasyQuery.DataModel](/easyquery/docs/api-reference-4x/korzh-easyquery-namespace/datamodel-class)'s descendants | 
 | `void` | LoadOneModelAtrributeFromXmlReader(`XmlReader` reader) | Processes one data model's attribute from the main XML node (DataModel) | 
 | `String` | LoadValueEditorNode(`ValueEditor` editor, `XmlReader` reader) | Loads the value editor definition from XML. | 
 | `void` | OnAggrFuncListChanged() | Raises the `AggrFuncListChanged` event. | 
@@ -118,7 +118,7 @@ public class Korzh.EasyQuery.DataModel
 | `void` | OnModelChanged() | Called after the model has been changed. Raises ModelChanged event if defined. | 
 | `void` | OnModelLoaded() | Called when the model is loaded (from XML file or string). | 
 | `void` | RefillAggrFunctionList() | Refills the list of aggregate functions. | 
-| `void` | RefreshResources() | Re-loads the string values from [Korzh.EasyQuery.DataModel.Texts](///easyquery/docs/api-reference-4x/korzh-easyquery-namespace/datamodel-class) list. | 
+| `void` | RefreshResources() | Re-loads the string values from [Korzh.EasyQuery.DataModel.Texts](/easyquery/docs/api-reference-4x/korzh-easyquery-namespace/datamodel-class) list. | 
 | `void` | SaveAttributes(`XmlWriter` writer, `RWOptions` options) | Saves the attributes of the model. Can be overriden for storing additional attributes | 
 | `void` | SaveCustomInfoNode(`XmlWriter` writer) | Saves the custom info node. | 
 | `void` | SaveNodes(`XmlWriter` writer, `RWOptions` options) | Saves the root nodes of the model. Can be overriden for storing additional nodes | 
@@ -134,7 +134,7 @@ public class Korzh.EasyQuery.DataModel
 | `void` | SetProgress(`Int32` pos) | Set the progress to the specified position. | 
 | `void` | SetProgressMinMax(`Int32` min, `Int32` max) | Sets the minimum and maximum of progress indicator. | 
 | `void` | SortEntities() | Sorts all entities and their attributes alphabetically. | 
-| `void` | SortEntityContent(`Entity` entity) | Sorts the content of one entity alphabetically.  This function is called by [Korzh.EasyQuery.DataModel.SortEntities](///easyquery/docs/api-reference-4x/korzh-easyquery-namespace/datamodel-class) method | 
+| `void` | SortEntityContent(`Entity` entity) | Sorts the content of one entity alphabetically.  This function is called by [Korzh.EasyQuery.DataModel.SortEntities](/easyquery/docs/api-reference-4x/korzh-easyquery-namespace/datamodel-class) method | 
 | `void` | UpdateOperatorsTexts() | Loads the text for all default operators from resources. | 
 | `void` | UpdateOperatorTexts(`Operator` op) | Loads the texts for one operator from resources (Texts storage actually) | 
 

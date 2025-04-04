@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-Represents the entity graph created during the loading of the model from some context type  Implements the [Korzh.EasyQuery.ObjectGraph`1](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectgraph-t--class)
+Represents the entity graph created during the loading of the model from some context type  Implements the [Korzh.EasyQuery.ObjectGraph`1](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectgraph-t--class)
 ```csharp
 public class Korzh.EasyQuery.EntityGraph
     : ObjectGraph<Type>
@@ -35,7 +35,7 @@ Assembly: `Korzh.EasyQuery.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | GetCollectionName(`Type` type) | `string` | Used to get the name of the collection in context | 
-| GetEdgeInfo([ObjectModelType](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) t1, [ObjectModelType](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) t2) | [EdgeInfo](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/edgeinfo-class) | Gets the information about some edge in entity graph (see [Korzh.EasyQuery.EntityGraph](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entitygraph-class) for details). | 
+| GetEdgeInfo([ObjectModelType](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) t1, [ObjectModelType](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/objectmodeltype-class) t2) | [EdgeInfo](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/edgeinfo-class) | Gets the information about some edge in entity graph (see [Korzh.EasyQuery.EntityGraph](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entitygraph-class) for details). | 
 | GetNavigationPropertyName(`Type` from, `Type` to) | `string` | Gets the name of the navigation property. | 
 | SetCollectionName(`Type` type, `string` name) | `void` | Sets the name of the collection. | 
 | SetNavigationPropertyName(`Type` from, `Type` to, `string` name) | `void` | Sets the name of the navigation property. | 

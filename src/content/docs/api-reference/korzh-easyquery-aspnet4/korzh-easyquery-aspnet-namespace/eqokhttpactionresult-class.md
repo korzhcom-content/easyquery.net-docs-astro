@@ -20,8 +20,8 @@ Assembly: `Korzh.EasyQuery.AspNet4.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqOkHttpActionResult(`HttpRequestMessage` request) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkHttpActionResult](///easyquery/docs/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokhttpactionresult-class) class. | 
-| EqOkHttpActionResult(`object` data, `HttpRequestMessage` request) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkHttpActionResult](///easyquery/docs/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokhttpactionresult-class) class. | 
+| EqOkHttpActionResult(`HttpRequestMessage` request) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkHttpActionResult](/easyquery/docs/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokhttpactionresult-class) class. | 
+| EqOkHttpActionResult(`object` data, `HttpRequestMessage` request) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AspNet.EqOkHttpActionResult](/easyquery/docs/api-reference/korzh-easyquery-aspnet4/korzh-easyquery-aspnet-namespace/eqokhttpactionresult-class) class. | 
 
 
 ### Fields

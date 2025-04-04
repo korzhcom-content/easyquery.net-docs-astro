@@ -30,5 +30,5 @@ Assembly: `EasyData.Core.dll`
 | Index | `int` |  | 
 | IsAggr | `bool` |  | 
 | Label | `string` |  | 
-| Style | [EasyDataColStyle](///easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatacolstyle-class) |  | 
-| Type | [DataType](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) |  |
+| Style | [EasyDataColStyle](/easyquery/docs/api-reference/easydata-core/easydata-namespace/easydatacolstyle-class) |  | 
+| Type | [DataType](/easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) |  |

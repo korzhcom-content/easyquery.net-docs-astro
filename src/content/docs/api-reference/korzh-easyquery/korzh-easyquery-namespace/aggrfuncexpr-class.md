@@ -19,25 +19,25 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AggrFuncExpr([DataModel](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `string` funcId, [EqExpression](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) argExpr) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AggrFuncExpr](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/aggrfuncexpr-class) class. | 
+| AggrFuncExpr([DataModel](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model, `string` funcId, [EqExpression](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) argExpr) | `void` | Initializes a new instance of the [Korzh.EasyQuery.AggrFuncExpr](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/aggrfuncexpr-class) class. | 
 
 
 ### Fields
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| _function | [AggrFunction](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/aggrfunction-class) | The function of [Korzh.EasyQuery.AggrFuncExpr](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/aggrfuncexpr-class) | 
+| _function | [AggrFunction](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/aggrfunction-class) | The function of [Korzh.EasyQuery.AggrFuncExpr](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/aggrfuncexpr-class) | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Argument | [EqExpression](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | Gets or sets the main argument. | 
-| Attribute | [EntityAttr](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) | Gets or sets the attribute. | 
+| Argument | [EqExpression](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) | Gets or sets the main argument. | 
+| Attribute | [EntityAttr](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) | Gets or sets the attribute. | 
 | CustomFunc | `string` | Gets the custom func for expression if defined | 
-| DataType | [DataType](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the data type. | 
-| Function | [AggrFunction](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/aggrfunction-class) | Gets or sets the function. | 
+| DataType | [DataType](/easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the data type. | 
+| Function | [AggrFunction](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/aggrfunction-class) | Gets or sets the function. | 
 | IsAggregate | `bool` | gets a value indicating whether this expression is aggregate. | 
 | IsDistinct | `bool` | Gets or sets a value indicating whether this `AggrFuncExpr` has "DISTINCT" attribute. | 
 | Tag | `int` | Get the expression's tag - a special identifier that is used to distinguish the type of the expression . | 
@@ -49,7 +49,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| AssignExpr([EqExpression](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) expr) | `void` | Assigns some expression to this one.  For AggrFuncExpr class this method assigns the Expression object passed in parameter to Argument property | 
+| AssignExpr([EqExpression](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) expr) | `void` | Assigns some expression to this one.  For AggrFuncExpr class this method assigns the Expression object passed in parameter to Argument property | 
 | LoadFromXmlReader(`XmlReader` reader) | `void` | Loads expression from XML. | 
 | ReadOnePropFromJsonAsync(`JsonReader` reader, `string` propName) | `Task` | Reads one property from JSON (asynchronous way). | 
 | SaveToXmlWriter(`XmlWriter` writer, `string` tagName) | `void` | Saves expression to XML writer. | 

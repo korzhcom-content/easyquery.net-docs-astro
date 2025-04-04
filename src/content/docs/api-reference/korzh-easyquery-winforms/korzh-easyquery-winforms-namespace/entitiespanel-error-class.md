@@ -20,4 +20,4 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Error(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.EntitiesPanel.Error](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/entitiespanel-class) class. |
+| Error(`string` message) | `void` | Initializes a new instance of the [Korzh.EasyQuery.WinForms.EntitiesPanel.Error](/easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/entitiespanel-class) class. |

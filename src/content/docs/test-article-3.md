@@ -19,7 +19,7 @@ sidebar:
 
 ![Cat1](https://files.aistant.com/korzh/images/Cat1.jpg "Cat1")
 
-[Add a new aggregate function](///easyquery/docs/how-to/add-aggregate-function)
+[Add a new aggregate function](/easyquery/docs/how-to/add-aggregate-function)
 
 Represents sorting direction.
 

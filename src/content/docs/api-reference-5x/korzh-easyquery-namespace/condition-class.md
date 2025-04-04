@@ -32,19 +32,19 @@ public class Korzh.EasyQuery.Condition
 | `Int32` | Id | Gets or sets the ID. | 
 | `Int32` | Index | Gets the index in the parent's list. | 
 | `Boolean` | IsEmpty | Gets a value indicating whether this condition is empty (zero conditions). | 
-| `Boolean` | IsEnabled | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/condition-class) is enabled. | 
+| `Boolean` | IsEnabled | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](/easyquery/docs/api-reference-5x/korzh-easyquery-namespace/condition-class) is enabled. | 
 | `Boolean` | IsGroup | Gets a value indicating whether this instance is a group of conditions | 
 | `Boolean` | IsHaving | Gets a value indicating whether this condition must be placed into HAVING clause in result SQL. | 
 | `Boolean` | IsInJoin | Gets a value indicating whether this condition must be placed into JOIN clause in result SQL. | 
-| `Boolean` | IsParameterized | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/condition-class) is parameterized. | 
-| `Boolean` | IsReadOnly | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/condition-class) is read-only. | 
+| `Boolean` | IsParameterized | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](/easyquery/docs/api-reference-5x/korzh-easyquery-namespace/condition-class) is parameterized. | 
+| `Boolean` | IsReadOnly | Gets or sets a value indicating whether this [Korzh.EasyQuery.Condition](/easyquery/docs/api-reference-5x/korzh-easyquery-namespace/condition-class) is read-only. | 
 | `Boolean` | IsRoot | Gets a value indicating whether this condition is the root condition of the query. | 
 | `Int32` | Level | Gets the level of this condition in query. | 
 | `LinkType` | Linking | Gets or sets the linking type. | 
 | `String` | LinkingStr | Gets or sets the text representation of linking type. | 
 | `DataModel` | Model | Gets the model. | 
 | `Operator` | Operator | Gets or sets the operator used in this condition. | 
-| `Condition` | Parent | Gets the parent [Korzh.EasyQuery.Condition](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/condition-class) which this condition is included to. | 
+| `Condition` | Parent | Gets the parent [Korzh.EasyQuery.Condition](/easyquery/docs/api-reference-5x/korzh-easyquery-namespace/condition-class) which this condition is included to. | 
 | `Query` | Query | Gets the query which this condition belongs to. | 
 | `Boolean` | UseDefaultValues | Gets a value indicating whether condition expressions should get default values after creation | 
 
@@ -82,7 +82,7 @@ public class Korzh.EasyQuery.Condition
 | `String` | GetText() | Returns text representation of condition | 
 | `String` | GetText(`QueryTextFormats` formats, `String` levelSpace, `String` prefix) | Returns text representation of condition | 
 | `IEnumerable<Entity>` | GetUsedEntities() | Gets the list of entities that are used in conditions of this group. | 
-| `void` | LoadFromXmlReader(`XmlReader` reader) | Loads the propertis of the [Korzh.EasyQuery.Condition](///easyquery/docs/api-reference-5x/korzh-easyquery-namespace/condition-class) from the XML reader. | 
+| `void` | LoadFromXmlReader(`XmlReader` reader) | Loads the propertis of the [Korzh.EasyQuery.Condition](/easyquery/docs/api-reference-5x/korzh-easyquery-namespace/condition-class) from the XML reader. | 
 | `void` | LoadXmlAttributes(`XmlReader` reader) | Loads conditions node attributes from XML reader. | 
 | `void` | MoveDown() | Moves the condition to one position down (taking into account the level of other conditions). | 
 | `void` | MoveUp() | Moves the condition to one position up (taking into account the level of other conditions). | 

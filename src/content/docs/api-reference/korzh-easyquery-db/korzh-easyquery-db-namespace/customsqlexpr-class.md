@@ -20,14 +20,14 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CustomSqlExpr([DataModel](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` | Initializes a new instance of the `CompoundExpr` class. | 
+| CustomSqlExpr([DataModel](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/datamodel-class) model) | `void` | Initializes a new instance of the `CompoundExpr` class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Attribute | [EntityAttr](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) | Gets or sets the base attribute for this custom SQL expression. | 
+| Attribute | [EntityAttr](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/entityattr-class) | Gets or sets the base attribute for this custom SQL expression. | 
 | IsAggregate | `bool` | Gets a value indicating whether this expression is aggregate. | 
 | Tag | `int` | Get the expression's tag - a special identifier that is used to distinguish the type of the expression . | 
 | Value | `string` | Gets or sets the value of expression. | 
@@ -38,7 +38,7 @@ Assembly: `Korzh.EasyQuery.Db.dll`
 | Name | Type | Description | 
 | --- | --- | --- | 
 | CustomSqlChanged() | `void` | This function is called when the value of the expression (the custom SQL) is changed. | 
-| GetUsedTables([TableList](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelist-class) usedTables) | `void` | Returns list of tables used in condition. | 
+| GetUsedTables([TableList](/easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/tablelist-class) usedTables) | `void` | Returns list of tables used in condition. | 
 | LoadFromXmlReader(`XmlReader` reader) | `void` | Loads expression from XML. | 
 | ReadOnePropFromJsonAsync(`JsonReader` reader, `string` propName) | `Task` | Reads one expression property from JSON (asynchronous way). | 
 | SaveToXmlWriter(`XmlWriter` writer, `string` tagName) | `void` | Saves expression to XML writer. | 

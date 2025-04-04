@@ -20,13 +20,13 @@ Assembly: `Korzh.EasyQuery.WinForms.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| CreateValueElementEventArgs([ConditionRow](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/conditionrow-class) conditionRow, [DataType](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) dataType) | `void` | Initializes a new instance of the `CreateValueElementEventArgs` class. | 
+| CreateValueElementEventArgs([ConditionRow](/easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/conditionrow-class) conditionRow, [DataType](/easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) dataType) | `void` | Initializes a new instance of the `CreateValueElementEventArgs` class. | 
 
 
 ### Properties
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ConditionRow | [ConditionRow](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/conditionrow-class) | Gets or sets the condition row where this value element should be created | 
-| DataType | [DataType](///easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the type of the data. | 
-| Element | [XElement](///easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Gets or sets the created element. |
+| ConditionRow | [ConditionRow](/easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/conditionrow-class) | Gets or sets the condition row where this value element should be created | 
+| DataType | [DataType](/easyquery/docs/api-reference/easydata-core/easydata-namespace/datatype-enum) | Gets or sets the type of the data. | 
+| Element | [XElement](/easyquery/docs/api-reference/korzh-easyquery-winforms/korzh-easyquery-winforms-namespace/xelement-class) | Gets or sets the created element. |

@@ -25,6 +25,6 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Register() | [XmlSerializerFactory](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) |  | 
+| Register() | [XmlSerializerFactory](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializerfactory-class) |  | 
 | Resolve() | `XmlSerializer`&lt;`T`&gt; |  | 
-| Resolve(`Type` type) | [XmlSerializer](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializer-class) |  |
+| Resolve(`Type` type) | [XmlSerializer](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/xmlserializer-class) |  |

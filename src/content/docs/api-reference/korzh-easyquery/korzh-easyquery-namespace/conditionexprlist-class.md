@@ -20,13 +20,13 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| ConditionExprList([Condition](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition) | `void` | Initializes a new instance of the `SimpleCondExprList` class. | 
+| ConditionExprList([Condition](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/condition-class) condition) | `void` | Initializes a new instance of the `SimpleCondExprList` class. | 
 
 
 ### Methods
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| InsertItem(`int` index, [EqExpression](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) item) | `void` | Inserts an element into the `System.Collections.ObjectModel.Collection'1` at the specified index. | 
+| InsertItem(`int` index, [EqExpression](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) item) | `void` | Inserts an element into the `System.Collections.ObjectModel.Collection'1` at the specified index. | 
 | RemoveItem(`int` index) | `void` | Removes the element at the specified index of the `System.Collections.ObjectModel.Collection'1`. | 
-| SetItem(`int` index, [EqExpression](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) item) | `void` | Replaces the element at the specified index. |
+| SetItem(`int` index, [EqExpression](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/eqexpression-class) item) | `void` | Replaces the element at the specified index. |

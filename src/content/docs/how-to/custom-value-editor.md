@@ -5,7 +5,7 @@ sidebar:
   order: 100
 ---
 
-> NB: This example is obsolete. You will find an example for EasyQuery.JS 6.0 [in this article](///easyquery/docs/how-to/processing-custom-value-editors-in-easyquery-js).
+> NB: This example is obsolete. You will find an example for EasyQuery.JS 6.0 [in this article](/easyquery/docs/how-to/processing-custom-value-editors-in-easyquery-js).
 
 ## 1. Value editor setup
 

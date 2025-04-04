@@ -25,7 +25,7 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| HtmlFormatting | [QueryTextFormats.HtmlFormats](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querytextformats-htmlformats-class) | Gets the HTML formatting. | 
+| HtmlFormatting | [QueryTextFormats.HtmlFormats](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querytextformats-htmlformats-class) | Gets the HTML formatting. | 
 | ShowEntityName | `bool` | Gets or sets a value indicating whether entity attributes in textual representation of query contain entity name. | 
 | ShowRootCondition | `bool` | Gets or sets a value indicating whether root condition should appear in textual representation of query. | 
 | UseHtml | `bool` | Gets or sets a value indicating whether Query will use HTML for text representation. | 
@@ -36,4 +36,4 @@ Assembly: `Korzh.EasyQuery.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| Default | [QueryTextFormats](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querytextformats-class) | Gets QueryTextFormats object with the default formats. |
+| Default | [QueryTextFormats](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-namespace/querytextformats-class) | Gets QueryTextFormats object with the default formats. |

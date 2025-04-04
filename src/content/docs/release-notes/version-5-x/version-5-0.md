@@ -48,4 +48,4 @@ Additionally, in our GitHub repository we published an example of [Angular proje
 	
 
 ## Upgrade instructions
-If you want to update your project from version 4.x of EasyQuery for ASP.NET Core to version 5.0 - here are the [upgrade instructions](///easyquery/docs/release-notes/upgrade-from-4-x-to-5-0).
+If you want to update your project from version 4.x of EasyQuery for ASP.NET Core to version 5.0 - here are the [upgrade instructions](/easyquery/docs/release-notes/upgrade-from-4-x-to-5-0).

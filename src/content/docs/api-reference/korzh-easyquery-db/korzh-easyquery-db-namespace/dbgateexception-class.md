@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Represents exception class for [Korzh.EasyQuery.Db.DbGate](///easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class)
+Represents exception class for [Korzh.EasyQuery.Db.DbGate](/easyquery/docs/api-reference/korzh-easyquery-db/korzh-easyquery-db-namespace/dbgate-class)
 ```csharp
 public class Korzh.EasyQuery.Db.DbGateException
     : Exception

@@ -6,7 +6,7 @@ sidebar:
   order: 100
 ---
 
-Represents an implemenation of [Korzh.EasyQuery.Services.IEqCachingService](///easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieqcachingservice-interface)  which uses Session for storing cached objects.
+Represents an implemenation of [Korzh.EasyQuery.Services.IEqCachingService](/easyquery/docs/api-reference/korzh-easyquery/korzh-easyquery-services-namespace/ieqcachingservice-interface)  which uses Session for storing cached objects.
 ```csharp
 public class Korzh.EasyQuery.Services.EqSessionCachingService
     : IEqCachingService
@@ -20,7 +20,7 @@ Assembly: `Korzh.EasyQuery.AspNetCore.dll`
 
 | Name | Type | Description | 
 | --- | --- | --- | 
-| EqSessionCachingService(`IHttpContextAccessor` httpContextAccessor) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.EqSessionCachingService](///easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-services-namespace/eqsessioncachingservice-class) class. | 
+| EqSessionCachingService(`IHttpContextAccessor` httpContextAccessor) | `void` | Initializes a new instance of the [Korzh.EasyQuery.Services.EqSessionCachingService](/easyquery/docs/api-reference/korzh-easyquery-aspnetcore/korzh-easyquery-services-namespace/eqsessioncachingservice-class) class. | 
 
 
 ### Methods
