@@ -1,4 +1,5 @@
 import { Progress, clearConsole } from "@olton/progress"
+import fs from 'fs'
 
 clearConsole()
 
@@ -68,4 +69,5 @@ await run(host)
 
 if (bad_links.length) {
     console.log(`Bad links found:`, bad_links)
+    fs.writeFileSync('bad_links.txt', bad_links.join('\n'), 'utf-8')
 }
