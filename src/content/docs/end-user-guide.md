@@ -31,8 +31,6 @@ sidebar:
 
 <p> Entity is some real-world object, information on which is stored in the database. Examples of entities are as follows: ‘Customer,’ ‘Order,’ ‘Product,’ etc. Every entity has an initial set of attributes or parameters. Thus, attributes for such entity as ‘Customer’ can be: Name, Address, Country, and others.</p>
 
-
-
 <h3>Entities Panel</h3> 
 <p>This panel can be used as a visual representation of all entities and their attributes, which we can use to build queries. It can be used to add entity attributes to a Columns Panel (and they will be displayed in the result) or to a Conditions Panel (in order to actually set the query conditions).<br>
 You can either move selected attributes to the corresponding panels with a mouse or use buttons Add column and Add condition &nbsp;( <img class="defimg" src="/easyquery/docs/images/entitiespanel-buttons.png"> ).</p>

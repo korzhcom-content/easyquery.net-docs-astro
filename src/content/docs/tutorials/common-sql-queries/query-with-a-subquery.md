@@ -54,13 +54,7 @@ Now aggregate the OrderID column - click the Function button on the right side o
 
 <p>At last, add “Order | Paid is true” condition to the main query.</p>
 
-<div class="c-center">
-<div class="krh-blog-ss-block">
-<a href="/easyquery/docs/images/subquery.gif" class="fancybox" data-fancybox-group="gallery" title="EasyQuery example: using sub-query">
-<img src="/easyquery/docs/images/subquery.gif" alt="EasyQuery example: using sub-query">
-</a>
-</div>
-</div>
+![EasyQuery example: using sub-query](/easyquery/docs/images/subquery.gif)
 
   </div>
  </div>
