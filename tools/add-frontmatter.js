@@ -67,8 +67,11 @@ function frontmatter(path, options = {}) {
 
         frontmatter.title = title
         frontmatter.slug = slug        
-        frontmatter.sidebar = {
-            order: 100,
+        
+        if (!frontmatter.sidebar) {
+            frontmatter.sidebar = {
+                order: 100,
+            }
         }
 
         const newContent = content
