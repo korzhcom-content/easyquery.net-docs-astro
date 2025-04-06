@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.32.6",
-    "@olton/progress": "^0.6.1",
+    "@olton/progress": "^0.6.2",
     "@olton/terminal": "^0.3.1",
     "astro": "^5.6.1",
     "chalk": "^5.4.1",
