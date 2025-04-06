@@ -1,12 +1,13 @@
-import { Activity, clearConsole, cursor } from "@olton/progress"
+import { Activity } from "@olton/progress"
+import { term, Cursor, Screen } from "@olton/terminal"
 import fs from 'fs'
 import * as rl from 'node:readline'
-import chalk from 'chalk'
+// import chalk from 'chalk'
 
-clearConsole()
+Screen.clear()
 
 if (process.argv.length < 3) {
-    console.error("Usage: node link-checker.js <host> <required-path>");
+    console.error(`Usage: ${term("node", {colors: 'whiteBright'})} ${term("link-checker.js", {color: 'cyan'})} <host> <required-path>`);
     process.exit(1);
 }
 
@@ -17,17 +18,17 @@ const processed_links = []
 let total_links = 0
 const startTime = Date.now()
 
-console.log(`Links checker v1.0 by Serhii Pimenov. 💙💛 `)
+console.log(term(`Links checker v1.0 by Serhii Pimenov.`, {gradient: '#00c6ff, #Ff00fF'}) + ` 💙💛 `);
 console.log(`┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄`)
-console.log(`Check links on: ${host}`)
-console.log(`Using path    : ${path ? path : 'all'}`)
+console.log(`Check links on: ${term(host, {color: 'cyanBright'})}`)
+console.log(`Using path    : ${term(path ? path : 'all', {color: 'cyanBright'})}`)
 console.log(`┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄`)
 
 const activity = new Activity({
     color: 'yellowBright',
     messageColor: 'cyan',
     type: 'dots',
-    spaceBefore: 1,
+    spaceBefore: 2,
     spaceAfter: 0,
     cursor: false,
 })
@@ -36,8 +37,8 @@ await activity.init()
 
 let startLineForBadLinks = Number(activity.position.y) + 2
 
-process.stdout.write(`\n\r${chalk.gray("Total links checked:")} ${total_links}`)
-process.stdout.write(`\n\r${chalk.gray("Bad links found    :")} ${bad_links.length}`)
+process.stdout.write(`\n\r${term("Total links checked:", {color: 'gray'})} ${term(total_links, {color: 'yellowBright'})}`)
+process.stdout.write(`\n\r${term("Bad links found    :", {color: 'gray'})} ${term(bad_links.length, {color: 'yellowBright'})}`)
 
 async function run(host){
     const page = await fetch(host).then(res => res.text())
@@ -72,19 +73,19 @@ async function run(host){
         total_links++
 
 
-        rl.cursorTo(process.stdout,0, startLineForBadLinks - 2)
-        process.stdout.write(`\n\r${chalk.gray("Total links checked:")} ${total_links}`)
+        Cursor.to(0, startLineForBadLinks - 2)
+        process.stdout.write(`\n\r${term("Total links checked:", {color: 'gray'})} ${term(total_links, {color: 'yellowBright'})}`)
         
         processed_links.push(fullUrl)
 
-        activity.process(`${chalk.white("Checking:")} ${fullUrl}...`)
+        activity.process(`${term("Checking:", {color: 'white'})} ${term(fullUrl, {color: 'cyan'})}...`)
 
         try {
             const response = await fetch(fullUrl)
             if (response.status === 404) {
                 bad_links.push(fullUrl)
-                rl.cursorTo(process.stdout,0, startLineForBadLinks - 1)
-                process.stdout.write(`\n\r${chalk.gray("Bad links found    :")} ${bad_links.length}`)
+                Cursor.to(0, startLineForBadLinks - 1)
+                process.stdout.write(`\n\r${term("Bad links found    :", {color: 'gray'})} ${term(bad_links.length, {color: 'yellowBright'})}`)
             } else {
                 await run(fullUrl)
             }
@@ -97,23 +98,23 @@ async function run(host){
 
 await run(host)
 
-activity.process(`${chalk.white("Checking completed!")}`)
+activity.process(`${term("Checking completed!", {color: 'white'})}`)
 
-cursor(true)
+Cursor.show()
 
 if (bad_links.length) {
     fs.writeFileSync('bad_links.txt', bad_links.join('\n'), 'utf-8')
 }
 
-rl.cursorTo(process.stdout,0, startLineForBadLinks)
+Cursor.to(0, startLineForBadLinks + 1)
 
 process.stdout.write(`\r\n┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄`)
 if (bad_links.length) {
-    process.stdout.write(`\r\n${chalk.gray("Bad links saved to")} bad_links.txt`)
+    process.stdout.write(`\r\n${term("Bad links saved to", {color: 'gray'})} ${term("bad_links.txt", {color: 'redBright'})}`)
     process.stdout.write(`\r\n┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄`)
 }
 
-process.stdout.write(`\r\n${chalk.gray("Process completed in")} ${((Date.now() - startTime) / 1000).toFixed(4)}s`)
+process.stdout.write(`\r\n${term("Process completed in", {color: 'gray'})} ${((Date.now() - startTime) / 1000).toFixed(4)}s`)
 process.stdout.write(`\r\nBye!\n\n`)
 
 process.exit(bad_links.length ? 1 : 0)

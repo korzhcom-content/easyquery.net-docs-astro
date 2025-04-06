@@ -11,8 +11,9 @@
     "check": "node tools/link-checker.js http://localhost:4321/easyquery/docs /easyquery/docs"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.32.5",
-    "@olton/progress": "^0.4.2",
+    "@astrojs/starlight": "^0.32.6",
+    "@olton/progress": "^0.6.0",
+    "@olton/terminal": "^0.2.0",
     "astro": "^5.6.1",
     "chalk": "^5.4.1",
     "fs-extra": "^11.3.0",
