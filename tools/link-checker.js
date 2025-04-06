@@ -95,6 +95,12 @@ async function run(host){
     }
 }
 
+try {
+    await fetch(host)
+} catch (error) {
+    console.log(term(`\n\nError! Host ${host} is not reachable!\n\n`, {color: 'redBright'}))
+    process.exit(1)
+}
 
 await run(host)
 
