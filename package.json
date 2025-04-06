@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.32.6",
-    "@olton/progress": "^0.6.0",
-    "@olton/terminal": "^0.2.0",
+    "@olton/progress": "^0.6.1",
+    "@olton/terminal": "^0.3.1",
     "astro": "^5.6.1",
     "chalk": "^5.4.1",
     "fs-extra": "^11.3.0",
