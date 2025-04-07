@@ -13,7 +13,7 @@ if (process.argv.length < 3) {
 
 const args = process.argv.slice(2);
 const [ host, path = '' ] = args;
-const bad_links = []
+const bad_links = {}
 const processed_links = []
 let total_links = 0
 const startTime = Date.now()
@@ -21,8 +21,16 @@ const startTime = Date.now()
 console.log(term(`Links checker v1.0 by Serhii Pimenov.`, {gradient: '#00c6ff, #Ff00fF'}) + ` 💙💛 `);
 console.log(`┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄`)
 console.log(`Check links on: ${term(host, {color: 'cyanBright'})}`)
-console.log(`Using path    : ${term(path ? path : 'all', {color: 'cyanBright'})}`)
+console.log(`Using path    : ${term(path ? path : '/', {color: 'cyanBright'})}`)
 console.log(`┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄`)
+
+const getBadLinksCount = () => {
+    let count = 0
+    for (const host in bad_links) {
+        count += bad_links[host].length
+    }
+    return count
+}
 
 const activity = new Activity({
     color: 'yellowBright',
@@ -38,9 +46,12 @@ await activity.init()
 let startLineForBadLinks = Number(activity.position.y) + 2
 
 process.stdout.write(`\n\r${term("Total links checked:", {color: 'gray'})} ${term(total_links, {color: 'yellowBright'})}`)
-process.stdout.write(`\n\r${term("Bad links found    :", {color: 'gray'})} ${term(bad_links.length, {color: 'yellowBright'})}`)
+process.stdout.write(`\n\r${term("Bad links found    :", {color: 'gray'})} ${term(getBadLinksCount(), {color: 'yellowBright'})}`)
 
 async function run(host){
+    if (!bad_links[host]) {
+        bad_links[host] = []
+    }
     const page = await fetch(host).then(res => res.text())
     
     const linkRegex = /href="([^"]*)"/g
@@ -56,6 +67,9 @@ async function run(host){
             && !link.includes('#') 
             && !link.endsWith('.xml') 
             && !link.endsWith('.ico') 
+            && !link.endsWith('.jpg') 
+            && !link.endsWith('.jpeg') 
+            && !link.endsWith('.png') 
             && link !== host
             && link !== path
         ) {
@@ -78,14 +92,14 @@ async function run(host){
         
         processed_links.push(fullUrl)
 
-        activity.process(`${term("Checking:", {color: 'white'})} ${term(fullUrl, {color: 'cyan'})}...`)
+        activity.process(`${term("Checking:", {color: 'white'})} ${term(link, {color: 'cyan'})}...`)
 
         try {
             const response = await fetch(fullUrl)
             if (response.status === 404) {
-                bad_links.push(fullUrl)
+                bad_links[host].push(link)
                 Cursor.to(0, startLineForBadLinks - 1)
-                process.stdout.write(`\n\r${term("Bad links found    :", {color: 'gray'})} ${term(bad_links.length, {color: 'yellowBright'})}`)
+                process.stdout.write(`\n\r${term("Bad links found    :", {color: 'gray'})} ${term(getBadLinksCount(), {color: 'yellowBright'})}`)
             } else {
                 await run(fullUrl)
             }
@@ -108,8 +122,18 @@ activity.process(`${term("Checking completed!", {color: 'white'})}`)
 
 Cursor.show()
 
-if (bad_links.length) {
-    fs.writeFileSync('bad_links.txt', bad_links.join('\n'), 'utf-8')
+if (getBadLinksCount() > 0) {
+    let bl = ``
+    for (const host in bad_links) {
+        if (bad_links[host].length === 0) {
+            continue
+        }
+        bl += `\n\n${host}\n`
+        for (const link of bad_links[host]) {
+            bl += `${link}\n`
+        }
+    }
+    fs.writeFileSync('bad_links.txt', bl, 'utf-8')
 }
 
 Cursor.to(0, startLineForBadLinks + 1)
