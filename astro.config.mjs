@@ -39,8 +39,7 @@ export default defineConfig({
 		starlight({
 			title: 'EasyQuery.NET',
 			favicon: '/favicon.ico',
-			social: {
-			},
+			social: [],
 			sidebar: [
 				{ label: "Introduction", slug: "introduction" },
 				{ label: "End-user's guide", slug: "end-user-guide" },
