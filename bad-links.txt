@@ -1,0 +1,144 @@
+Report for: http://localhost:4321/easyquery/docs
+
+
+Page: >>> http://localhost:4321/easyquery/docs <<<
+-----------------------------------------------------------------
+[href:404] <link rel="sitemap" href="/easyquery/docs/sitemap-index.xml">
+
+
+Page: >>> http://localhost:4321/easyquery/docs/getting-started/asp-net-core/aspnet-core-angular <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs//git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FAspNetCoreSamples">Open it in Visual Studio</a>
+[href:404] <a href="/easyquery/docs/tutorials/data-model-creation-loading">Possible ways of data model creation and loading</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/getting-started/version-3-x/asp-net-webforms <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/getting-started/asp-net-mvc">Getting started for ASP.NET MVC</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/getting-started/version-3-x/asp-net-mvc <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/getting-started/asp-net-webforms">Getting started for ASP.NET WebForms</a>
+[href:404] <a href="/easyquery/docs///easyquery#asp-net/">EasyQuery ASP.NET</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/getting-started/wpf <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs//git-client://clone?repo=https%3A%2F%2Fgithub.com%2Feasyquery%2FNet4Samples">Open it in Visual Studio</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/tutorials/common-sql-queries/query-with-a-subquery <<<
+-----------------------------------------------------------------
+[src:404] <img src="/easyquery/docs/images/subquery.gif" alt="EasyQuery example: using sub-query">
+
+
+Page: >>> http://localhost:4321/easyquery/docs/tutorials/version-3-x-tutorials/dynamic-queries-with-easyquery-and-entity-framework <<<
+-----------------------------------------------------------------
+[href:404] <a data-info="aist-inner-link" href="/easyquery/docs/tutorials/dynamic-queries-ui-aspnet-core-entity-framework">this tutorial</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/tutorials/version-3-x-tutorials/dynamic-php-query-builder-with-easyquery <<<
+-----------------------------------------------------------------
+[href:404] <a href="~/easyquery/javascript/docs/getting-started/query-builder-php">this article</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/tutorials/version-3-x-tutorials/gridview-filtering-with-easyquery-aspnet-webforms <<<
+-----------------------------------------------------------------
+[src:404] <img src="/easyquery/docs/images/eq-grid-filtering01.png" alt="GridView filtering form">
+
+
+Page: >>> http://localhost:4321/easyquery/docs/tutorials/working-with-data-model <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/how-to/create-data-model-dynamically-with-code">Creating data model dynamically with code</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/how-to/mvc-query-builder-view-in-your-app <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs//getting-started/new-data-model">article</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/how-to/build-query-by-code-on-clientside <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs//how-to/add-columns-and-conditions-by-code">an article</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/how-to/date-time-formatting <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs//tutorials/how-to-set-up-javascript-widgets-mvc-version">article</a>
+[href:404] <a href="/easyquery/docs//tutorials/managing-result-grid-client-side">article</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/how-to/mvc-remove-powered-by <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs///account">Client Area</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/how-to/custom-value-editor <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/how-to/processing-custom-value-editors-in-easyquery-js">in this article</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/data-model-editor/about <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/getting-started/working-with-data-model">Creating new data model using Data Model Editor</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/release-notes/version-3-x/version-3.10.0 <<<
+-----------------------------------------------------------------
+[src:404] 
+[src:404] 
+[src:404] 
+
+
+Page: >>> http://localhost:4321/easyquery/docs/release-notes/version-3-x/version-3.7.0 <<<
+-----------------------------------------------------------------
+[href:404] 
+
+
+Page: >>> http://localhost:4321/easyquery/docs/release-notes/version-4-x/version-4.0 <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs///download/dme_setup.exe">free download</a>
+[href:404] <a href="/easyquery/docs///easyquery/release-notes/upgrade-from-3.x-to-4.0">detailed list of them and the instructions</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/release-notes/version-4-x/version-4-3-1 <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/how-to/dynamically-populating-list-webforms">dynamically populated lists</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/release-notes/version-5-x/version-5-1 <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/release-notes/upgrade-from-4-x-to-5-0">detailed upgrade instructions</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/release-notes/version-5-x/easyquery-net-5-4-1-easyquery-js-6-1-0 <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs//changelog">changelog</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/release-notes/version-5-x/version-5-3 <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/upgrade-instructions/net-framework-3-x-to-5-x-/asp-net-mvc-webforms">Upgrading to 5.x: ASP.NET (MVC and WebForms) projects</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/release-notes/changelog <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/easyquery/docs/">this link</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/release-notes/version-7-0 <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/changelog">Changelog</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/easyquery/docs/ <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/easyquery/docs">/easyquery/docs/easyquery/docs</a>
+
+
+Page: >>> http://localhost:4321/easyquery/docs/upgrade-instructions/net-5-3-js-6-0 <<<
+-----------------------------------------------------------------
+[href:404] <a href="/easyquery/docs/release-notes/version-5-3">Version 5.3 + EasyQuery.JS 6.0 release notes</a>
+
+
