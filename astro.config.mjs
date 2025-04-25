@@ -38,7 +38,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'EasyQuery.NET',
-			favicon: '/favicon.ico',
+			favicon: base+'/favicon.ico',
 			social: [],
 			sidebar: [
 				{ label: "Introduction", slug: "introduction" },
