@@ -2,7 +2,7 @@
 title: Query saving and loading
 slug: tutorials/query-saving-and-loading
 sidebar:
-  order: 100
+  order: 3
 ---
 
 ## Overview

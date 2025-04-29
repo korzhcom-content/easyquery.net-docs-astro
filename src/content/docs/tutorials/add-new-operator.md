@@ -2,7 +2,7 @@
 title: Adding a new operator to your data model
 slug: tutorials/add-new-operator
 sidebar:
-  order: 100
+  order: 14
 ---
 
 Each data model contains a lot of default operators. However, sometimes you may need to add a new operator to your model.

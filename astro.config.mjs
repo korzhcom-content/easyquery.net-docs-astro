@@ -38,16 +38,20 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'EasyQuery.NET',
+			logo: {
+				dark : './src/assets/korzh-docs-white.png',
+				light: './src/assets/korzh-docs-black.png',
+			},
 			favicon: base+'/favicon.ico',
 			social: [],
 			sidebar: [
 				{ label: "Introduction", slug: "introduction" },
-				{ label: "End-user's guide", slug: "end-user-guide" },
 				...getSidebar("./src/content/docs/getting-started", true),
 				...getSidebar("./src/content/docs/fundamentals", true),
 				...getSidebar("./src/content/docs/tutorials", true),
 				...getSidebar("./src/content/docs/how-to", true),
 				...getSidebar("./src/content/docs/data-model-editor", true),
+				{ label: "End-user's guide", slug: "end-user-guide" },
 				...getSidebar("./src/content/docs/release-notes/", true),
 				...getSidebar("./src/content/docs/api-reference/", true),
 				...getSidebar("./src/content/docs/api-reference-4x/", true),

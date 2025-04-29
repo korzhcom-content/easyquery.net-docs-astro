@@ -2,7 +2,7 @@
 title: Terminology
 slug: fundamentals/terminology
 sidebar:
-  order: 100
+  order: 1
 ---
 
 ## Common terms

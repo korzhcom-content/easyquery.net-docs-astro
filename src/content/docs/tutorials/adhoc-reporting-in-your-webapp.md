@@ -2,7 +2,7 @@
 title: Adhoc reporting page in your web application
 slug: tutorials/adhoc-reporting-in-your-webapp
 sidebar:
-  order: 100
+  order: 6
 ---
 
 ## Problem

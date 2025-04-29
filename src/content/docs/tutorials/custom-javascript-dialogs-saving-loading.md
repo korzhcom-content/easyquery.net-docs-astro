@@ -2,7 +2,7 @@
 title: Custom client-side dialogs for saving/loading operations
 slug: tutorials/custom-javascript-dialogs-saving-loading
 sidebar:
-  order: 100
+  order: 4
 ---
 
 ## Problem

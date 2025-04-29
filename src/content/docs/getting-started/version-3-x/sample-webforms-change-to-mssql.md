@@ -2,7 +2,7 @@
 title: Using MS SQL instead of Access in WebDemo sample project
 slug: getting-started/version-3-x/sample-webforms-change-to-mssql
 sidebar:
-  order: 100
+  order: 6
 ---
 
 Here you will find the detailed instructions how to modify our sample applications (WebDemoCS or WebDemoAjaxCS) to make it work with SQL Server instead of Access.

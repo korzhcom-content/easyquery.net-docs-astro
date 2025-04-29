@@ -1,5 +1,5 @@
 ---
-title: 'How to show descriptive texts in some column instead of numeric values '
+title: How to show descriptive texts in some column instead of numeric values
 slug: how-to/descriptive-texts-in-column-instead-numeric-values
 sidebar:
   order: 100

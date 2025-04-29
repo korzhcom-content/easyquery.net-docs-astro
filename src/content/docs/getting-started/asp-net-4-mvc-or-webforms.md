@@ -2,7 +2,7 @@
 title: Getting started for ASP.NET 4 (MVC or WebForms)
 slug: getting-started/asp-net-4-mvc-or-webforms
 sidebar:
-  order: 100
+  order: 3
 ---
 
 > NB: The fastest way to apply EasyQuery to your ASP.NET 4 project is to clone the whole [EasyQuery samples Git repository](https://github.com/easyquery/Net4Samples), play with the demo project for MVC or WebForms from that repository and then copy necessary parts from that project to your own one.

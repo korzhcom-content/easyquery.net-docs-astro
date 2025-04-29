@@ -2,7 +2,7 @@
 title: Query with table joins
 slug: tutorials/common-sql-queries/query-with-table-joins
 sidebar:
-  order: 100
+  order: 2
 ---
 
 Let’s make our example more interesting. Suppose we would like to see all orders for USA customers. For each order, we want to see the name of customer, order date and sum. All result rows must be sorted by the order date.

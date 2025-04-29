@@ -1,5 +1,5 @@
 ---
-title: 'How to limit columns from duplication '
+title: How to limit columns from duplication
 slug: how-to/how-to-limit-columns-from-duplication
 sidebar:
   order: 100

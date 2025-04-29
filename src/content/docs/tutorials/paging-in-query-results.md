@@ -2,7 +2,7 @@
 title: Paging in query results
 slug: tutorials/paging-in-query-results
 sidebar:
-  order: 100
+  order: 10
 ---
 
 ## 1. Problem Overview

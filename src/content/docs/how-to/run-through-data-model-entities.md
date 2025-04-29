@@ -2,7 +2,7 @@
 title: Navigate through data model entities and attributes
 slug: how-to/run-through-data-model-entities
 sidebar:
-  order: 100
+  order: 4
 ---
 
 Sometimes you need to run through all entities and attributes in your data model to perform some operation for each of them or to find a particular entity or attribute. Here is a code snippet which demonstrates this operation: 

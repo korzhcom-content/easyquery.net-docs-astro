@@ -2,7 +2,7 @@
 title: Getting started with EasyQuery in ASP.NET Core + Angular project
 slug: getting-started/asp-net-core/aspnet-core-angular
 sidebar:
-  order: 100
+  order: 2
 ---
 
 Here we describe how to add EasyQuery widgets to your ASP.NET Core + Angular project.  

@@ -2,7 +2,7 @@
 title: JavaScript widgets formats and settings (Webforms)
 slug: tutorials/version-3-x-tutorials/javascript-widgets-settings-formats-webforms
 sidebar:
-  order: 100
+  order: 8
 ---
 
 ## Display formats for columns 

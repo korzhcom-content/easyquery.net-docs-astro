@@ -2,7 +2,7 @@
 title: Using EqMvcDemoEF sample with your own DB context
 slug: getting-started/version-3-x/sample-mvc-entity-framework-new-dbcontext
 sidebar:
-  order: 100
+  order: 5
 ---
 
 Demo version of EasyQuery contains EqMvcDemoEF sample project which demonstrates how to use our library with Entity Framework (code first approach). This article contains a brief instruction how to modify that sample project to make it work with your own context class (instead of NorthwindContext class used in our sample).

@@ -2,7 +2,7 @@
 title: Getting started for ASP.NET Core + MVC or Razor pages
 slug: getting-started/asp-net-core/aspnet-core-razor
 sidebar:
-  order: 100
+  order: 1
 ---
 
 Here we describe how to add EasyQuery to your ASP.NET Core application with MVC or Razor Pages views.  

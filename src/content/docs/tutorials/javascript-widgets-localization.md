@@ -2,7 +2,7 @@
 title: EasyQuery.JS widgets localization
 slug: tutorials/javascript-widgets-localization
 sidebar:
-  order: 100
+  order: 5
 ---
 
 EasyQuery.JS widgets allows to translate all texts shown to the users to any language by your choice. All you need to do for that - is to perform the next 3 simple steps:

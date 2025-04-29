@@ -3,7 +3,7 @@ title: Building dynamic queries with EasyQuery and Entity Framework
 slug: >-
   tutorials/version-3-x-tutorials/dynamic-queries-with-easyquery-and-entity-framework
 sidebar:
-  order: 100
+  order: 3
 ---
 
 <div>

@@ -2,7 +2,7 @@
 title: Getting started for Silverlight
 slug: getting-started/version-3-x/silverlight
 sidebar:
-  order: 100
+  order: 8
 ---
 
 To apply EasyQuery.NET to your application please perform the following steps:

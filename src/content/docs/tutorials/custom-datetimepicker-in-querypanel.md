@@ -2,7 +2,7 @@
 title: Custom DateTimePicker in QueryPanel
 slug: tutorials/custom-datetimepicker-in-querypanel
 sidebar:
-  order: 100
+  order: 13
 ---
 
 ## Subtitle 1

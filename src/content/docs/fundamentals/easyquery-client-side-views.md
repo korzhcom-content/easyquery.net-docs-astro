@@ -2,7 +2,7 @@
 title: EasyQuery client-side views
 slug: fundamentals/easyquery-client-side-views
 sidebar:
-  order: 100
+  order: 5
 ---
 
 Starting from version 5.0 EasyQuery.JS introduces the concept of  a `view`. 

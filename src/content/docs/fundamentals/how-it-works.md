@@ -2,7 +2,7 @@
 title: How it works
 slug: fundamentals/how-it-works
 sidebar:
-  order: 100
+  order: 2
 ---
 
 ![EasyQuery scheme](/easyquery/docs/images/eq-lib-schema.png)

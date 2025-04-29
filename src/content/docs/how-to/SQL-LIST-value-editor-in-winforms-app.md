@@ -2,7 +2,7 @@
 title: How to setup SQL LIST value editor in WinForms app
 slug: how-to/SQL-LIST-value-editor-in-winforms-app
 sidebar:
-  order: 100
+  order: 10
 ---
 
 EasyQuery allows you to define SQL LIST value editor in WinForms apps for some attribute and then create your UI to edit condition values for this attribute. Here are the step-by-step instructions:

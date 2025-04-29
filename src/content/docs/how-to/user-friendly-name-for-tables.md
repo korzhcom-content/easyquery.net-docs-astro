@@ -2,7 +2,7 @@
 title: User-friendly name for tables
 slug: how-to/user-friendly-name-for-tables
 sidebar:
-  order: 100
+  order: 5
 ---
 
 When users build queries with EasyQuery UI, they do not work with tables and fields. Instead, they work with “entities” and their “attributes”. Each entity represents some object from the real word, e.g., “Customer” or “Order”. Entity attribute is some property of such objects for example “Order date” or “Customer's first name”.

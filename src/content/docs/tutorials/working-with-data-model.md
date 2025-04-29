@@ -2,7 +2,7 @@
 title: Working with data models in EasyQuery
 slug: tutorials/working-with-data-model
 sidebar:
-  order: 100
+  order: 1
 ---
 
 [Data model](/easyquery/docs/fundamentals/data-model) - is a core part of any project that uses EasyQuery framework. It is a user-friendly representation of your database structure that is used by different EasyQuery components to show available entities, their attributes, conditional operators and the lists of available values during the query building process. 

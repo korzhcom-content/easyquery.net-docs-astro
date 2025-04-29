@@ -3,7 +3,7 @@ title: Gridview filtering with EasyQuery ASP.NET (WebForms)
 slug: >-
   tutorials/version-3-x-tutorials/gridview-filtering-with-easyquery-aspnet-webforms
 sidebar:
-  order: 100
+  order: 7
 ---
 A very common use-case for ASP.NET WebForms application: you have a webpage with a GridView control populated from a database.
 

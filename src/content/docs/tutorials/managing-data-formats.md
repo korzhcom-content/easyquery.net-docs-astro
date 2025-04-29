@@ -2,7 +2,7 @@
 title: 'Managing data formats in client-side widgets (grid, charts) and exported data'
 slug: tutorials/managing-data-formats
 sidebar:
-  order: 100
+  order: 12
 ---
 
 ## 1. Problem

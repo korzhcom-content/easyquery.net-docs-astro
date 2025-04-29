@@ -2,7 +2,7 @@
 title: Getting started for EasyQuery ASP.NET MVC
 slug: getting-started/version-3-x/asp-net-mvc
 sidebar:
-  order: 100
+  order: 1
 ---
 
 > See also: [Getting started for ASP.NET WebForms](/easyquery/docs/getting-started/asp-net-webforms)

@@ -2,7 +2,7 @@
 title: Getting started for ASP.NET Core + Vue project
 slug: getting-started/asp-net-core/aspnet-core-vue
 sidebar:
-  order: 100
+  order: 4
 ---
 
 Here we describe how to add EasyQuery widgets to your ASP.NET Core + Vue.js project.  

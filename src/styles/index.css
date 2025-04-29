@@ -9,10 +9,10 @@
         flex-direction: column;
 
         li:not(:has(> details)) {
-            order: 2;
+            /*order: 2;*/
         }
         li:has(> details) {
-            order: 1;
+            /*order: 1;*/
         }
     }
 
@@ -20,13 +20,8 @@
         margin-top: .25rem!important;
     }
 
-    .top-level > li > a {
-        padding-left: 2rem!important;
-        &::before {
-            content: "📋";
-            position: absolute;
-            left: 1.5rem;
-        }
+    li > a {
+        padding-left: 1.6rem!important;
     }
 
     ul ul li {

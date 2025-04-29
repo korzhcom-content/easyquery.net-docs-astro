@@ -2,7 +2,7 @@
 title: Getting started for ASP.NET WebForms
 slug: getting-started/version-3-x/asp-net-webforms
 sidebar:
-  order: 100
+  order: 2
 ---
 
 > See also: [Getting started for ASP.NET MVC](/easyquery/docs/getting-started/asp-net-mvc)

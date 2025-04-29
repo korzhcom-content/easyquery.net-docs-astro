@@ -2,7 +2,7 @@
 title: 'Attaching extra data to a query on the client-side '
 slug: tutorials/attaching-extra-data-to-query-client-side
 sidebar:
-  order: 100
+  order: 7
 ---
 
 ## Problem

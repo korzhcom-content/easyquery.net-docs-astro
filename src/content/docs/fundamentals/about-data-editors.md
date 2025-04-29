@@ -2,7 +2,7 @@
 title: Introduction to value editors
 slug: fundamentals/about-data-editors
 sidebar:
-  order: 100
+  order: 4
 ---
 
 Each condition in query consists of 3 parts: attribute (field), operator and values (one or more). By default when a user clicks on ”[enter value]” link in a condition he/she is presented with an edit box actually to type the value. EasyQuery allows you to assign a value editor for each attribute or operator in your model - so your users will be able to use other methods of entering values instead of just typing in a text box. For example, value editor allows you to define a list of available values - so your users will be able to select the value from a drop-down list. 

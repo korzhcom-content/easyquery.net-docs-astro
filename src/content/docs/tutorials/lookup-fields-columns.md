@@ -2,7 +2,7 @@
 title: Lookup fields and columns
 slug: tutorials/lookup-fields-columns
 sidebar:
-  order: 100
+  order: 11
 ---
 
 ## Problem

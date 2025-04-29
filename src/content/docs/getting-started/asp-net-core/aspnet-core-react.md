@@ -2,7 +2,7 @@
 title: Getting started for ASP.NET Core + React project
 slug: getting-started/asp-net-core/aspnet-core-react
 sidebar:
-  order: 100
+  order: 3
 ---
 
 Here we describe how to add EasyQuery widgets to your ASP.NET Core + React.js project.  

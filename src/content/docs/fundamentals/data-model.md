@@ -2,7 +2,7 @@
 title: Data Model
 slug: fundamentals/data-model
 sidebar:
-  order: 100
+  order: 3
 ---
 
 In short (and by its name), data model - is a model (representation) of some data stored in your database. It solves two major problems:

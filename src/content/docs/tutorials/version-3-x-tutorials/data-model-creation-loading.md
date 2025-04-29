@@ -2,7 +2,7 @@
 title: Possible ways of data model creation and loading
 slug: tutorials/version-3-x-tutorials/data-model-creation-loading
 sidebar:
-  order: 100
+  order: 2
 ---
 
 This article is obsolete. 
