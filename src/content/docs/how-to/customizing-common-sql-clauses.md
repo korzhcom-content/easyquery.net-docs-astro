@@ -2,7 +2,7 @@
 title: Customizing common SQL clauses
 slug: how-to/customizing-common-sql-clauses
 sidebar:
-  order: 100
+  order: 27
 ---
 
 ## 1. Problem Overview

@@ -2,7 +2,7 @@
 title: Processing custom value editors in EasyQuery JS (Obsolete)
 slug: how-to/custom-value-editor
 sidebar:
-  order: 100
+  order: 20
 ---
 
 > NB: This example is obsolete. You will find an example for EasyQuery.JS 6.0 [in this article](/easyquery/docs/how-to/processing-custom-value-editors-in-easyquery-js).

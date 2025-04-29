@@ -2,7 +2,7 @@
 title: How to add a column with the same attribute as in newly added condition
 slug: how-to/add-column-by-condition-attribute
 sidebar:
-  order: 100
+  order: 19
 ---
 
 ```js

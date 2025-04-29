@@ -2,7 +2,7 @@
 title: Add query builder page from our MVC sample project in your own app
 slug: how-to/mvc-query-builder-view-in-your-app
 sidebar:
-  order: 100
+  order: 18
 ---
 
 ## The problem

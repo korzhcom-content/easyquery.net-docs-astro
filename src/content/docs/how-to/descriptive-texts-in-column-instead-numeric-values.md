@@ -2,7 +2,7 @@
 title: How to show descriptive texts in some column instead of numeric values
 slug: how-to/descriptive-texts-in-column-instead-numeric-values
 sidebar:
-  order: 100
+  order: 29
 ---
 
 It's quite often you have some numeric field in your database table and the numbers stored there have some special meanings.

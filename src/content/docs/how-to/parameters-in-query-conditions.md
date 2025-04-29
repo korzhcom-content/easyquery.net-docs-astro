@@ -2,7 +2,7 @@
 title: Using parameters in query conditions
 slug: how-to/parameters-in-query-conditions
 sidebar:
-  order: 100
+  order: 22
 ---
 
 EasyQuery has different scenarios how to create a parameterized query. Here you can find an explanation how to work with parameters:

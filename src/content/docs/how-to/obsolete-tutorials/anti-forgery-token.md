@@ -2,7 +2,7 @@
 title: Setting anti-forgery token for AJAX requests from EasyQuery widgets
 slug: how-to/obsolete-tutorials/anti-forgery-token
 sidebar:
-  order: 100
+  order: 1
 ---
 
 Starting from version 3.7.0 of EasyQuery there is a possibility to add an anti-forgery token to each AJAX request from visual widgets to the server-side.

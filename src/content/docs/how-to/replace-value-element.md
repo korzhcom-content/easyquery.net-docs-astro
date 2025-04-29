@@ -2,7 +2,7 @@
 title: Replace "value" element in QueryPanel's conditions — WinForms
 slug: how-to/replace-value-element
 sidebar:
-  order: 100
+  order: 16
 ---
 
 EasyQuery library provides you with several different controls which are used in conditions in QueryPanel. Most of them represented by a kind of hyperlink which shows an additional control when you click on it. An example of such additional controls can be a simple edit box, a menu which contains the list of available values or a date/time picker element for date/time values. However, sometimes you would like to create your control and use it inside QueryPanel for some conditions. Here is a step-by-step description what you need to achieve this goal.

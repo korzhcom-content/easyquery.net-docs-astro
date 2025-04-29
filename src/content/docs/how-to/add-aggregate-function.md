@@ -2,7 +2,7 @@
 title: Add a new aggregate function
 slug: how-to/add-aggregate-function
 sidebar:
-  order: 100
+  order: 21
 ---
 
 ## 1. Problem Overview

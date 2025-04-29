@@ -2,7 +2,7 @@
 title: How to remove "Powered by..." link (full version only)
 slug: how-to/mvc-remove-powered-by
 sidebar:
-  order: 100
+  order: 24
 ---
 
 After purchasing a full version of EasyQuery library you may want to remove “Powered by EasyQuery” link that appears in the bottom-right corner of QueryPanel.

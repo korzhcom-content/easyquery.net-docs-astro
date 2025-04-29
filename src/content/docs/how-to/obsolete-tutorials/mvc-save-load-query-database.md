@@ -2,7 +2,7 @@
 title: How to save/load queries to/from database
 slug: how-to/obsolete-tutorials/mvc-save-load-query-database
 sidebar:
-  order: 100
+  order: 2
 ---
 
 By default, EasyQueryController saves/loads queries as XML files in App_Data folder. You can easily change this default behavior and save/load queries to any other storage (for example a database).

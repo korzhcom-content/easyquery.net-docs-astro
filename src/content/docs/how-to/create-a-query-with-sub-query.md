@@ -2,7 +2,7 @@
 title: Create a query with sub-query by code
 slug: how-to/create-a-query-with-sub-query
 sidebar:
-  order: 100
+  order: 13
 ---
 
 Here is an example:

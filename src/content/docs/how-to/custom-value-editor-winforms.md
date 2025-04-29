@@ -2,7 +2,7 @@
 title: Setup custom value editor — WinForms
 slug: how-to/custom-value-editor-winforms
 sidebar:
-  order: 100
+  order: 15
 ---
 
 EasyQuery allows you to define custom value editor for some attribute and then create your UI to edit condition values for this attribute. Here are the step-by-step instructions:

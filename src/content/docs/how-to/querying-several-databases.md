@@ -2,7 +2,7 @@
 title: Generating queries for 2 (or more) databases
 slug: how-to/querying-several-databases
 sidebar:
-  order: 100
+  order: 14
 ---
 
 This option is not available “out-of-the-box”, but you can do it using some tricks.

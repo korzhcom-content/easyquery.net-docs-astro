@@ -2,7 +2,7 @@
 title: How to limit columns from duplication
 slug: how-to/how-to-limit-columns-from-duplication
 sidebar:
-  order: 100
+  order: 25
 ---
 
 Sometimes you need to limit columns from duplication in MVC project, so when you add a column that is already used in a report it won’t be added again. 

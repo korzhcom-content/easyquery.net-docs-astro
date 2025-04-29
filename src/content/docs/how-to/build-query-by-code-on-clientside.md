@@ -2,7 +2,7 @@
 title: Build query by code on the client-side
 slug: how-to/build-query-by-code-on-clientside
 sidebar:
-  order: 100
+  order: 23
 ---
 
 When you work with EasyQuery.JS to build a project (for example MVC-project) you work with two Query objects. First is on the server-side (it’s accessible by `GetQuery` method of `EqServiceProviderDb`) and other - on the client-side (you can get it using `EQ.client.getQuery()` function). 

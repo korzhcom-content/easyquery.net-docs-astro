@@ -2,7 +2,7 @@
 title: How to make a field to field comparison
 slug: how-to/field-to-field-comparison
 sidebar:
-  order: 100
+  order: 11
 ---
 
 ## Problem
