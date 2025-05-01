@@ -25,7 +25,9 @@ const getEntryPointData = entry => {
     } else {
         const fm = matter(fs.readFileSync(path.join(entry.parentPath, entry.name), 'utf8'))
         if (fm.data.title) { name = fm.data.title }
-        if (fm.data.sidebar && fm.data.sidebar.order) {
+        if (entry.name === 'index.md') {
+            order = 0
+        } else if (fm.data.sidebar && fm.data.sidebar.order) {
             order = fm.data.sidebar.order
         }
     }
@@ -33,51 +35,13 @@ const getEntryPointData = entry => {
     return [order,  name]
 }
 
-const sortBy = (a , b) => {
-    if (a.name === 'index.md' || b.name === 'index.md') {
-        return -1
-    }
-
-    if (a.isDirectory() && b.isDirectory()) {
-        return a.name.localeCompare(b.name)
-    } else if (a.isDirectory()) {
-        return -1
-    } else if (b.isDirectory()) {
-        return 1
-    } else {
-        const _a = matter(fs.readFileSync(path.join(a.parentPath, a.name), 'utf8'))
-        const _b = matter(fs.readFileSync(path.join(b.parentPath, b.name), 'utf8'))
-
-        if (_a.data.sidebar && _b.data.sidebar) {
-
-            if (_a.data.sidebar.order && _b.data.sidebar.order) {
-                if (_a.data.sidebar.order === _b.data.sidebar.order) {
-                    return _a.data.title.localeCompare(_b.data.title)
-                }
-                return _a.data.sidebar.order - _b.data.sidebar.order
-            }
-
-            return _a.data.title.localeCompare(_b.data.title)
-        }
-
-        return _a.data.title.localeCompare(_b.data.title)
-    }
-}
-
 const sortEntries = (a, b) => {
     let [aOrder, aName] = getEntryPointData(a)
     let [bOrder, bName] = getEntryPointData(b)
 
-    if (a.name === 'index.md') { aOrder = 0 }
-    if (b.name === 'index.md') { bOrder = 0 }
-
     if (aOrder < 0 || bOrder < 0) {
-        // console.log(`Compare by name: ${aName} vs ${bName}`)
         return aName.localeCompare(bName, "en")
     }
-    // if (a.parentPath.includes('common-sql')) {
-    //     console.log(`Compare by order: ${a.name} ${aOrder} vs ${b.name} ${bOrder}`)
-    // }
     
     return aOrder - bOrder
 }
