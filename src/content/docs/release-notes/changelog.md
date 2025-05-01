@@ -2,7 +2,7 @@
 title: Changelog
 slug: release-notes/changelog
 sidebar:
-  order: 100
+  order: 1
 ---
 
 > The JS version changelog is available by [this link](/easyquery/docs/easyquery/docs/).

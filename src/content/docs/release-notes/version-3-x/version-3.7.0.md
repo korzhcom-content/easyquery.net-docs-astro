@@ -2,7 +2,7 @@
 title: Version 3.7.0 release notes
 slug: release-notes/version-3-x/version-3.7.0
 sidebar:
-  order: 100
+  order: 4
 ---
 
 ## 1. New functions in EQ.client namespace (for ASP.NET MVC projects)

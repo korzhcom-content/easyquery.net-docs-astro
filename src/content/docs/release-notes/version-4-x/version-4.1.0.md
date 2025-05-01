@@ -2,7 +2,7 @@
 title: Version 4.1.0 release notes
 slug: release-notes/version-4-x/version-4.1.0
 sidebar:
-  order: 100
+  order: 6
 ---
 
 ## 1. Support for .NET Core 2.0 / .NET Standard 2.0

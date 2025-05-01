@@ -2,7 +2,7 @@
 title: Version 5.2 release notes
 slug: release-notes/version-5-x/version-5-2
 sidebar:
-  order: 100
+  order: 3
 ---
 
 Version 5.2 of EasyQuery not only brings some improvements to the .NET Core edition, it;s also the first release of 5.x branch for all other editions of EasyQuery which uses on .NET Framework 4.x and still were on 3.x branch until now: WinForms, WPF and ASP.NET 4 editions.  

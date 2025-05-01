@@ -2,7 +2,7 @@
 title: EasyQuery.NET 5.4.1 + EasyQuery.JS 6.1.0 release notes
 slug: release-notes/version-5-x/easyquery-net-5-4-1-easyquery-js-6-1-0
 sidebar:
-  order: 100
+  order: 1
 ---
 
 ## Overview

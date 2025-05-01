@@ -2,7 +2,7 @@
 title: Entities page
 slug: data-model-editor/entities-page
 sidebar:
-  order: 100
+  order: 5
 ---
 
 Entities are intended to hide data storage details from the end user. Instead of operating with tables, views and fields (such as Orders.CustNo, Customers.Addr1) user see some entities from the real world (Order, Customer, Vendor, etc.) and their attributes (Customer Name, Order Ship Date, Vendor Country, etc.).

@@ -2,7 +2,7 @@
 title: Tables and links page
 slug: data-model-editor/tables-links-page
 sidebar:
-  order: 100
+  order: 2
 ---
 
 Use this page to describe tables taking part in the data model.

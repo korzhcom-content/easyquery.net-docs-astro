@@ -2,7 +2,7 @@
 title: About Data Model Editor
 slug: data-model-editor/about
 sidebar:
-  order: 100
+  order: 1
 ---
 
 ## What is it?

@@ -2,7 +2,7 @@
 title: Version 4.2.0 release notes
 slug: release-notes/version-4-x/version-4.2.0
 sidebar:
-  order: 100
+  order: 5
 ---
 
  ## 1. Core library

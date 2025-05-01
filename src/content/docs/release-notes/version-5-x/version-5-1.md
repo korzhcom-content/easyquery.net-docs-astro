@@ -2,7 +2,7 @@
 title: Version 5.1 release notes
 slug: release-notes/version-5-x/version-5-1
 sidebar:
-  order: 100
+  order: 4
 ---
 
 Version 5.1 is a minor update to version 5.0 which fixes several small bugs and brings few new classes to support authentication/authorization procedures for EasyQuery middleware actions.

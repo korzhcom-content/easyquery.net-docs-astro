@@ -2,7 +2,7 @@
 title: Version 3.0 release notes
 slug: release-notes/version-3-x/version-3.0.0
 sidebar:
-  order: 100
+  order: 8
 ---
 
 ## **New in version 3.0**

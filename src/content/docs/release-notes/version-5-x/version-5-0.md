@@ -2,7 +2,7 @@
 title: Version 5.0 release notes
 slug: release-notes/version-5-x/version-5-0
 sidebar:
-  order: 100
+  order: 5
 ---
 
 Version 5.0 is a completely rewritten major update of EasyQuery which now can be used in any ASP.NET Core (version 2.0 and higher) project and with almost any frontend platform (MVC, Razor pages, Angular, React, Vue, etc).

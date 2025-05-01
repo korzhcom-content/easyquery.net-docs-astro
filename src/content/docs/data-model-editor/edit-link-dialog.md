@@ -2,7 +2,7 @@
 title: Edit link dialog
 slug: data-model-editor/edit-link-dialog
 sidebar:
-  order: 100
+  order: 4
 ---
 
 In this dialog, you can define the following properties for some link between tables:

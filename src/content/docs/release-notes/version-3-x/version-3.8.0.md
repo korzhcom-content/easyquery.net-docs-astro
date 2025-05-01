@@ -2,7 +2,7 @@
 title: Version 3.8.0 release notes
 slug: release-notes/version-3-x/version-3.8.0
 sidebar:
-  order: 100
+  order: 3
 ---
 
 ## 1. New functions in EasyQuery (actual for all versions)
