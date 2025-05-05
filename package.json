@@ -8,7 +8,8 @@
     "build": "node tools/add-indexes.js ./src/content/docs && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "check": "spider http://localhost:4321/easyquery/docs"
+    "check": "spider http://localhost:4321/easyquery/docs",
+    "generate:indexes": "node tools/add-indexes.js ./src/content/docs"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.34.1",
