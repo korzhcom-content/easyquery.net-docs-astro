@@ -42,8 +42,7 @@ export default defineConfig({
 				dark : './src/assets/korzh-docs-white.png',
 				light: './src/assets/korzh-docs-black.png',
 			},
-			favicon: base+'/favicon.ico',
-			social: [],
+			favicon: '/favicon.ico',
 			sidebar: [
 				{ label: "Introduction", slug: "introduction" },
 				...getSidebar("./src/content/docs/getting-started", true),
