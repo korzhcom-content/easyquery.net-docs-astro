@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-> The JS version changelog is available by [this link](/easyquery/docs/easyquery/docs/).
+> The JS version changelog is available by [this link](/easyquery/javascript/docs).
 
 <div id="changelog-start"></div>
 
