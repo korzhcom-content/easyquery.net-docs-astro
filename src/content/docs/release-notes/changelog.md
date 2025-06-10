@@ -9,6 +9,42 @@ sidebar:
 
 <div id="changelog-start"></div>
 
+<div id="eq-net/7.4.0" data-released="2025-06-10"></div>
+
+## Version 7.4.0
+
+- __[New]__: .NET 9.0 support    
+
+- __[New]__: OnTableAdded method in DbContextModelExtraxtorOptions    
+
+- __[New]__: Add junction links support to the Data Model Editor    
+
+- __[New]__: Add Junction link type. It allows to setup a link for two tables via an itermediate table
+
+
+<div id="eq-net/7.3.5" data-released="2025-03-23"></div>
+
+## Version 7.3.5
+
+- __[New]__: SkipSystemTable option in DbConnectionModelLoaderOptions    
+
+- __[New]__: "Sort entities" menu item in the Data Model Editor    
+
+- __[New]__: EasyQuery API controller registration for ASP.NET 4.x    
+
+- __[Upd]__: DbCommand tuner now expects EaysQueryManager object as the first parameter.
+
+- __[Fix]__: DbContextModelLoader bug when JSON fields are used
+
+- __[Fix]__: Remove automatic "col" addition for numeric columns
+
+- __[Fix]__: Consequent call of GenNextParamId worked too slow
+
+- __[Fix]__: Default parameter ID for virtual attributes used full SQL expression
+
+- __[Fix]__: Remove automatic "col" addition for numeric columns
+
+- __[Fix]__: ClientData was not avaialble on query tuning
 
 
 <div id="eq-net/7.3.3" data-released="2024-04-14"></div>
@@ -17,6 +53,19 @@ sidebar:
 
 <div class="aist-article-updated"><span>2024-04-14</span></div>
 
+- __[Upd]__:  Update minimal supported version of Npgsql to 4.0.14
+
+- __[Fix]__: Fix error processing in EasyQueryApiController
+
+- __[Fix]__: Case Insensitive options didn't work corectly for non-string types
+
+- __[Fix]__: Postgre DbGate saw only tables in the 'public' schema
+
+- __[Fix]__: StoreQueryInCache caused query saving in the cache on every sync
+
+- __[Fix]__: FileQueryStore didn't save queries in original file format
+
+- __[Fix]__: Utils class fails on some Linux versions due to old formats initializations
 
 <div id="eq-net/7.3.1" data-released="2024-03-04"></div>
 
@@ -24,6 +73,17 @@ sidebar:
 
 <div class="aist-article-updated"><span>2024-03-04</span></div>
 
+- __[New]__: Support for new Universal display format for date/time values
+
+- __[New]__: EasyQuery.EntityFrameworkCore30 package for .NET 6+ projects that uses EntityFrameworkCore 3.x    
+
+- __[New]__: IsHidden property in IColumnDescriptor    
+
+- __[New]__: IsHidden property in IQueryDescriptor    
+
+- __[Fix]__: "Ambiguous match found" error on loading of the data model from a DbContext
+
+- __[Fix]__: Wrong column type for date/time columns in SQLite
 
 <div id="eq-net/7.3.0" data-released="2024-02-26"></div>
 
@@ -31,15 +91,24 @@ sidebar:
 
 <div class="aist-article-updated"><span>2024-02-26</span></div>
 
+- __[New]__: factorDirection parameter in TableLinkList.FindByTables method    
+
+- __[New]__: The possiblity to call MapEasyQuery with a configurator  
+
+Commit 10957200: [fix] Query.GetConditionsText method failed for queries with sub-queries
+
+Commit 065bf473: [fix] Adding a condition group didn't change the type of linking in WinForms edition
 
 <div id="eq-net/7.2.5" data-released="2024-01-09"></div>
 
-## Version 7.2.5-rc03
+## Version 7.2.5
 
 <div class="aist-article-updated"><span>2024-01-09</span></div>
 
 
 - __[New]__: .NET 8.0 support    
+
+- __[Upd]__:  Fix Character set 'utf8mb3' is not supported error in MySqlGate
 
 - __[Fix]__:  "Just sorted" columns were not added to the GROUP BY clause    
 
