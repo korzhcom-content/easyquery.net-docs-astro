@@ -19,7 +19,7 @@ Let's suppose we have 2 databases: Northwind and Adventure Works and, correspond
 
 To make it possible to switch between these two models we need some selector element on our page. Here is an example of such element:
 
-```
+```html
 <select id="ChangeModelSelector">
     <option id="dmo-NWindSQL">NorthWind</option>
     <option id="dmo-AdventureWorksLT">Adventure Works</option>
@@ -29,7 +29,7 @@ To make it possible to switch between these two models we need some selector ele
 
 Additionally, we need some JS code which will handle the changes in this selector. The best place to do it - right before the initialization of our view:
 
-```
+```js
     var view = new easyquery.ui.AdvancedSearchViewJQuery();
     var context = view.getContext();
 
@@ -52,7 +52,7 @@ Additionally, we need some JS code which will handle the changes in this selecto
     });
 	
 	var viewOptions = {
-	   .   .   .   .   .
+	   ... // other options
 	};
 	
 	view.init(viewOptions);
@@ -63,7 +63,7 @@ Additionally, we need some JS code which will handle the changes in this selecto
 
 The `IModelLoader` assigned to your middleware will automatically process `GetModel` requests sent by the selector changes on the client side. The only problem here - is to switch the database connection accordingly the the switches between the models. Here is where a custom EasyQueryManager class come to help:
 
-```
+```c#
 public class CustomEasyQueryManagerSql: EasyQueryManagerSql
 {
 

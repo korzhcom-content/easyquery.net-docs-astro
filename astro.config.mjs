@@ -66,6 +66,9 @@ export default defineConfig({
 			},
 			lastUpdated: true,
 			plugins,
+			expressiveCode: {
+				themes: ['dark-plus', 'github-light']
+			},
 			tableOfContents: {
 				minHeadingLevel: 2,
 				maxHeadingLevel: 4,
