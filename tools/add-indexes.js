@@ -32,10 +32,10 @@ const getSectionSubsections = (folderPath) => {
 
     let content = '## Subsections:\n';
 
-    for (const [subsection_name, subsection_path] of subsections ) {
+    for (const [subsection_name, subsection_path] of subsections) {
         let fileContent = readFileSync(path.resolve(subsection_path, subsection_name, "index.md"), 'utf-8').trim()
         let { data: frontmatter } = matter(fileContent)
-        content += `- [${frontmatter.title}](${getSlug(subsection_path+path.sep+subsection_name, root_docs, "/")})\n`;
+        content += `- [${frontmatter.title}](${getSlug(subsection_path + path.sep + subsection_name, root_docs, "/")})\n`;
     }
 
     content += `---\n`;
@@ -61,7 +61,7 @@ const getSectionArticles = (folderPath) => {
     if (articles.length > 0) {
         content = '\n---\n## In this section:\n';
 
-        for (const [article_name, article_path] of articles ) {
+        for (const [article_name, article_path] of articles) {
             let fileContent = fs.readFileSync(path.resolve(article_path, article_name), 'utf-8').trim()
             let { data: frontmatter } = matter(fileContent)
             const frontMatterPresent = isEmpty(frontmatter) === false
@@ -114,7 +114,7 @@ function processFolder(folderPath) {
         lines.splice(captionIndex, 1); // Remove the heading from content
 
         const frontMatter = `---\ntitle: "${caption}"\n---\n\n`;
-        content = frontMatter + lines.join('\n');
+        content = frontMatter + lines.join('\n') + '\n\n';
 
         content += getSectionArticles(folderPath);
 
