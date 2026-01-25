@@ -12,9 +12,11 @@ sidebar:
 
 ## Version 7.4.1
 
-- __[New]__: Add .NET10 support    
+<div class="aist-article-updated"><span>2026-01-25</span></div>
 
-- __[New]__: EntityFramework 10 support    
+- __[New]__: .NET 10 support    
+
+- __[New]__: EntityFramework Core 10 support    
 
 - __[New]__: ExportRowLimit option - allows to set the limit of rows in the exported data    
 
@@ -36,7 +38,7 @@ sidebar:
 
 ## Version 7.4.0
 
-- __[New]__: .NET 9.0 support    
+<div class="aist-article-updated"><span>2025-06-10</span></div>
 
 - __[New]__: OnTableAdded method in DbContextModelExtraxtorOptions    
 
@@ -48,6 +50,10 @@ sidebar:
 <div id="eq-net/7.3.5" data-released="2025-03-23"></div>
 
 ## Version 7.3.5
+
+<div class="aist-article-updated"><span>2025-03-23</span></div>
+
+- __[New]__: .NET 9 support
 
 - __[New]__: SkipSystemTable option in DbConnectionModelLoaderOptions    
 
