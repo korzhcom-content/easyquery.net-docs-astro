@@ -7,7 +7,33 @@ sidebar:
 
 > The JS version changelog is available by [this link](https://korzh.com/easyquery/javascript/docs).
 
+<div class="aist-article-updated"><span>2026-01-25</span></div>
+
 <div id="changelog-start"></div>
+
+<div id="eq-net/7.4.1" data-released="2026-01-25"></div>
+
+## Version 7.4.1
+
+- __[New]__: Add .NET10 support    
+
+- __[New]__: EntityFramework 10 support    
+
+- __[New]__: ExportRowLimit option - allows to set the limit of rows in the exported data    
+
+- __[New]__: ProcessCollections property in FullTextSearchOptions    
+
+- __[New]__: GetExportedFileName method in EasyQueryManager    
+
+- __[Upd]__: Process navigation properties in FullTextSearch method    
+  
+- __[Fix]__: SQL injection vulnerability for float and integer values in conditions    
+
+- __[Fix]__: Wrong SQL in case of "in list" operator with empty list of values   
+
+- __[Fix]__: DbModeDbContextModelExtractor problem on JSON fields    
+
+- __[Fix]__: Wrong default identity quote in SQLite    
 
 <div id="eq-net/7.4.0" data-released="2025-06-10"></div>
 
