@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-> The JS version changelog is available by [this link](https://korzh.com/easyquery/javascript/docs).
+> Here is the [changelog for EasyQuery.JS](https://korzh.com/easyquery/javascript/docs/changelog).
 
 <div class="aist-article-updated"><span>2026-01-25</span></div>
 
