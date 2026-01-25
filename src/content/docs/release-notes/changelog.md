@@ -118,9 +118,9 @@ sidebar:
 
 - __[New]__: The possiblity to call MapEasyQuery with a configurator  
 
-Commit 10957200: [fix] Query.GetConditionsText method failed for queries with sub-queries
+- __[Fix]__: Query.GetConditionsText method failed for queries with sub-queries
 
-Commit 065bf473: [fix] Adding a condition group didn't change the type of linking in WinForms edition
+- __[Fix]__: Adding a condition group didn't change the type of linking in WinForms edition
 
 <div id="eq-net/7.2.5" data-released="2024-01-09"></div>
 
