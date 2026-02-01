@@ -2,7 +2,7 @@
 title: Version 7.0 release notes
 slug: release-notes/version-7-0
 sidebar:
-  order: 3
+  order: 4
 ---
 
 ## Overview
