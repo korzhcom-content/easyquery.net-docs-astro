@@ -29,7 +29,7 @@ options.UseQueryTuner(manager => {
 });
 ```
 
-See the [Full-text search](/easyquery/docs/how-to/full-text-search) article for the complete guide.
+See the [Full-text search](/easyquery/docs/how-to/full-text-search) article for the complete guide. To see the full-text search for SQL queries in action, try our new [Data Filtering demo](https://demo.korzh.com/data-filtering2) web application.
 
 ### 2. Searching Beyond Text Fields
 The full-text search is no longer limited to text attributes:
@@ -37,14 +37,19 @@ The full-text search is no longer limited to text attributes:
 *   **Date/Time and Numeric Fields**: With `IncludeDateTimeFields` and `IncludeNumericFields` turned on, these attributes are searched by the string representation of their values, so `2024-07` finds the dates of July 2024 and `32.38` finds that exact amount. A search term without digits is never matched against a numeric field.
 *   **ContainsAsText Operator and CastToString Function**: The new `ContainsAsText` operator works like "Contains" but converts its left operand to text first. On the SQL side it's rendered through the new `CastToString` function, implemented for SQL Server, MySQL, PostgreSQL, SQLite, Oracle and MS Access; on the LINQ side it becomes a `ToString()` call.
 
-### 3. Cascading Value Lists
+### 3. Sorting and Resizing Columns Right in the Result Grid
+End-users can now arrange the query result directly in the result grid, without going back to the query builder. These features are available thanks to the latest changes in the **EasyQuery.JS** (7.5.0) and **EasyData** (1.6.0) libraries that EasyQuery.NET 7.5 works with:
+*   **Column Sorting**: A click on a column header changes the sorting of that column (ascending → descending → none), and a sort indicator shows the current direction. The sorting is written into the query itself and the data is re-fetched from the server, so it's applied to the whole result set, not just the current page. Several columns can be sorted at once, and the sorting bar and columns panel stay in sync with the grid. If the server fails to sort by the chosen column, the previous sorting is restored.
+*   **Column Width**: Columns can be resized by dragging the edge of the header. The widths are remembered (by default in the browser's local storage) and restored the next time the result is shown. They're kept per data model or per query (`columnWidthPersistence` grid option), and you can plug in your own storage via the `columnWidthStoreResolver` context option — for example, to keep the widths on the server. The persistence also works for auto-generated columns, thanks to the `AttrId` that EasyQuery.NET now assigns to them (see [LINQ Improvements](#7-linq-improvements) below).
+
+### 4. Cascading Value Lists
 Starting from version 7.4.2, SQL-based value lists (`SQLLIST` value editors) support cascading: when a value editor depends on another attribute (its `DependsOnAttrId` property), the value selected for that parent attribute is sent with the value list request and used to filter the list on the server. The new `ParentValue` property of the `ListRequestOptions` class holds that value.
 
-### 4. Security Fixes
+### 5. Security Fixes
 *   **SQL Injection in Value Lists**: Version 7.5.0 fixes a SQL injection vulnerability in `SqlValueListResolver`: the names of the extra parameters of a value list request were inserted into the SQL statement as is. Now only the extra parameters declared for the value editor in the data model are accepted; everything else is ignored. **We strongly recommend upgrading** if your application uses SQL-based value lists.
 *   **Cancelled Requests**: An EasyQuery API request cancelled by the client could end up with an unhandled "Synchronous operations are disallowed" exception that masked the original error. The response writers are now always disposed asynchronously, so such requests end with a proper error response.
 
-### 5. SQL Generation Fixes
+### 6. SQL Generation Fixes
 This release resolves a number of issues in the generated SQL:
 *   **Date Functions on Various Databases**: The `AddHours`, `AddDays`, `AddMonths` and `AddYears` functions (used by the "Last N days" and similar operators) now produce correct SQL for **PostgreSQL** (`INTERVAL` with a typed left operand instead of SQL Server's `DATEADD`) and **MS Access** (`DateAdd()`). `AddHours` works again on **SQLite**.
 *   **Function Markers**: Several function markers in one expression are all resolved now, and function arguments that contain nested calls with commas are no longer split apart.
@@ -54,12 +59,12 @@ This release resolves a number of issues in the generated SQL:
 *   **Sub-select Detection**: Identifiers like `SELECTED_QTY` are no longer mistaken for a sub-select when building the `GROUP BY` clause.
 *   **Unreachable Tables**: Building a query no longer hangs or exhausts memory when a table used in the query can't be reached through the model's links.
 
-### 6. LINQ Improvements
+### 7. LINQ Improvements
 *   **Correct Result Columns**: The rows in the LINQ result set are now built by the query's columns, so the values always land under the right headers, even when the query includes only some of the entity's properties or lists them in a different order.
 *   **Column Identity**: Auto-generated LINQ result columns now get the `AttrId` (`originAttrId` on the client side), which enables per-column features such as column width persistence.
 *   **Full-Text Search in LINQ**: The LINQ query builder now processes `Query.ExtraConditions` and supports the `ContainsAsText` operator, so the new full-text search works in the LINQ scenario as well.
 
-### 7. Other Changes
+### 8. Other Changes
 *   **EasyData 1.6.0**: EasyQuery.NET 7.5.0 is built on top of the EasyData 1.6.0 packages.
 *   **ExportResult Constant**: The `EqAction.ExportResult` constant is back (marked as obsolete) for backward compatibility with the code written for previous versions. Use `EqAction.ExportTotal` instead.
 *   **Data Model Editor**: The DME no longer clears the previously selected table when the filter is applied.
