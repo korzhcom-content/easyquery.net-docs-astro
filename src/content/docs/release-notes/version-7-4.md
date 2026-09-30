@@ -2,7 +2,7 @@
 title: Version 7.4 release notes
 slug: release-notes/version-7-4
 sidebar:
-  order: 2
+  order: 3
 ---
 
 Version 7.4 is a minor update of **EasyQuery.NET**. This version continues our goal of providing a platform-independent solution for embedding ad hoc reporting and advanced search functionality into web applications while hiding the complexity of SQL from end-users.

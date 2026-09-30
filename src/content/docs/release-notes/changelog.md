@@ -8,6 +8,72 @@ sidebar:
 
 <div id="changelog-start"></div>
 
+<div id="eq-net/7.5.0" data-released="2026-09-24"></div>
+
+## Version 7.5.0
+
+<div class="aist-article-updated"><span>2026-09-24</span></div>
+
+- __[New]__: Full-text search for SQL queries: AddFullTextSearchConditions extension method for Query    
+
+- __[New]__: CreateFullTextSearchQuery and BuildFullTextSearchSql methods in DbModel    
+
+- __[New]__: DbFullTextSearchOptions class with IgnoreCase, IncludeDateTimeFields, IncludeNumericFields, UseExtraConditions, Entities, IncludeRootEntity and OrderBy options    
+
+- __[New]__: Full-text search over date/time and numeric fields    
+
+- __[New]__: Full-text search is case-insensitive by default (IgnoreCase option)    
+
+- __[New]__: "ContainsAsText" and "ContainsIgnoreCase" operators    
+
+- __[New]__: "CastToString" SQL function for SQL Server, MySQL, PostgreSQL, SQLite, Oracle and MS Access    
+
+- __[Upd]__: Full-text search scope is taken from the query itself (result columns, then entities used in conditions)    
+
+- __[Upd]__: LINQ query builder processes Query.ExtraConditions and supports the "ContainsAsText" operator    
+
+- __[Upd]__: Auto-generated LINQ result columns get AttrId (originAttrId on the client side)    
+
+- __[Upd]__: EasyData packages updated to 1.6.0    
+
+- __[Fix]__: SQL injection vulnerability in extra parameters of SQL-based value lists    
+
+- __[Fix]__: "Synchronous operations are disallowed" error on cancelled EasyQuery API requests    
+
+- __[Fix]__: LINQ result rows didn't match the query columns if the columns were a subset of properties or went in a different order    
+
+- __[Fix]__: UseInConditions flag narrowed the scope of the full-text search    
+
+- __[Fix]__: Wrong SQL for AddHours/AddDays/AddMonths/AddYears functions in PostgreSQL and MS Access    
+
+- __[Fix]__: AddHours function was missing in SQLite    
+
+- __[Fix]__: Only one function marker was resolved in an expression; arguments with nested commas were split apart    
+
+- __[Fix]__: Tables used in aggregate function arguments were missing in the FROM clause; COUNT(*) processing    
+
+- __[Fix]__: IsQuoted attribute property was ignored in JOIN conditions    
+
+- __[Fix]__: Identifiers containing "SELECT" were taken for a sub-select when building GROUP BY    
+
+- __[Fix]__: Case-insensitive operators were processed wrongly in FilterExpressionBuilder    
+
+- __[Fix]__: Query building hung on an unreachable table in the model    
+
+- __[Fix]__: Data Model Editor cleared the previously selected table when the filter was applied    
+
+<div id="eq-net/7.4.2" data-released="2026-04-09"></div>
+
+## Version 7.4.2
+
+<div class="aist-article-updated"><span>2026-04-09</span></div>
+
+- __[New]__: Cascading lists support in SqlValueListResolver (the value of the parent attribute is taken into account)    
+
+- __[New]__: ParentValue property in ListRequestOptions    
+
+- __[Upd]__: EqAction.ExportResult constant is restored (as obsolete) for backward compatibility    
+
 <div id="eq-net/7.4.1" data-released="2026-01-25"></div>
 
 ## Version 7.4.1
