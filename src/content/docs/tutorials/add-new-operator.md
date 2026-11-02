@@ -89,12 +89,12 @@ Finally, save your model and run the project which uses this model to test new o
 
 ## Adding a new operator using code
 
-Here we suppose we have an access to DbModel object and the model is already loaded. In ASP.NET (Core) projects you  can use `UseModelTuner` call during EasyQuery middleware setup (inside `UseEasyQuery` call) for ASP.NET Core or inside `ConfigureEasyQueryOptions` in your WebAPI controller for ASP.NET 4:
+Here we suppose we have an access to DbModel object and the model is already loaded. In ASP.NET (Core) projects you  can use `UseModelTuner` call during EasyQuery middleware setup (inside `MapEasyQuery` call) for ASP.NET Core or inside `ConfigureEasyQueryOptions` in your WebAPI controller for ASP.NET 4:
 
 
 ```
-options.UseModelTuner(model => {
-  dbModel = model as DbModel;
+options.UseModelTuner(manager => {
+  var dbModel = manager.Model as DbModel;
   .   .   .   .
 });
 ```
@@ -112,5 +112,5 @@ So, to add a new operator we can use `AddUpdateOperator` method of DbModel class
     op.DefaultOperand.DataType = DataType.Int32;
 	
     //assigning new opearator with all appropriate entity attributes
-    model.AddOperatorToSuitedAttributes(op);
+    dbModel.AddOperatorToSuitedAttributes(op);
 ```

@@ -62,13 +62,9 @@ The latest package is a Razor UI library that contains several ready-to-use page
 
 On the next step we a going to register necessary services in DI container:
 ```
-public void ConfigureServices(IServiceCollection services)
-{
-    .    .    .    .   .   .
-    services.AddEasyQuery()
-        .UseSqlManager()
-        .AddDefaultExporters();
-}
+builder.Services.AddEasyQuery()
+    .UseSqlManager()
+    .AddDefaultExporters();
 ```
 
 Here `AddEasyQuery` call registers all EasyQuery services in the DI container. The the next call (`UseSqlManager`)  sets the default EasyQuery manager - the main "engine" which processes all requests. Currently EasyQuery library contains 2 possible types of manager: `EasyQueryManagerSql` and `EasyQueryManagerLinq`.  In the code above we've set the first one as the default.
@@ -77,22 +73,26 @@ Here `AddEasyQuery` call registers all EasyQuery services in the DI container. T
 
 Now we need to add the middleware which will catch all HTTP requests from the client-side, pass them to the manager, collect the result and prepare it for sending back to the client.
 
-To avoid any conflicts with the MVC handler it's better to place EasyQuery middleware before it:
+To avoid any conflicts with the MVC handler, map the EasyQuery endpoint before it:
 
 ```
-public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-{
-       .   .   .   .   .   .
-    
-	app.UseEndpoints(endpoints => {
-		app.MapEasyQuery(options => {
-			options.Endpoint = "/api/easyquery";
-			options.UseDbContext<AppDbContext>();
-		});
-		.   .   .   .
-    }
-}
+var app = builder.Build();
+
+.   .   .   .   .   .
+
+app.UseRouting();
+
+app.MapEasyQuery(options => {
+    options.Endpoint = "/api/easyquery";
+    options.UseDbContext<AppDbContext>();
+});
+
+app.MapRazorPages();
+
+app.Run();
 ```
+
+> If your project still has a `Startup` class (ASP.NET Core 3.1 or 5), put these calls into its `ConfigureServices` and `Configure` methods, and call `endpoints.MapEasyQuery(...)` inside `app.UseEndpoints(...)`.
 
 The code above defines the following main settings:
 

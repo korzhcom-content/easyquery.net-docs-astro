@@ -115,16 +115,16 @@ context.loadQuery({
  
  ### Server-side part
  
-As we described at the beginng, the server-side part of EasyQuery library passes all query saving/loading requests to a special "query store" object. To register some query store you need to call `UseQueryStore` extension method on EasyQuery initialization (either inside `app.UseEasyQuery(...)` call for ASP.NET Core projects or inside `ConfigureEasyQueryOptions` for WebAPI controller in ASP.NET MVC or WebForms.
+As we described at the beginng, the server-side part of EasyQuery library passes all query saving/loading requests to a special "query store" object. To register some query store you need to call `UseQueryStore` extension method on EasyQuery initialization (either inside `app.MapEasyQuery(...)` call for ASP.NET Core projects or inside `ConfigureEasyQueryOptions` for WebAPI controller in ASP.NET MVC or WebForms.
  
  Examples:
  
- > ASP.NET Core `Startup.Configure` method
+ > ASP.NET Core `Program.cs`
  
  ```
- app.UseEasyQuery(options => {
+ app.MapEasyQuery(options => {
      .    .    .    .
-     options.UseQueryStore(services => new FileQueryStore("App_Data"));
+     options.UseQueryStore(_ => new FileQueryStore("App_Data"));
  });
  ```
  

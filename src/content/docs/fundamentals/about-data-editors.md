@@ -119,35 +119,32 @@ The code above is quite straightforward and self-explanatory. The only note we s
 To process "GetList" request on the server-side we need to add a list request handler either in `ConfigureEasyQueryOptions` method of your Web API controller (for ASP.NET projects) or on EasyQuery middleware initialization (for ASP.NET Core). Here is an example for ASP.NET Core:
 
 ```
-public void Configure() 
-{
-    .   .   .    .
-	app.UseEasyQuery(options => {
-	    .    .    .    .    .
-		
-		options.AddValueListResolver(listRequestOptions => {
+app.MapEasyQuery(options => {
+    .    .    .    .    .
+	
+	options.AddValueListResolver(listRequestOptions => {
 
-			if (listRequestOptions.ListName == "RegionsList") {
-				return new List<ListItem> {
-						new ListItem("US", "USA", new List<ListItem> {
-							new ListItem("CA", "California"),
-							new ListItem("CO", "Colorado"),
-							new ListItem("OR", "Oregon"),
-							new ListItem("WA", "Washington")
-						}),
+		if (listRequestOptions.ListName == "RegionsList") {
+			return new List<ListItem> {
+					new ListItem("US", "USA", new List<ListItem> {
+						new ListItem("CA", "California"),
+						new ListItem("CO", "Colorado"),
+						new ListItem("OR", "Oregon"),
+						new ListItem("WA", "Washington")
+					}),
 
-						new ListItem("CA", "CANADA", new List<ListItem> {
-							new ListItem("AB", "Alberta"),
-							new ListItem("ON", "Ontario"),
-							new ListItem("QC", "Québec")
-						}),
+					new ListItem("CA", "CANADA", new List<ListItem> {
+						new ListItem("AB", "Alberta"),
+						new ListItem("ON", "Ontario"),
+						new ListItem("QC", "Québec")
+					}),
 
-					};
-			}
+				};
+		}
 
-			return null;
-		});
-}
+		return null;
+	});
+});
 ```
 
 in case of ASP.NET application you can add the same `AddValueListResolver` call in `ConfigureEasyQueryOptions` of your API controller.

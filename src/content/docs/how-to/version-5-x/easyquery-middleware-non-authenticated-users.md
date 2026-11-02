@@ -13,10 +13,10 @@ And you want that the data-filtering or ad-hoc reporting functionality provided 
 Starting from version 5.1 EasyQuery introduces the concept of "auth provider" (`IEqAuthProvider` interface) which is responsible for controlling the access to all EasyQuery middleware actions.
 There is a default implementation of that provider which grants acts exactly as described: it grants the access to EasyQuery functions only for authorized users.
 
-To apply that provider just add the following line to the EasyQuery middleware setup in your `Startup.Configure`:
+To apply that provider just add the following line to the EasyQuery middleware setup in your `Program.cs`:
 
 ```
-app.UseEasyQuery(options => {
+app.MapEasyQuery(options => {
     
 	.    .    .    .    .
 	

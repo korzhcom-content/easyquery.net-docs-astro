@@ -54,7 +54,7 @@ App_Data/
 **Registration:**
 
 ```csharp
-// In Startup.cs / Program.cs
+// In Program.cs
 app.MapEasyQuery(options => {
     options.UseQueryStore(_ => new FileQueryStore("App_Data"));
 
@@ -220,11 +220,11 @@ public class DbQueryStore : IQueryStore
 **Registration with the current user's ID:**
 
 ```csharp
-app.UseEasyQuery(options => {
+app.MapEasyQuery(options => {
     options.UseQueryStore(manager => {
         var httpContextAccessor = manager.Services.GetRequiredService<IHttpContextAccessor>();
         var userId = httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        var connStr = Configuration.GetConnectionString("Default");
+        var connStr = builder.Configuration.GetConnectionString("Default");
         return new DbQueryStore(userId, connStr);
     });
 });
@@ -419,7 +419,7 @@ builder.Services.AddEasyQuery()
 
 // ...
 
-app.UseEasyQuery(options => {
+app.MapEasyQuery(options => {
     options.DefaultModelId = "NWind";
     options.UseDbContext<AppDbContext>();
 
@@ -458,7 +458,7 @@ document.getElementById('btnSave').addEventListener('click', () => {
 **Server:**
 
 ```csharp
-app.UseEasyQuery(options => {
+app.MapEasyQuery(options => {
     options.DefaultModelId = "NWind";
     options.UseDbContext<AppDbContext>();
 

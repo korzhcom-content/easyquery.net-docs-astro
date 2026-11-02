@@ -13,7 +13,7 @@ Here we describe how to add EasyQuery to your ASP.NET Core application with MVC 
 
 
 ## Prerequisites
-1. You have an ASP.NET Core version 2.1+ project with MVC views (or Razor pages) 
+1. You have an ASP.NET Core version 3.1 (or later) project with MVC views (or Razor pages) 
 2. Your application uses Entity Framework Core to work with the database. NB: Of course, it's possible to use EasyQuery without EF Core. We show this approach here just because it's the simplest way. For other options please read [Possible ways of data model creation and loading](/easyquery/docs/tutorials/data-model-creation-loading) article. 
 
 ## Step 0: Register your trial version
@@ -38,58 +38,55 @@ The latest package is a Razor UI library which contains several ready-to-use pag
 
 ## Step 2: Add EasyQuery services and middleware
 
-The next step will be to setup EasyQuery services and the middleware. Here are the parts your will need to add to your Startup class.
+The next step will be to setup EasyQuery services and the middleware. Here are the parts you will need to add to your `Program.cs` file.
 
 First of all, set the trial version keys you got on the Step 0:
 
 ```
-public Startup(IConfiguration configuration, IWebHostEnvironment env)
-{
-    Configuration = configuration;
-
-    Korzh.EasyQuery.AspNetCore.License.Key = "YourEasyQueryNetTrialKey";
-    Korzh.EasyQuery.AspNetCore.JSLicense.Key = "YourEasyQueryJsTrialKey";
-}
+Korzh.EasyQuery.AspNetCore.License.Key = "YourEasyQueryNetTrialKey";
+Korzh.EasyQuery.AspNetCore.JSLicense.Key = "YourEasyQueryJsTrialKey";
 ```
 
 > You will replace these keys on the real (non-trial ones) after [purchasing the license](https://korzh.com/easyquery/licensing).
 
 
-After that, initialize EasyQuery services in `ConfigServices` method:
+After that, register the EasyQuery services:
 
 ```
-public void ConfigureServices(IServiceCollection services)
-{
-    .    .    .    .   .   .
-    services.AddEasyQuery()
-        .UseSqlManager();
-}
+builder.Services.AddEasyQuery()
+    .UseSqlManager();
 ```
 
 Here we've added the service and set the default EasyQuery manager (the main "engine" which will process all request). Currently there are two possible options: `EasyQueryManagerSql` and `EasyQueryManagerLinq`.
 In the code above we set the first one as default.
 
 Then we need to setup the middleware which will handle HTTP requests from the client-side, pass them to manager, take the result and prepare it for sending back to the client.
-To avoid any conflicts with MVC we put EasyQuery middleware before it:
+To avoid any conflicts with MVC, map the EasyQuery endpoint before it:
 
 ```
-public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-{
-       .   .   .   .   .   .
-    app.UseEasyQuery(options => {
-        options.Endpoint = "/api/easyquery";
-        options.UseDbContext<AppDbContext>();
-        options.UsePaging(25);
-    });
-    app.UseMvc();
-}
+var app = builder.Build();
+
+.   .   .   .   .   .
+
+app.UseRouting();
+
+app.MapEasyQuery(options => {
+    options.Endpoint = "/api/easyquery";
+    options.UseDbContext<AppDbContext>();
+});
+
+app.MapControllers();
+app.MapRazorPages();
+
+app.Run();
 ```
+
+> If your project still has a `Startup` class (ASP.NET Core 3.1 or 5), put these calls into its `ConfigureServices` and `Configure` methods, and call `endpoints.MapEasyQuery(...)` inside `app.UseEndpoints(...)`.
 
 The code above defines the following main settings:
 
 1. The endpoint is set to  `/api/easyquery`. This means that all requests from EasyQuery widgets will be started with this path (like `/api/easyquery/models/{modelId}` to load the model). Please note that this is the default value so you can omit this setting in your app.
 2. We will use the DbContext class specified in `UseDbContext` call to get the model or to execute the generated queries. It's the fastest way to specify the model loader and the connection to your DB. Otherwise you will need to set them separately via `UseModelLoader` or `UseDbConnection` extension functions. You can find examples in [this article](/easyquery/docs/tutorials/data-model-creation-loading)
-4. The last `UsePaging` call turns on the paging and sets the page size.
 
 So, server-side setup is finished. Now we need to configure EasyQuery on the client-side part of our project. 
 

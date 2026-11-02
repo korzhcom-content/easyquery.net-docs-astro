@@ -182,9 +182,9 @@ public class DbQueryStore : IQueryStore
 The final step is to set our new `DbQueryStore` class as the query storage for our middleware:
 
 ```
-app.UseEasyQuery(options => {
+app.MapEasyQuery(options => {
     .    .    .    .    .
-    options.UseQueryStore(services => new DbQueryStore(services));
+    options.UseQueryStore(manager => new DbQueryStore(manager.Services));
 });
 ```
 

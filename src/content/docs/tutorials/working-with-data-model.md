@@ -54,29 +54,22 @@ protected override void ConfigureEasyQueryOptions(EasyQueryOptions options)
 
 ### 1.2/3 UseDbContext extension method for ASP.NET Core projects
 
-In case of ASP.NET Core projects it's even simplier. You just need to add `UseDbContext<DbContextType>` call right during the initialization of EasyQuery middleware in the  `Startup.Configure` method:
+In case of ASP.NET Core projects it's even simplier. You just need to add `UseDbContext<DbContextType>` call right during the initialization of EasyQuery middleware in `Program.cs`:
 
 ```
-public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-{
-        .    .    .    .    .  
-    
-	app.UseEasyQuery(options => {
-        .    .    .    .    .
-        options.UseDbContext<AppDbContext>();
-    });
-	
-        .    .    .    .    .  
-}
+app.MapEasyQuery(options => {
+    .    .    .    .    .
+    options.UseDbContext<AppDbContext>();
+});
 ```
 
 Additionally, there is an overload of this method which automatically excludes all ASP.NET Core Identity tables from the data model:
 
 ```
- app.UseEasyQuery(options => {
-     .    .    .    .    .
-     options.UseDbContextWithoutIdentity<AppDbContext>();
- });
+app.MapEasyQuery(options => {
+    .    .    .    .    .
+    options.UseDbContextWithoutIdentity<AppDbContext>();
+});
 ```
 
 > NB: If you want to use `UseDbContextWithoutIdentity` method, you should install the additional package `Korzh.EasyQuery.EntityFrameworkCore.Identity`
@@ -130,13 +123,13 @@ SqlClientGate.Register();
 This method is static so it can be callled only once in the static constructor of your form/page class.
 
 
-In case of ASP.NET Core applicaiton you can also use RegisterDbGate method on EasyQuery services initialization in Startup.ConfigureServices method:
+In case of ASP.NET Core applicaiton you can also use RegisterDbGate method on EasyQuery services initialization in `Program.cs`:
 
 ```
-services.AddEasyQuery()
+builder.Services.AddEasyQuery()
     .UseSqlManager()
     .AddDefaultExporters()
-    .RegisterDbGate<SqlClientGate>()  //<--- this line will register DB Gate for MS SQL Server
+    .RegisterDbGate<SqlServerGate>()  //<--- this line will register DB Gate for MS SQL Server
     .RegisterDbGate<MySqlGate>();  //<--- this line will register DB Gate for MySQL
 ```
 
@@ -166,7 +159,7 @@ protected override void ConfigureEasyQueryOptions(EasyQueryOptions options)
     options.UseManager<EasyQueryManagerSql>();
         .    .    .    .    .  
 
-    options.ConnectionString = ConfigurationManagerWrapper.GetConnectionString("DefaultConncetion");
+    options.ConnectionString = ConfigurationManagerWrapper.GetConnectionString("DefaultConnection");
     options.UseDbConnection<SqlConnection>();
     options.UseDbConnectionModelLoader();
 }
@@ -176,12 +169,12 @@ protected override void ConfigureEasyQueryOptions(EasyQueryOptions options)
 For ASP.NET Core projects you use the same piece of code but in EasyQuery's middleware intialization:
 
 ```
- app.UseEasyQuery(options => {
-     .    .    .    .    .
-    options.ConnectionString = Configuration.GetConnectionString("DefaultConncetion");
+app.MapEasyQuery(options => {
+    .    .    .    .    .
+    options.ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseDbConnection<SqlConnection>();
     options.UseDbConnectionModelLoader();
- });
+});
 ```
 
 > NB: Please note that loading the model directly from DB meta data can be quite time consuming operation. If you don't plan to modify the structure of your DB a lot - it's better to create your model file using DME and then load the model from that file.
@@ -301,10 +294,10 @@ public class CustomModelLoader : IModelLoader
 }
 ```
 
-after that, you just register the resolver for the new model loader in `ConfigureEasyQueryOptions` method (for ASP.NET) or inside `app.UseEasyQuery(...)` call (for ASP.NET Core):
+after that, you just register the resolver for the new model loader in `ConfigureEasyQueryOptions` method (for ASP.NET) or inside `app.MapEasyQuery(...)` call (for ASP.NET Core):
 
 ```
-options.UseModelLoader(services => new CustomModelLoader());
+options.UseModelLoader(_ => new CustomModelLoader());
 ```
 
 

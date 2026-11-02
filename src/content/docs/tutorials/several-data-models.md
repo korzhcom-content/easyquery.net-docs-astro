@@ -97,7 +97,7 @@ Here we need to override only one method: `GetConnectionCore`. This methods retu
 The final step - is to attach our custom EasyQueryManager class to our middleware. Here is how it looks:
 
 ```
-app.UseEasyQuery(options =>
+app.MapEasyQuery(options =>
 {
     options.DefaultModelId = "NWindSQL";
     options.UseManager<CustomEasyQueryManagerSql>();
