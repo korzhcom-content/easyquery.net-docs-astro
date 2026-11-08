@@ -71,7 +71,7 @@ Here we just reconfigure our current query and add in it an additional condition
 Finally, you need to register your manager class on EasyQuery middleware initialization:
 
 ```
-app.UseEasyQuery(options => {
+app.MapEasyQuery(options => {
     .    .    .    .
 	options.UseManager<EasyQueryManagerSqlWithFilter>();
 });

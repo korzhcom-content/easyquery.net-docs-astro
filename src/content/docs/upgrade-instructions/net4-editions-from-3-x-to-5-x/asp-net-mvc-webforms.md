@@ -35,7 +35,7 @@ EasyQuery's server-side part is implemented as a WebAPI controller. So, if you d
 To simplify the task we prepare a base class for such controller from which you can derive your own one. 
 All necessary endpoints (actions) are already defined and properly handled in that basic class, so, all you need to do, is to set some options in the overridden virtual method `ConfigureEasyQueryOptions`.
 
-You can find and example of such controller in the Git repository with EasyQuery samples. This is the [controller for advanced search page](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Controllers/EasyQuery/AdvancedSearchController.cs) and this is the [controller for ad-hoc reporting scenario](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Controllers/EasyQuery/EasyReportController.cs)
+You can find and example of such controller in the Git repository with EasyQuery samples. This is the [controller for advanced search page](https://github.com/easyquery/eq-samples-aspnet4-mvc/blob/main/AdvancedSearch/Controllers/EasyQuery/AdvancedSearchController.cs) and this is the [controller for ad-hoc reporting scenario](https://github.com/easyquery/eq-samples-aspnet4-mvc/blob/main/AdhocReporting/Controllers/EasyQuery/EasyReportController.cs)
 
 
 One more thing. Since the routes for all controller actions are defined in the base class - you need to re-configure the WebAPI routing in your project to make it use the routing attributes from the base controller classes (because they are not taken into the account by default). You can do it in the  `App_start/WebApiConfig.cs` file:
@@ -174,7 +174,7 @@ To update your Web Forms page  your will need to do the following 3 steps:
 2. Define some "slots" for EasyQuery widgets - the empty `div` elements where the widgets will be "injected" to during the page loading.
 3. Add the initialization code.
 
-The best way to apply all these steps - is to use [the page from our sample project](https://github.com/easyquery/Net4Samples/blob/master/EqWebFormsDemo/EasyQuery.aspx) as template and add to it your own controls.
+The best way to apply all these steps - is to use [the page from our sample project](https://github.com/easyquery/eq-samples-aspnet4-webforms/blob/main/AdvancedSearch/EasyQuery.aspx) as template and add to it your own controls.
 
 
 ## Done!

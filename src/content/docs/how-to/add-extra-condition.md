@@ -21,13 +21,13 @@ Now there is no need to deal with `ExtraTables` or use the exact SQL expression 
 
 Here is an example how to add an additional filter by current user in ASP.NET Core project:
 
-In Startup.Configure:
+In `Program.cs`:
 
 ```
-endpoints.MapEasyQuery(options => {
+app.MapEasyQuery(options => {
    .    .    .    .    .
    options.AddPreFetchTunerWithHttpContext((manager, httpContext) => {
-        string userId = context.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        string userId = httpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         manager.Query.ExtraConditions.AddSimpleCondition("Employees.EmployeeID", "Equal", userId);
    });
 });

@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-> NB: The fastest way to apply EasyQuery to your ASP.NET 4 project is to clone the whole [EasyQuery samples Git repository](https://github.com/easyquery/Net4Samples), play with the demo project for MVC or WebForms from that repository and then copy necessary parts from that project to your own one.
+> NB: The fastest way to apply EasyQuery to your ASP.NET 4 project is to clone the EasyQuery samples Git repository for your platform - [ASP.NET MVC](https://github.com/easyquery/eq-samples-aspnet4-mvc) or [WebForms](https://github.com/easyquery/eq-samples-aspnet4-webforms), play with the sample projects from that repository and then copy necessary parts from those projects to your own one.
 
 Below you will find the steps you need to do if you are going to add EasyQuery to your ASP.NET application from the scratch. The instructions are applied both for MVC and WebForms projects (with few little differences). It might look odd (since these two frameworks are tootally different) but it stems from how our demo projects are built.
 
@@ -58,13 +58,13 @@ EasyQuery's server-side part is implemented as a WebAPI controller. So, if you d
 
 After installing WebAPI package you will also need to add a special configuration file (`App_Start/WebApiConfig.cs`) and modify your `Global.asax.cs`.  
 
-The simplest way will be to get that [file from our sample project on GitHub](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/App_Start/WebApiConfig.cs) and copy it to `App_Start` folder in your project (or to merge with the one you are using now).
+The simplest way will be to get that [file from our sample project on GitHub](https://github.com/easyquery/eq-samples-aspnet4-mvc/blob/main/AdvancedSearch/App_Start/WebApiConfig.cs) and copy it to `App_Start` folder in your project (or to merge with the one you are using now).
 
 Please note, we have re-configured the default WebAPI routing mechanism to make it use the attributes from the base controller classes (because they are not taken into the account by default). It is necessary for a proper work of the new WebAPI controller you will add on the next step. The routes for all controller's actions are defined in the base class - that's why we need that routing inheritance to be turned on.
 
 > __NB1__: The last solution about enabling the routing inheritance attributes works only with WebAPI version 2.2 or higher.  So, if your project uses an older version of WebAPI packages - please upgrade them first.
 
-> __NB2__: `WebApiConfig.cs` from our sample contains also 2 `RegisterExporter` calls which register the exporters for CSV and HTML formats. You can comment those two lines for the moment. If you want to add the exporting functionality - you can later install `Korzh.EasyQuery.DataExport` package and uncomment those two lines back.  
+> __NB2__: `WebApiConfig.cs` from our sample contains also 3 `RegisterExporter` calls which register the exporters for CSV, Excel and PDF formats. You can comment those three lines for the moment. If you want to add the exporting functionality - you can later install `Korzh.EasyQuery.DataExport` package (plus `EasyData.Exporters.ClosedXML` for Excel and `EasyData.Exporters.PdfSharp` for PDF) and uncomment those lines back.  
 
 
 
@@ -72,8 +72,8 @@ Please note, we have re-configured the default WebAPI routing mechanism to make 
 
 After that we need to update `Global.asax.cs` file in your project to register WebAPI services and routes. Here is an example of this file from our samples:
 
-* [for MVC project](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Global.asax.cs)
-* [for WebForms project](https://github.com/easyquery/Net4Samples/blob/master/EqWebFormsDemo/Global.asax.cs)
+* [for MVC project](https://github.com/easyquery/eq-samples-aspnet4-mvc/blob/main/AdvancedSearch/Global.asax.cs)
+* [for WebForms project](https://github.com/easyquery/eq-samples-aspnet4-webforms/blob/main/AdvancedSearch/Global.asax.cs)
 
 Merge the content of one of these files (depending on what type of project you have) with `Global.asax.cs` in your project. 
 
@@ -97,19 +97,19 @@ All necessary endpoints (actions) are already defined and properly handled in th
 
 Here are the controllers you can use:
 
- - [For MVC project](https://github.com/easyquery/Net4Samples/tree/master/EqAspNet4Demo/Controllers/EasyQuery): AdvancedSearchController or EasyReportController
- - [For WebForms project](https://github.com/easyquery/Net4Samples/tree/master/EqWebFormsDemo/Controllers): AdvancedSearchController
+ - For MVC project: [AdvancedSearchController](https://github.com/easyquery/eq-samples-aspnet4-mvc/blob/main/AdvancedSearch/Controllers/EasyQuery/AdvancedSearchController.cs) or [EasyReportController](https://github.com/easyquery/eq-samples-aspnet4-mvc/blob/main/AdhocReporting/Controllers/EasyQuery/EasyReportController.cs)
+ - For WebForms project: [AdvancedSearchController](https://github.com/easyquery/eq-samples-aspnet4-webforms/blob/main/AdvancedSearch/Controllers/AdvancedSearchController.cs)
 
 
-Just download the controller of your choice and place it to the `Controllers/EasyQuery` folder in your MVC project (or to `Controllers` folder for WebForms one). Obviously, you will also need to change the namespace ID from `EqAspNet4Demo.Controllers` to `YourProjectDefaultNamespace.Controllers`.  
+Just download the controller of your choice and place it to the `Controllers/EasyQuery` folder in your MVC project (or to `Controllers` folder for WebForms one). Obviously, you will also need to change the namespace ID from `EqDemo.Controllers` to `YourProjectDefaultNamespace.Controllers`.  
 
-For "EasyReportController" you will also need to copy to your project [the service classes](https://github.com/easyquery/Net4Samples/tree/master/EqAspNet4Demo/Services) which is used for caching and query(reports) saving.
+For "EasyReportController" you will also need to copy to your project [the service classes](https://github.com/easyquery/eq-samples-aspnet4-mvc/tree/main/AdhocReporting/Services) which is used for caching and query(reports) saving.
 
 As it was mentioned above, to adjust the new contoller for your application you just need to modify a few lines in `ConfigureEasyQueryOptions` procedure:
 
 1. First of all, change the ID of the data model in  `options.DefaultModelId = ...` line or remove it completely if you plan to load your model from DbContext
 2. Modify the name of your connection string parameter (if it's not `DefaultConnection` as in example)
-3. Change the way you are going to load your data model. In our sample we are using the model created with Data Model Editor and saved as NWindSQL.xml file in App_Data folder. If you plan to load your model directly from your DbContext - then remove `options.UseModelLoader(...);` line and replace it with the following: 
+3. Change the way you are going to load your data model. Our samples load the model directly from `ApplicationDbContext` with the `options.UseDbContext(...)` call, so just make it use your own DbContext: 
 
 ```c#
 var dbContext = ApplicationDbContext.Create();
@@ -130,10 +130,12 @@ We are going to cover both those cases below.
 
 The simplest way to do it - is to copy the page you need from our sample project. Here are the direct links:
 
- - [Advanced search view](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Views/Home/AdvancedSearch.cshtml)
- - [Ad-hoc reporting](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Views/Home/AdHocReporting.cshtml)
+ - [Advanced search view](https://github.com/easyquery/eq-samples-aspnet4-mvc/blob/main/AdvancedSearch/Views/Home/Index.cshtml)
+ - [Ad-hoc reporting](https://github.com/easyquery/eq-samples-aspnet4-mvc/blob/main/AdhocReporting/Views/Home/Index.cshtml)
 
-Of course, you will need to add a corresponding controller action for the new view so it will be accessible by some URL. In our sample we add those actions to the [Home controller](https://github.com/easyquery/Net4Samples/blob/master/EqAspNet4Demo/Controllers/HomeController.cs) but it can be any other controller in your own project of course.
+Each of these samples has its page in `Views/Home/Index.cshtml`, so rename the file when you copy it (e.g. to `AdvancedSearch.cshtml`).
+
+Of course, you will need to add a corresponding controller action for the new view so it will be accessible by some URL. In our sample that action is in the [Home controller](https://github.com/easyquery/eq-samples-aspnet4-mvc/blob/main/AdvancedSearch/Controllers/HomeController.cs) but it can be any other controller in your own project of course.
 
 Here is how such new action can look like:
 
@@ -154,11 +156,11 @@ Please note that some styles in our advanced-search view are placed into `Styles
 
 ### 3.2 For WebForms
 
-As for MVC you can just take the [page from our sample](https://github.com/easyquery/Net4Samples/blob/master/EqWebFormsDemo/EasyQuery.aspx). Here is the [code behind class](https://github.com/easyquery/Net4Samples/blob/master/EqWebFormsDemo/EasyQuery.aspx.cs) for that page as well. 
+As for MVC you can just take the [page from our sample](https://github.com/easyquery/eq-samples-aspnet4-webforms/blob/main/AdvancedSearch/EasyQuery.aspx). Here is the [code behind class](https://github.com/easyquery/eq-samples-aspnet4-webforms/blob/main/AdvancedSearch/EasyQuery.aspx.cs) for that page as well. 
 
 
 ## Build. Run. Enjoy!
 
 That's it. If everything was done right on the previous steps - your application will be built and run sucessfully and you can open and you will be able to open new page by the path you specified on the step 3.1 (e.g. `/Home/AdvancedSearch` if you leave it as it's listed there).
 
-If something goes wrong - feel free to contact us: you can [create an issue on GitHub](https://github.com/easyquery/Net4Samples/issues) or [submit a support request](https://korzh.com/support) on our website.
+If something goes wrong - feel free to contact us: you can create an issue on GitHub (for [MVC samples](https://github.com/easyquery/eq-samples-aspnet4-mvc/issues) or [WebForms samples](https://github.com/easyquery/eq-samples-aspnet4-webforms/issues)) or [submit a support request](https://korzh.com/support) on our website.

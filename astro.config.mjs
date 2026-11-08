@@ -6,6 +6,7 @@ import starlightImageZoom from 'starlight-image-zoom'
 import { rehypeLinks } from './plugins/rehype-links';
 import { updateFrontmatter } from './plugins/update-frontmatter';
 import getSidebar from "./tools/get-sidebar.js"
+import analyticsHead from "./tools/analytics.js"
 import starlightLinksValidator from 'starlight-links-validator'
 
 const base = 'easyquery/docs';
@@ -43,6 +44,7 @@ export default defineConfig({
 				light: './src/assets/korzh-docs-black.png',
 			},
 			favicon: '/favicon.ico',
+			head: analyticsHead,
 			sidebar: [
 				{ label: "Introduction", slug: "introduction" },
 				...getSidebar("./src/content/docs/getting-started", true),
