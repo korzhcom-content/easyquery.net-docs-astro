@@ -1,0 +1,50 @@
+---
+title: Introduction
+slug: introduction
+description: What EasyQuery does for your users and for you, and where to go next — the live demo, a sample project, the docs.
+sidebar:
+  order: 100
+---
+
+import { LinkButton, LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+**EasyQuery lets your users build their own queries and reports inside your .NET app — on your schema, with your permissions.**
+
+You add a visual query builder to your application. Your users pick the data they need in plain terms, and EasyQuery turns their choices into an SQL or LINQ query, runs it against your database and shows the result. No more search forms to write by hand, and no change request each time someone needs to search by one more field.
+
+<LinkButton href="https://demo.korzh.com" icon="external">See it live</LinkButton>
+<LinkButton href="/easyquery/docs/getting-started/from-sample-to-your-own-project" variant="secondary" icon="right-arrow">Run a sample</LinkButton>
+
+## What your users get
+
+- **Their own words.** They choose "Company name" and "starts with", not `customer.com_name` and `LIKE 'A%'`.
+- **Values from lists.** For each attribute you can offer the valid values, so users pick instead of typing.
+- **A query that reads like a sentence.** They add, change or temporarily switch off a condition and see how the result changes.
+- **Queries they keep.** A query can be saved and loaded again later.
+
+## What you get
+
+- **The model comes from what you already have** — your Entity Framework Core `DbContext` or your database schema. You decide which entities and attributes users see ([how](/easyquery/docs/how-to/hide-entities-and-attributes)).
+- **Your database, your permissions.** The queries run in your app, against your database, under your rules.
+- **One query builder on every platform:** ASP.NET Core with Razor Pages, MVC, Blazor, React, Angular or Vue; ASP.NET 4 MVC and Web Forms; WinForms and WPF.
+
+## Three ways to use it
+
+Each one is a live demo you can try now.
+
+<CardGrid>
+  <LinkCard title="Advanced search" href="https://demo.korzh.com/advanced-search" description="Users find records by any combination of conditions." />
+  <LinkCard title="Ad-hoc reporting" href="https://demo.korzh.com/adhoc-reporting" description="Users choose the columns and conditions and get their own report." />
+  <LinkCard title="Data filtering" href="https://demo.korzh.com/data-filtering" description="Users narrow down a data grid with filters of their own." />
+</CardGrid>
+
+## Next steps
+
+<CardGrid>
+  <LinkCard title="1. Run a sample" href="/easyquery/docs/getting-started/from-sample-to-your-own-project#choose-a-sample" description="Pick the sample repository for your platform on GitHub and run it in a few minutes." />
+  <LinkCard title="2. Connect it to your database" href="/easyquery/docs/getting-started/from-sample-to-your-own-project#connect-the-sample-to-your-database" description="Try EasyQuery on your own data before you change any of your code." />
+  <LinkCard title="3. Move it to your project" href="/easyquery/docs/getting-started/from-sample-to-your-own-project#copy-the-easyquery-code-to-your-project" description="The packages, the files and the code to bring over." />
+  <LinkCard title="4. Learn how it works" href="/easyquery/docs/fundamentals/how-it-works" description="The data model, the query and the parts that connect them." />
+</CardGrid>
+
+Ready to buy, or need a trial key? See [EasyQuery licensing](https://korzh.com/easyquery#licensing) and [setting your license key](/easyquery/docs/getting-started/product-key). Building a single-page app? The browser side is [EasyQuery.JS](https://korzh.com/easyquery/javascript/docs/introduction).
