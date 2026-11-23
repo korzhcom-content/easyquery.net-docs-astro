@@ -19,45 +19,57 @@ Now there is no need to deal with `ExtraTables` or use the exact SQL expression 
 
 ### ASP.NET Core project
 
-Here is an example how to add an additional filter by current user in ASP.NET Core project:
+Here is an example how to add an additional filter by current user in ASP.NET Core project.
 
 In `Program.cs`:
 
-```
+```csharp
 app.MapEasyQuery(options => {
-   .    .    .    .    .
-   options.AddPreFetchTunerWithHttpContext((manager, httpContext) => {
-        string userId = httpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        manager.Query.ExtraConditions.AddSimpleCondition("Employees.EmployeeID", "Equal", userId);
-   });
+    .    .    .    .    .
+    options.AddQueryTunerWithHttpContext((manager, httpContext) => {
+        var userId = httpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "";
+        var extra = manager.Query.ExtraConditions;
+        extra.Conditions.Clear();
+        extra.AddSimpleCondition("Employees.EmployeeID", "Equal", userId);
+    });
 });
 ```
 
+`AddQueryTunerWithHttpContext` appeared in version 7.5.1. A few things to know about it:
 
-### ASP.NET MVC
+- **Start with `Conditions.Clear()`.** The tuner runs every time the query is loaded, and it may run more than once for the same query — for example, when the query comes from the cache (`StoreQueryInCache`). Clearing the extra conditions first means the condition is added once, not twice.
+- **It adds, it doesn't replace.** You can call it several times, and together with `UseQueryTuner`. The tuner set by `UseQueryTuner` runs first, then the added tuners in the order they were added.
+- **No HTTP context, no query.** If there is no current `HttpContext` (or `IHttpContextAccessor` is not registered), the tuner throws an exception instead of running the query without the filter. `AddEasyQuery()` registers the accessor for you.
+- **Asynchronous export is covered.** The export job runs in the background with no HTTP context, so it exports the query exactly as it was tuned for the request that started the export.
+- **Client-side extra conditions can only narrow the result.** If the query sent from the client contains extra conditions of its own, they are added after all query tuners have run, as a separate group joined with AND. They can't cancel or widen your filter.
+- **Value lists are not filtered.** The tuner changes the query, not the lists of values for lookup attributes (`GetValueList`).
 
-The same task in ASP.NET MVC 5 project can be solved the following way:
+:::caution[Query tuner or pre-fetch tuner?]
+Add conditions in a **query tuner** (`AddQueryTunerWithHttpContext`, `AddQueryTuner` or `UseQueryTuner`), never in a **pre-fetch tuner** (`AddPreFetchTuner`, `AddPreFetchTunerWithHttpContext`). Pre-fetch tuners run after the SQL statement is built, so a condition added there never reaches the database: the user gets all the rows and no error is reported.
 
-```
+Pre-fetch tuners are fine for things that don't change the query — logging, or reading the built statement.
+:::
+
+### ASP.NET MVC (ASP.NET 4.x)
+
+`AddQueryTunerWithHttpContext` is available only for ASP.NET Core. In an ASP.NET MVC 5 (or Web Forms) project use `AddQueryTuner` and get the current user from `HttpContext.Current`:
+
+```csharp
 public class AdvancedSearchController : EasyQueryApiController
 {
     protected override void ConfigureEasyQueryOptions(EasyQueryOptions options)
     {
         .     .     .     .     .
-        options.AddPreFetchTuner(new MyEasyQueryManagerTuner());
-    }
-}
-
-public class MyEasyQueryManagerTuner : IEasyQueryManagerTuner
-{
-    public bool Tune(EasyQueryManager manager)
-    {
-        manager.Query.ExtraConditions.AddSimpleCondition("Users.ID", "Equals", HttpContext.Current.User.Identity.Name);
-        return true;
+        options.AddQueryTuner(manager => {
+            var extra = manager.Query.ExtraConditions;
+            extra.Conditions.Clear();
+            extra.AddSimpleCondition("Users.ID", "Equal", HttpContext.Current.User.Identity.Name);
+        });
     }
 }
 ```
 
+`HttpContext.Current` is available only on the thread that handles the request.
 
 
 ## 2. ''BuildSQLEx()'' method of ''SqlQueryBuilder''
