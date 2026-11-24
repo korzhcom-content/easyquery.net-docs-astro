@@ -18,21 +18,13 @@ sidebar:
 
 - __[New]__: AddQueryTuner method and QueryTuners list in EasyQueryOptions; the added tuners run after the UseQueryTuner one, in registration order    
 
-- __[Upd]__: A request with both "query" and "queryId" uses the query from the body and no longer reloads it by its ID    
+- __[Upd]__: A query in the request body takes priority over "queryId" and, if it has no ID of its own, gets that one, so a query modified on the client side can be saved back    
 
-- __[Upd]__: A query in the request body without its own ID takes queryId as its ID, so a query modified on the client side can be saved back    
+- __[Fix]__: Conditions added by query tuners were lost or applied twice: for a query taken from the cache, in async export, and for a saved query loaded again    
 
-- __[Fix]__: A client could weaken or invert the server's extra conditions by changing their linking in the query JSON ("extraConds"); client conditions now only narrow the result    
+- __[Fix]__: A client could weaken or invert the server's extra conditions through "extraConds" in the query JSON; client conditions now only narrow the result    
 
-- __[Fix]__: Async export lost the conditions added by query tuners    
-
-- __[Fix]__: With StoreQueryInCache on, the conditions added by the UseQueryTuner tuner (such as a per-user filter or a full-text search) were lost when the query came from the cache    
-
-- __[Fix]__: A query tuner that adds a column doubled it each time a saved query was loaded again    
-
-- __[Fix]__: Fetching data failed with SqlFormats.LegacyPaging turned on (an empty result on SQL Server 2008 R2)    
-
-- __[Fix]__: Cascading SQL-based value lists lost their DependsOnAttrId dependency after an XML save and load    
+- __[Fix]__: Fetching data failed with SqlFormats.LegacyPaging turned on (SQL Server 2008 R2)    
 
 <div id="eq-net/7.5.0" data-released="2026-09-24"></div>
 
