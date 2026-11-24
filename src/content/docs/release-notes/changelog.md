@@ -8,6 +8,32 @@ sidebar:
 
 <div id="changelog-start"></div>
 
+<div id="eq-net/7.5.1" data-released="2026-11-24"></div>
+
+## Version 7.5.1
+
+<div class="aist-article-updated"><span>2026-11-24</span></div>
+
+- __[New]__: AddQueryTunerWithHttpContext extension method: query tuners with access to the current HttpContext, for per-user or per-tenant query conditions    
+
+- __[New]__: AddQueryTuner method and QueryTuners list in EasyQueryOptions; the added tuners run after the UseQueryTuner one, in registration order    
+
+- __[Upd]__: A request with both "query" and "queryId" uses the query from the body and no longer reloads it by its ID    
+
+- __[Upd]__: A query in the request body without its own ID takes queryId as its ID, so a query modified on the client side can be saved back    
+
+- __[Fix]__: A client could weaken or invert the server's extra conditions by changing their linking in the query JSON ("extraConds"); client conditions now only narrow the result    
+
+- __[Fix]__: Async export lost the conditions added by query tuners    
+
+- __[Fix]__: With StoreQueryInCache on, the conditions added by the UseQueryTuner tuner (such as a per-user filter or a full-text search) were lost when the query came from the cache    
+
+- __[Fix]__: A query tuner that adds a column doubled it each time a saved query was loaded again    
+
+- __[Fix]__: Fetching data failed with SqlFormats.LegacyPaging turned on (an empty result on SQL Server 2008 R2)    
+
+- __[Fix]__: Cascading SQL-based value lists lost their DependsOnAttrId dependency after an XML save and load    
+
 <div id="eq-net/7.5.0" data-released="2026-09-24"></div>
 
 ## Version 7.5.0
