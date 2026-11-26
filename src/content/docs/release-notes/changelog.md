@@ -8,11 +8,11 @@ sidebar:
 
 <div id="changelog-start"></div>
 
-<div id="eq-net/7.5.1" data-released="2026-11-24"></div>
+<div id="eq-net/7.5.1" data-released="2026-11-26"></div>
 
 ## Version 7.5.1
 
-<div class="aist-article-updated"><span>2026-11-24</span></div>
+<div class="aist-article-updated"><span>2026-11-26</span></div>
 
 - __[New]__: AddQueryTunerWithHttpContext extension method: query tuners with access to the current HttpContext, for per-user or per-tenant query conditions    
 
