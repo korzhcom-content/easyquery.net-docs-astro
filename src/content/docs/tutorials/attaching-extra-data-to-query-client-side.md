@@ -44,29 +44,33 @@ Now if you check in Developer Tools (on Network tab), each  `.../execute` reques
 
 ### Define custom EasyQueryManager on the server-side
 
-Now to process this additional request data you can create your own implementation of EasyQueryManager and override its `ExecuteQueryCore` method.
+Now to process this additional request data you can create your own implementation of EasyQueryManager and override its `TuneBuilder` method. It's called right before the SQL statement is built, when the whole request (including the `data` object) has already been read.
 
 Here is an example:
 
-```
+```csharp
 public class EasyQueryManagerSqlWithFilter : EasyQueryManagerSql
 {
     public EasyQueryManagerSqlWithFilter(EasyQueryOptions options, IServiceProvider services) : base(options, services) 
-	{
+    {
     }
 
-    protected override Task<IEqResultSet> FetchDataCoreAsync(CancellationToken ct)
+    protected override void TuneBuilder(IQueryBuilder builder)
     {
-	    if (ClientData.TryGetValue("filter", out var filter) {
-			Query.ExtraConditions.AddSimpleCondition("Orders.OrderDate", "Equals", filter.ToString());
-		}
+        if (ClientData.TryGetValue("filter", out var filter)) {
+            Query.ExtraConditions.AddSimpleCondition("Orders.OrderDate", "Equal", filter.ToString());
+        }
 
-        return base.FetchDataCoreAsync(ct);
+        base.TuneBuilder(builder);
     }
 }
 ```
 
-Here we just reconfigure our current query and add in it an additional condition group with a bunch of conditions like `SomeColumns contains 'filter text'`
+Here we just add an extra condition to the current query, so the result set is filtered by the value the user entered on the client.
+
+:::caution
+Don't change the query in `FetchDataCoreAsync`: by the time it's called, the SQL statement is already built, so the changes never reach the database. If the condition doesn't depend on the client data (for example, a filter by the current user), use a query tuner instead — see [How to add an extra condition to your query](/easyquery/docs/how-to/add-extra-condition).
+:::
 
 Finally, you need to register your manager class on EasyQuery middleware initialization:
 

@@ -8,6 +8,24 @@ sidebar:
 
 <div id="changelog-start"></div>
 
+<div id="eq-net/7.5.1" data-released="2026-11-26"></div>
+
+## Version 7.5.1
+
+<div class="aist-article-updated"><span>2026-11-26</span></div>
+
+- __[New]__: AddQueryTunerWithHttpContext extension method: query tuners with access to the current HttpContext, for per-user or per-tenant query conditions    
+
+- __[New]__: AddQueryTuner method and QueryTuners list in EasyQueryOptions; the added tuners run after the UseQueryTuner one, in registration order    
+
+- __[Upd]__: A query in the request body takes priority over "queryId" and, if it has no ID of its own, gets that one, so a query modified on the client side can be saved back    
+
+- __[Fix]__: Conditions added by query tuners were lost or applied twice: for a query taken from the cache, in async export, and for a saved query loaded again    
+
+- __[Fix]__: A client could weaken or invert the server's extra conditions through "extraConds" in the query JSON; client conditions now only narrow the result    
+
+- __[Fix]__: Fetching data failed with SqlFormats.LegacyPaging turned on (SQL Server 2008 R2)    
+
 <div id="eq-net/7.5.0" data-released="2026-09-24"></div>
 
 ## Version 7.5.0
